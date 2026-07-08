@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability (private)
+    url: https://github.com/LTechnologies0/AndroWatch/security/advisories/new
+    about: Report a security issue privately — do not open a public issue
+  - name: Documentation
+    url: https://ltechnologies0.github.io/AndroWatch/
+    about: Browse the KDoc API reference (Dokka on GitHub Pages)

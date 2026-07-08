@@ -1,0 +1,45 @@
+name-template: "AndroWatch v$RESOLVED_VERSION"
+tag-template: "v$RESOLVED_VERSION"
+categories:
+  - title: "Features"
+    labels:
+      - "feature"
+      - "enhancement"
+  - title: "Bug fixes"
+    labels:
+      - "bug"
+      - "fix"
+  - title: "Security"
+    labels:
+      - "security"
+  - title: "Dependencies"
+    labels:
+      - "dependencies"
+  - title: "Documentation"
+    labels:
+      - "documentation"
+  - title: "Maintenance"
+    labels:
+      - "ci/cd"
+      - "chore"
+change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
+version-resolver:
+  major:
+    labels:
+      - "major"
+      - "breaking"
+  minor:
+    labels:
+      - "minor"
+      - "feature"
+      - "enhancement"
+  patch:
+    labels:
+      - "patch"
+      - "bug"
+      - "fix"
+      - "dependencies"
+      - "security"
+  default: patch
+exclude-labels:
+  - "skip-changelog"

@@ -270,6 +270,12 @@ Generate values with `./scripts/generate-release-keystore.sh`.
 | [Dependency Review](.github/workflows/dependency-review.yml) | Pull requests | OWASP dependency diff on PRs |
 | [OpenSSF Scorecard](.github/workflows/scorecard.yml) | Weekly + push | Supply-chain security score |
 | [Dependabot](.github/dependabot.yml) | Weekly | Gradle + Actions updates |
+| [PR Labeler](.github/workflows/labeler.yml) | Pull requests | Auto-label by changed paths |
+| [Stale](.github/workflows/stale.yml) | Weekly | Close inactive issues/PRs after 60 days |
+| [Release Drafter](.github/workflows/release-drafter.yml) | Push / PR | Draft release notes from merged PRs |
+| [Greetings](.github/workflows/greetings.yml) | First issue/PR | Welcome new contributors |
+| [Auto Assign](.github/workflows/auto-assign.yml) | New issues | Assign issues to maintainer |
+| [Triage](.github/workflows/triage.yml) | New issues | Auto-label security/Dependabot issues |
 
 ---
 

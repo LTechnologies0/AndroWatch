@@ -1,0 +1,13 @@
+name: Security report
+description: Redirect to private vulnerability reporting (do not file public security issues)
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not submit security vulnerabilities as public issues.**
+
+        Use GitHub's private reporting instead:
+        **Security → Advisories → Report a vulnerability**
+
+        Or see [SECURITY.md](https://github.com/LTechnologies0/AndroWatch/blob/main/SECURITY.md).
