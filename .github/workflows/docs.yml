@@ -38,7 +38,7 @@ jobs:
         run: ./gradlew dokkaGenerate --stacktrace --no-daemon
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload documentation
         uses: actions/upload-pages-artifact@v3
