@@ -20,7 +20,6 @@ gh repo edit "${FULL}" \
 gh api "repos/${FULL}" -X PATCH \
   -f web_commit_signoff_required=false \
   -f allow_update_branch=true \
-  -f allow_forking=true \
   -f has_downloads=true
 
 echo "==> Security features"
@@ -41,12 +40,12 @@ gh api "repos/${FULL}/pages" -X POST \
   -f build_type=workflow 2>/dev/null || true
 
 echo "==> Actions permissions"
-gh api "repos/${FULL}/actions/permissions" -X PUT \
-  -f enabled=true \
-  -f allowed_actions=all
-gh api "repos/${FULL}/actions/permissions/workflow" -X PUT \
-  -f default_workflow_permissions=read-and-write \
-  -f can_approve_pull_request_reviews=false
+gh api "repos/${FULL}/actions/permissions" -X PUT --input - <<'JSON'
+{"enabled": true, "allowed_actions": "all"}
+JSON
+gh api "repos/${FULL}/actions/permissions/workflow" -X PUT --input - <<'JSON'
+{"default_workflow_permissions": "write", "can_approve_pull_request_reviews": false}
+JSON
 
 echo "==> Branch protection (main)"
 gh api "repos/${FULL}/branches/main/protection" -X PUT --input - <<'JSON'
@@ -59,13 +58,11 @@ gh api "repos/${FULL}/branches/main/protection" -X PUT --input - <<'JSON'
     ]
   },
   "enforce_admins": false,
-  "required_linear_history": false,
+  "required_pull_request_reviews": null,
+  "restrictions": null,
   "allow_force_pushes": false,
   "allow_deletions": false,
-  "block_creations": false,
-  "required_conversation_resolution": true,
-  "lock_branch": false,
-  "allow_fork_syncing": true
+  "required_conversation_resolution": true
 }
 JSON
 
