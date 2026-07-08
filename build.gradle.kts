@@ -3,7 +3,7 @@ plugins {
     id("com.android.library") version "9.1.1" apply false
     id("org.jetbrains.kotlin.plugin.compose") version "2.2.10" apply false
     id("org.jetbrains.kotlin.plugin.serialization") version "2.2.10" apply false
-    id("org.jetbrains.dokka") version "2.0.0"
+    id("org.jetbrains.dokka") version "2.2.0"
 }
 
 subprojects {
@@ -28,12 +28,14 @@ dependencies {
     dokka(project(":feature:export"))
 }
 
-tasks.named<org.jetbrains.dokka.gradle.DokkaTask>("dokkaHtml") {
-    moduleName.set("AndroWatch")
-    moduleVersion.set(
-        providers.gradleProperty("VERSION_NAME").orElse("0.1.0"),
-    )
-    outputDirectory.set(layout.buildDirectory.dir("dokka/html"))
+dokka {
+    dokkaPublications.html {
+        moduleName.set("AndroWatch")
+        moduleVersion.set(
+            providers.gradleProperty("VERSION_NAME").orElse("0.1.0"),
+        )
+        outputDirectory.set(layout.buildDirectory.dir("dokka/html"))
+    }
 }
 
 tasks.register("installToPhone") {

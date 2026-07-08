@@ -46,8 +46,6 @@ android {
         buildConfig = true
     }
 }
-
-apply(from = rootProject.file("gradle/onionphone-sources.gradle"))
 apply(from = rootProject.file("gradle/abi-release.gradle"))
 
 kotlin {

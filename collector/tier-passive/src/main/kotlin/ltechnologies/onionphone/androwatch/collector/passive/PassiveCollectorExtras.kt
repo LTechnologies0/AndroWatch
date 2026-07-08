@@ -61,8 +61,25 @@ import java.util.Locale
 import java.util.TimeZone
 import java.util.UUID
 
+/**
+ * Extended passive fingerprint probes for [SignalCategory] collectors in [PassiveCollectors].
+ *
+ * Each `append*Extras` extension adds signals to the mutable list using shared helpers from
+ * `:collector:engine` (`addSafe`, `addOptional`, `forEachProbe`, `signal`). All readings use
+ * [RATIONALE] unless a probe supplies its own privacy text.
+ *
+ * @see PassiveCollectors
+ * @see ltechnologies.onionphone.androwatch.collector.CollectorProbes
+ */
 private const val RATIONALE = "Passive device fingerprint signal."
 
+/**
+ * Adds extended [SignalCategory.DeviceIdentity] signals: build metadata, emulator flags,
+ * IME hashes, input devices, and ClearKey/PlayReady DRM identifiers.
+ *
+ * @receiver Mutable signal list for the current collection pass.
+ * @param context Application context for settings and package queries.
+ */
 internal fun MutableList<FingerprintSignal>.appendDeviceIdentityExtras(context: Context) {
     val c = SignalCategory.DeviceIdentity
     listOf(
@@ -118,6 +135,10 @@ internal fun MutableList<FingerprintSignal>.appendDeviceIdentityExtras(context: 
     }
 }
 
+/**
+ * Adds extended [SignalCategory.SystemInfo] signals: settings profiles, feature flags,
+ * library hashes, runtime memory, SDK extensions, hardware inventory, and cameras.
+ */
 internal fun MutableList<FingerprintSignal>.appendSystemInfoExtras(context: Context) {
     val c = SignalCategory.SystemInfo
     forEachProbe(c, RATIONALE) { probeGlobalSettingsProfile(context) }
@@ -138,11 +159,18 @@ internal fun MutableList<FingerprintSignal>.appendSystemInfoExtras(context: Cont
     forEachProbe(c, RATIONALE) { probeCameraInventory(context) ?: emptyMap() }
 }
 
+/** Adds extended [SignalCategory.Accessibility] signals from secure/system settings probes. */
 internal fun MutableList<FingerprintSignal>.appendAccessibilityExtras(context: Context) {
     val c = SignalCategory.Accessibility
     forEachProbe(c, RATIONALE) { probeAccessibilitySettings(context) }
 }
 
+/**
+ * Adds extended [SignalCategory.Display] signals: DPI, layout, cutout geometry, HDR, and color gamut.
+ *
+ * @param config Current [Configuration] from resources.
+ * @param display Default [Display], or `null` when unavailable.
+ */
 internal fun MutableList<FingerprintSignal>.appendDisplayExtras(context: Context, config: Configuration, display: Display?) {
     val c = SignalCategory.Display
     val dm = context.resources.displayMetrics
@@ -202,6 +230,7 @@ internal fun MutableList<FingerprintSignal>.appendDisplayExtras(context: Context
     }
 }
 
+/** Adds extended [SignalCategory.DeviceMotion] sensor inventory, range, delay, FIFO, and power probes. */
 internal fun MutableList<FingerprintSignal>.appendDeviceMotionExtras(sm: SensorManager) {
     val c = SignalCategory.DeviceMotion
     addOptional(c, "sensorInventoryHash", "Sensor inventory hash") {
@@ -230,6 +259,11 @@ internal fun MutableList<FingerprintSignal>.appendDeviceMotionExtras(sm: SensorM
     }
 }
 
+/**
+ * Adds [SignalCategory.InstalledVoices] hash and feature sample from TTS engine enumeration.
+ *
+ * @param voices Locale-qualified voice names from [ltechnologies.onionphone.androwatch.collector.TtsVoiceHelper].
+ */
 internal fun MutableList<FingerprintSignal>.appendTtsExtras(voices: List<String>) {
     val c = SignalCategory.InstalledVoices
     addOptional(c, "voiceInventoryHash", "Voice inventory hash") {
@@ -241,6 +275,11 @@ internal fun MutableList<FingerprintSignal>.appendTtsExtras(voices: List<String>
     }
 }
 
+/**
+ * Adds extended [SignalCategory.Battery] probes and battery-present flag from sticky intent.
+ *
+ * @param sticky Latest `ACTION_BATTERY_CHANGED` broadcast, if registered.
+ */
 internal fun MutableList<FingerprintSignal>.appendBatteryExtras(context: Context, bm: BatteryManager, sticky: android.content.Intent?) {
     val c = SignalCategory.Battery
     forEachProbe(c, RATIONALE) { probeBatteryExtended(bm, sticky) }
@@ -250,11 +289,13 @@ internal fun MutableList<FingerprintSignal>.appendBatteryExtras(context: Context
     }
 }
 
+/** Adds extended [SignalCategory.Storage] capacity and volume probes. */
 internal fun MutableList<FingerprintSignal>.appendStorageExtras(context: Context, stat: StatFs, volumes: List<android.os.storage.StorageVolume>) {
     val c = SignalCategory.Storage
     forEachProbe(c, RATIONALE) { ltechnologies.onionphone.androwatch.collector.probeStorageExtended(context, stat, volumes) }
 }
 
+/** Adds extended [SignalCategory.Network] link properties, Wi‑Fi, and passive Bluetooth probes. */
 internal fun MutableList<FingerprintSignal>.appendNetworkExtras(context: Context, cm: ConnectivityManager) {
     val c = SignalCategory.Network
     val network = cm.activeNetwork
@@ -265,16 +306,23 @@ internal fun MutableList<FingerprintSignal>.appendNetworkExtras(context: Context
     forEachProbe(c, RATIONALE, keyPrefix = "bt_", namePrefix = "BT ") { probeBluetoothPassive(context) }
 }
 
+/** Adds extended [SignalCategory.Audio] output device and routing probes. */
 internal fun MutableList<FingerprintSignal>.appendAudioExtras(context: Context, outputs: Array<AudioDeviceInfo>) {
     val c = SignalCategory.Audio
     forEachProbe(c, RATIONALE) { probeAudioExtended(context, outputs) }
 }
 
+/** Adds extended [SignalCategory.Telephony] carrier and subscription probes. */
 internal fun MutableList<FingerprintSignal>.appendTelephonyExtras(tm: TelephonyManager) {
     val c = SignalCategory.Telephony
     forEachProbe(c, RATIONALE) { probeTelephonyExtended(tm) }
 }
 
+/**
+ * Adds [SignalCategory.Graphics] GLES limits, codec inventory, and Vulkan feature probes.
+ *
+ * @param gles Result from [ltechnologies.onionphone.androwatch.collector.collectGlesFingerprint], or `null`.
+ */
 internal fun MutableList<FingerprintSignal>.appendGraphicsExtras(context: Context, gles: ltechnologies.onionphone.androwatch.collector.GlesFingerprintResult?) {
     val c = SignalCategory.Graphics
     if (gles != null) {
@@ -298,11 +346,13 @@ internal fun MutableList<FingerprintSignal>.appendGraphicsExtras(context: Contex
     forEachProbe(c, RATIONALE) { probeVulkanFeatures(context) }
 }
 
+/** Adds extended [SignalCategory.AppInfo] default-app resolver probes. */
 internal fun MutableList<FingerprintSignal>.appendAppInfoExtras(context: Context) {
     val c = SignalCategory.AppInfo
     forEachProbe(c, RATIONALE) { probeDefaultApps(context) }
 }
 
+/** Adds extended [SignalCategory.Locale] timezone, locale count, and script probes. */
 internal fun MutableList<FingerprintSignal>.appendLocaleExtras(config: android.content.res.Configuration) {
     val c = SignalCategory.Locale
     val tz = TimeZone.getDefault()

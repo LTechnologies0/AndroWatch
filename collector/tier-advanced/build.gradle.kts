@@ -13,8 +13,6 @@ android {
 
 }
 
-apply(from = rootProject.file("gradle/onionphone-sources.gradle"))
-
 kotlin {
     compilerOptions {
         jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)

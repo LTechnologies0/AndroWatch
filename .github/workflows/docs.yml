@@ -35,7 +35,7 @@ jobs:
         run: echo "sdk.dir=${ANDROID_SDK_ROOT}" >> local.properties
 
       - name: Generate KDoc (Dokka HTML)
-        run: ./gradlew dokkaHtml --stacktrace --no-daemon
+        run: ./gradlew dokkaGenerate --stacktrace --no-daemon
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

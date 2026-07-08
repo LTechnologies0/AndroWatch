@@ -6,8 +6,9 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
-  <a href="https://github.com/lt-technologies/AndroWatch/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/lt-technologies/AndroWatch/ci.yml?branch=main" alt="CI"></a>
-  <a href="https://github.com/lt-technologies/AndroWatch/releases"><img src="https://img.shields.io/github/v/release/lt-technologies/AndroWatch?include_prereleases" alt="Release"></a>
+  <a href="https://github.com/LTechnologies0/AndroWatch/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/LTechnologies0/AndroWatch/ci.yml?branch=main" alt="CI"></a>
+  <a href="https://github.com/LTechnologies0/AndroWatch/releases"><img src="https://img.shields.io/github/v/release/LTechnologies0/AndroWatch?include_prereleases" alt="Release"></a>
+  <a href="https://ltechnologies0.github.io/AndroWatch/"><img src="https://img.shields.io/badge/docs-KDoc%20(Dokka)-blue" alt="API docs"></a>
   <img src="https://img.shields.io/badge/minSdk-26-green" alt="minSdk 26">
   <img src="https://img.shields.io/badge/compileSdk-37-green" alt="compileSdk 37">
 </p>
@@ -120,7 +121,7 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the full module graph and d
 
 ## Install from GitHub Releases
 
-1. Open **[Releases](https://github.com/lt-technologies/AndroWatch/releases)**.
+1. Open **[Releases](https://github.com/LTechnologies0/AndroWatch/releases)**.
 2. Download the APK matching your device CPU:
 
 | APK suffix | Device |
@@ -157,7 +158,7 @@ Copy `local.properties.example` → `local.properties` and set `sdk.dir`, **or**
 #### Linux / macOS
 
 ```bash
-git clone https://github.com/lt-technologies/AndroWatch.git
+git clone https://github.com/LTechnologies0/AndroWatch.git
 cd AndroWatch
 cp local.properties.example local.properties   # edit sdk.dir
 
@@ -180,7 +181,7 @@ adb install -r app/build/outputs/apk/debug/app-arm64-v8a-debug.apk
 #### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/lt-technologies/AndroWatch.git
+git clone https://github.com/LTechnologies0/AndroWatch.git
 cd AndroWatch
 Copy-Item local.properties.example local.properties   # edit sdk.dir
 
@@ -206,7 +207,7 @@ adb devices
 | `assembleDebug` | 1 APK (`arm64-v8a` by default) |
 | `assembleDebug -Ponionphone.devAbi=x86_64` | Debug for emulator |
 | `assembleRelease` | 4 signed APKs (one per ABI) |
-| `dokkaHtml` | HTML API docs in `build/dokka/html/` |
+| `dokkaGenerate` | HTML API docs in `build/dokka/html/` |
 
 ### Local release signing
 
@@ -225,11 +226,15 @@ Never commit `keystore.properties`, `*.keystore`, or `local.properties`.
 All public APIs are documented with **KDoc** in source. HTML reference is generated with **[Dokka](https://kotlinlang.org/docs/dokka-introduction.html)**:
 
 ```bash
-./gradlew dokkaHtml
+./gradlew dokkaGenerate
 # → build/dokka/html/index.html
 ```
 
-Published automatically to **GitHub Pages** on every push to `main` (workflow: `.github/workflows/docs.yml`).
+Published automatically to **GitHub Pages** on every push to `main`:
+
+**https://ltechnologies0.github.io/AndroWatch/**
+
+(workflow: `.github/workflows/docs.yml`)
 
 ---
 
@@ -262,6 +267,8 @@ Generate values with `./scripts/generate-release-keystore.sh`.
 | [CI](.github/workflows/ci.yml) | Push / PR | Unit tests, debug APK artifact, CodeQL |
 | [Release](.github/workflows/release.yml) | Tag `v*.*.*` | Signed multi-ABI APKs → GitHub Release |
 | [Docs](.github/workflows/docs.yml) | Push to `main` | Dokka → GitHub Pages |
+| [Dependency Review](.github/workflows/dependency-review.yml) | Pull requests | OWASP dependency diff on PRs |
+| [OpenSSF Scorecard](.github/workflows/scorecard.yml) | Weekly + push | Supply-chain security score |
 | [Dependabot](.github/dependabot.yml) | Weekly | Gradle + Actions updates |
 
 ---

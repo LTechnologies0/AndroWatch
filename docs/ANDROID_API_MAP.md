@@ -202,7 +202,7 @@ Probes use `addOptional` / `probeOrNull`: a failed API call is **skipped** (logc
 
 ### Passive expansion (2026-06)
 
-186 additional passive methods implemented via engine probes (`SettingsProbes`, `FeatureProbes`, `HardwareProbes`, `CollectorProbes`, `DefaultAppsProbes`) and [`PassiveCollectorExtras.kt`](../collector/tier-passive/src/main/kotlin/com/androwatch/collector/passive/PassiveCollectorExtras.kt). Full checklist: [PASSIVE_FINGERPRINT_TODO.md](PASSIVE_FINGERPRINT_TODO.md).
+186 additional passive methods implemented via engine probes (`SettingsProbes`, `FeatureProbes`, `HardwareProbes`, `CollectorProbes`, `DefaultAppsProbes`) and [`PassiveCollectorExtras.kt`](../collector/tier-passive/src/main/kotlin/ltechnologies/onionphone/androwatch/collector/passive/PassiveCollectorExtras.kt). Full checklist: [PASSIVE_FINGERPRINT_TODO.md](PASSIVE_FINGERPRINT_TODO.md).
 
 Highlights by category:
 

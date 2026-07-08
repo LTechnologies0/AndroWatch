@@ -51,16 +51,16 @@ flowchart TB
 
 | Module | Role | Key packages |
 |--------|------|----------------|
-| **`:core:model`** | Domain types, serialization | `com.androwatch.model` |
-| **`:core:permission`** | Runtime permission mapping | `com.androwatch.permission` |
-| **`:collector:contract`** | Collector interfaces | `com.androwatch.collector` |
-| **`:collector:engine`** | Runtime guards, interpretation, ROM, GLES/WebView/TTS probes | `com.androwatch.collector` |
-| **`:collector:tier-passive`** | Tier 1 — no runtime prompt (17 categories) | `com.androwatch.collector.passive` |
-| **`:collector:tier-permissioned`** | Tier 2 — dangerous permissions (10) | `com.androwatch.collector.permissioned` |
-| **`:collector:tier-advanced`** | Tier 3 — side-channels (3) | `com.androwatch.collector.advanced` |
-| **`:collector:assembly`** | Wires all collectors into `CollectorRegistry` | `com.androwatch.collector` |
-| **`:feature:export`** | JSON export + share intent | `com.androwatch.export` |
-| **`:app`** | Android entry, Compose UI, ViewModel | `com.androwatch.*` |
+| **`:core:model`** | Domain types, serialization | `ltechnologies.onionphone.androwatch.model` |
+| **`:core:permission`** | Runtime permission mapping | `ltechnologies.onionphone.androwatch.permission` |
+| **`:collector:contract`** | Collector interfaces | `ltechnologies.onionphone.androwatch.collector` |
+| **`:collector:engine`** | Runtime guards, interpretation, ROM, GLES/WebView/TTS probes | `ltechnologies.onionphone.androwatch.collector` |
+| **`:collector:tier-passive`** | Tier 1 — no runtime prompt (17 categories) | `ltechnologies.onionphone.androwatch.collector.passive` |
+| **`:collector:tier-permissioned`** | Tier 2 — dangerous permissions (10) | `ltechnologies.onionphone.androwatch.collector.permissioned` |
+| **`:collector:tier-advanced`** | Tier 3 — side-channels (3) | `ltechnologies.onionphone.androwatch.collector.advanced` |
+| **`:collector:assembly`** | Wires all collectors into `CollectorRegistry` | `ltechnologies.onionphone.androwatch.collector` |
+| **`:feature:export`** | JSON export + share intent | `ltechnologies.onionphone.androwatch.export` |
+| **`:app`** | Android entry, Compose UI, ViewModel | `ltechnologies.onionphone.androwatch.*` |
 
 ## Source tree (logical layers)
 
@@ -79,7 +79,7 @@ AndroWatch/
 ├── feature/
 │   └── export/
 └── app/
-    └── src/main/kotlin/com/androwatch/
+    └── src/main/kotlin/ltechnologies/onionphone/androwatch/
         ├── presentation/   # CategoryViewModel
         ├── ui/             # Compose screens by feature
         ├── data/
