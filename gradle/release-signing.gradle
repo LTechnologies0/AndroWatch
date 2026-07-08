@@ -1,6 +1,8 @@
 // Release signing: local keystore.properties or CI environment variables.
 // Never commit keystore.properties — copy from keystore.properties.example.
 
+import java.util.Base64
+
 def signingPropsFile = rootProject.file("keystore.properties")
 def keystorePath = System.getenv("RELEASE_KEYSTORE_PATH")
 def keystoreB64 = System.getenv("RELEASE_KEYSTORE_BASE64")
@@ -13,7 +15,7 @@ def resolveKeystoreFile = {
     if (keystoreB64 != null && !keystoreB64.isBlank()) {
         def decoded = rootProject.file("${rootProject.buildDir}/ci-release.keystore")
         decoded.parentFile.mkdirs()
-        decoded.bytes = keystoreB64.decodeBase64()
+        decoded.bytes = Base64.decoder.decode(keystoreB64)
         return decoded
     }
     if (signingPropsFile.exists()) {
@@ -43,20 +45,24 @@ if (keystoreFile == null) {
         p
     } : null
 
-    def storePassword = resolveCredential("storePassword", "RELEASE_KEYSTORE_PASSWORD", props)
-    def keyAlias = resolveCredential("keyAlias", "RELEASE_KEY_ALIAS", props) ?: "androwatch"
-    def keyPassword = resolveCredential("keyPassword", "RELEASE_KEY_PASSWORD", props) ?: storePassword
+    // Distinct names: a local var sharing a signingConfig DSL method name (storePassword,
+    // keyAlias, keyPassword) shadows the method in Groovy, turning `storePassword storePassword`
+    // into String.call(String) and failing the build.
+    def storePasswordValue = resolveCredential("storePassword", "RELEASE_KEYSTORE_PASSWORD", props)
+    def keyAliasValue = resolveCredential("keyAlias", "RELEASE_KEY_ALIAS", props) ?: "androwatch"
+    // PKCS12 keystores require the same password for store and key entry.
+    def keyPasswordValue = storePasswordValue
 
-    if (storePassword == null) {
+    if (storePasswordValue == null) {
         logger.warn("Release keystore found but store password missing; APK will be unsigned.")
     } else {
         android {
             signingConfigs {
                 release {
                     storeFile keystoreFile
-                    storePassword storePassword
-                    keyAlias keyAlias
-                    keyPassword keyPassword
+                    storePassword storePasswordValue
+                    keyAlias keyAliasValue
+                    keyPassword keyPasswordValue
                 }
             }
             buildTypes {

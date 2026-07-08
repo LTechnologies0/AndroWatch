@@ -27,15 +27,15 @@ jobs:
     if: github.event_name == 'push' || github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 17
           cache: gradle
 
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
 
       - name: Create local.properties
         run: echo "sdk.dir=${ANDROID_SDK_ROOT}" >> local.properties
@@ -47,7 +47,7 @@ jobs:
         run: ./gradlew :app:assembleDebug -Ponionphone.devAbi=arm64-v8a --stacktrace --no-daemon
 
       - name: Upload debug APK artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: app-debug-arm64-v8a
           path: app/build/outputs/apk/debug/*-debug.apk
@@ -63,37 +63,46 @@ jobs:
       contents: read
       security-events: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 17
           cache: gradle
 
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
+        continue-on-error: true
+        id: android-setup-codeql
+
+      - uses: android-actions/setup-android@v4
+        if: steps.android-setup-codeql.outcome == 'failure'
 
       - name: Create local.properties
         run: echo "sdk.dir=${ANDROID_SDK_ROOT}" >> local.properties
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
+        uses: github/codeql-action/init@v4
         with:
           languages: java-kotlin
+          build-mode: manual
 
       - name: Build for CodeQL
-        run: ./gradlew :app:assembleDebug -Ponionphone.devAbi=arm64-v8a --no-daemon
+        run: |
+          ./gradlew --stop || true
+          ./gradlew clean :app:assembleDebug -Ponionphone.devAbi=arm64-v8a \
+            --no-daemon --no-build-cache --rerun-tasks
 
       - name: Analyze
-        uses: github/codeql-action/analyze@v3
+        uses: github/codeql-action/analyze@v4
 
   # ── OWASP dependency diff (PR only) ──────────────────────────────
   dependency-review:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/dependency-review-action@v4
+      - uses: actions/checkout@v7
+      - uses: actions/dependency-review-action@v5
 
   # ── KDoc → GitHub Pages (main push / manual only) ────────────────
   docs:
@@ -109,15 +118,15 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 17
           cache: gradle
 
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
 
       - name: Create local.properties
         run: echo "sdk.dir=${ANDROID_SDK_ROOT}" >> local.properties
@@ -126,40 +135,13 @@ jobs:
         run: ./gradlew dokkaGenerate --stacktrace --no-daemon
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload documentation
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: build/dokka/html
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
-
-  # ── OpenSSF Scorecard (main push / weekly / protection change) ───
-  scorecard:
-    if: >
-      github.event_name == 'schedule' ||
-      github.event_name == 'branch_protection_rule' ||
-      (github.event_name == 'push' && github.ref == 'refs/heads/main')
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      security-events: write
-      id-token: write
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-
-      - uses: ossf/scorecard-action@v2.4.2
-        with:
-          results_file: results.sarif
-          results_format: sarif
-          publish_results: true
-
-      - uses: github/codeql-action/upload-sarif@v3
-        if: always()
-        with:
-          sarif_file: results.sarif
+        uses: actions/deploy-pages@v5

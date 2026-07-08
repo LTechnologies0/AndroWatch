@@ -18,15 +18,15 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 17
           cache: gradle
 
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
 
       - name: Create local.properties
         run: echo "sdk.dir=${ANDROID_SDK_ROOT}" >> local.properties
@@ -63,7 +63,7 @@ jobs:
           ls -lh dist/release/
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
           name: AndroWatch ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}

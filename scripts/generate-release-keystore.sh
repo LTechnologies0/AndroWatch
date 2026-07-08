@@ -26,7 +26,7 @@ cat >"$PROPS" <<EOF
 storeFile=release.keystore
 storePassword=${KEYSTORE_PASSWORD:-changeit}
 keyAlias=androwatch
-keyPassword=${KEY_PASSWORD:-changeit}
+keyPassword=${KEYSTORE_PASSWORD:-changeit}
 EOF
 
 echo ""

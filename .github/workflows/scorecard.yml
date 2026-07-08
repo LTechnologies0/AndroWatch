@@ -1,0 +1,38 @@
+name: OpenSSF Scorecard
+
+# Must live in its own workflow: Scorecard rejects workflows where another job
+# also requests id-token (e.g. GitHub Pages deploy in ci.yml).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  analysis:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+      id-token: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - uses: ossf/scorecard-action@v2.4.3
+        with:
+          results_file: results.sarif
+          results_format: sarif
+          publish_results: true
+
+      - uses: github/codeql-action/upload-sarif@v4
+        if: always()
+        with:
+          sarif_file: results.sarif
