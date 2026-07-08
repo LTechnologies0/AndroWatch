@@ -22,6 +22,6 @@ dependencies {
     api(project(":collector:contract"))
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.tracing:tracing-ktx:1.3.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
     testImplementation("junit:junit:4.13.2")
 }
