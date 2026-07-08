@@ -1,20 +1,30 @@
 name: CI
 
+# Unified pipeline: tests, debug APK, CodeQL, dependency review, KDoc docs, and
+# OpenSSF Scorecard live in this single workflow so each push/PR produces ONE run
+# (with conditional jobs) instead of five separate workflow runs.
+
 on:
   push:
     branches: [main, master]
   pull_request:
     branches: [main, master]
+  schedule:
+    - cron: "0 6 * * 1"
+  branch_protection_rule:
+  workflow_dispatch:
 
 concurrency:
-  group: ci-${{ github.ref }}
+  group: ci-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
   contents: read
 
 jobs:
+  # ── Build + unit tests + debug APK (push & PR only) ──────────────
   test-and-debug:
+    if: github.event_name == 'push' || github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -44,7 +54,9 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
+  # ── CodeQL security analysis (push & PR only) ────────────────────
   codeql:
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     permissions:
       actions: read
@@ -74,3 +86,80 @@ jobs:
 
       - name: Analyze
         uses: github/codeql-action/analyze@v3
+
+  # ── OWASP dependency diff (PR only) ──────────────────────────────
+  dependency-review:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/dependency-review-action@v4
+
+  # ── KDoc → GitHub Pages (main push / manual only) ────────────────
+  docs:
+    if: >
+      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
+      github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+          cache: gradle
+
+      - uses: android-actions/setup-android@v3
+
+      - name: Create local.properties
+        run: echo "sdk.dir=${ANDROID_SDK_ROOT}" >> local.properties
+
+      - name: Generate KDoc (Dokka HTML)
+        run: ./gradlew dokkaGenerate --stacktrace --no-daemon
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload documentation
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/dokka/html
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # ── OpenSSF Scorecard (main push / weekly / protection change) ───
+  scorecard:
+    if: >
+      github.event_name == 'schedule' ||
+      github.event_name == 'branch_protection_rule' ||
+      (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: ossf/scorecard-action@v2.4.2
+        with:
+          results_file: results.sarif
+          results_format: sarif
+          publish_results: true
+
+      - uses: github/codeql-action/upload-sarif@v3
+        if: always()
+        with:
+          sarif_file: results.sarif

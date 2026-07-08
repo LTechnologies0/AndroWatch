@@ -1,5 +1,6 @@
 version: 2
 updates:
+  # All Gradle updates arrive as ONE grouped PR per week (avoids PR spam).
   - package-ecosystem: gradle
     directory: /
     schedule:
@@ -9,18 +10,14 @@ updates:
       prefix: "build"
       include: scope
     groups:
-      androidx:
+      gradle-all:
         patterns:
-          - "androidx.*"
-          - "com.android.*"
-      kotlin:
-        patterns:
-          - "org.jetbrains.kotlin*"
-          - "org.jetbrains.kotlinx*"
-    open-pull-requests-limit: 10
+          - "*"
+    open-pull-requests-limit: 3
     labels:
       - dependencies
 
+  # All GitHub Actions updates arrive as ONE grouped PR per week.
   - package-ecosystem: github-actions
     directory: /
     schedule:
@@ -28,7 +25,11 @@ updates:
       day: monday
     commit-message:
       prefix: "ci"
-    open-pull-requests-limit: 5
+    groups:
+      actions-all:
+        patterns:
+          - "*"
+    open-pull-requests-limit: 3
     labels:
       - dependencies
       - ci/cd

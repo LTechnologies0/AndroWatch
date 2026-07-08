@@ -262,20 +262,15 @@ Generate values with `./scripts/generate-release-keystore.sh`.
 
 ## GitHub automation
 
-| Workflow | Trigger | Purpose |
-|----------|---------|---------|
-| [CI](.github/workflows/ci.yml) | Push / PR | Unit tests, debug APK artifact, CodeQL |
+Only **three** workflow files to avoid run spam — each push/PR produces a single
+CI run with conditional jobs (`cancel-in-progress` cancels superseded runs).
+
+| Workflow | Trigger | Jobs / Purpose |
+|----------|---------|----------------|
+| [CI](.github/workflows/ci.yml) | Push `main`, PR, weekly, manual | `test-and-debug`, `codeql`, `dependency-review` (PR), `docs` → Pages (main), `scorecard` |
+| [Community](.github/workflows/community.yml) | Issues, PRs, weekly | labeler, greetings, auto-assign, triage, stale, release-drafter |
 | [Release](.github/workflows/release.yml) | Tag `v*.*.*` | Signed multi-ABI APKs → GitHub Release |
-| [Docs](.github/workflows/docs.yml) | Push to `main` | Dokka → GitHub Pages |
-| [Dependency Review](.github/workflows/dependency-review.yml) | Pull requests | OWASP dependency diff on PRs |
-| [OpenSSF Scorecard](.github/workflows/scorecard.yml) | Weekly + push | Supply-chain security score |
-| [Dependabot](.github/dependabot.yml) | Weekly | Gradle + Actions updates |
-| [PR Labeler](.github/workflows/labeler.yml) | Pull requests | Auto-label by changed paths |
-| [Stale](.github/workflows/stale.yml) | Weekly | Close inactive issues/PRs after 60 days |
-| [Release Drafter](.github/workflows/release-drafter.yml) | Push / PR | Draft release notes from merged PRs |
-| [Greetings](.github/workflows/greetings.yml) | First issue/PR | Welcome new contributors |
-| [Auto Assign](.github/workflows/auto-assign.yml) | New issues | Assign issues to maintainer |
-| [Triage](.github/workflows/triage.yml) | New issues | Auto-label security/Dependabot issues |
+| [Dependabot](.github/dependabot.yml) | Weekly | 1 grouped Gradle PR + 1 grouped Actions PR |
 
 ---
 

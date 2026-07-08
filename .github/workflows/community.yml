@@ -1,0 +1,120 @@
+name: Community
+
+# Lightweight, event-driven automation consolidated into one workflow:
+# labeler, greetings, auto-assign, triage, stale, and release-drafter.
+# Each job is gated by the triggering event so only the relevant one runs.
+
+on:
+  issues:
+    types: [opened, labeled]
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+  push:
+    branches: [main, master]
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  labeler:
+    if: github.event_name == 'pull_request_target'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - uses: actions/labeler@v5
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+  greetings:
+    if: >
+      github.event.action == 'opened' &&
+      (github.event_name == 'issues' || github.event_name == 'pull_request_target')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            Thanks for opening an issue on **AndroWatch**!
+
+            - Check [docs/ARCHITECTURE.md](https://github.com/LTechnologies0/AndroWatch/blob/main/docs/ARCHITECTURE.md) for module layout
+            - For security issues, use **private vulnerability reporting** (see SECURITY.md)
+          pr-message: |
+            Thanks for your pull request!
+
+            CI will run unit tests, assemble a debug APK, and run CodeQL.
+            Please add KDoc for new public APIs and ensure no secrets are committed.
+
+  auto-assign:
+    if: github.event_name == 'issues' && github.event.action == 'opened'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: pozil/auto-assign-issue@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          assignees: LTechnologies0
+
+  triage:
+    if: github.event_name == 'issues'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - name: Label dependency reports from Dependabot
+        if: contains(github.event.issue.user.login, 'dependabot')
+        run: gh issue edit "${{ github.event.issue.number }}" --add-label dependencies
+
+      - name: Label security-related issues
+        if: >
+          contains(github.event.issue.title, 'security') ||
+          contains(github.event.issue.title, 'vulnerability') ||
+          contains(github.event.issue.title, 'CVE')
+        run: gh issue edit "${{ github.event.issue.number }}" --add-label security
+
+  stale:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/stale@v9
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          days-before-stale: 60
+          days-before-close: 14
+          stale-issue-label: stale
+          stale-pr-label: stale
+          stale-issue-message: >
+            This issue has been inactive for 60 days and will be closed in 14 days
+            if there is no further activity. Comment to keep it open.
+          stale-pr-message: >
+            This pull request has been inactive for 60 days and will be closed in 14 days
+            if there is no further activity.
+          exempt-issue-labels: security,enhancement,bug
+          exempt-pr-labels: security,dependencies
+          operations-per-run: 100
+
+  release-drafter:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+    steps:
+      - uses: release-drafter/release-drafter@v6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
