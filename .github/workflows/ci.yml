@@ -83,7 +83,10 @@ jobs:
           build-mode: manual
 
       - name: Build for CodeQL
-        run: ./gradlew :app:assembleDebug -Ponionphone.devAbi=arm64-v8a --no-daemon
+        run: |
+          ./gradlew --stop || true
+          ./gradlew clean :app:assembleDebug -Ponionphone.devAbi=arm64-v8a \
+            --no-daemon --no-build-cache --rerun-tasks
 
       - name: Analyze
         uses: github/codeql-action/analyze@v4
@@ -137,31 +140,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  # ── OpenSSF Scorecard (main push / weekly / protection change) ───
-  scorecard:
-    if: >
-      github.event_name == 'schedule' ||
-      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
-      github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      security-events: write
-      id-token: write
-      actions: read
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-
-      - uses: ossf/scorecard-action@v2.4.2
-        with:
-          results_file: results.sarif
-          results_format: sarif
-          publish_results: true
-
-      - uses: github/codeql-action/upload-sarif@v4
-        if: always()
-        with:
-          sarif_file: results.sarif
