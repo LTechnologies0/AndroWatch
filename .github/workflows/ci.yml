@@ -77,15 +77,16 @@ jobs:
         run: echo "sdk.dir=${ANDROID_SDK_ROOT}" >> local.properties
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
+        uses: github/codeql-action/init@v4
         with:
           languages: java-kotlin
+          build-mode: manual
 
       - name: Build for CodeQL
         run: ./gradlew :app:assembleDebug -Ponionphone.devAbi=arm64-v8a --no-daemon
 
       - name: Analyze
-        uses: github/codeql-action/analyze@v3
+        uses: github/codeql-action/analyze@v4
 
   # ── OWASP dependency diff (PR only) ──────────────────────────────
   dependency-review:
@@ -141,13 +142,14 @@ jobs:
   scorecard:
     if: >
       github.event_name == 'schedule' ||
-      github.event_name == 'branch_protection_rule' ||
-      (github.event_name == 'push' && github.ref == 'refs/heads/main')
+      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
+      github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     permissions:
       contents: read
       security-events: write
       id-token: write
+      actions: read
     steps:
       - uses: actions/checkout@v4
         with:
@@ -159,7 +161,7 @@ jobs:
           results_format: sarif
           publish_results: true
 
-      - uses: github/codeql-action/upload-sarif@v3
+      - uses: github/codeql-action/upload-sarif@v4
         if: always()
         with:
           sarif_file: results.sarif
