@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Cihaz Kimliği</string>
+    <string name="cat_device_identity_subtitle">Tanımlayıcılar ve donanım özellikleri</string>
+    <string name="cat_google_account_title">Google Hesabı</string>
+    <string name="cat_google_account_subtitle">Hesap varlığı sinyalleri</string>
+    <string name="cat_system_info_title">Sistem Bilgisi</string>
+    <string name="cat_system_info_subtitle">İşletim sistemi ve çalışma zamanı ayrıntıları</string>
+    <string name="cat_display_title">Görüntülemek</string>
+    <string name="cat_display_subtitle">Ekran yetenekleri ve yoğunluk</string>
+    <string name="cat_locale_title">Yerel Ayar ve Bölge</string>
+    <string name="cat_locale_subtitle">Dil ve saat dilimi ayak izi</string>
+    <string name="cat_accessibility_title">Erişilebilirlik</string>
+    <string name="cat_accessibility_subtitle">Yardımcı ayarlar ve işaretler</string>
+    <string name="cat_device_motion_title">Cihaz Hareketi</string>
+    <string name="cat_device_motion_subtitle">Sensör varlığı ve durumu</string>
+    <string name="cat_battery_title">Pil ve Güç</string>
+    <string name="cat_battery_subtitle">Pil ve güç modu verileri</string>
+    <string name="cat_storage_title">Depolamak</string>
+    <string name="cat_storage_subtitle">Birim ve depolama toplamları</string>
+    <string name="cat_network_title">Ağ</string>
+    <string name="cat_network_subtitle">Bağlantı ve VPN durumu</string>
+    <string name="cat_fonts_title">Yazı tipleri</string>
+    <string name="cat_fonts_subtitle">Yazı tipi kullanılabilirliği örneği</string>
+    <string name="cat_installed_voices_title">Yüklü Sesler</string>
+    <string name="cat_installed_voices_subtitle">Konuşma motoru ve ses desteği</string>
+    <string name="cat_app_info_title">Uygulama ve Paket</string>
+    <string name="cat_app_info_subtitle">Paket oluşturma meta verileri</string>
+    <string name="cat_pasteboard_title">Çalışma alanı</string>
+    <string name="cat_pasteboard_subtitle">Yalnızca pano meta verileri</string>
+    <string name="cat_audio_title">Ses</string>
+    <string name="cat_audio_subtitle">Ses çıkışları ve rota ayrıntıları</string>
+    <string name="cat_graphics_title">Grafik</string>
+    <string name="cat_graphics_subtitle">GPU / GL uygulama sinyalleri</string>
+    <string name="cat_telephony_title">Telefon</string>
+    <string name="cat_telephony_subtitle">Operatör ve radyo meta verileri</string>
+    <string name="cat_motion_title">Hareket ve Sensörler</string>
+    <string name="cat_motion_subtitle">İzin-kapılı hareket ayrıntıları</string>
+    <string name="cat_location_title">Konum</string>
+    <string name="cat_location_subtitle">Konum ve sağlayıcı meta verileri</string>
+    <string name="cat_cameras_title">Kameralar</string>
+    <string name="cat_cameras_subtitle">Kamera özellikleri ve sayısı</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth durumu ve eşleştirilmiş istatistikler</string>
+    <string name="cat_local_network_title">Yerel Ağ</string>
+    <string name="cat_local_network_subtitle">Yakındaki ağ ortamı</string>
+    <string name="cat_contacts_title">Kişiler</string>
+    <string name="cat_contacts_subtitle">Yalnızca iletişim veritabanı meta verileri</string>
+    <string name="cat_photos_title">Fotoğraflar</string>
+    <string name="cat_photos_subtitle">Yalnızca medya kitaplığı meta verileri</string>
+    <string name="cat_calendar_title">Takvim</string>
+    <string name="cat_calendar_subtitle">Takvim hesabı meta verileri</string>
+    <string name="cat_reminders_title">Hatırlatıcılar</string>
+    <string name="cat_reminders_subtitle">Görev/hatırlatıcı sağlayıcı meta verileri</string>
+    <string name="cat_music_library_title">Müzik Kütüphanesi</string>
+    <string name="cat_music_library_subtitle">Yalnızca ses ortamı meta verileri</string>
+    <string name="cat_installed_apps_probe_title">Yüklü Uygulamalar Araştırması</string>
+    <string name="cat_installed_apps_probe_subtitle">Niyet şeması araştırması</string>
+    <string name="cat_webview_fingerprint_title">Web Görünümü Parmak İzi</string>
+    <string name="cat_webview_fingerprint_subtitle">Tarayıcı benzeri oluşturma profili</string>
+    <string name="cat_previous_installs_log_title">Önceki Yükleme Günlüğü</string>
+    <string name="cat_previous_installs_log_subtitle">Kalıcılık ipuçlarını yükleyin</string>
+
+</resources>

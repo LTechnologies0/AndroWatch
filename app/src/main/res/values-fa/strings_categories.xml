@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">شناسه دستگاه</string>
+    <string name="cat_device_identity_subtitle">شناسه ها و ویژگی های سخت افزاری</string>
+    <string name="cat_google_account_title">حساب گوگل</string>
+    <string name="cat_google_account_subtitle">سیگنال های حضور حساب</string>
+    <string name="cat_system_info_title">اطلاعات سیستم</string>
+    <string name="cat_system_info_subtitle">جزئیات سیستم عامل و زمان اجرا</string>
+    <string name="cat_display_title">نمایش</string>
+    <string name="cat_display_subtitle">قابلیت های صفحه نمایش و تراکم</string>
+    <string name="cat_locale_title">منطقه و منطقه</string>
+    <string name="cat_locale_subtitle">ردپای زبان و منطقه زمانی</string>
+    <string name="cat_accessibility_title">قابلیت دسترسی</string>
+    <string name="cat_accessibility_subtitle">تنظیمات و پرچم های کمکی</string>
+    <string name="cat_device_motion_title">حرکت دستگاه</string>
+    <string name="cat_device_motion_subtitle">حضور و وضعیت سنسور</string>
+    <string name="cat_battery_title">باتری و برق</string>
+    <string name="cat_battery_subtitle">داده های حالت باتری و برق</string>
+    <string name="cat_storage_title">ذخیره سازی</string>
+    <string name="cat_storage_subtitle">مجموع حجم و ذخیره سازی</string>
+    <string name="cat_network_title">شبکه</string>
+    <string name="cat_network_subtitle">اتصال و وضعیت VPN</string>
+    <string name="cat_fonts_title">فونت ها</string>
+    <string name="cat_fonts_subtitle">نمونه در دسترس بودن فونت</string>
+    <string name="cat_installed_voices_title">صداهای نصب شده</string>
+    <string name="cat_installed_voices_subtitle">موتور گفتار و پشتیبانی صدا</string>
+    <string name="cat_app_info_title">برنامه و بسته نرم افزاری</string>
+    <string name="cat_app_info_subtitle">فراداده ساخت بسته</string>
+    <string name="cat_pasteboard_title">مقوا</string>
+    <string name="cat_pasteboard_subtitle">فقط ابرداده کلیپ بورد</string>
+    <string name="cat_audio_title">صوتی</string>
+    <string name="cat_audio_subtitle">خروجی های صوتی و جزئیات مسیر</string>
+    <string name="cat_graphics_title">گرافیک</string>
+    <string name="cat_graphics_subtitle">سیگنال های پیاده سازی GPU / GL</string>
+    <string name="cat_telephony_title">تلفن</string>
+    <string name="cat_telephony_subtitle">فراداده حامل و رادیو</string>
+    <string name="cat_motion_title">حرکت و حسگرها</string>
+    <string name="cat_motion_subtitle">جزئیات حرکت دارای مجوز</string>
+    <string name="cat_location_title">مکان</string>
+    <string name="cat_location_subtitle">فراداده موقعیت و ارائه دهنده</string>
+    <string name="cat_cameras_title">دوربین ها</string>
+    <string name="cat_cameras_subtitle">قابلیت های دوربین و شمارش</string>
+    <string name="cat_bluetooth_title">بلوتوث</string>
+    <string name="cat_bluetooth_subtitle">وضعیت بلوتوث و آمار جفت شده</string>
+    <string name="cat_local_network_title">شبکه محلی</string>
+    <string name="cat_local_network_subtitle">محیط شبکه نزدیک</string>
+    <string name="cat_contacts_title">مخاطبین</string>
+    <string name="cat_contacts_subtitle">فقط با ابرداده پایگاه داده تماس بگیرید</string>
+    <string name="cat_photos_title">عکس ها</string>
+    <string name="cat_photos_subtitle">فقط فراداده کتابخانه رسانه</string>
+    <string name="cat_calendar_title">تقویم</string>
+    <string name="cat_calendar_subtitle">فراداده حساب تقویم</string>
+    <string name="cat_reminders_title">یادآوری ها</string>
+    <string name="cat_reminders_subtitle">فراداده ارائه دهنده وظیفه/یادآوری</string>
+    <string name="cat_music_library_title">کتابخانه موسیقی</string>
+    <string name="cat_music_library_subtitle">فقط فراداده رسانه صوتی</string>
+    <string name="cat_installed_apps_probe_title">Apps Probe نصب شده</string>
+    <string name="cat_installed_apps_probe_subtitle">کاوش طرح قصد</string>
+    <string name="cat_webview_fingerprint_title">اثر انگشت WebView</string>
+    <string name="cat_webview_fingerprint_subtitle">نمایه رندر مانند مرورگر</string>
+    <string name="cat_previous_installs_log_title">گزارش نصب قبلی</string>
+    <string name="cat_previous_installs_log_subtitle">نکات پایداری را نصب کنید</string>
+
+</resources>

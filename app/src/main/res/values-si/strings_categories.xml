@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">උපාංග අනන්‍යතාවය</string>
+    <string name="cat_device_identity_subtitle">හඳුනාගැනීම් සහ දෘඪාංග ලක්ෂණ</string>
+    <string name="cat_google_account_title">Google ගිණුම</string>
+    <string name="cat_google_account_subtitle">ගිණුමේ සිටීමේ සංඥා</string>
+    <string name="cat_system_info_title">පද්ධති තොරතුරු</string>
+    <string name="cat_system_info_subtitle">OS සහ ධාවන කාල විස්තර</string>
+    <string name="cat_display_title">ප්රදර්ශනය කරන්න</string>
+    <string name="cat_display_subtitle">තිර හැකියාවන් සහ ඝනත්වය</string>
+    <string name="cat_locale_title">ප්‍රදේශය සහ කලාපය</string>
+    <string name="cat_locale_subtitle">භාෂාව සහ වේලා කලාප පියසටහන</string>
+    <string name="cat_accessibility_title">ප්‍රවේශ්‍යතාව</string>
+    <string name="cat_accessibility_subtitle">සහායක සැකසුම් සහ කොඩි</string>
+    <string name="cat_device_motion_title">උපාංග චලනය</string>
+    <string name="cat_device_motion_subtitle">සංවේදකයේ පැවැත්ම සහ තත්වය</string>
+    <string name="cat_battery_title">බැටරි සහ බලය</string>
+    <string name="cat_battery_subtitle">බැටරි සහ බල මාදිලියේ දත්ත</string>
+    <string name="cat_storage_title">ගබඩා කිරීම</string>
+    <string name="cat_storage_subtitle">පරිමාව සහ ගබඩා එකතුව</string>
+    <string name="cat_network_title">ජාලය</string>
+    <string name="cat_network_subtitle">සම්බන්ධතාවය සහ VPN තත්ත්වය</string>
+    <string name="cat_fonts_title">අකුරු</string>
+    <string name="cat_fonts_subtitle">අකුරු ලබා ගැනීමේ නියැදිය</string>
+    <string name="cat_installed_voices_title">ස්ථාපිත හඬවල්</string>
+    <string name="cat_installed_voices_subtitle">කථන එන්ජිම සහ හඬ සහාය</string>
+    <string name="cat_app_info_title">යෙදුම සහ බණ්ඩලය</string>
+    <string name="cat_app_info_subtitle">පැකේජ ගොඩනැගීමේ පාරදත්ත</string>
+    <string name="cat_pasteboard_title">පේස්ට්බෝඩ්</string>
+    <string name="cat_pasteboard_subtitle">ක්ලිප්බෝඩ් පාරදත්ත පමණි</string>
+    <string name="cat_audio_title">ශ්රව්ය උපකරණ</string>
+    <string name="cat_audio_subtitle">ශ්‍රව්‍ය ප්‍රතිදාන සහ මාර්ග විස්තර</string>
+    <string name="cat_graphics_title">ග්රැෆික්ස්</string>
+    <string name="cat_graphics_subtitle">GPU / GL ක්රියාත්මක කිරීමේ සංඥා</string>
+    <string name="cat_telephony_title">දුරකථන</string>
+    <string name="cat_telephony_subtitle">වාහක සහ ගුවන්විදුලි පාර-දත්ත</string>
+    <string name="cat_motion_title">චලනය සහ සංවේදක</string>
+    <string name="cat_motion_subtitle">අවසරය සහිත චලන විස්තර</string>
+    <string name="cat_location_title">ස්ථානය</string>
+    <string name="cat_location_subtitle">ස්ථානය සහ සැපයුම්කරු පාර-දත්ත</string>
+    <string name="cat_cameras_title">කැමරා</string>
+    <string name="cat_cameras_subtitle">කැමරා හැකියාවන් සහ ගණන් කිරීම</string>
+    <string name="cat_bluetooth_title">බ්ලූටූත්</string>
+    <string name="cat_bluetooth_subtitle">බ්ලූටූත් තත්ත්වය සහ යුගල කළ සංඛ්‍යාලේඛන</string>
+    <string name="cat_local_network_title">දේශීය ජාලය</string>
+    <string name="cat_local_network_subtitle">ආසන්න ජාල පරිසරය</string>
+    <string name="cat_contacts_title">සම්බන්ධතා</string>
+    <string name="cat_contacts_subtitle">සම්බන්ධතා දත්ත සමුදා පාර-දත්ත පමණි</string>
+    <string name="cat_photos_title">ඡායාරූප</string>
+    <string name="cat_photos_subtitle">මාධ්‍ය පුස්තකාල පාරදත්ත පමණි</string>
+    <string name="cat_calendar_title">දින දර්ශනය</string>
+    <string name="cat_calendar_subtitle">දින දර්ශන ගිණුම් පාරදත්ත</string>
+    <string name="cat_reminders_title">මතක් කිරීම්</string>
+    <string name="cat_reminders_subtitle">කාර්ය/සිහිගැන්වීම් සපයන්නාගේ පාර-දත්ත</string>
+    <string name="cat_music_library_title">සංගීත පුස්තකාලය</string>
+    <string name="cat_music_library_subtitle">ශ්‍රව්‍ය මාධ්‍ය පාරදත්ත පමණි</string>
+    <string name="cat_installed_apps_probe_title">ස්ථාපිත යෙදුම් විමර්ශනය</string>
+    <string name="cat_installed_apps_probe_subtitle">අභිප්‍රාය යෝජනා ක්‍රමය විමර්ශනය</string>
+    <string name="cat_webview_fingerprint_title">WebView ඇඟිලි සලකුණ</string>
+    <string name="cat_webview_fingerprint_subtitle">බ්‍රවුසරයක් වැනි විදැහුම්කරණ පැතිකඩ</string>
+    <string name="cat_previous_installs_log_title">පෙර ස්ථාපන ලොගය</string>
+    <string name="cat_previous_installs_log_subtitle">නොනැසී පවතින ඉඟි ස්ථාපනය කරන්න</string>
+
+</resources>

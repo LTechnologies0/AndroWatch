@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Това устройство в момента отчита локал %1$s.</string>
+    <string name="summary_line_model">Хардуерният модел се показва като %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID за това приложение е %1$s.</string>
+    <string name="summary_line_battery">Моментната снимка на батерията показва %1$s.</string>
+    <string name="summary_line_network">Активни мрежови транспорти: %1$s.</string>
+    <string name="summary_line_authenticators">Видими автентификатори на акаунти: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch запазва тези показания на устройството, освен ако не ги експортирате.</string>
+
+</resources>

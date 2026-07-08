@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">ডিভাইচ পৰিচয়</string>
+    <string name="cat_device_identity_subtitle">চিনাক্তকৰ্তা আৰু হাৰ্ডৱেৰ বৈশিষ্ট্যসমূহ</string>
+    <string name="cat_google_account_title">গুগল একাউণ্ট</string>
+    <string name="cat_google_account_subtitle">একাউণ্টৰ উপস্থিতিৰ সংকেত</string>
+    <string name="cat_system_info_title">চিস্টেম তথ্য</string>
+    <string name="cat_system_info_subtitle">অপাৰেটিং ছিষ্টেম আৰু চলনসময়ৰ বিৱৰণ</string>
+    <string name="cat_display_title">প্ৰদৰ্শন</string>
+    <string name="cat_display_subtitle">পৰ্দাৰ ক্ষমতা আৰু ঘনত্ব</string>
+    <string name="cat_locale_title">স্থানীয় আৰু অঞ্চল</string>
+    <string name="cat_locale_subtitle">ভাষা আৰু সময়মণ্ডলৰ ফুটপ্ৰিণ্ট</string>
+    <string name="cat_accessibility_title">অভিগম্যতা</string>
+    <string name="cat_accessibility_subtitle">সহায়ক ছেটিংছ আৰু ফ্লেগসমূহ</string>
+    <string name="cat_device_motion_title">ডিভাইচ গতি</string>
+    <string name="cat_device_motion_subtitle">চেন্সৰৰ উপস্থিতি আৰু অৱস্থা</string>
+    <string name="cat_battery_title">বেটাৰী আৰু শক্তি</string>
+    <string name="cat_battery_subtitle">বেটাৰী আৰু শক্তি ধৰণৰ তথ্য</string>
+    <string name="cat_storage_title">সংৰক্ষণ</string>
+    <string name="cat_storage_subtitle">ভলিউম আৰু সংৰক্ষণৰ মুঠ</string>
+    <string name="cat_network_title">নেটৱৰ্ক</string>
+    <string name="cat_network_subtitle">সংযোগ আৰু ভিপিএন অৱস্থা</string>
+    <string name="cat_fonts_title">ফন্ট</string>
+    <string name="cat_fonts_subtitle">ফন্ট উপলব্ধতাৰ নমুনা</string>
+    <string name="cat_installed_voices_title">ইনষ্টল কৰা ভয়েচসমূহ</string>
+    <string name="cat_installed_voices_subtitle">স্পিচ ইঞ্জিন আৰু ভইচ ছাপৰ্ট</string>
+    <string name="cat_app_info_title">এপ আৰু বাণ্ডল</string>
+    <string name="cat_app_info_subtitle">পেকেজ নিৰ্মাণ মেটাডাটা</string>
+    <string name="cat_pasteboard_title">পেষ্টবোৰ্ড</string>
+    <string name="cat_pasteboard_subtitle">কেৱল ক্লিপবোৰ্ড মেটাডাটা</string>
+    <string name="cat_audio_title">অডিঅ\'</string>
+    <string name="cat_audio_subtitle">অডিঅ\' আউটপুট আৰু পথৰ বিৱৰণ</string>
+    <string name="cat_graphics_title">গ্রাফিক্স</string>
+    <string name="cat_graphics_subtitle">GPU / GL প্ৰণয়ন সংকেতসমূহ</string>
+    <string name="cat_telephony_title">টেলিফোনি</string>
+    <string name="cat_telephony_subtitle">কেৰিয়াৰ আৰু ৰেডিঅ\' মেটাডাটা</string>
+    <string name="cat_motion_title">গতি আৰু চেন্সৰ</string>
+    <string name="cat_motion_subtitle">অনুমতি-গেটেড গতিৰ বিৱৰণ</string>
+    <string name="cat_location_title">অৱস্থান</string>
+    <string name="cat_location_subtitle">অৱস্থান আৰু প্ৰদানকাৰীৰ মেটাডাটা</string>
+    <string name="cat_cameras_title">কেমেৰা</string>
+    <string name="cat_cameras_subtitle">কেমেৰাৰ ক্ষমতা আৰু গণনা</string>
+    <string name="cat_bluetooth_title">ব্লুটুথ</string>
+    <string name="cat_bluetooth_subtitle">ব্লুটুথৰ অৱস্থা আৰু যোৰ কৰা পৰিসংখ্যা</string>
+    <string name="cat_local_network_title">স্থানীয় নেটৱৰ্ক</string>
+    <string name="cat_local_network_subtitle">ওচৰৰ নে\'টৱৰ্ক পৰিৱেশ</string>
+    <string name="cat_contacts_title">যোগাযোগসমূহ</string>
+    <string name="cat_contacts_subtitle">কেৱল ডাটাবেছ মেটাডাটাৰ সৈতে যোগাযোগ কৰক</string>
+    <string name="cat_photos_title">ফটো</string>
+    <string name="cat_photos_subtitle">কেৱল মিডিয়া লাইব্ৰেৰী মেটাডাটা</string>
+    <string name="cat_calendar_title">কেলেণ্ডাৰ</string>
+    <string name="cat_calendar_subtitle">কেলেণ্ডাৰ একাউণ্ট মেটাডাটা</string>
+    <string name="cat_reminders_title">সোঁৱৰাই দিয়া</string>
+    <string name="cat_reminders_subtitle">কাৰ্য্য/সোঁৱৰাই প্ৰদানকাৰী মেটাডাটা</string>
+    <string name="cat_music_library_title">সংগীত পুথিভঁৰাল</string>
+    <string name="cat_music_library_subtitle">কেৱল অডিঅ\' মিডিয়া মেটাডাটা</string>
+    <string name="cat_installed_apps_probe_title">ইনষ্টল কৰা হৈছে Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">উদ্দেশ্য আঁচনিৰ অনুসন্ধান</string>
+    <string name="cat_webview_fingerprint_title">ৱেবভিউ ফিংগাৰপ্ৰিণ্ট</string>
+    <string name="cat_webview_fingerprint_subtitle">ব্ৰাউজাৰ-সদৃশ ৰেণ্ডাৰ আলেখ্যন</string>
+    <string name="cat_previous_installs_log_title">পূৰ্বৱৰ্তী সংস্থাপনসমূহ লগ</string>
+    <string name="cat_previous_installs_log_subtitle">স্থায়িত্বৰ ইংগিতসমূহ সংস্থাপন কৰক</string>
+
+</resources>

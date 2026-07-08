@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Den här enheten rapporterar för närvarande språket %1$s.</string>
+    <string name="summary_line_model">Hårdvarumodellen visas som %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID för den här appen är %1$s.</string>
+    <string name="summary_line_battery">Batteriögonblicksbild indikerar %1$s.</string>
+    <string name="summary_line_network">Aktiva nätverkstransporter: %1$s.</string>
+    <string name="summary_line_authenticators">Synliga kontoautentiseringsorgan: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch behåller dessa avläsningar på enheten om du inte exporterar dem.</string>
+
+</resources>

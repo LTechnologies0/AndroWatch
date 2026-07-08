@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Овај уређај тренутно пријављује језик __ПХ_0__.</string>
+    <string name="summary_line_model">Модел хардвера се појављује као __ПХ_0__.</string>
+    <string name="summary_line_android_id">АНДРОИД_ИД за ову апликацију је __ПХ_0__.</string>
+    <string name="summary_line_battery">Снимак батерије показује __ПХ_0__.</string>
+    <string name="summary_line_network">Активни мрежни транспорти: __ПХ_0__.</string>
+    <string name="summary_line_authenticators">Видљиви аутентификатори налога: __ПХ_0__.</string>
+    <string name="summary_line_privacy">АндроВатцх чува ова очитавања на уређају осим ако их не извезете.</string>
+
+</resources>

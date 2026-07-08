@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">یہ آلہ فی الحال لوکل %1$s کی اطلاع دیتا ہے۔</string>
+    <string name="summary_line_model">ہارڈ ویئر ماڈل %1$s کے بطور ظاہر ہوتا ہے۔</string>
+    <string name="summary_line_android_id">اس ایپ کے لیے ANDROID_ID %1$s ہے۔</string>
+    <string name="summary_line_battery">بیٹری کا سنیپ شاٹ %1$s کی نشاندہی کرتا ہے۔</string>
+    <string name="summary_line_network">فعال نیٹ ورک ٹرانسپورٹ: %1$s۔</string>
+    <string name="summary_line_authenticators">اکاؤنٹ کے تصدیق کنندگان نظر آتے ہیں: %1$s۔</string>
+    <string name="summary_line_privacy">AndroWatch ان ریڈنگز کو ڈیوائس پر رکھتا ہے جب تک کہ آپ انہیں ایکسپورٹ نہ کریں۔</string>
+
+</resources>

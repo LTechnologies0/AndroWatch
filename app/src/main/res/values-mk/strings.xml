@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Андроид API истражувач на отпечатоци</string>
+    <string name="back">Назад</string>
+    <string name="refresh">Освежи</string>
+    <string name="export_report">Извештај за извоз</string>
+    <string name="export_chooser_title">Извезете го извештајот на AndroWatch</string>
+    <string name="about_title">За</string>
+    <string name="about_heading">Транспарентност на отпечаток од прст на уредот</string>
+    <string name="about_inspired">AndroWatch е алтернатива за Android инспирирана од Loupe од Mysk Research. Открива што може да откријат јавните API на Android за вашиот уред.</string>
+    <string name="about_privacy">Сите читања остануваат на вашиот уред. Ништо не се поставува освен ако експлицитно не извезете извештај за JSON.</string>
+    <string name="onboarding_title">Погледнете што открива Андроид</string>
+    <string name="onboarding_body">AndroWatch покажува што API-те на Android можат да откријат за вашиот уред - идентификатори, сензори, мрежа и многу повеќе.</string>
+    <string name="onboarding_privacy">Ништо не е поставено. Извозот е експлицитен и локален.</string>
+    <string name="onboarding_continue">Продолжи</string>
+    <string name="permission_required">Потребна е дозвола</string>
+    <string name="permission_rationale">На оваа категорија и е потребна дозвола за време на траење за читање збирни метаподатоци. Суровиот PII никогаш не се прикажува.</string>
+    <string name="grant_permission">Дајте дозвола</string>
+    <string name="summary_title">Резиме на отпечаток од прст</string>
+    <string name="summary_empty">Освежете ги категориите за да генерирате резиме.</string>
+    <string name="tier_passive">Пасивен</string>
+    <string name="tier_permissioned">Потребна е дозвола</string>
+    <string name="tier_advanced">Напредно</string>
+    <string name="signal_count">%1$d сигнали</string>
+    <string name="live_badge">Во живо</string>
+    <string name="loading">Се собираат сигнали…</string>
+    <string name="error_collecting">Грешка при собирање сигнали.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Обидете се повторно</string>
+    <string name="export_error">Не може да се извезе извештај.</string>
+    <string name="export_empty">Сè уште нема ништо за извоз. Прво освежете ги категориите.</string>
+    <string name="no_signals">Сè уште не се собрани сигнали.</string>
+    <string name="show_rationale">Зошто ова е важно</string>
+    <string name="hide_rationale">Скриј образложение</string>
+    <string name="raw_value">Необработена вредност на API</string>
+    <string name="value_unknown">непознат</string>
+    <string name="value_unknown_locale">непозната локација</string>
+    <string name="value_unknown_device">непознат уред</string>
+    <string name="value_unknown_battery">непозната батерија</string>
+    <string name="value_unknown_network">непозната мрежа</string>
+    <string name="value_none">ниеден</string>
+    <string name="value_unavailable">недостапен</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">да</string>
+    <string name="value_false">бр</string>
+
+</resources>

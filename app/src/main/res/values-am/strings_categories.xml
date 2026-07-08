@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">የመሣሪያ ማንነት</string>
+    <string name="cat_device_identity_subtitle">መለያዎች እና የሃርድዌር ባህሪያት</string>
+    <string name="cat_google_account_title">ጎግል መለያ</string>
+    <string name="cat_google_account_subtitle">የመለያ መገኘት ምልክቶች</string>
+    <string name="cat_system_info_title">የስርዓት መረጃ</string>
+    <string name="cat_system_info_subtitle">የስርዓተ ክወና እና የአሂድ ጊዜ ዝርዝሮች</string>
+    <string name="cat_display_title">ማሳያ</string>
+    <string name="cat_display_subtitle">የማሳያ ችሎታዎች እና እፍጋት</string>
+    <string name="cat_locale_title">አካባቢ እና ክልል</string>
+    <string name="cat_locale_subtitle">የቋንቋ እና የሰዓት ሰቅ አሻራ</string>
+    <string name="cat_accessibility_title">ተደራሽነት</string>
+    <string name="cat_accessibility_subtitle">አጋዥ ቅንብሮች እና ባንዲራዎች</string>
+    <string name="cat_device_motion_title">የመሣሪያ እንቅስቃሴ</string>
+    <string name="cat_device_motion_subtitle">የዳሳሽ መኖር እና ሁኔታ</string>
+    <string name="cat_battery_title">ባትሪ እና ኃይል</string>
+    <string name="cat_battery_subtitle">የባትሪ እና የኃይል ሁነታ ውሂብ</string>
+    <string name="cat_storage_title">ማከማቻ</string>
+    <string name="cat_storage_subtitle">የድምጽ መጠን እና የማከማቻ ድምር</string>
+    <string name="cat_network_title">አውታረ መረብ</string>
+    <string name="cat_network_subtitle">የግንኙነት እና የቪፒኤን ሁኔታ</string>
+    <string name="cat_fonts_title">ቅርጸ ቁምፊዎች</string>
+    <string name="cat_fonts_subtitle">የቅርጸ ቁምፊ ተገኝነት ናሙና</string>
+    <string name="cat_installed_voices_title">የተጫኑ ድምጾች</string>
+    <string name="cat_installed_voices_subtitle">የንግግር ሞተር እና የድምጽ ድጋፍ</string>
+    <string name="cat_app_info_title">መተግበሪያ እና ቅርቅብ</string>
+    <string name="cat_app_info_subtitle">የጥቅል ግንባታ ሜታዳታ</string>
+    <string name="cat_pasteboard_title">ፓስታ ሰሌዳ</string>
+    <string name="cat_pasteboard_subtitle">የቅንጥብ ሰሌዳ ዲበ ውሂብ ብቻ</string>
+    <string name="cat_audio_title">ኦዲዮ</string>
+    <string name="cat_audio_subtitle">የድምጽ ውጤቶች እና የመንገድ ዝርዝሮች</string>
+    <string name="cat_graphics_title">ግራፊክስ</string>
+    <string name="cat_graphics_subtitle">ጂፒዩ/ጂኤል ትግበራ ምልክቶች</string>
+    <string name="cat_telephony_title">ስልክ</string>
+    <string name="cat_telephony_subtitle">ድምጸ ተያያዥ ሞደም እና የሬዲዮ ሜታዳታ</string>
+    <string name="cat_motion_title">እንቅስቃሴ እና ዳሳሾች</string>
+    <string name="cat_motion_subtitle">በፍቃድ የተከለከሉ የእንቅስቃሴ ዝርዝሮች</string>
+    <string name="cat_location_title">አካባቢ</string>
+    <string name="cat_location_subtitle">አቀማመጥ እና አቅራቢ ዲበ ውሂብ</string>
+    <string name="cat_cameras_title">ካሜራዎች</string>
+    <string name="cat_cameras_subtitle">የካሜራ ችሎታዎች እና ቆጠራ</string>
+    <string name="cat_bluetooth_title">ብሉቱዝ</string>
+    <string name="cat_bluetooth_subtitle">የብሉቱዝ ሁኔታ እና የተጣመሩ ስታቲስቲክስ</string>
+    <string name="cat_local_network_title">የአካባቢ አውታረ መረብ</string>
+    <string name="cat_local_network_subtitle">የአቅራቢያ አውታረ መረብ አካባቢ</string>
+    <string name="cat_contacts_title">እውቂያዎች</string>
+    <string name="cat_contacts_subtitle">የውሂብ ጎታ ዲበ ውሂብን ብቻ ያግኙ</string>
+    <string name="cat_photos_title">ፎቶዎች</string>
+    <string name="cat_photos_subtitle">የሚዲያ ቤተ-መጽሐፍት ዲበ ውሂብ ብቻ</string>
+    <string name="cat_calendar_title">የቀን መቁጠሪያ</string>
+    <string name="cat_calendar_subtitle">የቀን መቁጠሪያ መለያ ዲበ ውሂብ</string>
+    <string name="cat_reminders_title">አስታዋሾች</string>
+    <string name="cat_reminders_subtitle">ተግባር/አስታዋሽ አቅራቢ ዲበ ውሂብ</string>
+    <string name="cat_music_library_title">የሙዚቃ ቤተ-መጽሐፍት</string>
+    <string name="cat_music_library_subtitle">የድምጽ ሚዲያ ሜታዳታ ብቻ</string>
+    <string name="cat_installed_apps_probe_title">የተጫኑ የመተግበሪያዎች ምርመራ</string>
+    <string name="cat_installed_apps_probe_subtitle">የሐሳብ እቅድ ፍለጋ</string>
+    <string name="cat_webview_fingerprint_title">የድር እይታ የጣት አሻራ</string>
+    <string name="cat_webview_fingerprint_subtitle">አሳሽ የሚመስል የመስጠት መገለጫ</string>
+    <string name="cat_previous_installs_log_title">ቀዳሚ የመጫኛዎች መዝገብ</string>
+    <string name="cat_previous_installs_log_subtitle">የጽናት ፍንጮችን ይጫኑ</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">పరికర గుర్తింపు</string>
+    <string name="cat_device_identity_subtitle">ఐడెంటిఫైయర్‌లు మరియు హార్డ్‌వేర్ లక్షణాలు</string>
+    <string name="cat_google_account_title">Google ఖాతా</string>
+    <string name="cat_google_account_subtitle">ఖాతా ఉనికి సంకేతాలు</string>
+    <string name="cat_system_info_title">సిస్టమ్ సమాచారం</string>
+    <string name="cat_system_info_subtitle">OS మరియు రన్‌టైమ్ వివరాలు</string>
+    <string name="cat_display_title">ప్రదర్శించు</string>
+    <string name="cat_display_subtitle">స్క్రీన్ సామర్థ్యాలు మరియు సాంద్రత</string>
+    <string name="cat_locale_title">లొకేల్ &amp; ప్రాంతం</string>
+    <string name="cat_locale_subtitle">భాష మరియు సమయ మండల పాదముద్ర</string>
+    <string name="cat_accessibility_title">యాక్సెసిబిలిటీ</string>
+    <string name="cat_accessibility_subtitle">సహాయక సెట్టింగ్‌లు మరియు ఫ్లాగ్‌లు</string>
+    <string name="cat_device_motion_title">పరికర చలనం</string>
+    <string name="cat_device_motion_subtitle">సెన్సార్ ఉనికి మరియు స్థితి</string>
+    <string name="cat_battery_title">బ్యాటరీ &amp; పవర్</string>
+    <string name="cat_battery_subtitle">బ్యాటరీ మరియు పవర్ మోడ్ డేటా</string>
+    <string name="cat_storage_title">నిల్వ</string>
+    <string name="cat_storage_subtitle">వాల్యూమ్ మరియు నిల్వ మొత్తాలు</string>
+    <string name="cat_network_title">నెట్‌వర్క్</string>
+    <string name="cat_network_subtitle">కనెక్టివిటీ మరియు VPN స్థితి</string>
+    <string name="cat_fonts_title">ఫాంట్‌లు</string>
+    <string name="cat_fonts_subtitle">ఫాంట్ లభ్యత నమూనా</string>
+    <string name="cat_installed_voices_title">ఇన్‌స్టాల్ చేసిన వాయిస్‌లు</string>
+    <string name="cat_installed_voices_subtitle">స్పీచ్ ఇంజిన్ మరియు వాయిస్ మద్దతు</string>
+    <string name="cat_app_info_title">యాప్ &amp; బండిల్</string>
+    <string name="cat_app_info_subtitle">ప్యాకేజీ బిల్డ్ మెటాడేటా</string>
+    <string name="cat_pasteboard_title">పేస్ట్‌బోర్డ్</string>
+    <string name="cat_pasteboard_subtitle">క్లిప్‌బోర్డ్ మెటాడేటా మాత్రమే</string>
+    <string name="cat_audio_title">ఆడియో</string>
+    <string name="cat_audio_subtitle">ఆడియో అవుట్‌పుట్‌లు మరియు రూట్ వివరాలు</string>
+    <string name="cat_graphics_title">గ్రాఫిక్స్</string>
+    <string name="cat_graphics_subtitle">GPU / GL అమలు సంకేతాలు</string>
+    <string name="cat_telephony_title">టెలిఫోనీ</string>
+    <string name="cat_telephony_subtitle">క్యారియర్ మరియు రేడియో మెటాడేటా</string>
+    <string name="cat_motion_title">మోషన్ &amp; సెన్సార్లు</string>
+    <string name="cat_motion_subtitle">అనుమతి-గేటెడ్ చలన వివరాలు</string>
+    <string name="cat_location_title">స్థానం</string>
+    <string name="cat_location_subtitle">స్థానం మరియు ప్రొవైడర్ మెటాడేటా</string>
+    <string name="cat_cameras_title">కెమెరాలు</string>
+    <string name="cat_cameras_subtitle">కెమెరా సామర్థ్యాలు మరియు గణన</string>
+    <string name="cat_bluetooth_title">బ్లూటూత్</string>
+    <string name="cat_bluetooth_subtitle">బ్లూటూత్ స్థితి మరియు జత చేసిన గణాంకాలు</string>
+    <string name="cat_local_network_title">స్థానిక నెట్‌వర్క్</string>
+    <string name="cat_local_network_subtitle">సమీప నెట్‌వర్క్ పర్యావరణం</string>
+    <string name="cat_contacts_title">పరిచయాలు</string>
+    <string name="cat_contacts_subtitle">సంప్రదింపు డేటాబేస్ మెటాడేటా మాత్రమే</string>
+    <string name="cat_photos_title">ఫోటోలు</string>
+    <string name="cat_photos_subtitle">మీడియా లైబ్రరీ మెటాడేటా మాత్రమే</string>
+    <string name="cat_calendar_title">క్యాలెండర్</string>
+    <string name="cat_calendar_subtitle">క్యాలెండర్ ఖాతా మెటాడేటా</string>
+    <string name="cat_reminders_title">రిమైండర్‌లు</string>
+    <string name="cat_reminders_subtitle">టాస్క్/రిమైండర్ ప్రొవైడర్ మెటాడేటా</string>
+    <string name="cat_music_library_title">సంగీత లైబ్రరీ</string>
+    <string name="cat_music_library_subtitle">ఆడియో మీడియా మెటాడేటా మాత్రమే</string>
+    <string name="cat_installed_apps_probe_title">ఇన్‌స్టాల్ చేసిన యాప్‌ల ప్రోబ్</string>
+    <string name="cat_installed_apps_probe_subtitle">ఇంటెంట్ స్కీమ్ ప్రోబింగ్</string>
+    <string name="cat_webview_fingerprint_title">WebView వేలిముద్ర</string>
+    <string name="cat_webview_fingerprint_subtitle">బ్రౌజర్ లాంటి రెండరింగ్ ప్రొఫైల్</string>
+    <string name="cat_previous_installs_log_title">మునుపటి ఇన్‌స్టాల్‌ల లాగ్</string>
+    <string name="cat_previous_installs_log_subtitle">పట్టుదల సూచనలను ఇన్‌స్టాల్ చేయండి</string>
+
+</resources>

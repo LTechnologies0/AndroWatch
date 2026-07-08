@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Андроид АПИ претраживач отиска прста</string>
+    <string name="back">Назад</string>
+    <string name="refresh">Освежи</string>
+    <string name="export_report">Извештај о извозу</string>
+    <string name="export_chooser_title">Извези АндроВатцх извештај</string>
+    <string name="about_title">Абоут</string>
+    <string name="about_heading">Транспарентност отиска прста уређаја</string>
+    <string name="about_inspired">АндроВатцх је Андроид алтернатива инспирисана Лоупе-ом компаније Миск Ресеарцх. Појављује се шта јавни Андроид АПИ-ји могу открити о вашем уређају.</string>
+    <string name="about_privacy">Сва очитавања остају на вашем уређају. Ништа се не отпрема осим ако експлицитно не извезете ЈСОН извештај.</string>
+    <string name="onboarding_title">Погледајте шта Андроид открива</string>
+    <string name="onboarding_body">АндроВатцх показује шта Андроид АПИ-ји могу открити о вашем уређају — идентификаторе, сензоре, мрежу и још много тога.</string>
+    <string name="onboarding_privacy">Ништа није учитано. Извоз је експлицитан и локални.</string>
+    <string name="onboarding_continue">Настави</string>
+    <string name="permission_required">Потребна је дозвола</string>
+    <string name="permission_rationale">Овој категорији је потребна дозвола за време извођења за читање агрегираних метаподатака. Необрађени ПИИ се никада не приказује.</string>
+    <string name="grant_permission">Дајте дозволу</string>
+    <string name="summary_title">Сажетак отиска прста</string>
+    <string name="summary_empty">Освежите категорије да бисте генерисали резиме.</string>
+    <string name="tier_passive">Пасивно</string>
+    <string name="tier_permissioned">Потребна је дозвола</string>
+    <string name="tier_advanced">Напредно</string>
+    <string name="signal_count">__ПХ_0__ сигнала</string>
+    <string name="live_badge">Уживо</string>
+    <string name="loading">Прикупљање сигнала…</string>
+    <string name="error_collecting">Грешка при прикупљању сигнала.</string>
+    <string name="error_with_reason">__ПХ_0__</string>
+    <string name="retry">Покушајте поново</string>
+    <string name="export_error">Није могуће извести извештај.</string>
+    <string name="export_empty">Још нема шта за извоз. Прво освежите категорије.</string>
+    <string name="no_signals">Још увек нема прикупљених сигнала.</string>
+    <string name="show_rationale">Зашто је ово важно</string>
+    <string name="hide_rationale">Сакриј образложење</string>
+    <string name="raw_value">Необрађена АПИ вредност</string>
+    <string name="value_unknown">непознато</string>
+    <string name="value_unknown_locale">непознато место</string>
+    <string name="value_unknown_device">непознати уређај</string>
+    <string name="value_unknown_battery">непозната батерија</string>
+    <string name="value_unknown_network">непозната мрежа</string>
+    <string name="value_none">ниједан</string>
+    <string name="value_unavailable">недоступан</string>
+    <string name="value_na">н/а</string>
+    <string name="value_true">да</string>
+    <string name="value_false">бр</string>
+
+</resources>

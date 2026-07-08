@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Идентификация устройства</string>
+    <string name="cat_device_identity_subtitle">Идентификаторы и характеристики оборудования</string>
+    <string name="cat_google_account_title">Аккаунт Google</string>
+    <string name="cat_google_account_subtitle">Сигналы присутствия аккаунта</string>
+    <string name="cat_system_info_title">Информация о системе</string>
+    <string name="cat_system_info_subtitle">Подробности об ОС и времени выполнения</string>
+    <string name="cat_display_title">Отображать</string>
+    <string name="cat_display_subtitle">Возможности экрана и плотность</string>
+    <string name="cat_locale_title">Язык и регион</string>
+    <string name="cat_locale_subtitle">Язык и часовой пояс</string>
+    <string name="cat_accessibility_title">Доступность</string>
+    <string name="cat_accessibility_subtitle">Вспомогательные настройки и флаги</string>
+    <string name="cat_device_motion_title">Движение устройства</string>
+    <string name="cat_device_motion_subtitle">Наличие и состояние датчика</string>
+    <string name="cat_battery_title">Аккумулятор и мощность</string>
+    <string name="cat_battery_subtitle">Данные о батарее и режиме питания</string>
+    <string name="cat_storage_title">Хранилище</string>
+    <string name="cat_storage_subtitle">Общие объемы и хранилища</string>
+    <string name="cat_network_title">Сеть</string>
+    <string name="cat_network_subtitle">Статус подключения и VPN</string>
+    <string name="cat_fonts_title">Шрифты</string>
+    <string name="cat_fonts_subtitle">Пример наличия шрифта</string>
+    <string name="cat_installed_voices_title">Установленные голоса</string>
+    <string name="cat_installed_voices_subtitle">Речевой движок и голосовая поддержка</string>
+    <string name="cat_app_info_title">Приложение и пакет</string>
+    <string name="cat_app_info_subtitle">Метаданные сборки пакета</string>
+    <string name="cat_pasteboard_title">Картон</string>
+    <string name="cat_pasteboard_subtitle">Только метаданные буфера обмена</string>
+    <string name="cat_audio_title">Аудио</string>
+    <string name="cat_audio_subtitle">Аудиовыходы и сведения о маршруте</string>
+    <string name="cat_graphics_title">Графика</string>
+    <string name="cat_graphics_subtitle">Сигналы реализации GPU/GL</string>
+    <string name="cat_telephony_title">Телефония</string>
+    <string name="cat_telephony_subtitle">Метаданные оператора связи и радио</string>
+    <string name="cat_motion_title">Движение и датчики</string>
+    <string name="cat_motion_subtitle">Детали движения с разрешением</string>
+    <string name="cat_location_title">Расположение</string>
+    <string name="cat_location_subtitle">Метаданные позиции и поставщика</string>
+    <string name="cat_cameras_title">Камеры</string>
+    <string name="cat_cameras_subtitle">Возможности камеры и их количество</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Статус Bluetooth и статистика сопряжения</string>
+    <string name="cat_local_network_title">Локальная сеть</string>
+    <string name="cat_local_network_subtitle">Ближайшая сетевая среда</string>
+    <string name="cat_contacts_title">Контакты</string>
+    <string name="cat_contacts_subtitle">Только метаданные базы данных контактов</string>
+    <string name="cat_photos_title">Фотографии</string>
+    <string name="cat_photos_subtitle">Только метаданные медиабиблиотеки</string>
+    <string name="cat_calendar_title">Календарь</string>
+    <string name="cat_calendar_subtitle">Метаданные учетной записи календаря</string>
+    <string name="cat_reminders_title">Напоминания</string>
+    <string name="cat_reminders_subtitle">Метаданные поставщика задач/напоминаний</string>
+    <string name="cat_music_library_title">Музыкальная библиотека</string>
+    <string name="cat_music_library_subtitle">Только метаданные аудиомедиа</string>
+    <string name="cat_installed_apps_probe_title">Проверка установленных приложений</string>
+    <string name="cat_installed_apps_probe_subtitle">Исследование схемы намерений</string>
+    <string name="cat_webview_fingerprint_title">Отпечаток пальца веб-представления</string>
+    <string name="cat_webview_fingerprint_subtitle">Браузерный профиль рендеринга</string>
+    <string name="cat_previous_installs_log_title">Предыдущий журнал установок</string>
+    <string name="cat_previous_installs_log_subtitle">Установите подсказки по сохранению</string>
+
+</resources>

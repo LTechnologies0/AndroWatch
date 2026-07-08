@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Identitas Perangkat</string>
+    <string name="cat_device_identity_subtitle">Pengidentifikasi dan ciri-ciri perangkat keras</string>
+    <string name="cat_google_account_title">Akun Google</string>
+    <string name="cat_google_account_subtitle">Sinyal kehadiran akun</string>
+    <string name="cat_system_info_title">Informasi Sistem</string>
+    <string name="cat_system_info_subtitle">Detail OS dan waktu proses</string>
+    <string name="cat_display_title">Menampilkan</string>
+    <string name="cat_display_subtitle">Kemampuan dan kepadatan layar</string>
+    <string name="cat_locale_title">Lokal &amp; Wilayah</string>
+    <string name="cat_locale_subtitle">Jejak bahasa dan zona waktu</string>
+    <string name="cat_accessibility_title">Aksesibilitas</string>
+    <string name="cat_accessibility_subtitle">Pengaturan dan bendera bantu</string>
+    <string name="cat_device_motion_title">Gerakan Perangkat</string>
+    <string name="cat_device_motion_subtitle">Kehadiran dan status sensor</string>
+    <string name="cat_battery_title">Baterai &amp; Daya</string>
+    <string name="cat_battery_subtitle">Data baterai dan mode daya</string>
+    <string name="cat_storage_title">Penyimpanan</string>
+    <string name="cat_storage_subtitle">Volume dan total penyimpanan</string>
+    <string name="cat_network_title">Jaringan</string>
+    <string name="cat_network_subtitle">Konektivitas dan status VPN</string>
+    <string name="cat_fonts_title">font</string>
+    <string name="cat_fonts_subtitle">Contoh ketersediaan font</string>
+    <string name="cat_installed_voices_title">Suara Terpasang</string>
+    <string name="cat_installed_voices_subtitle">Mesin ucapan dan dukungan suara</string>
+    <string name="cat_app_info_title">Aplikasi &amp; Paket</string>
+    <string name="cat_app_info_subtitle">Metadata pembuatan paket</string>
+    <string name="cat_pasteboard_title">Karton</string>
+    <string name="cat_pasteboard_subtitle">Hanya metadata papan klip</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Output audio dan detail rute</string>
+    <string name="cat_graphics_title">Grafik</string>
+    <string name="cat_graphics_subtitle">Sinyal implementasi GPU/GL</string>
+    <string name="cat_telephony_title">Telepon</string>
+    <string name="cat_telephony_subtitle">Metadata operator dan radio</string>
+    <string name="cat_motion_title">Gerak &amp; Sensor</string>
+    <string name="cat_motion_subtitle">Detail gerakan dengan izin</string>
+    <string name="cat_location_title">Lokasi</string>
+    <string name="cat_location_subtitle">Metadata posisi dan penyedia</string>
+    <string name="cat_cameras_title">Kamera</string>
+    <string name="cat_cameras_subtitle">Kemampuan kamera dan hitungannya</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Status Bluetooth dan statistik berpasangan</string>
+    <string name="cat_local_network_title">Jaringan Lokal</string>
+    <string name="cat_local_network_subtitle">Lingkungan jaringan terdekat</string>
+    <string name="cat_contacts_title">Kontak</string>
+    <string name="cat_contacts_subtitle">Hanya metadata database kontak</string>
+    <string name="cat_photos_title">Foto</string>
+    <string name="cat_photos_subtitle">Hanya metadata perpustakaan media</string>
+    <string name="cat_calendar_title">Kalender</string>
+    <string name="cat_calendar_subtitle">Metadata akun kalender</string>
+    <string name="cat_reminders_title">Pengingat</string>
+    <string name="cat_reminders_subtitle">Metadata penyedia tugas/pengingat</string>
+    <string name="cat_music_library_title">Perpustakaan Musik</string>
+    <string name="cat_music_library_subtitle">Hanya metadata media audio</string>
+    <string name="cat_installed_apps_probe_title">Pemeriksaan Aplikasi Terinstal</string>
+    <string name="cat_installed_apps_probe_subtitle">Penyelidikan skema maksud</string>
+    <string name="cat_webview_fingerprint_title">Sidik Jari Tampilan Web</string>
+    <string name="cat_webview_fingerprint_subtitle">Profil rendering seperti browser</string>
+    <string name="cat_previous_installs_log_title">Log Pemasangan Sebelumnya</string>
+    <string name="cat_previous_installs_log_subtitle">Instal petunjuk ketekunan</string>
+
+</resources>

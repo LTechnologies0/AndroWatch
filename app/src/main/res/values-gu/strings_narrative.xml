@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">આ ઉપકરણ હાલમાં લોકેલ %1$s ની જાણ કરે છે.</string>
+    <string name="summary_line_model">હાર્ડવેર મોડેલ %1$s તરીકે દેખાય છે.</string>
+    <string name="summary_line_android_id">આ એપ્લિકેશન માટે ANDROID_ID %1$s છે.</string>
+    <string name="summary_line_battery">બેટરી સ્નેપશોટ %1$s સૂચવે છે.</string>
+    <string name="summary_line_network">સક્રિય નેટવર્ક પરિવહન: %1$s.</string>
+    <string name="summary_line_authenticators">એકાઉન્ટ ઓથેન્ટિકેટર્સ દૃશ્યમાન છે: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch આ રીડિંગ્સને ઉપકરણ પર રાખે છે સિવાય કે તમે તેને નિકાસ કરો.</string>
+
+</resources>

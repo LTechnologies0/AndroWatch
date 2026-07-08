@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Identità del dispositivo</string>
+    <string name="cat_device_identity_subtitle">Identificatori e caratteristiche hardware</string>
+    <string name="cat_google_account_title">Account Google</string>
+    <string name="cat_google_account_subtitle">Segnali di presenza del conto</string>
+    <string name="cat_system_info_title">Informazioni sul sistema</string>
+    <string name="cat_system_info_subtitle">Dettagli del sistema operativo e del runtime</string>
+    <string name="cat_display_title">Display</string>
+    <string name="cat_display_subtitle">Capacità e densità dello schermo</string>
+    <string name="cat_locale_title">Località e regione</string>
+    <string name="cat_locale_subtitle">Impronta della lingua e del fuso orario</string>
+    <string name="cat_accessibility_title">Accessibilità</string>
+    <string name="cat_accessibility_subtitle">Impostazioni e flag di assistenza</string>
+    <string name="cat_device_motion_title">Movimento del dispositivo</string>
+    <string name="cat_device_motion_subtitle">Presenza e stato del sensore</string>
+    <string name="cat_battery_title">Batteria e alimentazione</string>
+    <string name="cat_battery_subtitle">Dati sulla batteria e sulla modalità di alimentazione</string>
+    <string name="cat_storage_title">Magazzinaggio</string>
+    <string name="cat_storage_subtitle">Totali di volume e spazio di archiviazione</string>
+    <string name="cat_network_title">Rete</string>
+    <string name="cat_network_subtitle">Connettività e stato VPN</string>
+    <string name="cat_fonts_title">Caratteri</string>
+    <string name="cat_fonts_subtitle">Esempio di disponibilità dei caratteri</string>
+    <string name="cat_installed_voices_title">Voci installate</string>
+    <string name="cat_installed_voices_subtitle">Motore vocale e supporto vocale</string>
+    <string name="cat_app_info_title">App e pacchetto</string>
+    <string name="cat_app_info_subtitle">Metadati di compilazione del pacchetto</string>
+    <string name="cat_pasteboard_title">Cartone</string>
+    <string name="cat_pasteboard_subtitle">Solo metadati degli appunti</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Uscite audio e dettagli del percorso</string>
+    <string name="cat_graphics_title">Grafica</string>
+    <string name="cat_graphics_subtitle">Segnali di implementazione GPU/GL</string>
+    <string name="cat_telephony_title">Telefonia</string>
+    <string name="cat_telephony_subtitle">Metadati della portante e della radio</string>
+    <string name="cat_motion_title">Movimento e sensori</string>
+    <string name="cat_motion_subtitle">Dettagli del movimento soggetti ad autorizzazione</string>
+    <string name="cat_location_title">Posizione</string>
+    <string name="cat_location_subtitle">Posizione e metadati del fornitore</string>
+    <string name="cat_cameras_title">Fotocamere</string>
+    <string name="cat_cameras_subtitle">Funzionalità e conteggio della fotocamera</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Stato Bluetooth e statistiche accoppiate</string>
+    <string name="cat_local_network_title">Rete locale</string>
+    <string name="cat_local_network_subtitle">Ambiente di rete nelle vicinanze</string>
+    <string name="cat_contacts_title">Contatti</string>
+    <string name="cat_contacts_subtitle">Contatta solo i metadati del database</string>
+    <string name="cat_photos_title">Foto</string>
+    <string name="cat_photos_subtitle">Solo metadati del catalogo multimediale</string>
+    <string name="cat_calendar_title">Calendario</string>
+    <string name="cat_calendar_subtitle">Metadati dell\'account del calendario</string>
+    <string name="cat_reminders_title">Promemoria</string>
+    <string name="cat_reminders_subtitle">Metadati del provider di attività/promemoria</string>
+    <string name="cat_music_library_title">Biblioteca musicale</string>
+    <string name="cat_music_library_subtitle">Solo metadati multimediali audio</string>
+    <string name="cat_installed_apps_probe_title">Sonda delle app installate</string>
+    <string name="cat_installed_apps_probe_subtitle">Sondaggio dello schema di intenti</string>
+    <string name="cat_webview_fingerprint_title">Impronta digitale WebView</string>
+    <string name="cat_webview_fingerprint_subtitle">Profilo di rendering simile a un browser</string>
+    <string name="cat_previous_installs_log_title">Registro delle installazioni precedenti</string>
+    <string name="cat_previous_installs_log_subtitle">Installa suggerimenti di persistenza</string>
+
+</resources>

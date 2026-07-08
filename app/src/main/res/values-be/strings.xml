@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Правадыр адбіткаў пальцаў Android API</string>
+    <string name="back">Назад</string>
+    <string name="refresh">Абнавіць</string>
+    <string name="export_report">Справаздача аб экспарце</string>
+    <string name="export_chooser_title">Экспарт справаздачы AndroWatch</string>
+    <string name="about_title">Аб</string>
+    <string name="about_heading">Празрыстасць адбіткаў пальцаў прылады</string>
+    <string name="about_inspired">AndroWatch - гэта альтэрнатыва Android, натхнёная Loupe ад Mysk Research. Ён паказвае, што публічныя API Android могуць раскрыць пра вашу прыладу.</string>
+    <string name="about_privacy">Усе паказанні застаюцца на вашым прыладзе. Нічога не загружаецца, калі вы відавочна не экспартуеце справаздачу JSON.</string>
+    <string name="onboarding_title">Паглядзіце, што паказвае Android</string>
+    <string name="onboarding_body">AndroWatch паказвае, што Android API можа раскрыць пра вашу прыладу — ідэнтыфікатары, датчыкі, сетка і многае іншае.</string>
+    <string name="onboarding_privacy">Нічога не загружана. Экспарт відавочны і мясцовы.</string>
+    <string name="onboarding_continue">Працягнуць</string>
+    <string name="permission_required">Патрабуецца дазвол</string>
+    <string name="permission_rationale">Гэтай катэгорыі патрэбны дазвол падчас выканання для чытання агрэгаваных метаданых. Неапрацаваная ідэнтыфікацыйная інфармацыя ніколі не адлюстроўваецца.</string>
+    <string name="grant_permission">Даць дазвол</string>
+    <string name="summary_title">Зводка адбіткаў пальцаў</string>
+    <string name="summary_empty">Абнавіце катэгорыі, каб стварыць зводку.</string>
+    <string name="tier_passive">Пасіўны</string>
+    <string name="tier_permissioned">Патрабуецца дазвол</string>
+    <string name="tier_advanced">Пашыраны</string>
+    <string name="signal_count">%1$d сігналаў</string>
+    <string name="live_badge">жыць</string>
+    <string name="loading">Збор сігналаў…</string>
+    <string name="error_collecting">Памылка падчас збору сігналаў.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Паўтарыць</string>
+    <string name="export_error">Не атрымалася экспартаваць справаздачу.</string>
+    <string name="export_empty">Экспартаваць пакуль няма чаго. Спачатку абнавіце катэгорыі.</string>
+    <string name="no_signals">Ніякіх сігналаў пакуль не атрымана.</string>
+    <string name="show_rationale">Чаму гэта важна</string>
+    <string name="hide_rationale">Схаваць абгрунтаванне</string>
+    <string name="raw_value">Неапрацаванае значэнне API</string>
+    <string name="value_unknown">невядома</string>
+    <string name="value_unknown_locale">невядомая мясцовасць</string>
+    <string name="value_unknown_device">невядомая прылада</string>
+    <string name="value_unknown_battery">невядомая батарэя</string>
+    <string name="value_unknown_network">невядомая сетка</string>
+    <string name="value_none">ні адзін</string>
+    <string name="value_unavailable">недаступны</string>
+    <string name="value_na">н/д</string>
+    <string name="value_true">так</string>
+    <string name="value_false">няма</string>
+
+</resources>

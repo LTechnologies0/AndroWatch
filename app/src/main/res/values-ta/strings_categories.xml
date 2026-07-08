@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">சாதன அடையாளம்</string>
+    <string name="cat_device_identity_subtitle">அடையாளங்காட்டிகள் மற்றும் வன்பொருள் பண்புகள்</string>
+    <string name="cat_google_account_title">Google கணக்கு</string>
+    <string name="cat_google_account_subtitle">கணக்கு இருப்பு சமிக்ஞைகள்</string>
+    <string name="cat_system_info_title">கணினி தகவல்</string>
+    <string name="cat_system_info_subtitle">OS மற்றும் இயக்க நேர விவரங்கள்</string>
+    <string name="cat_display_title">காட்சி</string>
+    <string name="cat_display_subtitle">திரை திறன்கள் மற்றும் அடர்த்தி</string>
+    <string name="cat_locale_title">உள்ளூர் &amp; பிராந்தியம்</string>
+    <string name="cat_locale_subtitle">மொழி மற்றும் நேர மண்டல தடம்</string>
+    <string name="cat_accessibility_title">அணுகல்</string>
+    <string name="cat_accessibility_subtitle">உதவி அமைப்புகள் மற்றும் கொடிகள்</string>
+    <string name="cat_device_motion_title">சாதன இயக்கம்</string>
+    <string name="cat_device_motion_subtitle">சென்சார் இருப்பு மற்றும் நிலை</string>
+    <string name="cat_battery_title">பேட்டரி &amp; பவர்</string>
+    <string name="cat_battery_subtitle">பேட்டரி மற்றும் பவர் பயன்முறை தரவு</string>
+    <string name="cat_storage_title">சேமிப்பு</string>
+    <string name="cat_storage_subtitle">மொத்த அளவு மற்றும் சேமிப்பகம்</string>
+    <string name="cat_network_title">நெட்வொர்க்</string>
+    <string name="cat_network_subtitle">இணைப்பு மற்றும் VPN நிலை</string>
+    <string name="cat_fonts_title">எழுத்துருக்கள்</string>
+    <string name="cat_fonts_subtitle">எழுத்துரு கிடைக்கும் மாதிரி</string>
+    <string name="cat_installed_voices_title">நிறுவப்பட்ட குரல்கள்</string>
+    <string name="cat_installed_voices_subtitle">பேச்சு இயந்திரம் மற்றும் குரல் ஆதரவு</string>
+    <string name="cat_app_info_title">பயன்பாடு &amp; தொகுப்பு</string>
+    <string name="cat_app_info_subtitle">தொகுப்பு உருவாக்க மெட்டாடேட்டா</string>
+    <string name="cat_pasteboard_title">பேஸ்ட்போர்டு</string>
+    <string name="cat_pasteboard_subtitle">கிளிப்போர்டு மெட்டாடேட்டா மட்டும்</string>
+    <string name="cat_audio_title">ஆடியோ</string>
+    <string name="cat_audio_subtitle">ஆடியோ வெளியீடுகள் மற்றும் வழி விவரங்கள்</string>
+    <string name="cat_graphics_title">கிராபிக்ஸ்</string>
+    <string name="cat_graphics_subtitle">GPU / GL செயல்படுத்தல் சமிக்ஞைகள்</string>
+    <string name="cat_telephony_title">டெலிபோனி</string>
+    <string name="cat_telephony_subtitle">கேரியர் மற்றும் ரேடியோ மெட்டாடேட்டா</string>
+    <string name="cat_motion_title">இயக்கம் &amp; சென்சார்கள்</string>
+    <string name="cat_motion_subtitle">அனுமதி பெற்ற இயக்க விவரங்கள்</string>
+    <string name="cat_location_title">இடம்</string>
+    <string name="cat_location_subtitle">நிலை மற்றும் வழங்குநர் மெட்டாடேட்டா</string>
+    <string name="cat_cameras_title">கேமராக்கள்</string>
+    <string name="cat_cameras_subtitle">கேமரா திறன்கள் மற்றும் எண்ணிக்கை</string>
+    <string name="cat_bluetooth_title">புளூடூத்</string>
+    <string name="cat_bluetooth_subtitle">புளூடூத் நிலை மற்றும் இணைக்கப்பட்ட புள்ளிவிவரங்கள்</string>
+    <string name="cat_local_network_title">உள்ளூர் நெட்வொர்க்</string>
+    <string name="cat_local_network_subtitle">அருகிலுள்ள நெட்வொர்க் சூழல்</string>
+    <string name="cat_contacts_title">தொடர்புகள்</string>
+    <string name="cat_contacts_subtitle">தொடர்பு தரவுத்தள மெட்டாடேட்டா மட்டும்</string>
+    <string name="cat_photos_title">புகைப்படங்கள்</string>
+    <string name="cat_photos_subtitle">மீடியா லைப்ரரி மெட்டாடேட்டா மட்டும்</string>
+    <string name="cat_calendar_title">நாட்காட்டி</string>
+    <string name="cat_calendar_subtitle">காலெண்டர் கணக்கு மெட்டாடேட்டா</string>
+    <string name="cat_reminders_title">நினைவூட்டல்கள்</string>
+    <string name="cat_reminders_subtitle">பணி/நினைவூட்டல் வழங்குநர் மெட்டாடேட்டா</string>
+    <string name="cat_music_library_title">இசை நூலகம்</string>
+    <string name="cat_music_library_subtitle">ஆடியோ மீடியா மெட்டாடேட்டா மட்டும்</string>
+    <string name="cat_installed_apps_probe_title">நிறுவப்பட்ட ஆப்ஸ் ஆய்வு</string>
+    <string name="cat_installed_apps_probe_subtitle">உள்நோக்கம் திட்டம் ஆய்வு</string>
+    <string name="cat_webview_fingerprint_title">WebView கைரேகை</string>
+    <string name="cat_webview_fingerprint_subtitle">உலாவி போன்ற ரெண்டரிங் சுயவிவரம்</string>
+    <string name="cat_previous_installs_log_title">முந்தைய நிறுவல் பதிவு</string>
+    <string name="cat_previous_installs_log_subtitle">நிலைத்தன்மை குறிப்புகளை நிறுவவும்</string>
+
+</resources>

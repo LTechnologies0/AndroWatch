@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Explorador de huellas dactilares API de Android</string>
+    <string name="back">Atrás</string>
+    <string name="refresh">Refrescar</string>
+    <string name="export_report">Informe de exportación</string>
+    <string name="export_chooser_title">Exportar informe de AndroWatch</string>
+    <string name="about_title">Acerca de</string>
+    <string name="about_heading">Transparencia de huellas dactilares del dispositivo</string>
+    <string name="about_inspired">AndroWatch es una alternativa de Android inspirada en Loupe de Mysk Research. Muestra lo que las API públicas de Android pueden revelar sobre su dispositivo.</string>
+    <string name="about_privacy">Todas las lecturas permanecen en su dispositivo. No se carga nada a menos que exportes explícitamente un informe JSON.</string>
+    <string name="onboarding_title">Mira lo que revela Android</string>
+    <string name="onboarding_body">AndroWatch muestra lo que las API de Android pueden revelar sobre su dispositivo: identificadores, sensores, red y más.</string>
+    <string name="onboarding_privacy">No se carga nada. Las exportaciones son explícitas y locales.</string>
+    <string name="onboarding_continue">Continuar</string>
+    <string name="permission_required">Permiso requerido</string>
+    <string name="permission_rationale">Esta categoría necesita permiso de tiempo de ejecución para leer metadatos agregados. La PII sin procesar nunca se muestra.</string>
+    <string name="grant_permission">Conceder permiso</string>
+    <string name="summary_title">Resumen de huellas dactilares</string>
+    <string name="summary_empty">Actualizar categorías para generar un resumen.</string>
+    <string name="tier_passive">Pasivo</string>
+    <string name="tier_permissioned">Necesita permiso</string>
+    <string name="tier_advanced">Avanzado</string>
+    <string name="signal_count">%1$d señales</string>
+    <string name="live_badge">Vivir</string>
+    <string name="loading">Recogiendo señales...</string>
+    <string name="error_collecting">Error al recopilar señales.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Rever</string>
+    <string name="export_error">No se pudo exportar el informe.</string>
+    <string name="export_empty">Nada que exportar todavía. Actualizar las categorías primero.</string>
+    <string name="no_signals">Aún no se han recopilado señales.</string>
+    <string name="show_rationale">Por qué esto importa</string>
+    <string name="hide_rationale">Ocultar justificación</string>
+    <string name="raw_value">Valor API sin procesar</string>
+    <string name="value_unknown">desconocido</string>
+    <string name="value_unknown_locale">lugar desconocido</string>
+    <string name="value_unknown_device">dispositivo desconocido</string>
+    <string name="value_unknown_battery">bateria desconocida</string>
+    <string name="value_unknown_network">red desconocida</string>
+    <string name="value_none">ninguno</string>
+    <string name="value_unavailable">indisponible</string>
+    <string name="value_na">n / A</string>
+    <string name="value_true">Sí</string>
+    <string name="value_false">No</string>
+
+</resources>

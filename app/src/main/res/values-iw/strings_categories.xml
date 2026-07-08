@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">זהות מכשיר</string>
+    <string name="cat_device_identity_subtitle">מזהים ותכונות חומרה</string>
+    <string name="cat_google_account_title">חשבון Google</string>
+    <string name="cat_google_account_subtitle">אותות נוכחות בחשבון</string>
+    <string name="cat_system_info_title">מידע מערכת</string>
+    <string name="cat_system_info_subtitle">פרטי מערכת הפעלה וזמן ריצה</string>
+    <string name="cat_display_title">לְהַצִיג</string>
+    <string name="cat_display_subtitle">יכולות מסך וצפיפות</string>
+    <string name="cat_locale_title">מיקום ואזור</string>
+    <string name="cat_locale_subtitle">טביעת רגל של שפה ואזור זמן</string>
+    <string name="cat_accessibility_title">נְגִישׁוּת</string>
+    <string name="cat_accessibility_subtitle">הגדרות מסייעות ודגלים</string>
+    <string name="cat_device_motion_title">תנועת מכשיר</string>
+    <string name="cat_device_motion_subtitle">נוכחות ומצב חיישן</string>
+    <string name="cat_battery_title">סוללה וכוח</string>
+    <string name="cat_battery_subtitle">נתוני מצב סוללה וכוח</string>
+    <string name="cat_storage_title">אִחסוּן</string>
+    <string name="cat_storage_subtitle">סכומי נפח ואחסון</string>
+    <string name="cat_network_title">רֶשֶׁת</string>
+    <string name="cat_network_subtitle">קישוריות וסטטוס VPN</string>
+    <string name="cat_fonts_title">גופנים</string>
+    <string name="cat_fonts_subtitle">דוגמה של זמינות גופנים</string>
+    <string name="cat_installed_voices_title">קולות מותקנים</string>
+    <string name="cat_installed_voices_subtitle">מנוע דיבור ותמיכה קולית</string>
+    <string name="cat_app_info_title">אפליקציה וחבילה</string>
+    <string name="cat_app_info_subtitle">מטא נתונים של בניית חבילה</string>
+    <string name="cat_pasteboard_title">קַרטוֹן</string>
+    <string name="cat_pasteboard_subtitle">מטא נתונים של הלוח בלבד</string>
+    <string name="cat_audio_title">שֶׁמַע</string>
+    <string name="cat_audio_subtitle">יציאות שמע ופרטי מסלול</string>
+    <string name="cat_graphics_title">גרָפִיקָה</string>
+    <string name="cat_graphics_subtitle">אותות יישום GPU / GL</string>
+    <string name="cat_telephony_title">טלפוניה</string>
+    <string name="cat_telephony_subtitle">מטא נתונים של ספק ורדיו</string>
+    <string name="cat_motion_title">תנועה וחיישנים</string>
+    <string name="cat_motion_subtitle">פרטי תנועה עם הרשאה</string>
+    <string name="cat_location_title">מִקוּם</string>
+    <string name="cat_location_subtitle">מטא נתונים של מיקום וספק</string>
+    <string name="cat_cameras_title">מצלמות</string>
+    <string name="cat_cameras_subtitle">יכולות וספירה של המצלמה</string>
+    <string name="cat_bluetooth_title">בלוטות\'</string>
+    <string name="cat_bluetooth_subtitle">סטטוס בלוטות\' וסטטיסטיקה מזווגת</string>
+    <string name="cat_local_network_title">רשת מקומית</string>
+    <string name="cat_local_network_subtitle">סביבת רשת קרובה</string>
+    <string name="cat_contacts_title">אנשי קשר</string>
+    <string name="cat_contacts_subtitle">מטא נתונים של מסד נתונים בלבד</string>
+    <string name="cat_photos_title">תמונות</string>
+    <string name="cat_photos_subtitle">מטא נתונים של ספריית מדיה בלבד</string>
+    <string name="cat_calendar_title">לוּחַ שָׁנָה</string>
+    <string name="cat_calendar_subtitle">מטא נתונים של חשבון יומן</string>
+    <string name="cat_reminders_title">תזכורות</string>
+    <string name="cat_reminders_subtitle">מטא נתונים של ספק משימות/תזכורות</string>
+    <string name="cat_music_library_title">ספריית מוזיקה</string>
+    <string name="cat_music_library_subtitle">מטא נתונים של מדיה אודיו בלבד</string>
+    <string name="cat_installed_apps_probe_title">מותקן Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">גישוש בסכימת כוונות</string>
+    <string name="cat_webview_fingerprint_title">WebView טביעת אצבע</string>
+    <string name="cat_webview_fingerprint_subtitle">פרופיל עיבוד דמוי דפדפן</string>
+    <string name="cat_previous_installs_log_title">יומן התקנות קודמות</string>
+    <string name="cat_previous_installs_log_subtitle">התקן רמזים להתמדה</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">این دستگاه در حال حاضر محلی %1$s را گزارش می کند.</string>
+    <string name="summary_line_model">مدل سخت افزاری به صورت %1$s ظاهر می شود.</string>
+    <string name="summary_line_android_id">ANDROID_ID برای این برنامه %1$s است.</string>
+    <string name="summary_line_battery">عکس فوری باتری %1$s را نشان می دهد.</string>
+    <string name="summary_line_network">حمل و نقل شبکه فعال: %1$s.</string>
+    <string name="summary_line_authenticators">احراز هویت حساب قابل مشاهده است: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch این خوانش ها را روی دستگاه نگه می دارد مگر اینکه آنها را صادر کنید.</string>
+
+</resources>

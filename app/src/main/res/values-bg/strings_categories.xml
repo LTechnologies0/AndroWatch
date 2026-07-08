@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Идентификация на устройството</string>
+    <string name="cat_device_identity_subtitle">Идентификатори и характеристики на хардуера</string>
+    <string name="cat_google_account_title">Google акаунт</string>
+    <string name="cat_google_account_subtitle">Сигнали за присъствие на акаунт</string>
+    <string name="cat_system_info_title">Информация за системата</string>
+    <string name="cat_system_info_subtitle">Подробности за операционната система и времето на изпълнение</string>
+    <string name="cat_display_title">Дисплей</string>
+    <string name="cat_display_subtitle">Възможности на екрана и плътност</string>
+    <string name="cat_locale_title">Локал и регион</string>
+    <string name="cat_locale_subtitle">Отпечатък на език и часова зона</string>
+    <string name="cat_accessibility_title">Достъпност</string>
+    <string name="cat_accessibility_subtitle">Помощни настройки и флагове</string>
+    <string name="cat_device_motion_title">Движение на устройството</string>
+    <string name="cat_device_motion_subtitle">Наличие и състояние на сензора</string>
+    <string name="cat_battery_title">Батерия и захранване</string>
+    <string name="cat_battery_subtitle">Данни за батерията и режима на захранване</string>
+    <string name="cat_storage_title">Съхранение</string>
+    <string name="cat_storage_subtitle">Общи обеми и съхранение</string>
+    <string name="cat_network_title">мрежа</string>
+    <string name="cat_network_subtitle">Състояние на свързаност и VPN</string>
+    <string name="cat_fonts_title">Шрифтове</string>
+    <string name="cat_fonts_subtitle">Пример за наличност на шрифт</string>
+    <string name="cat_installed_voices_title">Инсталирани гласове</string>
+    <string name="cat_installed_voices_subtitle">Речев двигател и гласова поддръжка</string>
+    <string name="cat_app_info_title">Приложение и пакет</string>
+    <string name="cat_app_info_subtitle">Метаданни за изграждане на пакет</string>
+    <string name="cat_pasteboard_title">Картон</string>
+    <string name="cat_pasteboard_subtitle">Само метаданни от клипборда</string>
+    <string name="cat_audio_title">аудио</string>
+    <string name="cat_audio_subtitle">Аудио изходи и подробности за маршрута</string>
+    <string name="cat_graphics_title">Графика</string>
+    <string name="cat_graphics_subtitle">Сигнали за внедряване на GPU / GL</string>
+    <string name="cat_telephony_title">Телефония</string>
+    <string name="cat_telephony_subtitle">Метаданни за оператор и радио</string>
+    <string name="cat_motion_title">Движение и сензори</string>
+    <string name="cat_motion_subtitle">Подробности за движение с ограничено разрешение</string>
+    <string name="cat_location_title">Местоположение</string>
+    <string name="cat_location_subtitle">Метаданни за позиция и доставчик</string>
+    <string name="cat_cameras_title">Фотоапарати</string>
+    <string name="cat_cameras_subtitle">Възможности и брой на камерата</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth състояние и сдвоени статистики</string>
+    <string name="cat_local_network_title">Локална мрежа</string>
+    <string name="cat_local_network_subtitle">Мрежова среда наблизо</string>
+    <string name="cat_contacts_title">Контакти</string>
+    <string name="cat_contacts_subtitle">Само метаданни на базата данни за контакти</string>
+    <string name="cat_photos_title">Снимки</string>
+    <string name="cat_photos_subtitle">Само метаданни на медийната библиотека</string>
+    <string name="cat_calendar_title">Календар</string>
+    <string name="cat_calendar_subtitle">Метаданни на календарния акаунт</string>
+    <string name="cat_reminders_title">Напомняния</string>
+    <string name="cat_reminders_subtitle">Метаданни на доставчика на задача/напомняне</string>
+    <string name="cat_music_library_title">Музикална библиотека</string>
+    <string name="cat_music_library_subtitle">Само аудиомедийни метаданни</string>
+    <string name="cat_installed_apps_probe_title">Сонда за инсталирани приложения</string>
+    <string name="cat_installed_apps_probe_subtitle">Проучване на схемата на намерението</string>
+    <string name="cat_webview_fingerprint_title">WebView пръстов отпечатък</string>
+    <string name="cat_webview_fingerprint_subtitle">Профил за изобразяване, подобен на браузър</string>
+    <string name="cat_previous_installs_log_title">Дневник на предишни инсталации</string>
+    <string name="cat_previous_installs_log_subtitle">Инсталирайте съвети за устойчивост</string>
+
+</resources>

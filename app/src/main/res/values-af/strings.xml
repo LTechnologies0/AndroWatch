@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API-vingerafdrukverkenner</string>
+    <string name="back">Terug</string>
+    <string name="refresh">Verfris</string>
+    <string name="export_report">Uitvoerverslag</string>
+    <string name="export_chooser_title">Voer AndroWatch-verslag uit</string>
+    <string name="about_title">Oor</string>
+    <string name="about_heading">Deursigtigheid van die toestel se vingerafdruk</string>
+    <string name="about_inspired">AndroWatch is \'n Android-alternatief geïnspireer deur Loupe deur Mysk Research. Dit kom na vore wat publieke Android API\'s oor jou toestel kan openbaar.</string>
+    <string name="about_privacy">Alle lesings bly op jou toestel. Niks word opgelaai tensy jy \'n JSON-verslag uitdruklik uitvoer nie.</string>
+    <string name="onboarding_title">Kyk wat Android openbaar</string>
+    <string name="onboarding_body">AndroWatch wys wat Android API\'s oor jou toestel kan openbaar - identifiseerders, sensors, netwerk en meer.</string>
+    <string name="onboarding_privacy">Niks word opgelaai nie. Uitvoere is eksplisiet en plaaslik.</string>
+    <string name="onboarding_continue">Gaan voort</string>
+    <string name="permission_required">Toestemming vereis</string>
+    <string name="permission_rationale">Hierdie kategorie benodig looptydtoestemming om saamgestelde metadata te lees. Rou PII word nooit vertoon nie.</string>
+    <string name="grant_permission">Gee toestemming</string>
+    <string name="summary_title">Vingerafdruk opsomming</string>
+    <string name="summary_empty">Herlaai kategorieë om \'n opsomming te genereer.</string>
+    <string name="tier_passive">Passief</string>
+    <string name="tier_permissioned">Benodig toestemming</string>
+    <string name="tier_advanced">Gevorderd</string>
+    <string name="signal_count">%1$d seine</string>
+    <string name="live_badge">Leef</string>
+    <string name="loading">Versamel tans seine …</string>
+    <string name="error_collecting">Fout tydens die insameling van seine.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Probeer weer</string>
+    <string name="export_error">Kon nie verslag uitvoer nie.</string>
+    <string name="export_empty">Nog niks om uit te voer nie. Herlaai eers kategorieë.</string>
+    <string name="no_signals">Geen seine is nog ingesamel nie.</string>
+    <string name="show_rationale">Hoekom dit saak maak</string>
+    <string name="hide_rationale">Versteek rasionaal</string>
+    <string name="raw_value">Rou API waarde</string>
+    <string name="value_unknown">onbekend</string>
+    <string name="value_unknown_locale">onbekende plek</string>
+    <string name="value_unknown_device">onbekende toestel</string>
+    <string name="value_unknown_battery">onbekende battery</string>
+    <string name="value_unknown_network">onbekende netwerk</string>
+    <string name="value_none">geen</string>
+    <string name="value_unavailable">nie beskikbaar nie</string>
+    <string name="value_na">nvt</string>
+    <string name="value_true">ja</string>
+    <string name="value_false">nee</string>
+
+</resources>

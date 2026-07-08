@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API-vingerafdrukverkenner</string>
+    <string name="back">Rug</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="export_report">Rapport exporteren</string>
+    <string name="export_chooser_title">AndroWatch-rapport exporteren</string>
+    <string name="about_title">Over</string>
+    <string name="about_heading">Transparantie van vingerafdrukken van apparaat</string>
+    <string name="about_inspired">AndroWatch is een Android-alternatief geïnspireerd op Loupe van Mysk Research. Het laat zien wat openbare Android-API\'s over uw apparaat kunnen onthullen.</string>
+    <string name="about_privacy">Alle metingen blijven op uw apparaat staan. Er wordt niets geüpload tenzij u expliciet een JSON-rapport exporteert.</string>
+    <string name="onboarding_title">Kijk wat Android onthult</string>
+    <string name="onboarding_body">AndroWatch laat zien wat Android API\'s over uw apparaat kunnen onthullen: ID\'s, sensoren, netwerk en meer.</string>
+    <string name="onboarding_privacy">Er wordt niets geüpload. De export is expliciet en lokaal.</string>
+    <string name="onboarding_continue">Doorgaan</string>
+    <string name="permission_required">Toestemming vereist</string>
+    <string name="permission_rationale">Deze categorie heeft runtime-toestemming nodig om de verzamelde metagegevens te lezen. Onbewerkte PII wordt nooit weergegeven.</string>
+    <string name="grant_permission">Geef toestemming</string>
+    <string name="summary_title">Samenvatting van vingerafdrukken</string>
+    <string name="summary_empty">Vernieuw categorieën om een ​​samenvatting te genereren.</string>
+    <string name="tier_passive">Passief</string>
+    <string name="tier_permissioned">Heeft toestemming nodig</string>
+    <string name="tier_advanced">Geavanceerd</string>
+    <string name="signal_count">%1$d signalen</string>
+    <string name="live_badge">Live</string>
+    <string name="loading">Signalen verzamelen…</string>
+    <string name="error_collecting">Fout bij het verzamelen van signalen.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string name="export_error">Kan rapport niet exporteren.</string>
+    <string name="export_empty">Er is nog niets om te exporteren. Vernieuw eerst de categorieën.</string>
+    <string name="no_signals">Nog geen signalen verzameld.</string>
+    <string name="show_rationale">Waarom dit ertoe doet</string>
+    <string name="hide_rationale">Reden verbergen</string>
+    <string name="raw_value">Ruwe API-waarde</string>
+    <string name="value_unknown">onbekend</string>
+    <string name="value_unknown_locale">onbekende locatie</string>
+    <string name="value_unknown_device">onbekend apparaat</string>
+    <string name="value_unknown_battery">onbekende batterij</string>
+    <string name="value_unknown_network">onbekend netwerk</string>
+    <string name="value_none">geen</string>
+    <string name="value_unavailable">niet beschikbaar</string>
+    <string name="value_na">n.v.t</string>
+    <string name="value_true">Ja</string>
+    <string name="value_false">Nee</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Овој уред моментално известува за локација %1$s.</string>
+    <string name="summary_line_model">Хардверскиот модел се појавува како %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID за оваа апликација е %1$s.</string>
+    <string name="summary_line_battery">Сликата од батеријата покажува %1$s.</string>
+    <string name="summary_line_network">Активни мрежни транспорти: %1$s.</string>
+    <string name="summary_line_authenticators">Видливи автентикатори на сметката: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch ги задржува овие читања на уредот освен ако не ги извезете.</string>
+
+</resources>

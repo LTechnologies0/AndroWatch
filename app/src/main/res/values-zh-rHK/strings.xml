@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API 指紋瀏覽器</string>
+    <string name="back">後退</string>
+    <string name="refresh">重新整理</string>
+    <string name="export_report">出口報告</string>
+    <string name="export_chooser_title">匯出 AndroWatch 報告</string>
+    <string name="about_title">關於</string>
+    <string name="about_heading">設備指紋透明度</string>
+    <string name="about_inspired">AndroWatch 是一款 Android 替代品，靈感源自 Mysk Research 的 Loupe。它揭示了公共 Android API 可以揭示您的裝置的哪些資訊。</string>
+    <string name="about_privacy">所有讀數都保留在您的設備上。除非您明確匯出 JSON 報告，否則不會上傳任何內容。</string>
+    <string name="onboarding_title">看看 Android 揭示了什麼</string>
+    <string name="onboarding_body">AndroWatch 展示了 Android API 可以揭示的有關您裝置的資訊 — 識別碼、感測器、網路等。</string>
+    <string name="onboarding_privacy">沒有上傳任何內容。出口是明確的和本地的。</string>
+    <string name="onboarding_continue">繼續</string>
+    <string name="permission_required">需要許可</string>
+    <string name="permission_rationale">此類別需要運行時權限才能讀取聚合元資料。原始 PII 永遠不會顯示。</string>
+    <string name="grant_permission">授予權限</string>
+    <string name="summary_title">指紋總結</string>
+    <string name="summary_empty">刷新類別以產生摘要。</string>
+    <string name="tier_passive">被動的</string>
+    <string name="tier_permissioned">需要許可</string>
+    <string name="tier_advanced">先進的</string>
+    <string name="signal_count">%1$d 訊號</string>
+    <string name="live_badge">居住</string>
+    <string name="loading">收集訊號...</string>
+    <string name="error_collecting">收集訊號時出錯。</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">重試</string>
+    <string name="export_error">無法匯出報告。</string>
+    <string name="export_empty">還沒有什麼可以匯出的。首先刷新類別。</string>
+    <string name="no_signals">尚未收集到任何信號。</string>
+    <string name="show_rationale">為什麼這很重要</string>
+    <string name="hide_rationale">隱藏理由</string>
+    <string name="raw_value">原始 API 值</string>
+    <string name="value_unknown">未知</string>
+    <string name="value_unknown_locale">未知區域設置</string>
+    <string name="value_unknown_device">未知設備</string>
+    <string name="value_unknown_battery">未知電池</string>
+    <string name="value_unknown_network">未知網路</string>
+    <string name="value_none">沒有任何</string>
+    <string name="value_unavailable">不可用</string>
+    <string name="value_na">不適用</string>
+    <string name="value_true">是的</string>
+    <string name="value_false">不</string>
+
+</resources>

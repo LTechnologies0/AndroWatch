@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Identitet uređaja</string>
+    <string name="cat_device_identity_subtitle">Identifikatori i značajke hardvera</string>
+    <string name="cat_google_account_title">Google račun</string>
+    <string name="cat_google_account_subtitle">Signali prisutnosti računa</string>
+    <string name="cat_system_info_title">Informacije o sustavu</string>
+    <string name="cat_system_info_subtitle">Pojedinosti o OS-u i vremenu izvođenja</string>
+    <string name="cat_display_title">Prikaz</string>
+    <string name="cat_display_subtitle">Mogućnosti i gustoća zaslona</string>
+    <string name="cat_locale_title">Lokalitet i regija</string>
+    <string name="cat_locale_subtitle">Otisak jezika i vremenske zone</string>
+    <string name="cat_accessibility_title">Pristupačnost</string>
+    <string name="cat_accessibility_subtitle">Pomoćne postavke i zastavice</string>
+    <string name="cat_device_motion_title">Kretanje uređaja</string>
+    <string name="cat_device_motion_subtitle">Prisutnost i stanje senzora</string>
+    <string name="cat_battery_title">Baterija i napajanje</string>
+    <string name="cat_battery_subtitle">Podaci o bateriji i načinu napajanja</string>
+    <string name="cat_storage_title">Skladištenje</string>
+    <string name="cat_storage_subtitle">Ukupni volumen i pohrana</string>
+    <string name="cat_network_title">Mreža</string>
+    <string name="cat_network_subtitle">Povezivost i status VPN-a</string>
+    <string name="cat_fonts_title">Fontovi</string>
+    <string name="cat_fonts_subtitle">Uzorak dostupnosti fonta</string>
+    <string name="cat_installed_voices_title">Instalirani glasovi</string>
+    <string name="cat_installed_voices_subtitle">Govorni mehanizam i glasovna podrška</string>
+    <string name="cat_app_info_title">Aplikacija i paket</string>
+    <string name="cat_app_info_subtitle">Metapodaci o izradi paketa</string>
+    <string name="cat_pasteboard_title">Kartonski</string>
+    <string name="cat_pasteboard_subtitle">Samo metapodaci međuspremnika</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Audio izlazi i detalji rute</string>
+    <string name="cat_graphics_title">Grafika</string>
+    <string name="cat_graphics_subtitle">GPU / GL implementacijski signali</string>
+    <string name="cat_telephony_title">Telefonija</string>
+    <string name="cat_telephony_subtitle">Metapodaci nositelja i radija</string>
+    <string name="cat_motion_title">Kretanje i senzori</string>
+    <string name="cat_motion_subtitle">Pojedinosti o kretanju s ograničenim dopuštenjem</string>
+    <string name="cat_location_title">Mjesto</string>
+    <string name="cat_location_subtitle">Metapodaci o poziciji i pružatelju usluga</string>
+    <string name="cat_cameras_title">Fotoaparati</string>
+    <string name="cat_cameras_subtitle">Mogućnosti kamere i njihov broj</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Status Bluetootha i uparenih statistika</string>
+    <string name="cat_local_network_title">Lokalna mreža</string>
+    <string name="cat_local_network_subtitle">Mrežno okruženje u blizini</string>
+    <string name="cat_contacts_title">Kontakti</string>
+    <string name="cat_contacts_subtitle">Samo metapodaci baze podataka kontakata</string>
+    <string name="cat_photos_title">Fotografije</string>
+    <string name="cat_photos_subtitle">Samo metapodaci medijske biblioteke</string>
+    <string name="cat_calendar_title">Kalendar</string>
+    <string name="cat_calendar_subtitle">Metapodaci računa kalendara</string>
+    <string name="cat_reminders_title">Podsjetnici</string>
+    <string name="cat_reminders_subtitle">Metapodaci pružatelja zadataka/podsjetnika</string>
+    <string name="cat_music_library_title">Glazbena biblioteka</string>
+    <string name="cat_music_library_subtitle">Samo metapodaci audio medija</string>
+    <string name="cat_installed_apps_probe_title">Proba instaliranih aplikacija</string>
+    <string name="cat_installed_apps_probe_subtitle">Ispitivanje sheme namjere</string>
+    <string name="cat_webview_fingerprint_title">WebView otisak prsta</string>
+    <string name="cat_webview_fingerprint_subtitle">Profil renderiranja nalik pregledniku</string>
+    <string name="cat_previous_installs_log_title">Dnevnik prethodnih instalacija</string>
+    <string name="cat_previous_installs_log_subtitle">Instalirajte savjete za postojanost</string>
+
+</resources>

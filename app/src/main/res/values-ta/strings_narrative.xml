@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">இந்தச் சாதனம் தற்போது %1$s மொழியைப் புகாரளிக்கிறது.</string>
+    <string name="summary_line_model">வன்பொருள் மாதிரி %1$s ஆகத் தோன்றுகிறது.</string>
+    <string name="summary_line_android_id">இந்த பயன்பாட்டிற்கான ANDROID_ID %1$s ஆகும்.</string>
+    <string name="summary_line_battery">பேட்டரி ஸ்னாப்ஷாட் %1$s என்பதைக் குறிக்கிறது.</string>
+    <string name="summary_line_network">செயலில் உள்ள நெட்வொர்க் போக்குவரத்துகள்: %1$s.</string>
+    <string name="summary_line_authenticators">கணக்கு அங்கீகரிப்பாளர்கள் தெரியும்: %1$s.</string>
+    <string name="summary_line_privacy">இந்த அளவீடுகளை நீங்கள் ஏற்றுமதி செய்யாத வரை, AndroWatch சாதனத்தில் வைத்திருக்கும்.</string>
+
+</resources>

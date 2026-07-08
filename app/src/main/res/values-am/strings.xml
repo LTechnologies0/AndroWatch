@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">አንድሮይድ ኤፒአይ የጣት አሻራ አሳሽ</string>
+    <string name="back">ተመለስ</string>
+    <string name="refresh">አድስ</string>
+    <string name="export_report">ሪፖርት ወደ ውጪ ላክ</string>
+    <string name="export_chooser_title">AndroWatch ሪፖርትን ወደ ውጭ ላክ</string>
+    <string name="about_title">ስለ</string>
+    <string name="about_heading">የመሣሪያ አሻራ ግልጽነት</string>
+    <string name="about_inspired">AndroWatch በLoupe በ Mysk ምርምር አነሳሽነት የአንድሮይድ አማራጭ ነው። ይፋዊ የአንድሮይድ ኤፒአይዎች ስለ መሳሪያዎ ምን ሊያሳዩ እንደሚችሉ ያሳያል።</string>
+    <string name="about_privacy">ሁሉም ንባቦች በመሣሪያዎ ላይ ይቆያሉ። የJSON ሪፖርትን ወደ ውጭ ካልላክ በቀር ምንም አልተሰቀለም።</string>
+    <string name="onboarding_title">አንድሮይድ ምን እንደሚያሳይ ይመልከቱ</string>
+    <string name="onboarding_body">AndroWatch የአንድሮይድ ኤፒአይዎች ስለ መሳሪያዎ ምን ሊያሳዩ እንደሚችሉ ያሳያል - መለያዎች፣ ዳሳሾች፣ አውታረ መረብ እና ሌሎችም።</string>
+    <string name="onboarding_privacy">ምንም አልተሰቀለም። ወደ ውጭ የሚላኩ ነገሮች ግልጽ እና አካባቢያዊ ናቸው።</string>
+    <string name="onboarding_continue">ቀጥል</string>
+    <string name="permission_required">ፍቃድ ያስፈልጋል</string>
+    <string name="permission_rationale">ይህ ምድብ የተዋሃደ ዲበ ውሂብ ለማንበብ የአሂድ ጊዜ ፈቃድ ያስፈልገዋል። ጥሬ PII በጭራሽ አይታይም።</string>
+    <string name="grant_permission">ፍቃድ ይስጡ</string>
+    <string name="summary_title">የጣት አሻራ ማጠቃለያ</string>
+    <string name="summary_empty">ማጠቃለያ ለመፍጠር ምድቦችን ያድሱ።</string>
+    <string name="tier_passive">ተገብሮ</string>
+    <string name="tier_permissioned">ፈቃድ ያስፈልገዋል</string>
+    <string name="tier_advanced">የላቀ</string>
+    <string name="signal_count">_PH_0__ ምልክቶች</string>
+    <string name="live_badge">ቀጥታ</string>
+    <string name="loading">ምልክቶችን በመሰብሰብ ላይ…</string>
+    <string name="error_collecting">ምልክቶችን በሚሰበስቡበት ጊዜ ስህተት።</string>
+    <string name="error_with_reason">_PH_0__</string>
+    <string name="retry">እንደገና ይሞክሩ</string>
+    <string name="export_error">ሪፖርት ወደ ውጭ መላክ አልተቻለም።</string>
+    <string name="export_empty">እስካሁን ወደ ውጭ የሚላክ ምንም ነገር የለም። ምድቦችን መጀመሪያ ያድሱ።</string>
+    <string name="no_signals">እስካሁን ምንም ምልክቶች አልተሰበሰቡም።</string>
+    <string name="show_rationale">ይህ ለምን አስፈላጊ ነው</string>
+    <string name="hide_rationale">ምክንያታዊነትን ደብቅ</string>
+    <string name="raw_value">ጥሬ የኤፒአይ እሴት</string>
+    <string name="value_unknown">የማይታወቅ</string>
+    <string name="value_unknown_locale">ያልታወቀ አካባቢ</string>
+    <string name="value_unknown_device">ያልታወቀ መሳሪያ</string>
+    <string name="value_unknown_battery">የማይታወቅ ባትሪ</string>
+    <string name="value_unknown_network">ያልታወቀ አውታረ መረብ</string>
+    <string name="value_none">ምንም</string>
+    <string name="value_unavailable">አይገኝም</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">አዎ</string>
+    <string name="value_false">አይ</string>
+
+</resources>

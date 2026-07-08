@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">បច្ចុប្បន្នឧបករណ៍នេះរាយការណ៍អំពីមូលដ្ឋាន %1$s ។</string>
+    <string name="summary_line_model">គំរូផ្នែករឹងបង្ហាញជា %1$s។</string>
+    <string name="summary_line_android_id">ANDROID_ID សម្រាប់កម្មវិធីនេះគឺ %1$s។</string>
+    <string name="summary_line_battery">រូបថតថ្មបង្ហាញពី %1$s ។</string>
+    <string name="summary_line_network">ការដឹកជញ្ជូនបណ្តាញសកម្ម៖ %1$s ។</string>
+    <string name="summary_line_authenticators">អ្នកផ្ទៀងផ្ទាត់គណនីអាចមើលឃើញ៖ %1$s។</string>
+    <string name="summary_line_privacy">AndroWatch រក្សាការអានទាំងនេះនៅលើឧបករណ៍ លុះត្រាតែអ្នកនាំចេញពួកវា។</string>
+
+</resources>

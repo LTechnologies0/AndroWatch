@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Kichunguzi cha alama za vidole cha Android API</string>
+    <string name="back">Nyuma</string>
+    <string name="refresh">Onyesha upya</string>
+    <string name="export_report">Hamisha ripoti</string>
+    <string name="export_chooser_title">Hamisha ripoti ya AndroWatch</string>
+    <string name="about_title">Kuhusu</string>
+    <string name="about_heading">Uwazi wa alama za vidole kwenye kifaa</string>
+    <string name="about_inspired">AndroWatch ni njia mbadala ya Android iliyochochewa na Loupe na Utafiti wa Mysk. Inaangazia kile ambacho API za Android za umma zinaweza kufichua kuhusu kifaa chako.</string>
+    <string name="about_privacy">Usomaji wote hubaki kwenye kifaa chako. Hakuna kinachopakiwa isipokuwa uhamishe ripoti ya JSON kwa uwazi.</string>
+    <string name="onboarding_title">Tazama kile Android inafichua</string>
+    <string name="onboarding_body">AndroWatch inaonyesha kile ambacho API za Android zinaweza kufichua kuhusu kifaa chako - vitambulisho, vitambuzi, mtandao na zaidi.</string>
+    <string name="onboarding_privacy">Hakuna kinachopakiwa. Uuzaji nje ni wazi na wa ndani.</string>
+    <string name="onboarding_continue">Endelea</string>
+    <string name="permission_required">Ruhusa inahitajika</string>
+    <string name="permission_rationale">Aina hii inahitaji ruhusa ya wakati wa utekelezaji ili kusoma metadata iliyojumlishwa. PII ghafi haionyeshwa kamwe.</string>
+    <string name="grant_permission">Toa ruhusa</string>
+    <string name="summary_title">Muhtasari wa alama za vidole</string>
+    <string name="summary_empty">Onyesha upya kategoria ili kutoa muhtasari.</string>
+    <string name="tier_passive">Ukosefu</string>
+    <string name="tier_permissioned">Inahitaji ruhusa</string>
+    <string name="tier_advanced">Advanced</string>
+    <string name="signal_count">%1$d ishara</string>
+    <string name="live_badge">Ishi</string>
+    <string name="loading">Inakusanya ishara...</string>
+    <string name="error_collecting">Hitilafu wakati wa kukusanya ishara.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Jaribu tena</string>
+    <string name="export_error">Haikuweza kuhamisha ripoti.</string>
+    <string name="export_empty">Bado hakuna cha kusafirisha. Onyesha upya kategoria kwanza.</string>
+    <string name="no_signals">Bado hakuna mawimbi yaliyokusanywa.</string>
+    <string name="show_rationale">Kwa nini hii ni muhimu</string>
+    <string name="hide_rationale">Ficha mantiki</string>
+    <string name="raw_value">Thamani ya API ghafi</string>
+    <string name="value_unknown">haijulikani</string>
+    <string name="value_unknown_locale">eneo lisilojulikana</string>
+    <string name="value_unknown_device">kifaa kisichojulikana</string>
+    <string name="value_unknown_battery">betri isiyojulikana</string>
+    <string name="value_unknown_network">mtandao usiojulikana</string>
+    <string name="value_none">hakuna</string>
+    <string name="value_unavailable">haipatikani</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">ndio</string>
+    <string name="value_false">hapana</string>
+
+</resources>

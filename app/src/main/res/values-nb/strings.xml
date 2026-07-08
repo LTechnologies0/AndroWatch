@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API fingeravtrykksutforsker</string>
+    <string name="back">Tilbake</string>
+    <string name="refresh">Forfriske</string>
+    <string name="export_report">Eksporter rapport</string>
+    <string name="export_chooser_title">Eksporter AndroWatch-rapport</string>
+    <string name="about_title">Om</string>
+    <string name="about_heading">Enhetens fingeravtrykksgjennomsiktighet</string>
+    <string name="about_inspired">AndroWatch er et Android-alternativ inspirert av Loupe av Mysk Research. Den viser hva offentlige Android APIer kan avsløre om enheten din.</string>
+    <string name="about_privacy">Alle målinger forblir på enheten din. Ingenting lastes opp med mindre du eksplisitt eksporterer en JSON-rapport.</string>
+    <string name="onboarding_title">Se hva Android avslører</string>
+    <string name="onboarding_body">AndroWatch viser hva Android APIer kan avsløre om enheten din – identifikatorer, sensorer, nettverk og mer.</string>
+    <string name="onboarding_privacy">Ingenting er lastet opp. Eksporten er eksplisitt og lokal.</string>
+    <string name="onboarding_continue">Fortsette</string>
+    <string name="permission_required">Tillatelse kreves</string>
+    <string name="permission_rationale">Denne kategorien trenger kjøretidstillatelse for å lese aggregerte metadata. Rå PII vises aldri.</string>
+    <string name="grant_permission">Gi tillatelse</string>
+    <string name="summary_title">Fingeravtrykksammendrag</string>
+    <string name="summary_empty">Oppdater kategorier for å generere et sammendrag.</string>
+    <string name="tier_passive">Passiv</string>
+    <string name="tier_permissioned">Trenger tillatelse</string>
+    <string name="tier_advanced">Avansert</string>
+    <string name="signal_count">%1$d signaler</string>
+    <string name="live_badge">Bo</string>
+    <string name="loading">Samler inn signaler...</string>
+    <string name="error_collecting">Feil under innsamling av signaler.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Prøv på nytt</string>
+    <string name="export_error">Kunne ikke eksportere rapporten.</string>
+    <string name="export_empty">Ingenting å eksportere ennå. Oppdater kategoriene først.</string>
+    <string name="no_signals">Ingen signaler samlet ennå.</string>
+    <string name="show_rationale">Hvorfor dette betyr noe</string>
+    <string name="hide_rationale">Skjul begrunnelsen</string>
+    <string name="raw_value">Rå API-verdi</string>
+    <string name="value_unknown">ukjent</string>
+    <string name="value_unknown_locale">ukjent lokalitet</string>
+    <string name="value_unknown_device">ukjent enhet</string>
+    <string name="value_unknown_battery">ukjent batteri</string>
+    <string name="value_unknown_network">ukjent nettverk</string>
+    <string name="value_none">ingen</string>
+    <string name="value_unavailable">utilgjengelig</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">ja</string>
+    <string name="value_false">ingen</string>
+
+</resources>

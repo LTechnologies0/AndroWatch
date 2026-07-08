@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">يُبلغ هذا الجهاز حاليًا عن اللغة %1$s.</string>
+    <string name="summary_line_model">يظهر طراز الجهاز كـ %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID لهذا التطبيق هو %1$s.</string>
+    <string name="summary_line_battery">تشير لقطة البطارية إلى %1$s.</string>
+    <string name="summary_line_network">وسائل نقل الشبكة النشطة: %1$s.</string>
+    <string name="summary_line_authenticators">مصدقو الحساب مرئيون: %1$s.</string>
+    <string name="summary_line_privacy">يحتفظ AndroWatch بهذه القراءات على الجهاز ما لم تقم بتصديرها.</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">ການລະບຸຕົວຕົນຂອງອຸປະກອນ</string>
+    <string name="cat_device_identity_subtitle">ຕົວລະບຸ ແລະລັກສະນະຮາດແວ</string>
+    <string name="cat_google_account_title">ບັນຊີ Google</string>
+    <string name="cat_google_account_subtitle">ສັນຍານການມີບັນຊີ</string>
+    <string name="cat_system_info_title">ຂໍ້ມູນລະບົບ</string>
+    <string name="cat_system_info_subtitle">ລາຍລະອຽດ OS ແລະ runtime</string>
+    <string name="cat_display_title">ຈໍສະແດງຜົນ</string>
+    <string name="cat_display_subtitle">ຄວາມສາມາດຂອງຫນ້າຈໍແລະຄວາມຫນາແຫນ້ນ</string>
+    <string name="cat_locale_title">ສະຖານທີ່ &amp; ພາກພື້ນ</string>
+    <string name="cat_locale_subtitle">ພາສາ ແລະເຂດເວລາ</string>
+    <string name="cat_accessibility_title">ການເຂົ້າເຖິງ</string>
+    <string name="cat_accessibility_subtitle">ການຕັ້ງຄ່າການຊ່ວຍເຫຼືອ ແລະທຸງ</string>
+    <string name="cat_device_motion_title">ການເຄື່ອນໄຫວອຸປະກອນ</string>
+    <string name="cat_device_motion_subtitle">ມີເຊັນເຊີ ແລະສະຖານະ</string>
+    <string name="cat_battery_title">ແບັດເຕີຣີ ແລະພະລັງງານ</string>
+    <string name="cat_battery_subtitle">ຂໍ້ມູນໂໝດແບັດເຕີຣີ ແລະພະລັງງານ</string>
+    <string name="cat_storage_title">ການເກັບຮັກສາ</string>
+    <string name="cat_storage_subtitle">ປະລິມານແລະການເກັບຮັກສາທັງຫມົດ</string>
+    <string name="cat_network_title">ເຄືອຂ່າຍ</string>
+    <string name="cat_network_subtitle">ການເຊື່ອມຕໍ່ ແລະສະຖານະ VPN</string>
+    <string name="cat_fonts_title">ຟອນ</string>
+    <string name="cat_fonts_subtitle">ຕົວຢ່າງການມີຕົວອັກສອນ</string>
+    <string name="cat_installed_voices_title">ສຽງທີ່ຕິດຕັ້ງແລ້ວ</string>
+    <string name="cat_installed_voices_subtitle">ເຄື່ອງຈັກສຽງເວົ້າແລະສະຫນັບສະຫນູນສຽງ</string>
+    <string name="cat_app_info_title">App &amp; Bundle</string>
+    <string name="cat_app_info_subtitle">ແພັກເກັດສ້າງ metadata</string>
+    <string name="cat_pasteboard_title">ກະດານວາງ</string>
+    <string name="cat_pasteboard_subtitle">ຂໍ້ມູນເມຕາເດຕາຂອງຄລິບບອດເທົ່ານັ້ນ</string>
+    <string name="cat_audio_title">ສຽງ</string>
+    <string name="cat_audio_subtitle">ສຽງອອກ ແລະລາຍລະອຽດເສັ້ນທາງ</string>
+    <string name="cat_graphics_title">ຮູບພາບ</string>
+    <string name="cat_graphics_subtitle">ສັນຍານການປະຕິບັດ GPU / GL</string>
+    <string name="cat_telephony_title">ໂທລະສັບ</string>
+    <string name="cat_telephony_subtitle">ຜູ້ໃຫ້ບໍລິການ ແລະເມຕາເດຕາວິທະຍຸ</string>
+    <string name="cat_motion_title">ການເຄື່ອນໄຫວ ແລະເຊັນເຊີ</string>
+    <string name="cat_motion_subtitle">ລາຍລະອຽດການເຄື່ອນໄຫວທີ່ມີການອະນຸຍາດ</string>
+    <string name="cat_location_title">ສະຖານທີ່</string>
+    <string name="cat_location_subtitle">ຕຳແໜ່ງ ແລະເມຕາເດຕາຂອງຜູ້ໃຫ້ບໍລິການ</string>
+    <string name="cat_cameras_title">ກ້ອງຖ່າຍຮູບ</string>
+    <string name="cat_cameras_subtitle">ຄວາມສາມາດຂອງກ້ອງຖ່າຍຮູບແລະນັບ</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">ສະຖານະ Bluetooth ແລະສະຖິຕິທີ່ຈັບຄູ່ແລ້ວ</string>
+    <string name="cat_local_network_title">ເຄືອຂ່າຍທ້ອງຖິ່ນ</string>
+    <string name="cat_local_network_subtitle">ສະພາບແວດລ້ອມເຄືອຂ່າຍໃກ້ຄຽງ</string>
+    <string name="cat_contacts_title">ຕິດຕໍ່ພົວພັນ</string>
+    <string name="cat_contacts_subtitle">ຕິດຕໍ່ຖານຂໍ້ມູນ metadata ເທົ່ານັ້ນ</string>
+    <string name="cat_photos_title">ຮູບພາບ</string>
+    <string name="cat_photos_subtitle">ເມຕາເດຕາຂອງຫ້ອງສະໝຸດສື່ເທົ່ານັ້ນ</string>
+    <string name="cat_calendar_title">ປະຕິທິນ</string>
+    <string name="cat_calendar_subtitle">ເມຕາເດຕາບັນຊີປະຕິທິນ</string>
+    <string name="cat_reminders_title">ການແຈ້ງເຕືອນ</string>
+    <string name="cat_reminders_subtitle">ຂໍ້ມູນເມຕາເດຕາຂອງຜູ້ໃຫ້ບໍລິການໜ້າວຽກ/ການແຈ້ງເຕືອນ</string>
+    <string name="cat_music_library_title">ຫໍສະໝຸດດົນຕີ</string>
+    <string name="cat_music_library_subtitle">ເມຕາເດຕາສື່ສຽງເທົ່ານັ້ນ</string>
+    <string name="cat_installed_apps_probe_title">ຕິດຕັ້ງ Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">ການ​ທົດ​ສອບ​ໂຄງ​ການ​ຄວາມ​ຕັ້ງ​ໃຈ​</string>
+    <string name="cat_webview_fingerprint_title">WebView Fingerprint</string>
+    <string name="cat_webview_fingerprint_subtitle">ໂປຣໄຟລ໌ການສະແດງຜົນຄືກັບບຣາວເຊີ</string>
+    <string name="cat_previous_installs_log_title">ບັນທຶກການຕິດຕັ້ງທີ່ຜ່ານມາ</string>
+    <string name="cat_previous_installs_log_subtitle">ຕິດຕັ້ງຄໍາແນະນໍາຄວາມຄົງທົນ</string>
+
+</resources>

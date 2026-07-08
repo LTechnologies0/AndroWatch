@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">ڈیوائس کی شناخت</string>
+    <string name="cat_device_identity_subtitle">شناخت کنندگان اور ہارڈ ویئر کی خصوصیات</string>
+    <string name="cat_google_account_title">گوگل اکاؤنٹ</string>
+    <string name="cat_google_account_subtitle">اکاؤنٹ کی موجودگی کے اشارے</string>
+    <string name="cat_system_info_title">سسٹم کی معلومات</string>
+    <string name="cat_system_info_subtitle">OS اور رن ٹائم کی تفصیلات</string>
+    <string name="cat_display_title">ڈسپلے</string>
+    <string name="cat_display_subtitle">اسکرین کی صلاحیتیں اور کثافت</string>
+    <string name="cat_locale_title">مقامی اور علاقہ</string>
+    <string name="cat_locale_subtitle">زبان اور ٹائم زون کا نقشہ</string>
+    <string name="cat_accessibility_title">رسائی</string>
+    <string name="cat_accessibility_subtitle">معاون ترتیبات اور جھنڈے</string>
+    <string name="cat_device_motion_title">ڈیوائس موشن</string>
+    <string name="cat_device_motion_subtitle">سینسر کی موجودگی اور حالت</string>
+    <string name="cat_battery_title">بیٹری اور پاور</string>
+    <string name="cat_battery_subtitle">بیٹری اور پاور موڈ ڈیٹا</string>
+    <string name="cat_storage_title">ذخیرہ</string>
+    <string name="cat_storage_subtitle">حجم اور ذخیرہ کرنے کا ٹوٹل</string>
+    <string name="cat_network_title">نیٹ ورک</string>
+    <string name="cat_network_subtitle">کنیکٹیویٹی اور وی پی این کی حیثیت</string>
+    <string name="cat_fonts_title">فونٹس</string>
+    <string name="cat_fonts_subtitle">فونٹ کی دستیابی کا نمونہ</string>
+    <string name="cat_installed_voices_title">انسٹال شدہ آوازیں۔</string>
+    <string name="cat_installed_voices_subtitle">اسپیچ انجن اور صوتی سپورٹ</string>
+    <string name="cat_app_info_title">ایپ اور بنڈل</string>
+    <string name="cat_app_info_subtitle">پیکیج کی تعمیر کا میٹا ڈیٹا</string>
+    <string name="cat_pasteboard_title">پیسٹ بورڈ</string>
+    <string name="cat_pasteboard_subtitle">صرف کلپ بورڈ میٹا ڈیٹا</string>
+    <string name="cat_audio_title">آڈیو</string>
+    <string name="cat_audio_subtitle">آڈیو آؤٹ پٹ اور راستے کی تفصیلات</string>
+    <string name="cat_graphics_title">گرافکس</string>
+    <string name="cat_graphics_subtitle">GPU / GL نفاذ کے سگنل</string>
+    <string name="cat_telephony_title">ٹیلی فونی۔</string>
+    <string name="cat_telephony_subtitle">کیریئر اور ریڈیو میٹا ڈیٹا</string>
+    <string name="cat_motion_title">موشن اور سینسر</string>
+    <string name="cat_motion_subtitle">پرمیشن گیٹ موشن کی تفصیلات</string>
+    <string name="cat_location_title">مقام</string>
+    <string name="cat_location_subtitle">پوزیشن اور فراہم کنندہ کا میٹا ڈیٹا</string>
+    <string name="cat_cameras_title">کیمرے</string>
+    <string name="cat_cameras_subtitle">کیمرے کی صلاحیتیں اور شمار</string>
+    <string name="cat_bluetooth_title">بلوٹوتھ</string>
+    <string name="cat_bluetooth_subtitle">بلوٹوتھ کی حیثیت اور جوڑے کے اعدادوشمار</string>
+    <string name="cat_local_network_title">مقامی نیٹ ورک</string>
+    <string name="cat_local_network_subtitle">قریبی نیٹ ورک ماحول</string>
+    <string name="cat_contacts_title">رابطے</string>
+    <string name="cat_contacts_subtitle">صرف ڈیٹا بیس میٹا ڈیٹا سے رابطہ کریں۔</string>
+    <string name="cat_photos_title">تصاویر</string>
+    <string name="cat_photos_subtitle">صرف میڈیا لائبریری میٹا ڈیٹا</string>
+    <string name="cat_calendar_title">کیلنڈر</string>
+    <string name="cat_calendar_subtitle">کیلنڈر اکاؤنٹ کا میٹا ڈیٹا</string>
+    <string name="cat_reminders_title">یاد دہانیاں</string>
+    <string name="cat_reminders_subtitle">ٹاسک/ریمائنڈر فراہم کنندہ میٹا ڈیٹا</string>
+    <string name="cat_music_library_title">میوزک لائبریری</string>
+    <string name="cat_music_library_subtitle">صرف آڈیو میڈیا میٹا ڈیٹا</string>
+    <string name="cat_installed_apps_probe_title">انسٹال کردہ ایپس پروب</string>
+    <string name="cat_installed_apps_probe_subtitle">ارادے کی اسکیم کی تحقیقات</string>
+    <string name="cat_webview_fingerprint_title">WebView فنگر پرنٹ</string>
+    <string name="cat_webview_fingerprint_subtitle">براؤزر جیسا رینڈرنگ پروفائل</string>
+    <string name="cat_previous_installs_log_title">پچھلا انسٹال لاگ</string>
+    <string name="cat_previous_installs_log_subtitle">استقامت کے اشارے انسٹال کریں۔</string>
+
+</resources>

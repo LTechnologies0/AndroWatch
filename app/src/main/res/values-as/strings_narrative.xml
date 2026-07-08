@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">এই ডিভাইচে বৰ্তমানে স্থানীয় %1$s প্ৰতিবেদন কৰে ।</string>
+    <string name="summary_line_model">হাৰ্ডৱেৰ আৰ্হি %1$s হিচাপে দেখা দিয়ে।</string>
+    <string name="summary_line_android_id">এই এপটোৰ বাবে ANDROID_ID হৈছে %1$s।</string>
+    <string name="summary_line_battery">বেটাৰী স্নেপশ্বটে %1$s সূচায়।</string>
+    <string name="summary_line_network">সক্ৰিয় নেটৱৰ্ক পৰিবহণসমূহ: %1$s।</string>
+    <string name="summary_line_authenticators">একাউণ্ট প্ৰমাণীকৰণকাৰীসমূহ দৃশ্যমান: %1$s।</string>
+    <string name="summary_line_privacy">AndroWatch এ এই পঢ়াসমূহ অন-ডিভাইচত ৰাখে যদিহে আপুনি সিহতক ৰপ্তানি কৰে।</string>
+
+</resources>

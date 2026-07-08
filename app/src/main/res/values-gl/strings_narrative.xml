@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Neste momento, este dispositivo informa da configuración rexional %1$s.</string>
+    <string name="summary_line_model">O modelo de hardware aparece como %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID para esta aplicación é %1$s.</string>
+    <string name="summary_line_battery">A instantánea da batería indica %1$s.</string>
+    <string name="summary_line_network">Transportes de rede activos: %1$s.</string>
+    <string name="summary_line_authenticators">Autenticadores de conta visibles: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch mantén estas lecturas no dispositivo a menos que as exportes.</string>
+
+</resources>

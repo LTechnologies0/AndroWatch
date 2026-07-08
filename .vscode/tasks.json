@@ -1,0 +1,76 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "AndroWatch: Setup complet + install téléphone",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/setup-and-install.ps1"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "AndroWatch: Install sur téléphone (choix appareil)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/scripts/install-to-device.ps1"
+      ],
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "AndroWatch: Compile debug seulement",
+      "type": "shell",
+      "command": "${workspaceFolder}/gradlew.bat",
+      "args": ["assembleDebug", "--no-daemon"],
+      "group": "build",
+      "options": {
+        "env": {
+          "JAVA_HOME": "${env:JAVA_HOME}"
+        }
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "AndroWatch: Tests unitaires",
+      "type": "shell",
+      "command": "${workspaceFolder}/gradlew.bat",
+      "args": ["test", "--no-daemon"],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "AndroWatch: Lister appareils ADB",
+      "type": "shell",
+      "command": "adb",
+      "args": ["devices", "-l"],
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

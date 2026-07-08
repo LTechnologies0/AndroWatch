@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Бұл құрылғы қазір %1$s тілін хабарлайды.</string>
+    <string name="summary_line_model">Аппараттық құрал үлгісі %1$s ретінде көрсетіледі.</string>
+    <string name="summary_line_android_id">Бұл қолданба үшін ANDROID_ID — %1$s.</string>
+    <string name="summary_line_battery">Батареяның суреті %1$s көрсетеді.</string>
+    <string name="summary_line_network">Белсенді желі тасымалдаулары: %1$s.</string>
+    <string name="summary_line_authenticators">Тіркелгі аутентификаторлары көрінеді: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch бұл көрсеткіштерді экспорттамайынша құрылғыда сақтайды.</string>
+
+</resources>

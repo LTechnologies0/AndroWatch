@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API průzkumník otisků prstů</string>
+    <string name="back">Zadní</string>
+    <string name="refresh">Obnovit</string>
+    <string name="export_report">Exportovat zprávu</string>
+    <string name="export_chooser_title">Exportovat zprávu AndroWatch</string>
+    <string name="about_title">O</string>
+    <string name="about_heading">Průhlednost otisků prstů zařízení</string>
+    <string name="about_inspired">AndroWatch je alternativa pro Android inspirovaná Loupe od Mysk Research. Odhaluje, co mohou veřejná rozhraní Android API odhalit o vašem zařízení.</string>
+    <string name="about_privacy">Všechny naměřené hodnoty zůstanou na vašem zařízení. Nic se nenahraje, pokud explicitně neexportujete sestavu JSON.</string>
+    <string name="onboarding_title">Podívejte se, co Android odhaluje</string>
+    <string name="onboarding_body">AndroWatch ukazuje, co mohou Android API odhalit o vašem zařízení – identifikátory, senzory, síť a další.</string>
+    <string name="onboarding_privacy">Nic není nahráno. Exporty jsou explicitní a místní.</string>
+    <string name="onboarding_continue">Pokračovat</string>
+    <string name="permission_required">Vyžaduje se povolení</string>
+    <string name="permission_rationale">Tato kategorie potřebuje ke čtení agregovaných metadat oprávnění za běhu. Nezpracované údaje umožňující zjištění totožnosti se nikdy nezobrazují.</string>
+    <string name="grant_permission">Udělte povolení</string>
+    <string name="summary_title">Shrnutí otisků prstů</string>
+    <string name="summary_empty">Obnovením kategorií vytvoříte souhrn.</string>
+    <string name="tier_passive">Pasivní</string>
+    <string name="tier_permissioned">Vyžaduje povolení</string>
+    <string name="tier_advanced">Moderní</string>
+    <string name="signal_count">%1$d signálů</string>
+    <string name="live_badge">Žít</string>
+    <string name="loading">Sbírání signálů…</string>
+    <string name="error_collecting">Chyba při shromažďování signálů.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Zkuste to znovu</string>
+    <string name="export_error">Přehled nelze exportovat.</string>
+    <string name="export_empty">Zatím není co exportovat. Nejprve obnovte kategorie.</string>
+    <string name="no_signals">Dosud nebyly shromážděny žádné signály.</string>
+    <string name="show_rationale">Proč na tom záleží</string>
+    <string name="hide_rationale">Skrýt zdůvodnění</string>
+    <string name="raw_value">Nezpracovaná hodnota API</string>
+    <string name="value_unknown">neznámý</string>
+    <string name="value_unknown_locale">neznámé místo</string>
+    <string name="value_unknown_device">neznámé zařízení</string>
+    <string name="value_unknown_battery">neznámá baterie</string>
+    <string name="value_unknown_network">neznámá síť</string>
+    <string name="value_none">žádný</string>
+    <string name="value_unavailable">nedostupný</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">Ano</string>
+    <string name="value_false">žádný</string>
+
+</resources>

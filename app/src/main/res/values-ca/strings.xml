@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Explorador d\'empremtes digitals de l\'API d\'Android</string>
+    <string name="back">Enrere</string>
+    <string name="refresh">Actualitza</string>
+    <string name="export_report">Informe d\'exportació</string>
+    <string name="export_chooser_title">Exporta l\'informe d\'AndroWatch</string>
+    <string name="about_title">Sobre</string>
+    <string name="about_heading">Transparència de les empremtes digitals del dispositiu</string>
+    <string name="about_inspired">AndroWatch és una alternativa d\'Android inspirada en Loupe de Mysk Research. Mostra el que les API d\'Android públiques poden revelar sobre el vostre dispositiu.</string>
+    <string name="about_privacy">Totes les lectures es mantenen al dispositiu. No es penja res tret que exporteu explícitament un informe JSON.</string>
+    <string name="onboarding_title">Mireu què revela Android</string>
+    <string name="onboarding_body">AndroWatch mostra què poden revelar les API d\'Android sobre el vostre dispositiu: identificadors, sensors, xarxa i molt més.</string>
+    <string name="onboarding_privacy">No s\'ha carregat res. Les exportacions són explícites i locals.</string>
+    <string name="onboarding_continue">Continua</string>
+    <string name="permission_required">Cal permís</string>
+    <string name="permission_rationale">Aquesta categoria necessita permís d\'execució per llegir metadades agregades. La PII en brut no es mostra mai.</string>
+    <string name="grant_permission">Donar permís</string>
+    <string name="summary_title">Resum de l\'empremta digital</string>
+    <string name="summary_empty">Actualitza les categories per generar un resum.</string>
+    <string name="tier_passive">Passiva</string>
+    <string name="tier_permissioned">Necessita permís</string>
+    <string name="tier_advanced">Avançat</string>
+    <string name="signal_count">%1$d senyals</string>
+    <string name="live_badge">Viu</string>
+    <string name="loading">S\'estan recollint senyals...</string>
+    <string name="error_collecting">Error en recollir els senyals.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Torna-ho a provar</string>
+    <string name="export_error">No s\'ha pogut exportar l\'informe.</string>
+    <string name="export_empty">Encara no hi ha res per exportar. Actualitzeu primer les categories.</string>
+    <string name="no_signals">Encara no s\'han recollit senyals.</string>
+    <string name="show_rationale">Per què això importa</string>
+    <string name="hide_rationale">Amaga la raó</string>
+    <string name="raw_value">Valor brut de l\'API</string>
+    <string name="value_unknown">desconegut</string>
+    <string name="value_unknown_locale">local desconegut</string>
+    <string name="value_unknown_device">dispositiu desconegut</string>
+    <string name="value_unknown_battery">bateria desconeguda</string>
+    <string name="value_unknown_network">xarxa desconeguda</string>
+    <string name="value_none">cap</string>
+    <string name="value_unavailable">no disponible</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">sí</string>
+    <string name="value_false">no</string>
+
+</resources>

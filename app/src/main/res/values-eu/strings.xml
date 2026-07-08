@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API hatz-marken esploratzailea</string>
+    <string name="back">Itzuli</string>
+    <string name="refresh">Freskatu</string>
+    <string name="export_report">Esportatu txostena</string>
+    <string name="export_chooser_title">Esportatu AndroWatch txostena</string>
+    <string name="about_title">Buruz</string>
+    <string name="about_heading">Gailuaren hatz-marken gardentasuna</string>
+    <string name="about_inspired">AndroWatch Mysk Research-en Loupe-n inspiratutako Android alternatiba da. Android API publikoek zure gailuari buruz ager dezaketena azaleratzen du.</string>
+    <string name="about_privacy">Irakurketa guztiak zure gailuan geratzen dira. Ez da ezer kargatzen JSON txostena esplizituki esportatzen ez baduzu.</string>
+    <string name="onboarding_title">Ikusi Android-ek erakusten duena</string>
+    <string name="onboarding_body">AndroWatch-ek Android APIek zure gailuari buruz ager dezaketena erakusten du: identifikatzaileak, sentsoreak, sarea eta abar.</string>
+    <string name="onboarding_privacy">Ez da ezer kargatzen. Esportazioak esplizituak eta tokikoak dira.</string>
+    <string name="onboarding_continue">Jarraitu</string>
+    <string name="permission_required">Baimena behar da</string>
+    <string name="permission_rationale">Kategoria honek exekuzio-baimena behar du metadatu agregatuak irakurtzeko. PII gordina ez da inoiz bistaratzen.</string>
+    <string name="grant_permission">Eman baimena</string>
+    <string name="summary_title">Hatz-marken laburpena</string>
+    <string name="summary_empty">Freskatu kategoriak laburpena sortzeko.</string>
+    <string name="tier_passive">Pasiboa</string>
+    <string name="tier_permissioned">Baimena behar du</string>
+    <string name="tier_advanced">Aurreratua</string>
+    <string name="signal_count">%1$d seinaleak</string>
+    <string name="live_badge">Zuzenean</string>
+    <string name="loading">Seinaleak biltzen…</string>
+    <string name="error_collecting">Errore bat gertatu da seinaleak biltzean.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Saiatu berriro</string>
+    <string name="export_error">Ezin izan da txostena esportatu.</string>
+    <string name="export_empty">Oraindik ez dago ezer esportatzeko. Freskatu kategoriak lehenik.</string>
+    <string name="no_signals">Oraindik ez da seinalerik bildu.</string>
+    <string name="show_rationale">Zergatik axola du honek</string>
+    <string name="hide_rationale">Ezkutatu arrazoibidea</string>
+    <string name="raw_value">APIaren balio gordina</string>
+    <string name="value_unknown">ezezaguna</string>
+    <string name="value_unknown_locale">toki ezezaguna</string>
+    <string name="value_unknown_device">gailu ezezaguna</string>
+    <string name="value_unknown_battery">bateria ezezaguna</string>
+    <string name="value_unknown_network">sare ezezaguna</string>
+    <string name="value_none">bat ere ez</string>
+    <string name="value_unavailable">erabilgarri ez</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">bai</string>
+    <string name="value_false">ez</string>
+
+</resources>

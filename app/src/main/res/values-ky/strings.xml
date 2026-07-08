@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API манжа изин изилдөөчү</string>
+    <string name="back">Артка</string>
+    <string name="refresh">Жаңылоо</string>
+    <string name="export_report">Экспорттук отчет</string>
+    <string name="export_chooser_title">AndroWatch отчетун экспорттоо</string>
+    <string name="about_title">Жөнүндө</string>
+    <string name="about_heading">Түзмөктүн манжа изинин тунуктугу</string>
+    <string name="about_inspired">AndroWatch бул Mysk Research тарабынан Лупадан шыктанган Android альтернативасы. Бул жалпыга ачык Android API\'лери түзмөгүңүз жөнүндө эмнелерди ачып бере аларын көрсөтөт.</string>
+    <string name="about_privacy">Бардык окуулар түзмөгүңүздө калат. JSON отчетун ачык экспортпосоңуз, эч нерсе жүктөлбөйт.</string>
+    <string name="onboarding_title">Android эмне ачып жатканын караңыз</string>
+    <string name="onboarding_body">AndroWatch Android API\'лери түзмөгүңүз жөнүндө эмнелерди көрсөтө аларын көрсөтөт — идентификаторлор, сенсорлор, тармак жана башкалар.</string>
+    <string name="onboarding_privacy">Эч нерсе жүктөлгөн жок. Экспорт ачык жана жергиликтүү.</string>
+    <string name="onboarding_continue">Улантуу</string>
+    <string name="permission_required">Уруксат талап кылынат</string>
+    <string name="permission_rationale">Бул категорияга бириктирилген метадайындарды окуу үчүн иштөө убактысына уруксат керек. Чийки PII эч качан көрсөтүлбөйт.</string>
+    <string name="grant_permission">Уруксат берүү</string>
+    <string name="summary_title">Манжа изинин корутундусу</string>
+    <string name="summary_empty">Жыйынтык түзүү үчүн категорияларды жаңыртыңыз.</string>
+    <string name="tier_passive">Пассивдүү</string>
+    <string name="tier_permissioned">Уруксат керек</string>
+    <string name="tier_advanced">Өркүндөтүлгөн</string>
+    <string name="signal_count">%1$d сигналдар</string>
+    <string name="live_badge">Live</string>
+    <string name="loading">Сигналдарды чогултуу…</string>
+    <string name="error_collecting">Сигналдарды чогултуу учурундагы ката.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Кайталап көрүңүз</string>
+    <string name="export_error">Отчет экспорттолбой койду.</string>
+    <string name="export_empty">Азырынча экспорттой турган эч нерсе жок. Алгач категорияларды жаңыртыңыз.</string>
+    <string name="no_signals">Азырынча сигналдар чогултула элек.</string>
+    <string name="show_rationale">Бул эмне үчүн маанилүү</string>
+    <string name="hide_rationale">Негиздемени жашыруу</string>
+    <string name="raw_value">Raw API мааниси</string>
+    <string name="value_unknown">белгисиз</string>
+    <string name="value_unknown_locale">белгисиз жергиликтүү тил</string>
+    <string name="value_unknown_device">белгисиз түзмөк</string>
+    <string name="value_unknown_battery">белгисиз батарея</string>
+    <string name="value_unknown_network">белгисиз тармак</string>
+    <string name="value_none">эч ким</string>
+    <string name="value_unavailable">жеткиликсиз</string>
+    <string name="value_na">жок</string>
+    <string name="value_true">ооба</string>
+    <string name="value_false">жок</string>
+
+</resources>

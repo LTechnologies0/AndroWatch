@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Dieses Gerät meldet derzeit das Gebietsschema %1$s.</string>
+    <string name="summary_line_model">Das Hardwaremodell wird als %1$s angezeigt.</string>
+    <string name="summary_line_android_id">ANDROID_ID für diese App ist %1$s.</string>
+    <string name="summary_line_battery">Der Batterie-Schnappschuss zeigt %1$s an.</string>
+    <string name="summary_line_network">Aktive Netzwerktransporte: %1$s.</string>
+    <string name="summary_line_authenticators">Sichtbare Kontoauthentifizierer: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch behält diese Messwerte auf dem Gerät, es sei denn, Sie exportieren sie.</string>
+
+</resources>

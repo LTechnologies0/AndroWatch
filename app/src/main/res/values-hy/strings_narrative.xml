@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Այս սարքը ներկայումս հաղորդում է %1$s տեղայնությունը:</string>
+    <string name="summary_line_model">Սարքավորումների մոդելը հայտնվում է որպես %1$s:</string>
+    <string name="summary_line_android_id">Այս հավելվածի ANDROID_ID-ը %1$s է:</string>
+    <string name="summary_line_battery">Մարտկոցի լուսանկարը ցույց է տալիս %1$s:</string>
+    <string name="summary_line_network">Ակտիվ ցանցային փոխադրումներ՝ %1$s:</string>
+    <string name="summary_line_authenticators">Հաշվի իսկորոշիչները տեսանելի են՝ %1$s:</string>
+    <string name="summary_line_privacy">AndroWatch-ը պահում է այս ցուցանիշները սարքում, եթե դրանք չարտահանեք:</string>
+
+</resources>

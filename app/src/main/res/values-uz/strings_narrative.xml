@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Bu qurilma hozirda %1$s tili haqida xabar beradi.</string>
+    <string name="summary_line_model">Uskuna modeli %1$s sifatida ko\'rinadi.</string>
+    <string name="summary_line_android_id">Bu ilova uchun ANDROID_ID – %1$s.</string>
+    <string name="summary_line_battery">Batareya surati %1$s ni bildiradi.</string>
+    <string name="summary_line_network">Faol tarmoq transportlari: %1$s.</string>
+    <string name="summary_line_authenticators">Hisob autentifikatorlari ko‘rinadi: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch bu koʻrsatkichlarni siz ularni eksport qilmaguningizcha qurilmada saqlaydi.</string>
+
+</resources>

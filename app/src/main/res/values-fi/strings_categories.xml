@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Laitteen identiteetti</string>
+    <string name="cat_device_identity_subtitle">Tunnisteet ja laitteiston ominaisuudet</string>
+    <string name="cat_google_account_title">Google-tili</string>
+    <string name="cat_google_account_subtitle">Tilin läsnäolosignaalit</string>
+    <string name="cat_system_info_title">Järjestelmätiedot</string>
+    <string name="cat_system_info_subtitle">Käyttöjärjestelmän ja suoritusajan tiedot</string>
+    <string name="cat_display_title">Näyttö</string>
+    <string name="cat_display_subtitle">Näytön ominaisuudet ja tiheys</string>
+    <string name="cat_locale_title">Paikka ja alue</string>
+    <string name="cat_locale_subtitle">Kieli- ja aikavyöhykejalanjälki</string>
+    <string name="cat_accessibility_title">Esteettömyys</string>
+    <string name="cat_accessibility_subtitle">Avustavat asetukset ja liput</string>
+    <string name="cat_device_motion_title">Laitteen liike</string>
+    <string name="cat_device_motion_subtitle">Anturin läsnäolo ja tila</string>
+    <string name="cat_battery_title">Akku &amp; Virta</string>
+    <string name="cat_battery_subtitle">Akku- ja virtatilatiedot</string>
+    <string name="cat_storage_title">Varastointi</string>
+    <string name="cat_storage_subtitle">Määrä ja tallennustila yhteensä</string>
+    <string name="cat_network_title">Verkko</string>
+    <string name="cat_network_subtitle">Yhteydet ja VPN-tila</string>
+    <string name="cat_fonts_title">Fontit</string>
+    <string name="cat_fonts_subtitle">Esimerkki fontin saatavuudesta</string>
+    <string name="cat_installed_voices_title">Asennetut äänet</string>
+    <string name="cat_installed_voices_subtitle">Puhemoottori ja äänituki</string>
+    <string name="cat_app_info_title">Sovellus ja paketti</string>
+    <string name="cat_app_info_subtitle">Paketin koontitiedot</string>
+    <string name="cat_pasteboard_title">Pahvi</string>
+    <string name="cat_pasteboard_subtitle">Vain leikepöydän metatiedot</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Äänilähdöt ja reittitiedot</string>
+    <string name="cat_graphics_title">Grafiikka</string>
+    <string name="cat_graphics_subtitle">GPU/GL-toteutussignaalit</string>
+    <string name="cat_telephony_title">Puhelimet</string>
+    <string name="cat_telephony_subtitle">Operaattorin ja radion metatiedot</string>
+    <string name="cat_motion_title">Liike &amp; Anturit</string>
+    <string name="cat_motion_subtitle">Luparajoitetun liikkeen tiedot</string>
+    <string name="cat_location_title">Sijainti</string>
+    <string name="cat_location_subtitle">Aseman ja tarjoajan metatiedot</string>
+    <string name="cat_cameras_title">Kamerat</string>
+    <string name="cat_cameras_subtitle">Kameran ominaisuudet ja määrä</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetoothin tila ja pariliitostilastot</string>
+    <string name="cat_local_network_title">Paikallinen verkko</string>
+    <string name="cat_local_network_subtitle">Lähiverkkoympäristö</string>
+    <string name="cat_contacts_title">Yhteystiedot</string>
+    <string name="cat_contacts_subtitle">Ota yhteyttä vain tietokannan metatiedot</string>
+    <string name="cat_photos_title">Valokuvat</string>
+    <string name="cat_photos_subtitle">Vain mediakirjaston metatiedot</string>
+    <string name="cat_calendar_title">Kalenteri</string>
+    <string name="cat_calendar_subtitle">Kalenteritilin metatiedot</string>
+    <string name="cat_reminders_title">Muistutukset</string>
+    <string name="cat_reminders_subtitle">Tehtävän/muistutuksen tarjoajan metatiedot</string>
+    <string name="cat_music_library_title">Musiikkikirjasto</string>
+    <string name="cat_music_library_subtitle">Vain äänimedian metatiedot</string>
+    <string name="cat_installed_apps_probe_title">Installed Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Tarkoitussuunnitelman tutkiminen</string>
+    <string name="cat_webview_fingerprint_title">WebView-sormenjälki</string>
+    <string name="cat_webview_fingerprint_subtitle">Selaimen kaltainen renderöintiprofiili</string>
+    <string name="cat_previous_installs_log_title">Edellisten asennusten loki</string>
+    <string name="cat_previous_installs_log_subtitle">Asenna pysyvyysvinkit</string>
+
+</resources>

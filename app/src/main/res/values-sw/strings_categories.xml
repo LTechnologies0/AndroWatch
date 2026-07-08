@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Utambulisho wa Kifaa</string>
+    <string name="cat_device_identity_subtitle">Vitambulisho na sifa za maunzi</string>
+    <string name="cat_google_account_title">Akaunti ya Google</string>
+    <string name="cat_google_account_subtitle">Ishara za uwepo wa akaunti</string>
+    <string name="cat_system_info_title">Maelezo ya Mfumo</string>
+    <string name="cat_system_info_subtitle">OS na maelezo ya wakati wa kukimbia</string>
+    <string name="cat_display_title">Onyesho</string>
+    <string name="cat_display_subtitle">Uwezo wa skrini na msongamano</string>
+    <string name="cat_locale_title">Eneo na Mkoa</string>
+    <string name="cat_locale_subtitle">Lugha na alama za eneo la saa</string>
+    <string name="cat_accessibility_title">Ufikivu</string>
+    <string name="cat_accessibility_subtitle">Mipangilio na bendera zinazosaidia</string>
+    <string name="cat_device_motion_title">Mwendo wa Kifaa</string>
+    <string name="cat_device_motion_subtitle">Sensorer uwepo na hali</string>
+    <string name="cat_battery_title">Betri na Nguvu</string>
+    <string name="cat_battery_subtitle">Data ya hali ya betri na nishati</string>
+    <string name="cat_storage_title">Hifadhi</string>
+    <string name="cat_storage_subtitle">Kiasi na jumla ya uhifadhi</string>
+    <string name="cat_network_title">Mtandao</string>
+    <string name="cat_network_subtitle">Muunganisho na hali ya VPN</string>
+    <string name="cat_fonts_title">Fonti</string>
+    <string name="cat_fonts_subtitle">Sampuli ya upatikanaji wa fonti</string>
+    <string name="cat_installed_voices_title">Sauti Zilizosakinishwa</string>
+    <string name="cat_installed_voices_subtitle">Injini ya hotuba na usaidizi wa sauti</string>
+    <string name="cat_app_info_title">Programu na Bundle</string>
+    <string name="cat_app_info_subtitle">Metadata ya uundaji wa kifurushi</string>
+    <string name="cat_pasteboard_title">Ubao</string>
+    <string name="cat_pasteboard_subtitle">Metadata ya Ubao wa kunakili pekee</string>
+    <string name="cat_audio_title">Sauti</string>
+    <string name="cat_audio_subtitle">Matokeo ya sauti na maelezo ya njia</string>
+    <string name="cat_graphics_title">Michoro</string>
+    <string name="cat_graphics_subtitle">Ishara za utekelezaji wa GPU / GL</string>
+    <string name="cat_telephony_title">Simu</string>
+    <string name="cat_telephony_subtitle">Mtoa huduma na metadata ya redio</string>
+    <string name="cat_motion_title">Mwendo na Vihisi</string>
+    <string name="cat_motion_subtitle">Maelezo ya mwendo yenye lango la ruhusa</string>
+    <string name="cat_location_title">Mahali</string>
+    <string name="cat_location_subtitle">Nafasi na metadata ya mtoaji</string>
+    <string name="cat_cameras_title">Kamera</string>
+    <string name="cat_cameras_subtitle">Uwezo wa kamera na hesabu</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Hali ya Bluetooth na takwimu zilizooanishwa</string>
+    <string name="cat_local_network_title">Mtandao wa Ndani</string>
+    <string name="cat_local_network_subtitle">Mazingira ya mtandao wa karibu</string>
+    <string name="cat_contacts_title">Anwani</string>
+    <string name="cat_contacts_subtitle">Metadata ya hifadhidata ya mawasiliano pekee</string>
+    <string name="cat_photos_title">Picha</string>
+    <string name="cat_photos_subtitle">Metadata ya maktaba ya media pekee</string>
+    <string name="cat_calendar_title">Kalenda</string>
+    <string name="cat_calendar_subtitle">Metadata ya akaunti ya kalenda</string>
+    <string name="cat_reminders_title">Vikumbusho</string>
+    <string name="cat_reminders_subtitle">Metadata ya mtoa huduma ya kazi/kikumbusho</string>
+    <string name="cat_music_library_title">Maktaba ya Muziki</string>
+    <string name="cat_music_library_subtitle">Metadata ya media ya sauti pekee</string>
+    <string name="cat_installed_apps_probe_title">Uchunguzi wa Programu zilizosakinishwa</string>
+    <string name="cat_installed_apps_probe_subtitle">Uchunguzi wa mpango wa nia</string>
+    <string name="cat_webview_fingerprint_title">Alama ya vidole ya Mwonekano wa Wavuti</string>
+    <string name="cat_webview_fingerprint_subtitle">Wasifu wa uwasilishaji unaofanana na kivinjari</string>
+    <string name="cat_previous_installs_log_title">Kumbukumbu ya Usakinishaji Uliopita</string>
+    <string name="cat_previous_installs_log_subtitle">Sakinisha vidokezo vya kudumu</string>
+
+</resources>

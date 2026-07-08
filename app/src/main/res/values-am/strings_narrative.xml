@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">ይህ መሣሪያ በአሁኑ ጊዜ አካባቢን %1$s ሪፖርት ያደርጋል።</string>
+    <string name="summary_line_model">የሃርድዌር ሞዴል _PH_0__ ሆኖ ይታያል።</string>
+    <string name="summary_line_android_id">ANDROID_ID ለዚህ መተግበሪያ _PH_0__ ነው።</string>
+    <string name="summary_line_battery">የባትሪ ቅጽበታዊ ገጽ እይታ _PH_0__ን ያመለክታል።</string>
+    <string name="summary_line_network">ንቁ የአውታረ መረብ ማጓጓዣዎች፡ _PH_0__።</string>
+    <string name="summary_line_authenticators">የሚታዩ የመለያ አረጋጋጮች፡_%1$s።</string>
+    <string name="summary_line_privacy">AndroWatch እነዚህን ንባቦች ወደ ውጪ መላክ እስካልቻሉ ድረስ በመሣሪያ ላይ ያስቀምጣቸዋል።</string>
+
+</resources>

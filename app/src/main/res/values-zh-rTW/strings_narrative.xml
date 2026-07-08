@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">此設備目前報告區域設定 %1$s。</string>
+    <string name="summary_line_model">硬體型號顯示為 %1$s。</string>
+    <string name="summary_line_android_id">此應用的 ANDROID_ID 是 %1$s。</string>
+    <string name="summary_line_battery">電池快照指示 %1$s。</string>
+    <string name="summary_line_network">活動網路傳輸：%1$s。</string>
+    <string name="summary_line_authenticators">帳戶驗證器可見：%1$s。</string>
+    <string name="summary_line_privacy">AndroWatch 會將這些讀數保留在裝置上，除非您匯出它們。</string>
+
+</resources>

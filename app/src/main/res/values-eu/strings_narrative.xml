@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Gailu honek une honetan %1$s lokalizazioa ematen du.</string>
+    <string name="summary_line_model">Hardware-eredua %1$s gisa agertzen da.</string>
+    <string name="summary_line_android_id">Aplikazio honen ANDROID_ID %1$s da.</string>
+    <string name="summary_line_battery">Bateriaren irudiak %1$s adierazten du.</string>
+    <string name="summary_line_network">Sare-garraio aktiboak: %1$s.</string>
+    <string name="summary_line_authenticators">Kontuaren autentifikatzaileak ikusgai: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch-ek irakurketa hauek gailuan gordetzen ditu esportatu ez badituzu.</string>
+
+</resources>

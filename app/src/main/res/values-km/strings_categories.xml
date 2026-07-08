@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">អត្តសញ្ញាណឧបករណ៍</string>
+    <string name="cat_device_identity_subtitle">ឧបករណ៍កំណត់អត្តសញ្ញាណ និងលក្ខណៈផ្នែករឹង</string>
+    <string name="cat_google_account_title">គណនី Google</string>
+    <string name="cat_google_account_subtitle">សញ្ញាវត្តមានគណនី</string>
+    <string name="cat_system_info_title">ព័ត៌មានប្រព័ន្ធ</string>
+    <string name="cat_system_info_subtitle">ព័ត៌មានលម្អិតអំពីប្រព័ន្ធប្រតិបត្តិការ និងពេលវេលាដំណើរការ</string>
+    <string name="cat_display_title">បង្ហាញ</string>
+    <string name="cat_display_subtitle">សមត្ថភាព និងដង់ស៊ីតេអេក្រង់</string>
+    <string name="cat_locale_title">ទីតាំង និងតំបន់</string>
+    <string name="cat_locale_subtitle">ភាសា និងតំបន់ពេលវេលា</string>
+    <string name="cat_accessibility_title">ភាពងាយស្រួល</string>
+    <string name="cat_accessibility_subtitle">ការកំណត់ជំនួយ និងទង់</string>
+    <string name="cat_device_motion_title">ចលនាឧបករណ៍</string>
+    <string name="cat_device_motion_subtitle">វត្តមាន និងស្ថានភាពឧបករណ៍ចាប់សញ្ញា</string>
+    <string name="cat_battery_title">ថ្ម និងថាមពល</string>
+    <string name="cat_battery_subtitle">ទិន្នន័យរបៀបថាមពលថ្ម និងថាមពល</string>
+    <string name="cat_storage_title">ការផ្ទុក</string>
+    <string name="cat_storage_subtitle">បរិមាណ និងទំហំផ្ទុកសរុប</string>
+    <string name="cat_network_title">បណ្តាញ</string>
+    <string name="cat_network_subtitle">ការតភ្ជាប់ និងស្ថានភាព VPN</string>
+    <string name="cat_fonts_title">ពុម្ពអក្សរ</string>
+    <string name="cat_fonts_subtitle">គំរូភាពអាចរកបាននៃពុម្ពអក្សរ</string>
+    <string name="cat_installed_voices_title">សំឡេងដែលបានដំឡើង</string>
+    <string name="cat_installed_voices_subtitle">ម៉ាស៊ីននិយាយ និងការគាំទ្រសំឡេង</string>
+    <string name="cat_app_info_title">កម្មវិធី &amp; កញ្ចប់</string>
+    <string name="cat_app_info_subtitle">ទិន្នន័យមេតាបង្កើតកញ្ចប់</string>
+    <string name="cat_pasteboard_title">បន្ទះបិទភ្ជាប់</string>
+    <string name="cat_pasteboard_subtitle">ទិន្នន័យមេតារបស់ក្ដារតម្បៀតខ្ទាស់តែប៉ុណ្ណោះ</string>
+    <string name="cat_audio_title">អូឌីយ៉ូ</string>
+    <string name="cat_audio_subtitle">លទ្ធផលសំឡេង និងព័ត៌មានលម្អិតផ្លូវ</string>
+    <string name="cat_graphics_title">ក្រាហ្វិក</string>
+    <string name="cat_graphics_subtitle">សញ្ញានៃការអនុវត្ត GPU / GL</string>
+    <string name="cat_telephony_title">ទូរស័ព្ទ</string>
+    <string name="cat_telephony_subtitle">ទិន្នន័យមេតានៃក្រុមហ៊ុនដឹកជញ្ជូន និងវិទ្យុ</string>
+    <string name="cat_motion_title">ចលនា និងឧបករណ៍ចាប់សញ្ញា</string>
+    <string name="cat_motion_subtitle">ព័ត៌មានលម្អិតអំពីចលនាដែលមានការអនុញ្ញាត</string>
+    <string name="cat_location_title">ទីតាំង</string>
+    <string name="cat_location_subtitle">ទីតាំង និងអ្នកផ្តល់ទិន្នន័យមេតា</string>
+    <string name="cat_cameras_title">កាមេរ៉ា</string>
+    <string name="cat_cameras_subtitle">សមត្ថភាពកាមេរ៉ានិងរាប់</string>
+    <string name="cat_bluetooth_title">ប៊្លូធូស</string>
+    <string name="cat_bluetooth_subtitle">ស្ថានភាពប៊្លូធូស និងស្ថិតិដែលបានផ្គូផ្គង</string>
+    <string name="cat_local_network_title">បណ្តាញមូលដ្ឋាន</string>
+    <string name="cat_local_network_subtitle">បរិយាកាសបណ្តាញនៅក្បែរ</string>
+    <string name="cat_contacts_title">ទំនាក់ទំនង</string>
+    <string name="cat_contacts_subtitle">ទំនាក់ទំនងសម្រាប់តែទិន្នន័យមេតានៃមូលដ្ឋានទិន្នន័យប៉ុណ្ណោះ។</string>
+    <string name="cat_photos_title">រូបថត</string>
+    <string name="cat_photos_subtitle">ទិន្នន័យមេតានៃបណ្ណាល័យមេឌៀតែប៉ុណ្ណោះ</string>
+    <string name="cat_calendar_title">ប្រតិទិន</string>
+    <string name="cat_calendar_subtitle">ទិន្នន័យមេតាគណនីប្រតិទិន</string>
+    <string name="cat_reminders_title">ការរំលឹក</string>
+    <string name="cat_reminders_subtitle">ទិន្នន័យមេតារបស់អ្នកផ្តល់សេវាការរំលឹក/កិច្ចការ</string>
+    <string name="cat_music_library_title">បណ្ណាល័យតន្ត្រី</string>
+    <string name="cat_music_library_subtitle">ទិន្នន័យមេតាប្រព័ន្ធផ្សព្វផ្សាយអូឌីយ៉ូតែប៉ុណ្ណោះ</string>
+    <string name="cat_installed_apps_probe_title">បានដំឡើង Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">គ្រោងការស៊ើបអង្កេត</string>
+    <string name="cat_webview_fingerprint_title">WebView ស្នាមម្រាមដៃ</string>
+    <string name="cat_webview_fingerprint_subtitle">ទម្រង់បង្ហាញដូចកម្មវិធីរុករក</string>
+    <string name="cat_previous_installs_log_title">កំណត់ហេតុដំឡើងពីមុន</string>
+    <string name="cat_previous_installs_log_subtitle">ដំឡើងការណែនាំអំពីភាពអត់ធ្មត់</string>
+
+</resources>

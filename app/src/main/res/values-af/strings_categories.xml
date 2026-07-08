@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Toestelidentiteit</string>
+    <string name="cat_device_identity_subtitle">Identifiseerders en hardeware-eienskappe</string>
+    <string name="cat_google_account_title">Google-rekening</string>
+    <string name="cat_google_account_subtitle">Rekeningteenwoordigheid seine</string>
+    <string name="cat_system_info_title">Stelsel inligting</string>
+    <string name="cat_system_info_subtitle">OS en runtime besonderhede</string>
+    <string name="cat_display_title">Vertoon</string>
+    <string name="cat_display_subtitle">Skerm vermoëns en digtheid</string>
+    <string name="cat_locale_title">Plaas en streek</string>
+    <string name="cat_locale_subtitle">Taal en tydsone voetspoor</string>
+    <string name="cat_accessibility_title">Toeganklikheid</string>
+    <string name="cat_accessibility_subtitle">Hulpverstellings en vlae</string>
+    <string name="cat_device_motion_title">Toestelbeweging</string>
+    <string name="cat_device_motion_subtitle">Sensor teenwoordigheid en toestand</string>
+    <string name="cat_battery_title">Battery en krag</string>
+    <string name="cat_battery_subtitle">Battery- en kragmodusdata</string>
+    <string name="cat_storage_title">Berging</string>
+    <string name="cat_storage_subtitle">Totale volume en berging</string>
+    <string name="cat_network_title">Netwerk</string>
+    <string name="cat_network_subtitle">Konnektiwiteit en VPN-status</string>
+    <string name="cat_fonts_title">Lettertipes</string>
+    <string name="cat_fonts_subtitle">Font beskikbaarheid voorbeeld</string>
+    <string name="cat_installed_voices_title">Geïnstalleerde stemme</string>
+    <string name="cat_installed_voices_subtitle">Spraakenjin en stemondersteuning</string>
+    <string name="cat_app_info_title">Toepassing en bondel</string>
+    <string name="cat_app_info_subtitle">Pakketbou-metadata</string>
+    <string name="cat_pasteboard_title">Plakbord</string>
+    <string name="cat_pasteboard_subtitle">Slegs knipbord-metadata</string>
+    <string name="cat_audio_title">Oudio</string>
+    <string name="cat_audio_subtitle">Oudio-uitsette en roetebesonderhede</string>
+    <string name="cat_graphics_title">Grafika</string>
+    <string name="cat_graphics_subtitle">GPU / GL implementering seine</string>
+    <string name="cat_telephony_title">Telefonie</string>
+    <string name="cat_telephony_subtitle">Draer- en radio-metadata</string>
+    <string name="cat_motion_title">Beweging en sensors</string>
+    <string name="cat_motion_subtitle">Toestemming-omheinde beweging besonderhede</string>
+    <string name="cat_location_title">Ligging</string>
+    <string name="cat_location_subtitle">Posisie en verskaffer metadata</string>
+    <string name="cat_cameras_title">Kameras</string>
+    <string name="cat_cameras_subtitle">Kamera vermoëns en tel</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth-status en gepaarde statistieke</string>
+    <string name="cat_local_network_title">Plaaslike netwerk</string>
+    <string name="cat_local_network_subtitle">Nabygeleë netwerkomgewing</string>
+    <string name="cat_contacts_title">Kontakte</string>
+    <string name="cat_contacts_subtitle">Kontak databasis metadata slegs</string>
+    <string name="cat_photos_title">Foto\'s</string>
+    <string name="cat_photos_subtitle">Slegs mediabiblioteekmetadata</string>
+    <string name="cat_calendar_title">Kalender</string>
+    <string name="cat_calendar_subtitle">Kalenderrekening-metadata</string>
+    <string name="cat_reminders_title">Herinneringe</string>
+    <string name="cat_reminders_subtitle">Taak-/herinneringverskaffer-metadata</string>
+    <string name="cat_music_library_title">Musiekbiblioteek</string>
+    <string name="cat_music_library_subtitle">Slegs oudiomedia-metadata</string>
+    <string name="cat_installed_apps_probe_title">Geïnstalleerde Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Ondersoek van voornemeskema</string>
+    <string name="cat_webview_fingerprint_title">WebView-vingerafdruk</string>
+    <string name="cat_webview_fingerprint_subtitle">Blaaieragtige weergaweprofiel</string>
+    <string name="cat_previous_installs_log_title">Vorige installeringslogboek</string>
+    <string name="cat_previous_installs_log_subtitle">Installeer volhardingswenke</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">एन्ड्रोइड API फिंगरप्रिन्ट एक्सप्लोरर</string>
+    <string name="back">पछाडि</string>
+    <string name="refresh">रिफ्रेस गर्नुहोस्</string>
+    <string name="export_report">रिपोर्ट निर्यात गर्नुहोस्</string>
+    <string name="export_chooser_title">एन्ड्रोवाच रिपोर्ट निर्यात गर्नुहोस्</string>
+    <string name="about_title">बारे</string>
+    <string name="about_heading">उपकरण फिंगरप्रिन्ट पारदर्शिता</string>
+    <string name="about_inspired">AndroWatch Mysk अनुसन्धान द्वारा Loupe द्वारा प्रेरित एन्ड्रोइड विकल्प हो। यसले सार्वजनिक एन्ड्रोइड एपीआईहरूले तपाइँको यन्त्रको बारेमा के प्रकट गर्न सक्छ भनेर देखाउँछ।</string>
+    <string name="about_privacy">सबै पढाइहरू तपाईंको उपकरणमा रहन्छन्। तपाईंले स्पष्ट रूपमा JSON रिपोर्ट निर्यात नगरेसम्म केही पनि अपलोड हुँदैन।</string>
+    <string name="onboarding_title">एन्ड्रोइडले के प्रकट गर्दछ हेर्नुहोस्</string>
+    <string name="onboarding_body">एन्ड्रोवाचले एन्ड्रोइड एपीआईहरूले तपाईंको यन्त्र — पहिचानकर्ताहरू, सेन्सरहरू, नेटवर्क र थप कुराहरूबारे के प्रकट गर्न सक्छन् भनेर देखाउँछ।</string>
+    <string name="onboarding_privacy">केहि पनि अपलोड गरिएको छैन। निर्यात स्पष्ट र स्थानीय छन्।</string>
+    <string name="onboarding_continue">जारी राख्नुहोस्</string>
+    <string name="permission_required">अनुमति आवश्यक छ</string>
+    <string name="permission_rationale">यस कोटीलाई समग्र मेटाडेटा पढ्न रनटाइम अनुमति चाहिन्छ। कच्चा PII कहिल्यै प्रदर्शित हुँदैन।</string>
+    <string name="grant_permission">अनुमति दिनुहोस्</string>
+    <string name="summary_title">फिंगरप्रिन्ट सारांश</string>
+    <string name="summary_empty">सारांश उत्पन्न गर्न कोटिहरू ताजा गर्नुहोस्।</string>
+    <string name="tier_passive">निष्क्रिय</string>
+    <string name="tier_permissioned">अनुमति चाहिन्छ</string>
+    <string name="tier_advanced">उन्नत</string>
+    <string name="signal_count">%1$d संकेतहरू</string>
+    <string name="live_badge">लाइभ</string>
+    <string name="loading">सङ्केतहरू सङ्कलन गर्दै...</string>
+    <string name="error_collecting">संकेत सङ्कलन गर्दा त्रुटि।</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">पुन: प्रयास गर्नुहोस्</string>
+    <string name="export_error">रिपोर्ट निर्यात गर्न सकिएन।</string>
+    <string name="export_empty">निर्यात गर्न अझै केही छैन। पहिले कोटिहरू ताजा गर्नुहोस्।</string>
+    <string name="no_signals">अहिलेसम्म सङ्केतहरू सङ्कलन गरिएको छैन।</string>
+    <string name="show_rationale">किन यो महत्त्वपूर्ण छ</string>
+    <string name="hide_rationale">तर्क लुकाउनुहोस्</string>
+    <string name="raw_value">कच्चा API मान</string>
+    <string name="value_unknown">अज्ञात</string>
+    <string name="value_unknown_locale">अज्ञात स्थान</string>
+    <string name="value_unknown_device">अज्ञात उपकरण</string>
+    <string name="value_unknown_battery">अज्ञात ब्याट्री</string>
+    <string name="value_unknown_network">अज्ञात नेटवर्क</string>
+    <string name="value_none">कुनै पनि</string>
+    <string name="value_unavailable">अनुपलब्ध</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">हो</string>
+    <string name="value_false">छैन</string>
+
+</resources>

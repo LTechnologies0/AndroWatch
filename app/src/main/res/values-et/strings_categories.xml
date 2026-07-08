@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Seadme identiteet</string>
+    <string name="cat_device_identity_subtitle">Identifikaatorid ja riistvara tunnused</string>
+    <string name="cat_google_account_title">Google\'i konto</string>
+    <string name="cat_google_account_subtitle">Konto kohaloleku signaalid</string>
+    <string name="cat_system_info_title">Süsteemiteave</string>
+    <string name="cat_system_info_subtitle">OS-i ja käitusaja üksikasjad</string>
+    <string name="cat_display_title">Ekraan</string>
+    <string name="cat_display_subtitle">Ekraani võimalused ja tihedus</string>
+    <string name="cat_locale_title">Koht ja piirkond</string>
+    <string name="cat_locale_subtitle">Keele ja ajavööndi jalajälg</string>
+    <string name="cat_accessibility_title">Juurdepääsetavus</string>
+    <string name="cat_accessibility_subtitle">Abisätted ja lipud</string>
+    <string name="cat_device_motion_title">Seadme liikumine</string>
+    <string name="cat_device_motion_subtitle">Anduri olemasolu ja olek</string>
+    <string name="cat_battery_title">Aku ja toide</string>
+    <string name="cat_battery_subtitle">Aku ja toiterežiimi andmed</string>
+    <string name="cat_storage_title">Säilitamine</string>
+    <string name="cat_storage_subtitle">Maht ja salvestusruum kokku</string>
+    <string name="cat_network_title">Võrk</string>
+    <string name="cat_network_subtitle">Ühenduvus ja VPN-i olek</string>
+    <string name="cat_fonts_title">Fondid</string>
+    <string name="cat_fonts_subtitle">Fondi saadavuse näidis</string>
+    <string name="cat_installed_voices_title">Installitud hääled</string>
+    <string name="cat_installed_voices_subtitle">Kõnemootori ja hääle tugi</string>
+    <string name="cat_app_info_title">Rakendus ja kogum</string>
+    <string name="cat_app_info_subtitle">Paketi koostamise metaandmed</string>
+    <string name="cat_pasteboard_title">Pappplaat</string>
+    <string name="cat_pasteboard_subtitle">Ainult lõikelaua metaandmed</string>
+    <string name="cat_audio_title">Heli</string>
+    <string name="cat_audio_subtitle">Heliväljundid ja marsruudi üksikasjad</string>
+    <string name="cat_graphics_title">Graafika</string>
+    <string name="cat_graphics_subtitle">GPU / GL rakendamise signaalid</string>
+    <string name="cat_telephony_title">Telefoniteenus</string>
+    <string name="cat_telephony_subtitle">Operaatori ja raadio metaandmed</string>
+    <string name="cat_motion_title">Liikumine ja andurid</string>
+    <string name="cat_motion_subtitle">Lubadega piiratud liikumise üksikasjad</string>
+    <string name="cat_location_title">Asukoht</string>
+    <string name="cat_location_subtitle">Asukoha ja pakkuja metaandmed</string>
+    <string name="cat_cameras_title">Kaamerad</string>
+    <string name="cat_cameras_subtitle">Kaamera võimalused ja arv</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetoothi ​​olek ja seotud statistika</string>
+    <string name="cat_local_network_title">Kohalik võrk</string>
+    <string name="cat_local_network_subtitle">Lähedal asuv võrgukeskkond</string>
+    <string name="cat_contacts_title">Kontaktid</string>
+    <string name="cat_contacts_subtitle">Võtke ühendust ainult andmebaasi metaandmetega</string>
+    <string name="cat_photos_title">Fotod</string>
+    <string name="cat_photos_subtitle">Ainult meediumikogu metaandmed</string>
+    <string name="cat_calendar_title">Kalender</string>
+    <string name="cat_calendar_subtitle">Kalendri konto metaandmed</string>
+    <string name="cat_reminders_title">Meeldetuletused</string>
+    <string name="cat_reminders_subtitle">Ülesande/meeldetuletuse pakkuja metaandmed</string>
+    <string name="cat_music_library_title">Muusikakogu</string>
+    <string name="cat_music_library_subtitle">Ainult helimeedia metaandmed</string>
+    <string name="cat_installed_apps_probe_title">Installitud rakenduste sond</string>
+    <string name="cat_installed_apps_probe_subtitle">Kavatsuste skeemi uurimine</string>
+    <string name="cat_webview_fingerprint_title">WebView sõrmejälg</string>
+    <string name="cat_webview_fingerprint_subtitle">Brauserilaadne renderdusprofiil</string>
+    <string name="cat_previous_installs_log_title">Eelmiste installimiste logi</string>
+    <string name="cat_previous_installs_log_subtitle">Installige püsivuse vihjed</string>
+
+</resources>

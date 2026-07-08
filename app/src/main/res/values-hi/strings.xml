@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">एंड्रॉइड एपीआई फिंगरप्रिंट एक्सप्लोरर</string>
+    <string name="back">पीछे</string>
+    <string name="refresh">ताज़ा करना</string>
+    <string name="export_report">निर्यात रिपोर्ट</string>
+    <string name="export_chooser_title">एंड्रोवॉच रिपोर्ट निर्यात करें</string>
+    <string name="about_title">के बारे में</string>
+    <string name="about_heading">डिवाइस फ़िंगरप्रिंट पारदर्शिता</string>
+    <string name="about_inspired">एंड्रोवॉच माइस्क रिसर्च द्वारा लूपे से प्रेरित एक एंड्रॉइड विकल्प है। यह बताता है कि सार्वजनिक एंड्रॉइड एपीआई आपके डिवाइस के बारे में क्या बता सकता है।</string>
+    <string name="about_privacy">सभी रीडिंग आपके डिवाइस पर रहती हैं। जब तक आप स्पष्ट रूप से JSON रिपोर्ट निर्यात नहीं करते तब तक कुछ भी अपलोड नहीं किया जाता है।</string>
+    <string name="onboarding_title">देखें एंड्रॉइड क्या बताता है</string>
+    <string name="onboarding_body">एंड्रोवॉच दिखाता है कि एंड्रॉइड एपीआई आपके डिवाइस के बारे में क्या बता सकता है - पहचानकर्ता, सेंसर, नेटवर्क और बहुत कुछ।</string>
+    <string name="onboarding_privacy">कुछ भी अपलोड नहीं किया गया है. निर्यात स्पष्ट और स्थानीय हैं।</string>
+    <string name="onboarding_continue">जारी रखना</string>
+    <string name="permission_required">अनुमति आवश्यक है</string>
+    <string name="permission_rationale">इस श्रेणी को एकत्रित मेटाडेटा पढ़ने के लिए रनटाइम अनुमति की आवश्यकता है। कच्चा PII कभी प्रदर्शित नहीं होता.</string>
+    <string name="grant_permission">अनुमति प्रदान करें</string>
+    <string name="summary_title">फ़िंगरप्रिंट सारांश</string>
+    <string name="summary_empty">सारांश तैयार करने के लिए श्रेणियों को ताज़ा करें।</string>
+    <string name="tier_passive">निष्क्रिय</string>
+    <string name="tier_permissioned">अनुमति की आवश्यकता है</string>
+    <string name="tier_advanced">विकसित</string>
+    <string name="signal_count">%1$d सिग्नल</string>
+    <string name="live_badge">रहना</string>
+    <string name="loading">सिग्नल एकत्रित किए जा रहे हैं...</string>
+    <string name="error_collecting">सिग्नल एकत्र करते समय त्रुटि.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">पुन: प्रयास करें</string>
+    <string name="export_error">रिपोर्ट निर्यात नहीं की जा सकी.</string>
+    <string name="export_empty">अभी तक निर्यात करने के लिए कुछ भी नहीं है. पहले श्रेणियां ताज़ा करें.</string>
+    <string name="no_signals">अभी तक कोई सिग्नल एकत्र नहीं किया गया.</string>
+    <string name="show_rationale">यह क्यों मायने रखता है?</string>
+    <string name="hide_rationale">तर्क छुपाएं</string>
+    <string name="raw_value">कच्चा एपीआई मान</string>
+    <string name="value_unknown">अज्ञात</string>
+    <string name="value_unknown_locale">अज्ञात स्थान</string>
+    <string name="value_unknown_device">अज्ञात उपकरण</string>
+    <string name="value_unknown_battery">अज्ञात बैटरी</string>
+    <string name="value_unknown_network">अज्ञात नेटवर्क</string>
+    <string name="value_none">कोई नहीं</string>
+    <string name="value_unavailable">अनुपलब्ध</string>
+    <string name="value_na">एन/ए</string>
+    <string name="value_true">हाँ</string>
+    <string name="value_false">नहीं</string>
+
+</resources>

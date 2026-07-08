@@ -1,0 +1,69 @@
+// Release signing: local keystore.properties or CI environment variables.
+// Never commit keystore.properties — copy from keystore.properties.example.
+
+def signingPropsFile = rootProject.file("keystore.properties")
+def keystorePath = System.getenv("RELEASE_KEYSTORE_PATH")
+def keystoreB64 = System.getenv("RELEASE_KEYSTORE_BASE64")
+
+def resolveKeystoreFile = {
+    if (keystorePath != null && !keystorePath.isBlank()) {
+        def f = rootProject.file(keystorePath)
+        return f.exists() ? f : null
+    }
+    if (keystoreB64 != null && !keystoreB64.isBlank()) {
+        def decoded = rootProject.file("${rootProject.buildDir}/ci-release.keystore")
+        decoded.parentFile.mkdirs()
+        decoded.bytes = keystoreB64.decodeBase64()
+        return decoded
+    }
+    if (signingPropsFile.exists()) {
+        def props = new Properties()
+        signingPropsFile.withInputStream { props.load(it) }
+        def storePath = props.getProperty("storeFile")
+        if (storePath != null) {
+            def f = rootProject.file(storePath)
+            return f.exists() ? f : null
+        }
+    }
+    return null
+}
+
+def resolveCredential = { String propKey, String envKey, Properties props ->
+    def fromEnv = System.getenv(envKey)
+    if (fromEnv != null && !fromEnv.isBlank()) return fromEnv
+    return props?.getProperty(propKey)
+}
+
+def keystoreFile = resolveKeystoreFile()
+if (keystoreFile == null) {
+    logger.lifecycle("Release signing skipped: no keystore (keystore.properties or RELEASE_KEYSTORE_* env).")
+} else {
+    def props = signingPropsFile.exists() ? new Properties().with { p ->
+        signingPropsFile.withInputStream { p.load(it) }
+        p
+    } : null
+
+    def storePassword = resolveCredential("storePassword", "RELEASE_KEYSTORE_PASSWORD", props)
+    def keyAlias = resolveCredential("keyAlias", "RELEASE_KEY_ALIAS", props) ?: "androwatch"
+    def keyPassword = resolveCredential("keyPassword", "RELEASE_KEY_PASSWORD", props) ?: storePassword
+
+    if (storePassword == null) {
+        logger.warn("Release keystore found but store password missing; APK will be unsigned.")
+    } else {
+        android {
+            signingConfigs {
+                release {
+                    storeFile keystoreFile
+                    storePassword storePassword
+                    keyAlias keyAlias
+                    keyPassword keyPassword
+                }
+            }
+            buildTypes {
+                release {
+                    signingConfig signingConfigs.release
+                }
+            }
+        }
+    }
+}

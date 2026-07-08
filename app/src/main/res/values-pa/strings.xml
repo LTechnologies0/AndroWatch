@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API ਫਿੰਗਰਪ੍ਰਿੰਟ ਐਕਸਪਲੋਰਰ</string>
+    <string name="back">ਪਿੱਛੇ</string>
+    <string name="refresh">ਤਾਜ਼ਾ ਕਰੋ</string>
+    <string name="export_report">ਰਿਪੋਰਟ ਨਿਰਯਾਤ ਕਰੋ</string>
+    <string name="export_chooser_title">AndroWatch ਰਿਪੋਰਟ ਨਿਰਯਾਤ ਕਰੋ</string>
+    <string name="about_title">ਬਾਰੇ</string>
+    <string name="about_heading">ਡਿਵਾਈਸ ਫਿੰਗਰਪ੍ਰਿੰਟ ਪਾਰਦਰਸ਼ਤਾ</string>
+    <string name="about_inspired">ਐਂਡਰੋਵਾਚ ਮਾਈਸਕ ਰਿਸਰਚ ਦੁਆਰਾ ਲੂਪ ਦੁਆਰਾ ਪ੍ਰੇਰਿਤ ਇੱਕ ਐਂਡਰੌਇਡ ਵਿਕਲਪ ਹੈ। ਇਹ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਜਨਤਕ Android API ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਬਾਰੇ ਕੀ ਪ੍ਰਗਟ ਕਰ ਸਕਦੇ ਹਨ।</string>
+    <string name="about_privacy">ਸਾਰੀਆਂ ਰੀਡਿੰਗਾਂ ਤੁਹਾਡੀ ਡਿਵਾਈਸ \'ਤੇ ਰਹਿੰਦੀਆਂ ਹਨ। ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਸਪਸ਼ਟ ਤੌਰ \'ਤੇ JSON ਰਿਪੋਰਟ ਨਿਰਯਾਤ ਨਹੀਂ ਕਰਦੇ, ਕੁਝ ਵੀ ਅੱਪਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।</string>
+    <string name="onboarding_title">ਦੇਖੋ ਕਿ Android ਕੀ ਪ੍ਰਗਟ ਕਰਦਾ ਹੈ</string>
+    <string name="onboarding_body">AndroWatch ਦਿਖਾਉਂਦਾ ਹੈ ਕਿ Android API ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਬਾਰੇ ਕੀ ਪ੍ਰਗਟ ਕਰ ਸਕਦੇ ਹਨ — ਪਛਾਣਕਰਤਾ, ਸੈਂਸਰ, ਨੈੱਟਵਰਕ, ਅਤੇ ਹੋਰ।</string>
+    <string name="onboarding_privacy">ਕੁਝ ਵੀ ਅੱਪਲੋਡ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। ਨਿਰਯਾਤ ਸਪੱਸ਼ਟ ਅਤੇ ਸਥਾਨਕ ਹਨ।</string>
+    <string name="onboarding_continue">ਜਾਰੀ ਰੱਖੋ</string>
+    <string name="permission_required">ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ</string>
+    <string name="permission_rationale">ਇਸ ਸ਼੍ਰੇਣੀ ਨੂੰ ਇਕੱਤਰ ਕੀਤੇ ਮੈਟਾਡੇਟਾ ਨੂੰ ਪੜ੍ਹਨ ਲਈ ਰਨਟਾਈਮ ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ। ਕੱਚਾ PII ਕਦੇ ਪ੍ਰਦਰਸ਼ਿਤ ਨਹੀਂ ਹੁੰਦਾ।</string>
+    <string name="grant_permission">ਇਜਾਜ਼ਤ ਦਿਓ</string>
+    <string name="summary_title">ਫਿੰਗਰਪ੍ਰਿੰਟ ਸੰਖੇਪ</string>
+    <string name="summary_empty">ਇੱਕ ਸੰਖੇਪ ਬਣਾਉਣ ਲਈ ਸ਼੍ਰੇਣੀਆਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ।</string>
+    <string name="tier_passive">ਪੈਸਿਵ</string>
+    <string name="tier_permissioned">ਇਜਾਜ਼ਤ ਦੀ ਲੋੜ ਹੈ</string>
+    <string name="tier_advanced">ਉੱਨਤ</string>
+    <string name="signal_count">%1$d ਸਿਗਨਲ</string>
+    <string name="live_badge">ਲਾਈਵ</string>
+    <string name="loading">ਸਿਗਨਲ ਇਕੱਠੇ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ…</string>
+    <string name="error_collecting">ਸਿਗਨਲ ਇਕੱਠੇ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ।</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</string>
+    <string name="export_error">ਰਿਪੋਰਟ ਨਿਰਯਾਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।</string>
+    <string name="export_empty">ਅਜੇ ਨਿਰਯਾਤ ਕਰਨ ਲਈ ਕੁਝ ਨਹੀਂ ਹੈ। ਪਹਿਲਾਂ ਸ਼੍ਰੇਣੀਆਂ ਨੂੰ ਤਾਜ਼ਾ ਕਰੋ।</string>
+    <string name="no_signals">ਅਜੇ ਤੱਕ ਕੋਈ ਸੰਕੇਤ ਇਕੱਠੇ ਨਹੀਂ ਕੀਤੇ ਗਏ।</string>
+    <string name="show_rationale">ਇਹ ਮਾਇਨੇ ਕਿਉਂ ਰੱਖਦਾ ਹੈ</string>
+    <string name="hide_rationale">ਤਰਕ ਨੂੰ ਲੁਕਾਓ</string>
+    <string name="raw_value">ਕੱਚਾ API ਮੁੱਲ</string>
+    <string name="value_unknown">ਅਗਿਆਤ</string>
+    <string name="value_unknown_locale">ਅਗਿਆਤ ਲੋਕੇਲ</string>
+    <string name="value_unknown_device">ਅਗਿਆਤ ਜੰਤਰ</string>
+    <string name="value_unknown_battery">ਅਣਜਾਣ ਬੈਟਰੀ</string>
+    <string name="value_unknown_network">ਅਗਿਆਤ ਨੈੱਟਵਰਕ</string>
+    <string name="value_none">ਕੋਈ ਨਹੀਂ</string>
+    <string name="value_unavailable">ਅਣਉਪਲਬਧ</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">ਹਾਂ</string>
+    <string name="value_false">ਨਹੀਂ</string>
+
+</resources>

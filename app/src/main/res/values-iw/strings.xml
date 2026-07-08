@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">סייר טביעות אצבע של Android API</string>
+    <string name="back">בְּחֲזָרָה</string>
+    <string name="refresh">לְרַעֲנֵן</string>
+    <string name="export_report">דוח ייצוא</string>
+    <string name="export_chooser_title">ייצוא דוח AndroWatch</string>
+    <string name="about_title">אוֹדוֹת</string>
+    <string name="about_heading">שקיפות טביעת אצבע של המכשיר</string>
+    <string name="about_inspired">AndroWatch היא אלטרנטיבה לאנדרואיד בהשראת Loupe מאת Mysk Research. הוא מציג את מה שממשקי API ציבוריים של Android יכולים לחשוף על המכשיר שלך.</string>
+    <string name="about_privacy">כל הקריאות נשארות במכשיר שלך. שום דבר לא מועלה אלא אם אתה מייצא במפורש דוח JSON.</string>
+    <string name="onboarding_title">ראה מה אנדרואיד חושף</string>
+    <string name="onboarding_body">AndroWatch מראה מה ממשקי API של Android יכולים לחשוף על המכשיר שלך - מזהים, חיישנים, רשת ועוד.</string>
+    <string name="onboarding_privacy">שום דבר לא מועלה. הייצוא הוא מפורש ומקומי.</string>
+    <string name="onboarding_continue">לְהַמשִׁיך</string>
+    <string name="permission_required">נדרש אישור</string>
+    <string name="permission_rationale">קטגוריה זו זקוקה להרשאת זמן ריצה כדי לקרוא מטא נתונים מצטברים. PII גולמי לעולם אינו מוצג.</string>
+    <string name="grant_permission">תן רשות</string>
+    <string name="summary_title">סיכום טביעת אצבע</string>
+    <string name="summary_empty">רענן קטגוריות כדי ליצור סיכום.</string>
+    <string name="tier_passive">פַּסִיבִי</string>
+    <string name="tier_permissioned">צריך אישור</string>
+    <string name="tier_advanced">מִתקַדֵם</string>
+    <string name="signal_count">%1$d אותות</string>
+    <string name="live_badge">לִחיוֹת</string>
+    <string name="loading">אוסף אותות...</string>
+    <string name="error_collecting">שגיאה בזמן איסוף אותות.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">נסה שוב</string>
+    <string name="export_error">לא ניתן לייצא את הדוח.</string>
+    <string name="export_empty">אין עדיין מה לייצא. רענן קטגוריות תחילה.</string>
+    <string name="no_signals">עדיין לא נאספו אותות.</string>
+    <string name="show_rationale">למה זה חשוב</string>
+    <string name="hide_rationale">הסתר את הרציונל</string>
+    <string name="raw_value">ערך API גולמי</string>
+    <string name="value_unknown">לֹא יְדוּעַ</string>
+    <string name="value_unknown_locale">מקום לא ידוע</string>
+    <string name="value_unknown_device">מכשיר לא ידוע</string>
+    <string name="value_unknown_battery">סוללה לא ידועה</string>
+    <string name="value_unknown_network">רשת לא ידועה</string>
+    <string name="value_none">אַף לֹא אֶחָד</string>
+    <string name="value_unavailable">לא זמין</string>
+    <string name="value_na">לא</string>
+    <string name="value_true">כֵּן</string>
+    <string name="value_false">לֹא</string>
+
+</resources>

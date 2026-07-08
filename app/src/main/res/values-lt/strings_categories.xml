@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Įrenginio tapatybė</string>
+    <string name="cat_device_identity_subtitle">Identifikatoriai ir techninės įrangos savybės</string>
+    <string name="cat_google_account_title">Google paskyra</string>
+    <string name="cat_google_account_subtitle">Paskyros buvimo signalai</string>
+    <string name="cat_system_info_title">Sistemos informacija</string>
+    <string name="cat_system_info_subtitle">OS ir vykdymo laikas</string>
+    <string name="cat_display_title">Ekranas</string>
+    <string name="cat_display_subtitle">Ekrano galimybės ir tankis</string>
+    <string name="cat_locale_title">Vietovė ir regionas</string>
+    <string name="cat_locale_subtitle">Kalbos ir laiko juostos pėdsakas</string>
+    <string name="cat_accessibility_title">Prieinamumas</string>
+    <string name="cat_accessibility_subtitle">Pagalbiniai nustatymai ir vėliavėlės</string>
+    <string name="cat_device_motion_title">Įrenginio judėjimas</string>
+    <string name="cat_device_motion_subtitle">Jutiklio buvimas ir būsena</string>
+    <string name="cat_battery_title">Baterija ir maitinimas</string>
+    <string name="cat_battery_subtitle">Baterijos ir maitinimo režimo duomenys</string>
+    <string name="cat_storage_title">Sandėliavimas</string>
+    <string name="cat_storage_subtitle">Bendras tūris ir saugykla</string>
+    <string name="cat_network_title">Tinklas</string>
+    <string name="cat_network_subtitle">Ryšys ir VPN būsena</string>
+    <string name="cat_fonts_title">Šriftai</string>
+    <string name="cat_fonts_subtitle">Šrifto prieinamumo pavyzdys</string>
+    <string name="cat_installed_voices_title">Įdiegti balsai</string>
+    <string name="cat_installed_voices_subtitle">Kalbėjimo variklis ir balso palaikymas</string>
+    <string name="cat_app_info_title">Programa ir rinkinys</string>
+    <string name="cat_app_info_subtitle">Paketo kūrimo metaduomenys</string>
+    <string name="cat_pasteboard_title">Kartonas</string>
+    <string name="cat_pasteboard_subtitle">Tik iškarpinės metaduomenys</string>
+    <string name="cat_audio_title">Garsas</string>
+    <string name="cat_audio_subtitle">Garso išėjimai ir maršruto detalės</string>
+    <string name="cat_graphics_title">Grafika</string>
+    <string name="cat_graphics_subtitle">GPU / GL įgyvendinimo signalai</string>
+    <string name="cat_telephony_title">Telefonija</string>
+    <string name="cat_telephony_subtitle">Vežėjo ir radijo metaduomenys</string>
+    <string name="cat_motion_title">Judesiai ir jutikliai</string>
+    <string name="cat_motion_subtitle">Išsami informacija apie judėjimą, kuriam taikomas leidimas</string>
+    <string name="cat_location_title">Vieta</string>
+    <string name="cat_location_subtitle">Pozicijos ir teikėjo metaduomenys</string>
+    <string name="cat_cameras_title">Fotoaparatai</string>
+    <string name="cat_cameras_subtitle">Kameros galimybės ir skaičius</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">„Bluetooth“ būsena ir suporuota statistika</string>
+    <string name="cat_local_network_title">Vietinis tinklas</string>
+    <string name="cat_local_network_subtitle">Netoliese esanti tinklo aplinka</string>
+    <string name="cat_contacts_title">Kontaktai</string>
+    <string name="cat_contacts_subtitle">Susisiekite tik su duomenų bazės metaduomenimis</string>
+    <string name="cat_photos_title">Nuotraukos</string>
+    <string name="cat_photos_subtitle">Tik medijos bibliotekos metaduomenys</string>
+    <string name="cat_calendar_title">Kalendorius</string>
+    <string name="cat_calendar_subtitle">Kalendoriaus paskyros metaduomenys</string>
+    <string name="cat_reminders_title">Priminimai</string>
+    <string name="cat_reminders_subtitle">Užduočių / priminimo teikėjo metaduomenys</string>
+    <string name="cat_music_library_title">Muzikos biblioteka</string>
+    <string name="cat_music_library_subtitle">Tik garso medijos metaduomenys</string>
+    <string name="cat_installed_apps_probe_title">Įdiegtų programų zondas</string>
+    <string name="cat_installed_apps_probe_subtitle">Ketinimų schemos zondavimas</string>
+    <string name="cat_webview_fingerprint_title">„WebView“ piršto atspaudas</string>
+    <string name="cat_webview_fingerprint_subtitle">Į naršyklę panašus atvaizdavimo profilis</string>
+    <string name="cat_previous_installs_log_title">Ankstesnių diegimų žurnalas</string>
+    <string name="cat_previous_installs_log_subtitle">Įdiekite patvarumo patarimus</string>
+
+</resources>

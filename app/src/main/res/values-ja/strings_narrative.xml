@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">このデバイスは現在ロケール %1$s を報告しています。</string>
+    <string name="summary_line_model">ハードウェア モデルは %1$s として表示されます。</string>
+    <string name="summary_line_android_id">このアプリの ANDROID_ID は %1$s です。</string>
+    <string name="summary_line_battery">バッテリーのスナップショットは%1$sを示しています。</string>
+    <string name="summary_line_network">アクティブなネットワーク トランスポート: %1$s。</string>
+    <string name="summary_line_authenticators">表示されるアカウント認証子: %1$s。</string>
+    <string name="summary_line_privacy">AndroWatch は、エクスポートしない限り、これらの測定値をデバイス上に保持します。</string>
+
+</resources>

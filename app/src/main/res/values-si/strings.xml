@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API ඇඟිලි සලකුණු ගවේෂකය</string>
+    <string name="back">ආපසු</string>
+    <string name="refresh">නැවුම් කරන්න</string>
+    <string name="export_report">අපනයන වාර්තාව</string>
+    <string name="export_chooser_title">AndroWatch වාර්තාව අපනයනය කරන්න</string>
+    <string name="about_title">ගැන</string>
+    <string name="about_heading">උපාංග ඇඟිලි සලකුණු විනිවිදභාවය</string>
+    <string name="about_inspired">AndroWatch යනු Mysk Research විසින් Loupe විසින් ආනුභාව ලත් Android විකල්පයකි. එය පොදු Android API වලට ඔබේ උපාංගය ගැන හෙළි කළ හැකි දේ මතු කරයි.</string>
+    <string name="about_privacy">සියලුම කියවීම් ඔබගේ උපාංගයේ පවතී. ඔබ JSON වාර්තාවක් පැහැදිලිව නිර්යාත කරන්නේ නම් මිස කිසිවක් උඩුගත නොවේ.</string>
+    <string name="onboarding_title">Android හෙළි කරන දේ බලන්න</string>
+    <string name="onboarding_body">AndroWatch Android API වලට ඔබගේ උපාංගය ගැන හෙළි කළ හැකි දේ පෙන්වයි - හඳුනාගැනීම්, සංවේදක, ජාලය සහ තවත් දේ.</string>
+    <string name="onboarding_privacy">කිසිවක් උඩුගත නොකෙරේ. අපනයන පැහැදිලි සහ දේශීය වේ.</string>
+    <string name="onboarding_continue">දිගටම කරගෙන යන්න</string>
+    <string name="permission_required">අවසරය අවශ්‍යයි</string>
+    <string name="permission_rationale">මෙම ප්‍රවර්ගයට එකතු කරන ලද පාරදත්ත කියවීමට ධාවන කාල අවසරය අවශ්‍යයි. Raw PII කිසිවිටෙක දර්ශනය නොවේ.</string>
+    <string name="grant_permission">අවසර දෙන්න</string>
+    <string name="summary_title">ඇඟිලි සලකුණු සාරාංශය</string>
+    <string name="summary_empty">සාරාංශයක් ජනනය කිරීමට ප්‍රවර්ග නැවුම් කරන්න.</string>
+    <string name="tier_passive">නිෂ්ක්රීය</string>
+    <string name="tier_permissioned">අවසරය අවශ්‍යයි</string>
+    <string name="tier_advanced">උසස්</string>
+    <string name="signal_count">%1$d සංඥා</string>
+    <string name="live_badge">සජීවීව</string>
+    <string name="loading">සංඥා එකතු කරමින්...</string>
+    <string name="error_collecting">සංඥා එකතු කිරීමේදී දෝෂයකි.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">නැවත උත්සාහ කරන්න</string>
+    <string name="export_error">වාර්තාව අපනයනය කළ නොහැකි විය.</string>
+    <string name="export_empty">තවමත් අපනයනය කිරීමට කිසිවක් නැත. පළමුව ප්‍රවර්ග නැවුම් කරන්න.</string>
+    <string name="no_signals">තවමත් සංඥා එකතු කර නැත.</string>
+    <string name="show_rationale">ඇයි මේක වැදගත්</string>
+    <string name="hide_rationale">තාර්කිකත්වය සඟවන්න</string>
+    <string name="raw_value">Raw API අගය</string>
+    <string name="value_unknown">නොදන්නා</string>
+    <string name="value_unknown_locale">නොදන්නා ස්ථානය</string>
+    <string name="value_unknown_device">නොදන්නා උපාංගය</string>
+    <string name="value_unknown_battery">නොදන්නා බැටරි</string>
+    <string name="value_unknown_network">නොදන්නා ජාලය</string>
+    <string name="value_none">කිසිවක් නැත</string>
+    <string name="value_unavailable">ලබාගත නොහැක</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">ඔව්</string>
+    <string name="value_false">නැත</string>
+
+</resources>

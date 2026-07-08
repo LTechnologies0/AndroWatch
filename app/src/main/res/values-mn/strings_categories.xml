@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Төхөөрөмжийн таних тэмдэг</string>
+    <string name="cat_device_identity_subtitle">Тодорхойлогч ба техник хангамжийн шинж чанарууд</string>
+    <string name="cat_google_account_title">Google бүртгэл</string>
+    <string name="cat_google_account_subtitle">Бүртгэл байгаа эсэх дохио</string>
+    <string name="cat_system_info_title">Системийн мэдээлэл</string>
+    <string name="cat_system_info_subtitle">Үйлдлийн систем болон ажиллах үеийн дэлгэрэнгүй мэдээлэл</string>
+    <string name="cat_display_title">Дэлгэц</string>
+    <string name="cat_display_subtitle">Дэлгэцийн чадвар ба нягтрал</string>
+    <string name="cat_locale_title">Орон нутаг, бүс нутаг</string>
+    <string name="cat_locale_subtitle">Хэл ба цагийн бүсийн ул мөр</string>
+    <string name="cat_accessibility_title">Хүртээмжтэй байдал</string>
+    <string name="cat_accessibility_subtitle">Туслах тохиргоо болон тугнууд</string>
+    <string name="cat_device_motion_title">Төхөөрөмжийн хөдөлгөөн</string>
+    <string name="cat_device_motion_subtitle">Мэдрэгчийн байдал ба байдал</string>
+    <string name="cat_battery_title">Батерей ба эрчим хүч</string>
+    <string name="cat_battery_subtitle">Зай болон тэжээлийн горимын өгөгдөл</string>
+    <string name="cat_storage_title">Хадгалах</string>
+    <string name="cat_storage_subtitle">Эзлэхүүн болон хадгалах сангийн нийт дүн</string>
+    <string name="cat_network_title">Сүлжээ</string>
+    <string name="cat_network_subtitle">Холболт ба VPN статус</string>
+    <string name="cat_fonts_title">Фонтууд</string>
+    <string name="cat_fonts_subtitle">Фонтын бэлэн байдлын жишээ</string>
+    <string name="cat_installed_voices_title">Суулгасан дуу хоолой</string>
+    <string name="cat_installed_voices_subtitle">Ярианы хөдөлгүүр ба дуут дэмжлэг</string>
+    <string name="cat_app_info_title">Апп &amp; Багц</string>
+    <string name="cat_app_info_subtitle">Багц бүтээх мета өгөгдөл</string>
+    <string name="cat_pasteboard_title">Зуурмагийн самбар</string>
+    <string name="cat_pasteboard_subtitle">Зөвхөн санах ойн мета өгөгдөл</string>
+    <string name="cat_audio_title">Аудио</string>
+    <string name="cat_audio_subtitle">Аудио гаралт ба маршрутын дэлгэрэнгүй</string>
+    <string name="cat_graphics_title">График</string>
+    <string name="cat_graphics_subtitle">GPU / GL хэрэгжүүлэх дохио</string>
+    <string name="cat_telephony_title">Утас</string>
+    <string name="cat_telephony_subtitle">Оператор болон радио мета өгөгдөл</string>
+    <string name="cat_motion_title">Хөдөлгөөн ба мэдрэгч</string>
+    <string name="cat_motion_subtitle">Зөвшөөрөлтэй хөдөлгөөний дэлгэрэнгүй мэдээлэл</string>
+    <string name="cat_location_title">Байршил</string>
+    <string name="cat_location_subtitle">Байршил болон үйлчилгээ үзүүлэгчийн мета өгөгдөл</string>
+    <string name="cat_cameras_title">Камерууд</string>
+    <string name="cat_cameras_subtitle">Камерын чадвар, тоо</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth статус болон хосолсон статистик</string>
+    <string name="cat_local_network_title">Орон нутгийн сүлжээ</string>
+    <string name="cat_local_network_subtitle">Ойролцоох сүлжээний орчин</string>
+    <string name="cat_contacts_title">Харилцагчид</string>
+    <string name="cat_contacts_subtitle">Зөвхөн өгөгдлийн сангийн мета өгөгдөлтэй холбоо барина уу</string>
+    <string name="cat_photos_title">Зураг</string>
+    <string name="cat_photos_subtitle">Зөвхөн медиа сангийн мета өгөгдөл</string>
+    <string name="cat_calendar_title">Хуанли</string>
+    <string name="cat_calendar_subtitle">Календарийн бүртгэлийн мета өгөгдөл</string>
+    <string name="cat_reminders_title">Сануулга</string>
+    <string name="cat_reminders_subtitle">Даалгавар/сануулагчийн мета өгөгдөл</string>
+    <string name="cat_music_library_title">Хөгжмийн номын сан</string>
+    <string name="cat_music_library_subtitle">Зөвхөн аудио медиа мета өгөгдөл</string>
+    <string name="cat_installed_apps_probe_title">Суулгасан програмын шалгалт</string>
+    <string name="cat_installed_apps_probe_subtitle">Зорилгын схемийг шалгах</string>
+    <string name="cat_webview_fingerprint_title">WebView хурууны хээ</string>
+    <string name="cat_webview_fingerprint_subtitle">Хөтөч шиг дүрслэх профайл</string>
+    <string name="cat_previous_installs_log_title">Өмнөх суулгацын бүртгэл</string>
+    <string name="cat_previous_installs_log_subtitle">Тогтвортой байдлын зөвлөмжийг суулгана уу</string>
+
+</resources>

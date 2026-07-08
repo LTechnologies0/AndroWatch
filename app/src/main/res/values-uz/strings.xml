@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API barmoq izi tadqiqotchisi</string>
+    <string name="back">Orqaga</string>
+    <string name="refresh">Yangilash</string>
+    <string name="export_report">Eksport hisoboti</string>
+    <string name="export_chooser_title">AndroWatch hisobotini eksport qiling</string>
+    <string name="about_title">Haqida</string>
+    <string name="about_heading">Qurilmaning barmoq izlari shaffofligi</string>
+    <string name="about_inspired">AndroWatch - Mysk Research tomonidan Loupe tomonidan ilhomlantirilgan Android alternativasi. U ommaviy Android API’lari qurilmangiz haqida nimani ko‘rsatishi mumkinligini ko‘rsatadi.</string>
+    <string name="about_privacy">Barcha o\'qishlar qurilmangizda qoladi. JSON hisobotini aniq eksport qilmaguningizcha hech narsa yuklanmaydi.</string>
+    <string name="onboarding_title">Android nimani ochib berishini ko\'ring</string>
+    <string name="onboarding_body">AndroWatch Android API’lari qurilmangiz haqida nimani ko‘rsatishi mumkinligini ko‘rsatadi – identifikatorlar, sensorlar, tarmoq va boshqalar.</string>
+    <string name="onboarding_privacy">Hech narsa yuklanmagan. Eksport aniq va mahalliydir.</string>
+    <string name="onboarding_continue">Davom eting</string>
+    <string name="permission_required">Ruxsat talab qilinadi</string>
+    <string name="permission_rationale">Bu turkumga yigʻilgan metamaʼlumotlarni oʻqish uchun ish vaqti ruxsati kerak. Raw PII hech qachon ko\'rsatilmaydi.</string>
+    <string name="grant_permission">Ruxsat bering</string>
+    <string name="summary_title">Barmoq izi xulosasi</string>
+    <string name="summary_empty">Xulosa yaratish uchun toifalarni yangilang.</string>
+    <string name="tier_passive">Passiv</string>
+    <string name="tier_permissioned">Ruxsat kerak</string>
+    <string name="tier_advanced">Murakkab</string>
+    <string name="signal_count">%1$d signallari</string>
+    <string name="live_badge">Jonli</string>
+    <string name="loading">Signallar yig\'ilmoqda…</string>
+    <string name="error_collecting">Signallarni yig\'ishda xatolik yuz berdi.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Qayta urinish</string>
+    <string name="export_error">Hisobotni eksport qilib bo‘lmadi.</string>
+    <string name="export_empty">Hali eksport qilinadigan hech narsa yo\'q. Avval toifalarni yangilang.</string>
+    <string name="no_signals">Hozircha hech qanday signal toʻplanmagan.</string>
+    <string name="show_rationale">Nima uchun bu muhim</string>
+    <string name="hide_rationale">Mantiqni yashirish</string>
+    <string name="raw_value">Raw API qiymati</string>
+    <string name="value_unknown">noma\'lum</string>
+    <string name="value_unknown_locale">noma\'lum mahalliy</string>
+    <string name="value_unknown_device">noma\'lum qurilma</string>
+    <string name="value_unknown_battery">noma\'lum batareya</string>
+    <string name="value_unknown_network">noma\'lum tarmoq</string>
+    <string name="value_none">yo\'q</string>
+    <string name="value_unavailable">mavjud emas</string>
+    <string name="value_na">yo\'q</string>
+    <string name="value_true">ha</string>
+    <string name="value_false">yo\'q</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Eszközazonosító</string>
+    <string name="cat_device_identity_subtitle">Azonosítók és hardverjellemzők</string>
+    <string name="cat_google_account_title">Google Fiók</string>
+    <string name="cat_google_account_subtitle">Fiókjelenléti jelzések</string>
+    <string name="cat_system_info_title">Rendszerinformáció</string>
+    <string name="cat_system_info_subtitle">OS és futásidejű részletek</string>
+    <string name="cat_display_title">Kijelző</string>
+    <string name="cat_display_subtitle">Képernyő képességei és sűrűsége</string>
+    <string name="cat_locale_title">Terület és régió</string>
+    <string name="cat_locale_subtitle">Nyelv és időzóna lábnyom</string>
+    <string name="cat_accessibility_title">Megközelíthetőség</string>
+    <string name="cat_accessibility_subtitle">Segéd beállítások és zászlók</string>
+    <string name="cat_device_motion_title">Eszköz mozgása</string>
+    <string name="cat_device_motion_subtitle">Érzékelő jelenléte és állapota</string>
+    <string name="cat_battery_title">Akkumulátor és tápellátás</string>
+    <string name="cat_battery_subtitle">Az akkumulátor és az energia üzemmód adatai</string>
+    <string name="cat_storage_title">Tárolás</string>
+    <string name="cat_storage_subtitle">Mennyiség és tárhely összesen</string>
+    <string name="cat_network_title">Hálózat</string>
+    <string name="cat_network_subtitle">Kapcsolat és VPN állapota</string>
+    <string name="cat_fonts_title">Betűtípusok</string>
+    <string name="cat_fonts_subtitle">Betűkészlet elérhetőségi minta</string>
+    <string name="cat_installed_voices_title">Telepített hangok</string>
+    <string name="cat_installed_voices_subtitle">Beszédmotor és hangtámogatás</string>
+    <string name="cat_app_info_title">App &amp; Bundle</string>
+    <string name="cat_app_info_subtitle">Csomagösszeállítás metaadatai</string>
+    <string name="cat_pasteboard_title">Karton</string>
+    <string name="cat_pasteboard_subtitle">Csak a vágólap metaadatai</string>
+    <string name="cat_audio_title">Hang</string>
+    <string name="cat_audio_subtitle">Audiokimenetek és az útvonal részletei</string>
+    <string name="cat_graphics_title">Grafika</string>
+    <string name="cat_graphics_subtitle">GPU / GL implementációs jelek</string>
+    <string name="cat_telephony_title">Telefonálás</string>
+    <string name="cat_telephony_subtitle">Szolgáltatói és rádiós metaadatok</string>
+    <string name="cat_motion_title">Mozgás és érzékelők</string>
+    <string name="cat_motion_subtitle">Engedélyhez kötött mozgás részletei</string>
+    <string name="cat_location_title">Elhelyezkedés</string>
+    <string name="cat_location_subtitle">Pozíció és szolgáltató metaadatai</string>
+    <string name="cat_cameras_title">Fényképezőgépek</string>
+    <string name="cat_cameras_subtitle">Kamera képességek és szám</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth állapot és párosított statisztika</string>
+    <string name="cat_local_network_title">Helyi hálózat</string>
+    <string name="cat_local_network_subtitle">Közeli hálózati környezet</string>
+    <string name="cat_contacts_title">Kapcsolatok</string>
+    <string name="cat_contacts_subtitle">Csak az adatbázis metaadataihoz forduljon</string>
+    <string name="cat_photos_title">Fényképek</string>
+    <string name="cat_photos_subtitle">Csak a médiakönyvtár metaadatai</string>
+    <string name="cat_calendar_title">Naptár</string>
+    <string name="cat_calendar_subtitle">A naptárfiók metaadatai</string>
+    <string name="cat_reminders_title">Emlékeztetők</string>
+    <string name="cat_reminders_subtitle">Feladat/emlékeztető szolgáltató metaadatai</string>
+    <string name="cat_music_library_title">Zenei Könyvtár</string>
+    <string name="cat_music_library_subtitle">Csak audio média metaadatok</string>
+    <string name="cat_installed_apps_probe_title">Telepített Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Szándéksémák vizsgálata</string>
+    <string name="cat_webview_fingerprint_title">WebView ujjlenyomat</string>
+    <string name="cat_webview_fingerprint_subtitle">Böngészőszerű megjelenítési profil</string>
+    <string name="cat_previous_installs_log_title">Előző telepítések naplója</string>
+    <string name="cat_previous_installs_log_subtitle">Kitartási tippek telepítése</string>
+
+</resources>

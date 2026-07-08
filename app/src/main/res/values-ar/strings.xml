@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">مستكشف بصمات الأصابع لواجهة برمجة تطبيقات Android</string>
+    <string name="back">خلف</string>
+    <string name="refresh">ينعش</string>
+    <string name="export_report">تقرير التصدير</string>
+    <string name="export_chooser_title">تصدير تقرير AndroWatch</string>
+    <string name="about_title">عن</string>
+    <string name="about_heading">شفافية بصمة الجهاز</string>
+    <string name="about_inspired">AndroWatch هو بديل Android مستوحى من Loupe من Mysk Research. إنه يسلط الضوء على ما يمكن أن تكشفه واجهات برمجة تطبيقات Android العامة عن جهازك.</string>
+    <string name="about_privacy">تبقى جميع القراءات على جهازك. لا يتم تحميل أي شيء إلا إذا قمت بتصدير تقرير JSON بشكل صريح.</string>
+    <string name="onboarding_title">تعرف على ما يكشفه Android</string>
+    <string name="onboarding_body">يعرض AndroWatch ما يمكن أن تكشفه واجهات برمجة تطبيقات Android عن جهازك - المعرفات وأجهزة الاستشعار والشبكة والمزيد.</string>
+    <string name="onboarding_privacy">لم يتم تحميل أي شيء. الصادرات صريحة ومحلية.</string>
+    <string name="onboarding_continue">يكمل</string>
+    <string name="permission_required">الإذن مطلوب</string>
+    <string name="permission_rationale">تحتاج هذه الفئة إلى إذن وقت التشغيل لقراءة البيانات التعريفية المجمعة. لا يتم عرض معلومات تحديد الهوية الشخصية (PII) الأولية مطلقًا.</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="summary_title">ملخص البصمة</string>
+    <string name="summary_empty">قم بتحديث الفئات لإنشاء ملخص.</string>
+    <string name="tier_passive">سلبي</string>
+    <string name="tier_permissioned">يحتاج إلى إذن</string>
+    <string name="tier_advanced">متقدم</string>
+    <string name="signal_count">%1$d الإشارات</string>
+    <string name="live_badge">يعيش</string>
+    <string name="loading">جمع الإشارات...</string>
+    <string name="error_collecting">حدث خطأ أثناء جمع الإشارات.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">أعد المحاولة</string>
+    <string name="export_error">لا يمكن تصدير التقرير.</string>
+    <string name="export_empty">لا شيء للتصدير بعد. قم بتحديث الفئات أولاً.</string>
+    <string name="no_signals">لم يتم جمع الإشارات حتى الآن.</string>
+    <string name="show_rationale">لماذا هذا مهم</string>
+    <string name="hide_rationale">إخفاء الأساس المنطقي</string>
+    <string name="raw_value">قيمة API الخام</string>
+    <string name="value_unknown">مجهول</string>
+    <string name="value_unknown_locale">لغة غير معروفة</string>
+    <string name="value_unknown_device">جهاز غير معروف</string>
+    <string name="value_unknown_battery">بطارية غير معروفة</string>
+    <string name="value_unknown_network">شبكة غير معروفة</string>
+    <string name="value_none">لا أحد</string>
+    <string name="value_unavailable">غير متاح</string>
+    <string name="value_na">غير متوفر</string>
+    <string name="value_true">نعم</string>
+    <string name="value_false">لا</string>
+
+</resources>

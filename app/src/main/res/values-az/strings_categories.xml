@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Cihaz Kimliyi</string>
+    <string name="cat_device_identity_subtitle">İdentifikatorlar və aparat xüsusiyyətləri</string>
+    <string name="cat_google_account_title">Google Hesabı</string>
+    <string name="cat_google_account_subtitle">Hesab mövcudluğu siqnalları</string>
+    <string name="cat_system_info_title">Sistem Məlumatı</string>
+    <string name="cat_system_info_subtitle">ƏS və iş vaxtı təfərrüatları</string>
+    <string name="cat_display_title">Ekran</string>
+    <string name="cat_display_subtitle">Ekran imkanları və sıxlığı</string>
+    <string name="cat_locale_title">Yerli və Region</string>
+    <string name="cat_locale_subtitle">Dil və saat qurşağının izi</string>
+    <string name="cat_accessibility_title">Əlçatanlıq</string>
+    <string name="cat_accessibility_subtitle">Köməkçi parametrlər və bayraqlar</string>
+    <string name="cat_device_motion_title">Cihaz Hərəkəti</string>
+    <string name="cat_device_motion_subtitle">Sensorun mövcudluğu və vəziyyəti</string>
+    <string name="cat_battery_title">Batareya və Güc</string>
+    <string name="cat_battery_subtitle">Batareya və güc rejimi məlumatları</string>
+    <string name="cat_storage_title">Saxlama</string>
+    <string name="cat_storage_subtitle">Həcmi və saxlama cəmi</string>
+    <string name="cat_network_title">Şəbəkə</string>
+    <string name="cat_network_subtitle">Bağlantı və VPN statusu</string>
+    <string name="cat_fonts_title">Şriftlər</string>
+    <string name="cat_fonts_subtitle">Şrift mövcudluğu nümunəsi</string>
+    <string name="cat_installed_voices_title">Quraşdırılmış Səslər</string>
+    <string name="cat_installed_voices_subtitle">Nitq mühərriki və səs dəstəyi</string>
+    <string name="cat_app_info_title">Proqram və Paket</string>
+    <string name="cat_app_info_subtitle">Paket qurma metadatası</string>
+    <string name="cat_pasteboard_title">Karton</string>
+    <string name="cat_pasteboard_subtitle">Yalnız bufer metadatası</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Audio çıxışlar və marşrut təfərrüatları</string>
+    <string name="cat_graphics_title">Qrafika</string>
+    <string name="cat_graphics_subtitle">GPU / GL tətbiq siqnalları</string>
+    <string name="cat_telephony_title">Telefoniya</string>
+    <string name="cat_telephony_subtitle">Operator və radio metadata</string>
+    <string name="cat_motion_title">Hərəkət və Sensorlar</string>
+    <string name="cat_motion_subtitle">İcazəli hərəkət təfərrüatları</string>
+    <string name="cat_location_title">Məkan</string>
+    <string name="cat_location_subtitle">Mövqe və provayder metadatası</string>
+    <string name="cat_cameras_title">Kameralar</string>
+    <string name="cat_cameras_subtitle">Kamera imkanları və sayı</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth statusu və qoşalaşmış statistika</string>
+    <string name="cat_local_network_title">Yerli Şəbəkə</string>
+    <string name="cat_local_network_subtitle">Yaxınlıqdakı şəbəkə mühiti</string>
+    <string name="cat_contacts_title">Əlaqələr</string>
+    <string name="cat_contacts_subtitle">Yalnız verilənlər bazası metadatası ilə əlaqə saxlayın</string>
+    <string name="cat_photos_title">Şəkillər</string>
+    <string name="cat_photos_subtitle">Yalnız media kitabxanasının metadatası</string>
+    <string name="cat_calendar_title">Təqvim</string>
+    <string name="cat_calendar_subtitle">Təqvim hesabı metadatası</string>
+    <string name="cat_reminders_title">Xatırlatmalar</string>
+    <string name="cat_reminders_subtitle">Tapşırıq/xatırlatma provayderi metadatası</string>
+    <string name="cat_music_library_title">Musiqi Kitabxanası</string>
+    <string name="cat_music_library_subtitle">Yalnız audio media metadatası</string>
+    <string name="cat_installed_apps_probe_title">Quraşdırılmış Proqramlar Probu</string>
+    <string name="cat_installed_apps_probe_subtitle">Niyyət sxeminin araşdırılması</string>
+    <string name="cat_webview_fingerprint_title">WebView Barmaq izi</string>
+    <string name="cat_webview_fingerprint_subtitle">Brauzer kimi göstərmə profili</string>
+    <string name="cat_previous_installs_log_title">Əvvəlki Quraşdırma jurnalı</string>
+    <string name="cat_previous_installs_log_subtitle">Davamlılıq göstərişlərini quraşdırın</string>
+
+</resources>

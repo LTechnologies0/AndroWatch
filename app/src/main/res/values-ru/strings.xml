@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Обозреватель отпечатков пальцев API Android</string>
+    <string name="back">Назад</string>
+    <string name="refresh">Обновить</string>
+    <string name="export_report">Экспортный отчет</string>
+    <string name="export_chooser_title">Экспорт отчета AndroWatch</string>
+    <string name="about_title">О</string>
+    <string name="about_heading">Прозрачность отпечатков пальцев устройства</string>
+    <string name="about_inspired">AndroWatch — это альтернатива Android, вдохновленная Loupe от Mysk Research. Он показывает, что общедоступные API Android могут рассказать о вашем устройстве.</string>
+    <string name="about_privacy">Все показания остаются на вашем устройстве. Ничего не загружается, если вы явно не экспортируете отчет JSON.</string>
+    <string name="onboarding_title">Посмотрите, что открывает Android</string>
+    <string name="onboarding_body">AndroWatch показывает, что API Android могут рассказать о вашем устройстве — идентификаторы, датчики, сеть и многое другое.</string>
+    <string name="onboarding_privacy">Ничего не загружается. Экспорт является явным и локальным.</string>
+    <string name="onboarding_continue">Продолжать</string>
+    <string name="permission_required">Требуется разрешение</string>
+    <string name="permission_rationale">Этой категории требуется разрешение во время выполнения для чтения агрегированных метаданных. Необработанные PII никогда не отображаются.</string>
+    <string name="grant_permission">Предоставить разрешение</string>
+    <string name="summary_title">Сводка отпечатков пальцев</string>
+    <string name="summary_empty">Обновите категории, чтобы создать сводку.</string>
+    <string name="tier_passive">Пассивный</string>
+    <string name="tier_permissioned">Требуется разрешение</string>
+    <string name="tier_advanced">Передовой</string>
+    <string name="signal_count">%1$d сигналов</string>
+    <string name="live_badge">Жить</string>
+    <string name="loading">Сбор сигналов…</string>
+    <string name="error_collecting">Ошибка при сборе сигналов.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Повторить попытку</string>
+    <string name="export_error">Не удалось экспортировать отчет.</string>
+    <string name="export_empty">Экспортировать пока нечего. Сначала обновите категории.</string>
+    <string name="no_signals">Сигналы пока не собраны.</string>
+    <string name="show_rationale">Почему это важно</string>
+    <string name="hide_rationale">Скрыть обоснование</string>
+    <string name="raw_value">Необработанное значение API</string>
+    <string name="value_unknown">неизвестный</string>
+    <string name="value_unknown_locale">неизвестная локаль</string>
+    <string name="value_unknown_device">неизвестное устройство</string>
+    <string name="value_unknown_battery">неизвестная батарея</string>
+    <string name="value_unknown_network">неизвестная сеть</string>
+    <string name="value_none">никто</string>
+    <string name="value_unavailable">недоступен</string>
+    <string name="value_na">н/д</string>
+    <string name="value_true">да</string>
+    <string name="value_false">нет</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Šiuo metu šis įrenginys praneša apie lokalę %1$s.</string>
+    <string name="summary_line_model">Aparatinės įrangos modelis rodomas kaip %1$s.</string>
+    <string name="summary_line_android_id">Šios programos ANDROID_ID yra %1$s.</string>
+    <string name="summary_line_battery">Akumuliatoriaus momentinė nuotrauka rodo %1$s.</string>
+    <string name="summary_line_network">Aktyvūs tinklo perdavimai: %1$s.</string>
+    <string name="summary_line_authenticators">Matomi paskyros autentifikatoriai: %1$s.</string>
+    <string name="summary_line_privacy">„AndroWatch“ saugo šiuos rodmenis įrenginyje, nebent jūs juos eksportuojate.</string>
+
+</resources>

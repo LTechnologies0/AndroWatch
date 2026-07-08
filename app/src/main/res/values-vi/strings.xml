@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Trình thám hiểm dấu vân tay API Android</string>
+    <string name="back">Mặt sau</string>
+    <string name="refresh">Làm cho khỏe lại</string>
+    <string name="export_report">Xuất báo cáo</string>
+    <string name="export_chooser_title">Xuất báo cáo AndroWatch</string>
+    <string name="about_title">Về</string>
+    <string name="about_heading">Độ trong suốt của dấu vân tay thiết bị</string>
+    <string name="about_inspired">AndroWatch là một giải pháp thay thế Android được lấy cảm hứng từ Loupe của Mysk Research. Nó hiển thị những gì API Android công khai có thể tiết lộ về thiết bị của bạn.</string>
+    <string name="about_privacy">Tất cả các bài đọc vẫn còn trên thiết bị của bạn. Không có gì được tải lên trừ khi bạn xuất báo cáo JSON một cách rõ ràng.</string>
+    <string name="onboarding_title">Xem những gì Android tiết lộ</string>
+    <string name="onboarding_body">AndroWatch hiển thị những gì API Android có thể tiết lộ về thiết bị của bạn — số nhận dạng, cảm biến, mạng, v.v.</string>
+    <string name="onboarding_privacy">Không có gì được tải lên. Xuất khẩu rõ ràng và mang tính địa phương.</string>
+    <string name="onboarding_continue">Tiếp tục</string>
+    <string name="permission_required">Cần có sự cho phép</string>
+    <string name="permission_rationale">Danh mục này cần có quyền khi chạy để đọc siêu dữ liệu tổng hợp. PII thô không bao giờ được hiển thị.</string>
+    <string name="grant_permission">Cấp quyền</string>
+    <string name="summary_title">Tóm tắt dấu vân tay</string>
+    <string name="summary_empty">Làm mới danh mục để tạo bản tóm tắt.</string>
+    <string name="tier_passive">Thụ động</string>
+    <string name="tier_permissioned">Cần sự cho phép</string>
+    <string name="tier_advanced">Trình độ cao</string>
+    <string name="signal_count">tín hiệu %1$d</string>
+    <string name="live_badge">Sống</string>
+    <string name="loading">Thu thập tín hiệu…</string>
+    <string name="error_collecting">Lỗi khi thu thập tín hiệu.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Thử lại</string>
+    <string name="export_error">Không thể xuất báo cáo.</string>
+    <string name="export_empty">Chưa có gì để xuất. Làm mới danh mục đầu tiên.</string>
+    <string name="no_signals">Chưa có tín hiệu nào được thu thập.</string>
+    <string name="show_rationale">Tại sao điều này lại quan trọng</string>
+    <string name="hide_rationale">Ẩn lý do</string>
+    <string name="raw_value">Giá trị API thô</string>
+    <string name="value_unknown">không rõ</string>
+    <string name="value_unknown_locale">ngôn ngữ không xác định</string>
+    <string name="value_unknown_device">thiết bị không xác định</string>
+    <string name="value_unknown_battery">pin không rõ</string>
+    <string name="value_unknown_network">mạng không xác định</string>
+    <string name="value_none">không có</string>
+    <string name="value_unavailable">không có sẵn</string>
+    <string name="value_na">không có</string>
+    <string name="value_true">Đúng</string>
+    <string name="value_false">KHÔNG</string>
+
+</resources>

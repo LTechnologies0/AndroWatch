@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Esploratore di impronte digitali API Android</string>
+    <string name="back">Indietro</string>
+    <string name="refresh">Aggiorna</string>
+    <string name="export_report">Rapporto sull\'esportazione</string>
+    <string name="export_chooser_title">Esporta il rapporto AndroWatch</string>
+    <string name="about_title">Di</string>
+    <string name="about_heading">Trasparenza dell\'impronta digitale del dispositivo</string>
+    <string name="about_inspired">AndroWatch è un\'alternativa Android ispirata a Loupe di Mysk Research. Mostra ciò che le API Android pubbliche possono rivelare sul tuo dispositivo.</string>
+    <string name="about_privacy">Tutte le letture rimangono sul tuo dispositivo. Non viene caricato nulla a meno che non esporti esplicitamente un report JSON.</string>
+    <string name="onboarding_title">Scopri cosa rivela Android</string>
+    <string name="onboarding_body">AndroWatch mostra cosa possono rivelare le API Android sul tuo dispositivo: identificatori, sensori, rete e altro ancora.</string>
+    <string name="onboarding_privacy">Non viene caricato nulla. Le esportazioni sono esplicite e locali.</string>
+    <string name="onboarding_continue">Continuare</string>
+    <string name="permission_required">Permesso richiesto</string>
+    <string name="permission_rationale">Questa categoria richiede l\'autorizzazione di runtime per leggere i metadati aggregati. Le informazioni personali non elaborate non vengono mai visualizzate.</string>
+    <string name="grant_permission">Concedere l\'autorizzazione</string>
+    <string name="summary_title">Riepilogo delle impronte digitali</string>
+    <string name="summary_empty">Aggiorna le categorie per generare un riepilogo.</string>
+    <string name="tier_passive">Passivo</string>
+    <string name="tier_permissioned">Necessita di permesso</string>
+    <string name="tier_advanced">Avanzato</string>
+    <string name="signal_count">%1$d segnali</string>
+    <string name="live_badge">Vivere</string>
+    <string name="loading">Raccolta segnali...</string>
+    <string name="error_collecting">Errore durante la raccolta dei segnali.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Riprova</string>
+    <string name="export_error">Impossibile esportare il rapporto.</string>
+    <string name="export_empty">Niente da esportare ancora. Aggiorna prima le categorie.</string>
+    <string name="no_signals">Nessun segnale ancora raccolto.</string>
+    <string name="show_rationale">Perché questo è importante</string>
+    <string name="hide_rationale">Nascondi la motivazione</string>
+    <string name="raw_value">Valore API non elaborato</string>
+    <string name="value_unknown">sconosciuto</string>
+    <string name="value_unknown_locale">locale sconosciuto</string>
+    <string name="value_unknown_device">dispositivo sconosciuto</string>
+    <string name="value_unknown_battery">batteria sconosciuta</string>
+    <string name="value_unknown_network">rete sconosciuta</string>
+    <string name="value_none">nessuno</string>
+    <string name="value_unavailable">non disponibile</string>
+    <string name="value_na">n / a</string>
+    <string name="value_true">SÌ</string>
+    <string name="value_false">NO</string>
+
+</resources>

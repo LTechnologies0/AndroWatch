@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Peranti ini pada masa ini melaporkan tempat %1$s.</string>
+    <string name="summary_line_model">Model perkakasan muncul sebagai %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID untuk apl ini ialah %1$s.</string>
+    <string name="summary_line_battery">Syot kilat bateri menunjukkan %1$s.</string>
+    <string name="summary_line_network">Pengangkutan rangkaian aktif: %1$s.</string>
+    <string name="summary_line_authenticators">Pengesah akaun kelihatan: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch menyimpan bacaan ini pada peranti melainkan anda mengeksportnya.</string>
+
+</resources>

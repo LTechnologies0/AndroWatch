@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">מכשיר זה מדווח כעת על המקום %1$s.</string>
+    <string name="summary_line_model">דגם החומרה מופיע בתור %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID עבור אפליקציה זו הוא %1$s.</string>
+    <string name="summary_line_battery">תמונת מצב של הסוללה מציינת %1$s.</string>
+    <string name="summary_line_network">העברות רשת פעילות: %1$s.</string>
+    <string name="summary_line_authenticators">מאמת חשבונות גלויים: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch שומר את הקריאות האלה במכשיר אלא אם כן אתה מייצא אותן.</string>
+
+</resources>

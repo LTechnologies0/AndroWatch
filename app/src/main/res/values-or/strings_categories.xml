@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">ଉପକରଣ ପରିଚୟ</string>
+    <string name="cat_device_identity_subtitle">ପରିଚାୟକ ଏବଂ ହାର୍ଡୱେର୍ ଗୁଣ |</string>
+    <string name="cat_google_account_title">ଗୁଗୁଲ୍ ଆକାଉଣ୍ଟ୍ |</string>
+    <string name="cat_google_account_subtitle">ଖାତା ଉପସ୍ଥିତି ସଙ୍କେତ |</string>
+    <string name="cat_system_info_title">ସିଷ୍ଟମ୍ ସୂଚନା</string>
+    <string name="cat_system_info_subtitle">OS ଏବଂ ଚାଲିବା ସମୟ ବିବରଣୀ |</string>
+    <string name="cat_display_title">ପ୍ରଦର୍ଶନ</string>
+    <string name="cat_display_subtitle">ପରଦା କ୍ଷମତା ଏବଂ ଘନତା |</string>
+    <string name="cat_locale_title">ଲୋକାଲ୍ ଏବଂ ଅଞ୍ଚଳ</string>
+    <string name="cat_locale_subtitle">ଭାଷା ଏବଂ ସମୟ ମଣ୍ଡଳର ପାଦଚିହ୍ନ |</string>
+    <string name="cat_accessibility_title">ଅଭିଗମ୍ୟତା</string>
+    <string name="cat_accessibility_subtitle">ସହାୟକ ସେଟିଂସମୂହ ଏବଂ ପତାକା |</string>
+    <string name="cat_device_motion_title">ଉପକରଣ ଗତି</string>
+    <string name="cat_device_motion_subtitle">ସେନ୍ସର ଉପସ୍ଥିତି ଏବଂ ସ୍ଥିତି |</string>
+    <string name="cat_battery_title">ବ୍ୟାଟେରୀ ଏବଂ ଶକ୍ତି</string>
+    <string name="cat_battery_subtitle">ବ୍ୟାଟେରୀ ଏବଂ ପାୱାର୍ ମୋଡ୍ ଡାଟା |</string>
+    <string name="cat_storage_title">ଭଣ୍ଡାର</string>
+    <string name="cat_storage_subtitle">ଭଲ୍ୟୁମ୍ ଏବଂ ଷ୍ଟୋରେଜ୍ ସମୁଦାୟ |</string>
+    <string name="cat_network_title">ନେଟୱାର୍କ |</string>
+    <string name="cat_network_subtitle">ସଂଯୋଗ ଏବଂ VPN ସ୍ଥିତି |</string>
+    <string name="cat_fonts_title">ଫଣ୍ଟଗୁଡିକ</string>
+    <string name="cat_fonts_subtitle">ଫଣ୍ଟ ଉପଲବ୍ଧତା ନମୁନା |</string>
+    <string name="cat_installed_voices_title">ସଂସ୍ଥାପିତ ଭଏସ୍ |</string>
+    <string name="cat_installed_voices_subtitle">ସ୍ପିଚ୍ ଇଞ୍ଜିନ୍ ଏବଂ ଭଏସ୍ ସପୋର୍ଟ |</string>
+    <string name="cat_app_info_title">ଆପ୍ ଏବଂ ବଣ୍ଡଲ୍ |</string>
+    <string name="cat_app_info_subtitle">ପ୍ୟାକେଜ୍ ନିର୍ମାଣ ମେଟାଡାଟା |</string>
+    <string name="cat_pasteboard_title">ପେଷ୍ଟବୋର୍ଡ |</string>
+    <string name="cat_pasteboard_subtitle">କେବଳ କ୍ଲିପବୋର୍ଡ ମେଟାଡାଟା |</string>
+    <string name="cat_audio_title">ଅଡିଓ</string>
+    <string name="cat_audio_subtitle">ଅଡିଓ ଆଉଟପୁଟ୍ ଏବଂ ମାର୍ଗ ବିବରଣୀ |</string>
+    <string name="cat_graphics_title">ଗ୍ରାଫିକ୍ସ</string>
+    <string name="cat_graphics_subtitle">GPU / GL କାର୍ଯ୍ୟକାରିତା ସଙ୍କେତ |</string>
+    <string name="cat_telephony_title">ଟେଲିଫୋନି</string>
+    <string name="cat_telephony_subtitle">ବାହକ ଏବଂ ରେଡିଓ ମେଟାଡାଟା |</string>
+    <string name="cat_motion_title">ଗତି ଏବଂ ସେନ୍ସର |</string>
+    <string name="cat_motion_subtitle">ଅନୁମତି-ଗେଟେଡ୍ ଗତି ବିବରଣୀ |</string>
+    <string name="cat_location_title">ଅବସ୍ଥାନ</string>
+    <string name="cat_location_subtitle">ଅବସ୍ଥାନ ଏବଂ ପ୍ରଦାନକାରୀ ମେଟାଡାଟା |</string>
+    <string name="cat_cameras_title">କ୍ୟାମେରା |</string>
+    <string name="cat_cameras_subtitle">କ୍ୟାମେରା କ୍ଷମତା ଏବଂ ଗଣନା |</string>
+    <string name="cat_bluetooth_title">ବ୍ଲୁଟୁଥ୍</string>
+    <string name="cat_bluetooth_subtitle">ବ୍ଲୁଟୁଥ୍ ସ୍ଥିତି ଏବଂ ଯୋଡି ହୋଇଥିବା ପରିସଂଖ୍ୟାନ |</string>
+    <string name="cat_local_network_title">ସ୍ଥାନୀୟ ନେଟୱାର୍କ |</string>
+    <string name="cat_local_network_subtitle">ନିକଟସ୍ଥ ନେଟୱାର୍କ ପରିବେଶ |</string>
+    <string name="cat_contacts_title">ସମ୍ପର୍କଗୁଡିକ</string>
+    <string name="cat_contacts_subtitle">କେବଳ ଡାଟାବେସ୍ ମେଟାଡାଟା ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁ |</string>
+    <string name="cat_photos_title">ଫଟୋ</string>
+    <string name="cat_photos_subtitle">କେବଳ ମିଡିଆ ଲାଇବ୍ରେରୀ ମେଟାଡାଟା |</string>
+    <string name="cat_calendar_title">କ୍ୟାଲେଣ୍ଡର</string>
+    <string name="cat_calendar_subtitle">କ୍ୟାଲେଣ୍ଡର ଆକାଉଣ୍ଟ୍ ମେଟାଡାଟା |</string>
+    <string name="cat_reminders_title">ସ୍ମାରକପତ୍ର</string>
+    <string name="cat_reminders_subtitle">କାର୍ଯ୍ୟ / ସ୍ମାରକ ପ୍ରଦାନକାରୀ ମେଟାଡାଟା |</string>
+    <string name="cat_music_library_title">ସଙ୍ଗୀତ ଲାଇବ୍ରେରୀ |</string>
+    <string name="cat_music_library_subtitle">କେବଳ ଅଡିଓ ମିଡିଆ ମେଟାଡାଟା |</string>
+    <string name="cat_installed_apps_probe_title">ସଂସ୍ଥାପିତ ଆପ୍ସ ଅନୁସନ୍ଧାନ |</string>
+    <string name="cat_installed_apps_probe_subtitle">ଉଦ୍ଦେଶ୍ୟ ସ୍କିମ୍ ଅନୁସନ୍ଧାନ |</string>
+    <string name="cat_webview_fingerprint_title">ୱେବ୍ ଭିଭ୍ ଫିଙ୍ଗର ପ୍ରିଣ୍ଟ୍ |</string>
+    <string name="cat_webview_fingerprint_subtitle">ବ୍ରାଉଜର୍ ପରି ରେଣ୍ଡରିଂ ପ୍ରୋଫାଇଲ୍ |</string>
+    <string name="cat_previous_installs_log_title">ପୂର୍ବ ସଂସ୍ଥାଗୁଡ଼ିକ ଲଗ୍ |</string>
+    <string name="cat_previous_installs_log_subtitle">ସ୍ଥିରତା ସୂଚନା ସଂସ୍ଥାପନ କରନ୍ତୁ |</string>
+
+</resources>

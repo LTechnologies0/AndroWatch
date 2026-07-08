@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">এণ্ড্ৰইড এপিআই ফিংগাৰপ্ৰিণ্ট এক্সপ্লোৰাৰ</string>
+    <string name="back">পিছলৈ</string>
+    <string name="refresh">সতেজ কৰক</string>
+    <string name="export_report">ৰপ্তানি প্ৰতিবেদন</string>
+    <string name="export_chooser_title">AndroWatch প্ৰতিবেদন ৰপ্তানি কৰক</string>
+    <string name="about_title">বিষয়ে</string>
+    <string name="about_heading">ডিভাইচ ফিংগাৰপ্ৰিণ্ট স্বচ্ছতা</string>
+    <string name="about_inspired">AndroWatch হৈছে Mysk Research দ্বাৰা Loupe ৰ পৰা অনুপ্ৰাণিত এটা এণ্ড্ৰইড বিকল্প। ই ৰাজহুৱা এণ্ড্ৰইড এপিআইসমূহে আপোনাৰ ডিভাইচৰ বিষয়ে কি প্ৰকাশ কৰিব পাৰে সেই বিষয়ে উত্থাপন কৰে।</string>
+    <string name="about_privacy">সকলো পঢ়া আপোনাৰ ডিভাইচত থাকে। আপুনি এটা JSON প্ৰতিবেদন স্পষ্টভাৱে ৰপ্তানি নকৰালৈকে একো আপল\'ড কৰা নহয়।</string>
+    <string name="onboarding_title">চাওক এণ্ড্ৰইডে কি প্ৰকাশ কৰে</string>
+    <string name="onboarding_body">AndroWatch এ দেখুৱাই যে Android API সমূহে আপোনাৰ ডিভাইচৰ বিষয়ে কি প্ৰকাশ কৰিব পাৰে — চিনাক্তকৰ্তা, চেন্সৰ, নেটৱৰ্ক, আৰু অধিক৷</string>
+    <string name="onboarding_privacy">একো আপলোড কৰা হোৱা নাই। ৰপ্তানি স্পষ্ট আৰু স্থানীয়।</string>
+    <string name="onboarding_continue">অব্যাহত ৰাখক</string>
+    <string name="permission_required">অনুমতিৰ প্ৰয়োজন</string>
+    <string name="permission_rationale">এই শ্ৰেণীক সংগ্ৰহ কৰা মেটাডাটা পঢ়িবলৈ চলনসময়ৰ অনুমতিৰ প্ৰয়োজন। কেঁচা PII কেতিয়াও প্ৰদৰ্শিত নহয়।</string>
+    <string name="grant_permission">অনুমতি প্ৰদান কৰক</string>
+    <string name="summary_title">আঙুলিৰ ছাপৰ সাৰাংশ</string>
+    <string name="summary_empty">এটা সাৰাংশ সৃষ্টি কৰিবলৈ শ্ৰেণীসমূহ সতেজ কৰক।</string>
+    <string name="tier_passive">নিষ্ক্ৰিয়</string>
+    <string name="tier_permissioned">অনুমতিৰ প্ৰয়োজন</string>
+    <string name="tier_advanced">উন্নত হোৱা</string>
+    <string name="signal_count">%1$d সংকেত</string>
+    <string name="live_badge">জীয়াই থকা</string>
+    <string name="loading">সংকেত সংগ্রহ...</string>
+    <string name="error_collecting">সংকেত সংগ্ৰহ কৰাৰ সময়ত ত্ৰুটি।</string>
+    <string name="error_with_reason">__পি এইচ_০__</string>
+    <string name="retry">পুনৰ চেষ্টা কৰক</string>
+    <string name="export_error">প্ৰতিবেদন ৰপ্তানি কৰিব পৰা নগ\'ল।</string>
+    <string name="export_empty">এতিয়াও ৰপ্তানি কৰিবলৈ একো নাই। প্ৰথমে শ্ৰেণীসমূহ সতেজ কৰক।</string>
+    <string name="no_signals">এতিয়াও কোনো সংকেত সংগ্ৰহ কৰা হোৱা নাই।</string>
+    <string name="show_rationale">এইটো কিয় গুৰুত্বপূৰ্ণ</string>
+    <string name="hide_rationale">যুক্তি লুকুৱাওক</string>
+    <string name="raw_value">কেঁচা এপিআই মান</string>
+    <string name="value_unknown">অজ্ঞাত</string>
+    <string name="value_unknown_locale">অজ্ঞাত লোকেল</string>
+    <string name="value_unknown_device">অজ্ঞাত ডিভাইচ</string>
+    <string name="value_unknown_battery">অজ্ঞাত বেটাৰী</string>
+    <string name="value_unknown_network">অজ্ঞাত নেটৱৰ্ক</string>
+    <string name="value_none">একো নাই</string>
+    <string name="value_unavailable">উপলব্ধ নহয়</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">হয়</string>
+    <string name="value_false">নহয়</string>
+
+</resources>

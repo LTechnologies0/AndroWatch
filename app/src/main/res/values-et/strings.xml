@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API sõrmejäljeuurija</string>
+    <string name="back">Tagasi</string>
+    <string name="refresh">Värskenda</string>
+    <string name="export_report">Ekspordiaruanne</string>
+    <string name="export_chooser_title">Ekspordi AndroWatchi aruanne</string>
+    <string name="about_title">Umbes</string>
+    <string name="about_heading">Seadme sõrmejälgede läbipaistvus</string>
+    <string name="about_inspired">AndroWatch on Androidi alternatiiv, mis on inspireeritud Mysk Researchi Luupist. See näitab, mida avalikud Androidi API-d võivad teie seadme kohta avaldada.</string>
+    <string name="about_privacy">Kõik näidud jäävad teie seadmesse. Midagi ei laadita üles, välja arvatud juhul, kui ekspordite JSON-i aruannet.</string>
+    <string name="onboarding_title">Vaadake, mida Android paljastab</string>
+    <string name="onboarding_body">AndroWatch näitab, mida Android API-d võivad teie seadme kohta avaldada – identifikaatorid, andurid, võrk ja palju muud.</string>
+    <string name="onboarding_privacy">Midagi pole üles laaditud. Eksport on selgesõnaline ja kohalik.</string>
+    <string name="onboarding_continue">Jätka</string>
+    <string name="permission_required">Nõutav luba</string>
+    <string name="permission_rationale">See kategooria vajab koondatud metaandmete lugemiseks käitusaja luba. Toores PII-d ei kuvata kunagi.</string>
+    <string name="grant_permission">Andke luba</string>
+    <string name="summary_title">Sõrmejälgede kokkuvõte</string>
+    <string name="summary_empty">Kokkuvõtte loomiseks värskendage kategooriaid.</string>
+    <string name="tier_passive">Passiivne</string>
+    <string name="tier_permissioned">Vajab luba</string>
+    <string name="tier_advanced">Täpsemalt</string>
+    <string name="signal_count">%1$d signaalid</string>
+    <string name="live_badge">Otse</string>
+    <string name="loading">Signaalide kogumine…</string>
+    <string name="error_collecting">Viga signaalide kogumisel.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Proovi uuesti</string>
+    <string name="export_error">Aruannet ei saanud eksportida.</string>
+    <string name="export_empty">Pole veel midagi eksportida. Esmalt värskendage kategooriaid.</string>
+    <string name="no_signals">Ühtegi signaali pole veel kogutud.</string>
+    <string name="show_rationale">Miks see oluline on</string>
+    <string name="hide_rationale">Peida põhjendus</string>
+    <string name="raw_value">API töötlemata väärtus</string>
+    <string name="value_unknown">teadmata</string>
+    <string name="value_unknown_locale">tundmatu lokaat</string>
+    <string name="value_unknown_device">tundmatu seade</string>
+    <string name="value_unknown_battery">tundmatu aku</string>
+    <string name="value_unknown_network">tundmatu võrk</string>
+    <string name="value_none">mitte ühtegi</string>
+    <string name="value_unavailable">kättesaamatu</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">jah</string>
+    <string name="value_false">ei</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Identitatea dispozitivului</string>
+    <string name="cat_device_identity_subtitle">Identificatori și trăsături hardware</string>
+    <string name="cat_google_account_title">Cont Google</string>
+    <string name="cat_google_account_subtitle">Semnale de prezență de cont</string>
+    <string name="cat_system_info_title">Informații de sistem</string>
+    <string name="cat_system_info_subtitle">Detalii despre OS și runtime</string>
+    <string name="cat_display_title">Afişa</string>
+    <string name="cat_display_subtitle">Capacitățile și densitatea ecranului</string>
+    <string name="cat_locale_title">Locale și regiune</string>
+    <string name="cat_locale_subtitle">Amprenta de limbă și fus orar</string>
+    <string name="cat_accessibility_title">Accesibilitate</string>
+    <string name="cat_accessibility_subtitle">Setări de asistență și steaguri</string>
+    <string name="cat_device_motion_title">Mișcarea dispozitivului</string>
+    <string name="cat_device_motion_subtitle">Prezența și starea senzorului</string>
+    <string name="cat_battery_title">Baterie și putere</string>
+    <string name="cat_battery_subtitle">Date despre baterie și modul de alimentare</string>
+    <string name="cat_storage_title">Depozitare</string>
+    <string name="cat_storage_subtitle">Totaluri de volum și stocare</string>
+    <string name="cat_network_title">Reţea</string>
+    <string name="cat_network_subtitle">Conectivitate și starea VPN</string>
+    <string name="cat_fonts_title">Fonturi</string>
+    <string name="cat_fonts_subtitle">Eșantion de disponibilitate a fonturilor</string>
+    <string name="cat_installed_voices_title">Voci instalate</string>
+    <string name="cat_installed_voices_subtitle">Motor de vorbire și suport vocal</string>
+    <string name="cat_app_info_title">Aplicație și pachet</string>
+    <string name="cat_app_info_subtitle">Metadatele de compilare a pachetului</string>
+    <string name="cat_pasteboard_title">Carton</string>
+    <string name="cat_pasteboard_subtitle">Doar metadate din clipboard</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Ieșiri audio și detalii despre rută</string>
+    <string name="cat_graphics_title">Grafică</string>
+    <string name="cat_graphics_subtitle">Semnale de implementare GPU / GL</string>
+    <string name="cat_telephony_title">Telefonie</string>
+    <string name="cat_telephony_subtitle">Metadate ale operatorului și radio</string>
+    <string name="cat_motion_title">Mișcare și senzori</string>
+    <string name="cat_motion_subtitle">Detalii privind mișcarea cu permisiune</string>
+    <string name="cat_location_title">Locaţie</string>
+    <string name="cat_location_subtitle">Poziția și metadatele furnizorului</string>
+    <string name="cat_cameras_title">Camere de luat vederi</string>
+    <string name="cat_cameras_subtitle">Capacitățile camerei și numărul</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Stare Bluetooth și statistici asociate</string>
+    <string name="cat_local_network_title">Rețea locală</string>
+    <string name="cat_local_network_subtitle">Mediu de rețea din apropiere</string>
+    <string name="cat_contacts_title">Contacte</string>
+    <string name="cat_contacts_subtitle">Numai metadatele bazei de date de contact</string>
+    <string name="cat_photos_title">Fotografii</string>
+    <string name="cat_photos_subtitle">Numai metadatele bibliotecii media</string>
+    <string name="cat_calendar_title">Calendaristic</string>
+    <string name="cat_calendar_subtitle">Metadatele contului Calendar</string>
+    <string name="cat_reminders_title">Mementouri</string>
+    <string name="cat_reminders_subtitle">Metadatele furnizorului de sarcini/mementouri</string>
+    <string name="cat_music_library_title">Biblioteca muzicală</string>
+    <string name="cat_music_library_subtitle">Numai metadate audio media</string>
+    <string name="cat_installed_apps_probe_title">Aplicații instalate Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Sondarea schemei de intenție</string>
+    <string name="cat_webview_fingerprint_title">Amprenta WebView</string>
+    <string name="cat_webview_fingerprint_subtitle">Profil de randare asemănător unui browser</string>
+    <string name="cat_previous_installs_log_title">Jurnalul de instalare anterior</string>
+    <string name="cat_previous_installs_log_subtitle">Instalați indicii de persistență</string>
+
+</resources>

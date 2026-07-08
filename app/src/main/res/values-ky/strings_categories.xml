@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Түзмөктүн идентификациясы</string>
+    <string name="cat_device_identity_subtitle">Идентификаторлор жана аппараттык мүнөздөмөлөр</string>
+    <string name="cat_google_account_title">Google Каттоо эсеби</string>
+    <string name="cat_google_account_subtitle">Каттоо эсеби бар сигналдар</string>
+    <string name="cat_system_info_title">Система маалыматы</string>
+    <string name="cat_system_info_subtitle">OS жана иштөө убактысынын чоо-жайы</string>
+    <string name="cat_display_title">Дисплей</string>
+    <string name="cat_display_subtitle">Экрандын мүмкүнчүлүктөрү жана тыгыздыгы</string>
+    <string name="cat_locale_title">Жергиликтүү жана аймак</string>
+    <string name="cat_locale_subtitle">Тил жана убакыт алкагынын изи</string>
+    <string name="cat_accessibility_title">Жеткиликтүүлүк</string>
+    <string name="cat_accessibility_subtitle">Жардам берүүчү орнотуулар жана желектер</string>
+    <string name="cat_device_motion_title">Device Motion</string>
+    <string name="cat_device_motion_subtitle">Сенсордун болушу жана абалы</string>
+    <string name="cat_battery_title">Батарея &amp; Кубат</string>
+    <string name="cat_battery_subtitle">Батарея жана кубат режими дайындары</string>
+    <string name="cat_storage_title">Сактагыч</string>
+    <string name="cat_storage_subtitle">Көлөм жана жалпы сактоо</string>
+    <string name="cat_network_title">Network</string>
+    <string name="cat_network_subtitle">Туташуу жана VPN статусу</string>
+    <string name="cat_fonts_title">Ариптер</string>
+    <string name="cat_fonts_subtitle">Ариптин жеткиликтүүлүгү үлгүсү</string>
+    <string name="cat_installed_voices_title">Орнотулган Үндөр</string>
+    <string name="cat_installed_voices_subtitle">Кеп кыймылдаткычы жана үн колдоо</string>
+    <string name="cat_app_info_title">Колдонмо жана таңгак</string>
+    <string name="cat_app_info_subtitle">Пакет түзүү метадайындары</string>
+    <string name="cat_pasteboard_title">Пастерборд</string>
+    <string name="cat_pasteboard_subtitle">Алмашуу буферинин метадайындары гана</string>
+    <string name="cat_audio_title">Аудио</string>
+    <string name="cat_audio_subtitle">Аудио чыгуулар жана маршруттун чоо-жайы</string>
+    <string name="cat_graphics_title">Графика</string>
+    <string name="cat_graphics_subtitle">GPU / GL ишке ашыруу сигналдары</string>
+    <string name="cat_telephony_title">Телефония</string>
+    <string name="cat_telephony_subtitle">Оператор жана радио метадайындары</string>
+    <string name="cat_motion_title">Кыймыл жана сенсорлор</string>
+    <string name="cat_motion_subtitle">Уруксат берилген кыймылдын чоо-жайы</string>
+    <string name="cat_location_title">Жайгашкан жер</string>
+    <string name="cat_location_subtitle">Позиция жана провайдердин метадайындары</string>
+    <string name="cat_cameras_title">Камералар</string>
+    <string name="cat_cameras_subtitle">Камеранын мүмкүнчүлүктөрү жана саны</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth статусу жана жупташтырылган статистика</string>
+    <string name="cat_local_network_title">Жергиликтүү тармак</string>
+    <string name="cat_local_network_subtitle">Жакынкы тармак чөйрөсү</string>
+    <string name="cat_contacts_title">Байланыштар</string>
+    <string name="cat_contacts_subtitle">Байланыш базасынын метадайындары гана</string>
+    <string name="cat_photos_title">Сүрөттөр</string>
+    <string name="cat_photos_subtitle">Медиа китепкананын метадайындары гана</string>
+    <string name="cat_calendar_title">Календар</string>
+    <string name="cat_calendar_subtitle">Календар аккаунтунун метадайындары</string>
+    <string name="cat_reminders_title">Эскерткичтер</string>
+    <string name="cat_reminders_subtitle">Тапшырма/эстеткич камсыздоочунун метадайындары</string>
+    <string name="cat_music_library_title">Музыкалык китепкана</string>
+    <string name="cat_music_library_subtitle">Аудио медиа метадайындары гана</string>
+    <string name="cat_installed_apps_probe_title">Орнотулган колдонмолорду текшерүү</string>
+    <string name="cat_installed_apps_probe_subtitle">Ниет схемасын изилдөө</string>
+    <string name="cat_webview_fingerprint_title">WebView Манжа изи</string>
+    <string name="cat_webview_fingerprint_subtitle">Браузерге окшош рендеринг профили</string>
+    <string name="cat_previous_installs_log_title">Мурунку орнотуулар журналы</string>
+    <string name="cat_previous_installs_log_subtitle">Туруктуу кеңештерди орнотуу</string>
+
+</resources>

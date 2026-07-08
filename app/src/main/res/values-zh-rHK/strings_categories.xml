@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">裝置身份</string>
+    <string name="cat_device_identity_subtitle">識別符和硬體特徵</string>
+    <string name="cat_google_account_title">谷歌帳戶</string>
+    <string name="cat_google_account_subtitle">帳戶存在訊號</string>
+    <string name="cat_system_info_title">系統資訊</string>
+    <string name="cat_system_info_subtitle">作業系統和運行時詳細信息</string>
+    <string name="cat_display_title">展示</string>
+    <string name="cat_display_subtitle">螢幕功能和密度</string>
+    <string name="cat_locale_title">地區和地區</string>
+    <string name="cat_locale_subtitle">語言和時區足跡</string>
+    <string name="cat_accessibility_title">無障礙</string>
+    <string name="cat_accessibility_subtitle">輔助設置和標誌</string>
+    <string name="cat_device_motion_title">設備運動</string>
+    <string name="cat_device_motion_subtitle">感測器的存在和狀態</string>
+    <string name="cat_battery_title">電池及電源</string>
+    <string name="cat_battery_subtitle">電池和電源模式數據</string>
+    <string name="cat_storage_title">貯存</string>
+    <string name="cat_storage_subtitle">磁碟區和儲存總計</string>
+    <string name="cat_network_title">網路</string>
+    <string name="cat_network_subtitle">連線和 VPN 狀態</string>
+    <string name="cat_fonts_title">字體</string>
+    <string name="cat_fonts_subtitle">字體可用性範例</string>
+    <string name="cat_installed_voices_title">已安裝的聲音</string>
+    <string name="cat_installed_voices_subtitle">語音引擎和語音支持</string>
+    <string name="cat_app_info_title">應用程式和捆綁包</string>
+    <string name="cat_app_info_subtitle">包建構元數據</string>
+    <string name="cat_pasteboard_title">紙板</string>
+    <string name="cat_pasteboard_subtitle">僅剪貼簿元數據</string>
+    <string name="cat_audio_title">聲音的</string>
+    <string name="cat_audio_subtitle">音訊輸出和路線詳細信息</string>
+    <string name="cat_graphics_title">圖形</string>
+    <string name="cat_graphics_subtitle">GPU/GL 實現訊號</string>
+    <string name="cat_telephony_title">電話</string>
+    <string name="cat_telephony_subtitle">營運商和無線電元數據</string>
+    <string name="cat_motion_title">運動與感應器</string>
+    <string name="cat_motion_subtitle">權限門控運動詳細信息</string>
+    <string name="cat_location_title">地點</string>
+    <string name="cat_location_subtitle">位置和提供者元數據</string>
+    <string name="cat_cameras_title">相機</string>
+    <string name="cat_cameras_subtitle">相機功能和數量</string>
+    <string name="cat_bluetooth_title">藍牙</string>
+    <string name="cat_bluetooth_subtitle">藍牙狀態和配對統計數據</string>
+    <string name="cat_local_network_title">本地網路</string>
+    <string name="cat_local_network_subtitle">附近網路環境</string>
+    <string name="cat_contacts_title">聯絡方式</string>
+    <string name="cat_contacts_subtitle">僅聯繫資料庫元數據</string>
+    <string name="cat_photos_title">照片</string>
+    <string name="cat_photos_subtitle">僅媒體庫元數據</string>
+    <string name="cat_calendar_title">日曆</string>
+    <string name="cat_calendar_subtitle">日曆帳戶元數據</string>
+    <string name="cat_reminders_title">提醒事項</string>
+    <string name="cat_reminders_subtitle">任務/提醒提供者元數據</string>
+    <string name="cat_music_library_title">音樂庫</string>
+    <string name="cat_music_library_subtitle">僅音訊媒體元數據</string>
+    <string name="cat_installed_apps_probe_title">已安裝應用程式探測</string>
+    <string name="cat_installed_apps_probe_subtitle">意圖方案探測</string>
+    <string name="cat_webview_fingerprint_title">網頁指紋</string>
+    <string name="cat_webview_fingerprint_subtitle">類似瀏覽器的渲染配置文件</string>
+    <string name="cat_previous_installs_log_title">以前的安裝日誌</string>
+    <string name="cat_previous_installs_log_subtitle">安裝持久性提示</string>
+
+</resources>

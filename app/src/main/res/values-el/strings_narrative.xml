@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Αυτή η συσκευή αναφέρει επί του παρόντος τοπικές ρυθμίσεις %1$s.</string>
+    <string name="summary_line_model">Το μοντέλο υλικού εμφανίζεται ως %1$s.</string>
+    <string name="summary_line_android_id">Το ANDROID_ID για αυτήν την εφαρμογή είναι %1$s.</string>
+    <string name="summary_line_battery">Το στιγμιότυπο μπαταρίας υποδεικνύει %1$s.</string>
+    <string name="summary_line_network">Ενεργές μεταφορές δικτύου: %1$s.</string>
+    <string name="summary_line_authenticators">Ορατές συσκευές ελέγχου ταυτότητας λογαριασμού: %1$s.</string>
+    <string name="summary_line_privacy">Το AndroWatch διατηρεί αυτές τις μετρήσεις στη συσκευή, εκτός εάν τις εξαγάγετε.</string>
+
+</resources>

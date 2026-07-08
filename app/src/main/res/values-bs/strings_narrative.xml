@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Ovaj uređaj trenutno prijavljuje lokalizaciju %1$s.</string>
+    <string name="summary_line_model">Model hardvera se pojavljuje kao %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID za ovu aplikaciju je %1$s.</string>
+    <string name="summary_line_battery">Snimak baterije pokazuje %1$s.</string>
+    <string name="summary_line_network">Aktivni mrežni prijenosi: %1$s.</string>
+    <string name="summary_line_authenticators">Vidljivi autentifikatori računa: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch čuva ova očitavanja na uređaju osim ako ih ne izvezete.</string>
+
+</resources>

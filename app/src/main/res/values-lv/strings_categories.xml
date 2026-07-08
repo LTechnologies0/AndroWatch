@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Ierīces identitāte</string>
+    <string name="cat_device_identity_subtitle">Identifikatori un aparatūras iezīmes</string>
+    <string name="cat_google_account_title">Google konts</string>
+    <string name="cat_google_account_subtitle">Konta klātbūtnes signāli</string>
+    <string name="cat_system_info_title">Sistēmas informācija</string>
+    <string name="cat_system_info_subtitle">OS un izpildlaika informācija</string>
+    <string name="cat_display_title">Displejs</string>
+    <string name="cat_display_subtitle">Ekrāna iespējas un blīvums</string>
+    <string name="cat_locale_title">Vieta un reģions</string>
+    <string name="cat_locale_subtitle">Valodas un laika joslas nospiedums</string>
+    <string name="cat_accessibility_title">Pieejamība</string>
+    <string name="cat_accessibility_subtitle">Palīgiestatījumi un karodziņi</string>
+    <string name="cat_device_motion_title">Ierīces kustība</string>
+    <string name="cat_device_motion_subtitle">Sensora klātbūtne un stāvoklis</string>
+    <string name="cat_battery_title">Akumulators un barošana</string>
+    <string name="cat_battery_subtitle">Dati par akumulatoru un enerģijas režīmu</string>
+    <string name="cat_storage_title">Uzglabāšana</string>
+    <string name="cat_storage_subtitle">Kopējais apjoms un uzglabāšanas apjoms</string>
+    <string name="cat_network_title">Tīkls</string>
+    <string name="cat_network_subtitle">Savienojamība un VPN statuss</string>
+    <string name="cat_fonts_title">Fonti</string>
+    <string name="cat_fonts_subtitle">Fonta pieejamības paraugs</string>
+    <string name="cat_installed_voices_title">Instalētās balsis</string>
+    <string name="cat_installed_voices_subtitle">Runas dzinējs un balss atbalsts</string>
+    <string name="cat_app_info_title">Lietotne un komplekts</string>
+    <string name="cat_app_info_subtitle">Pakotnes izveides metadati</string>
+    <string name="cat_pasteboard_title">Kartons</string>
+    <string name="cat_pasteboard_subtitle">Tikai starpliktuves metadati</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Audio izejas un maršruta informācija</string>
+    <string name="cat_graphics_title">Grafika</string>
+    <string name="cat_graphics_subtitle">GPU/GL ieviešanas signāli</string>
+    <string name="cat_telephony_title">Telefonija</string>
+    <string name="cat_telephony_subtitle">Pārvadātāju un radio metadati</string>
+    <string name="cat_motion_title">Kustības un sensori</string>
+    <string name="cat_motion_subtitle">Sīkāka informācija par kustību ar atļauju</string>
+    <string name="cat_location_title">Atrašanās vieta</string>
+    <string name="cat_location_subtitle">Pozīcijas un pakalpojumu sniedzēja metadati</string>
+    <string name="cat_cameras_title">Kameras</string>
+    <string name="cat_cameras_subtitle">Kameras iespējas un skaits</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth statuss un pārī savienotā statistika</string>
+    <string name="cat_local_network_title">Vietējais tīkls</string>
+    <string name="cat_local_network_subtitle">Netālu esošā tīkla vide</string>
+    <string name="cat_contacts_title">Kontakti</string>
+    <string name="cat_contacts_subtitle">Sazinieties tikai ar datu bāzes metadatiem</string>
+    <string name="cat_photos_title">Fotogrāfijas</string>
+    <string name="cat_photos_subtitle">Tikai multivides bibliotēkas metadati</string>
+    <string name="cat_calendar_title">Kalendārs</string>
+    <string name="cat_calendar_subtitle">Kalendāra konta metadati</string>
+    <string name="cat_reminders_title">Atgādinājumi</string>
+    <string name="cat_reminders_subtitle">Uzdevuma/atgādinājuma nodrošinātāja metadati</string>
+    <string name="cat_music_library_title">Mūzikas bibliotēka</string>
+    <string name="cat_music_library_subtitle">Tikai audio multivides metadati</string>
+    <string name="cat_installed_apps_probe_title">Instalēto lietotņu zonde</string>
+    <string name="cat_installed_apps_probe_subtitle">Nolūku shēmas zondēšana</string>
+    <string name="cat_webview_fingerprint_title">WebView pirksta nospiedums</string>
+    <string name="cat_webview_fingerprint_subtitle">Pārlūkprogrammai līdzīgs renderēšanas profils</string>
+    <string name="cat_previous_installs_log_title">Iepriekšējo instalāciju žurnāls</string>
+    <string name="cat_previous_installs_log_subtitle">Instalējiet noturības padomus</string>
+
+</resources>

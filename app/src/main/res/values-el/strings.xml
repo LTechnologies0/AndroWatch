@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Εξερεύνηση δακτυλικών αποτυπωμάτων Android API</string>
+    <string name="back">Πίσω</string>
+    <string name="refresh">Φρεσκάρω</string>
+    <string name="export_report">Έκθεση εξαγωγής</string>
+    <string name="export_chooser_title">Εξαγωγή αναφοράς AndroWatch</string>
+    <string name="about_title">Για</string>
+    <string name="about_heading">Διαφάνεια δακτυλικών αποτυπωμάτων συσκευής</string>
+    <string name="about_inspired">Το AndroWatch είναι μια εναλλακτική λύση Android εμπνευσμένη από το Loupe από την Mysk Research. Αναδεικνύει τι μπορούν να αποκαλύψουν τα δημόσια API Android για τη συσκευή σας.</string>
+    <string name="about_privacy">Όλες οι μετρήσεις παραμένουν στη συσκευή σας. Τίποτα δεν μεταφορτώνεται εκτός και αν εξάγετε ρητά μια αναφορά JSON.</string>
+    <string name="onboarding_title">Δείτε τι αποκαλύπτει το Android</string>
+    <string name="onboarding_body">Το AndroWatch δείχνει τι μπορούν να αποκαλύψουν τα API Android για τη συσκευή σας — αναγνωριστικά, αισθητήρες, δίκτυο και άλλα.</string>
+    <string name="onboarding_privacy">Δεν έχει ανέβει τίποτα. Οι εξαγωγές είναι σαφείς και τοπικές.</string>
+    <string name="onboarding_continue">Συνεχίζω</string>
+    <string name="permission_required">Απαιτείται άδεια</string>
+    <string name="permission_rationale">Αυτή η κατηγορία χρειάζεται άδεια χρόνου εκτέλεσης για την ανάγνωση συγκεντρωτικών μεταδεδομένων. Το Raw PII δεν εμφανίζεται ποτέ.</string>
+    <string name="grant_permission">Χορήγηση άδειας</string>
+    <string name="summary_title">Περίληψη δακτυλικών αποτυπωμάτων</string>
+    <string name="summary_empty">Ανανεώστε τις κατηγορίες για να δημιουργήσετε μια σύνοψη.</string>
+    <string name="tier_passive">Παθητικός</string>
+    <string name="tier_permissioned">Χρειάζεται άδεια</string>
+    <string name="tier_advanced">Προχωρημένος</string>
+    <string name="signal_count">%1$d σήματα</string>
+    <string name="live_badge">Ζω</string>
+    <string name="loading">Συλλογή σημάτων…</string>
+    <string name="error_collecting">Σφάλμα κατά τη συλλογή σημάτων.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Δοκιμάζω πάλι</string>
+    <string name="export_error">Δεν ήταν δυνατή η εξαγωγή της αναφοράς.</string>
+    <string name="export_empty">Δεν υπάρχει τίποτα για εξαγωγή ακόμα. Πρώτα ανανεώστε τις κατηγορίες.</string>
+    <string name="no_signals">Δεν έχουν συλλεχθεί ακόμη σήματα.</string>
+    <string name="show_rationale">Γιατί αυτό έχει σημασία</string>
+    <string name="hide_rationale">Απόκρυψη λογικής</string>
+    <string name="raw_value">Ακατέργαστη τιμή API</string>
+    <string name="value_unknown">άγνωστος</string>
+    <string name="value_unknown_locale">άγνωστη τοποθεσία</string>
+    <string name="value_unknown_device">άγνωστη συσκευή</string>
+    <string name="value_unknown_battery">άγνωστη μπαταρία</string>
+    <string name="value_unknown_network">άγνωστο δίκτυο</string>
+    <string name="value_none">κανένας</string>
+    <string name="value_unavailable">δυσεύρετος</string>
+    <string name="value_na">α/α</string>
+    <string name="value_true">Ναί</string>
+    <string name="value_false">Όχι</string>
+
+</resources>

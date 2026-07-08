@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App shell -->
+    <string name="app_name" translatable="false">AndroWatch</string>
+    <string name="home_title" translatable="false">AndroWatch</string>
+    <string name="home_subtitle">Android API fingerprint explorer</string>
+
+    <!-- Navigation & actions -->
+    <string name="back">Back</string>
+    <string name="cd_category_icon">Category</string>
+    <string name="cd_status_icon">Status</string>
+    <string name="cd_expand_signal">Expand signal details</string>
+    <string name="cd_permission_icon">Permission</string>
+    <string name="cd_onboarding_icon">Onboarding</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_summary">Summary</string>
+    <string name="nav_about">About</string>
+    <string name="search_categories">Search categories</string>
+    <string name="search_no_results">No categories match your search.</string>
+    <string name="more_actions">More actions</string>
+    <string name="refresh">Refresh</string>
+    <string name="export_report">Export report</string>
+    <string name="export_chooser_title">Export AndroWatch report</string>
+
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_heading">Device fingerprint transparency</string>
+    <string name="about_inspired">AndroWatch is an Android alternative inspired by Loupe by Mysk Research. It surfaces what public Android APIs can reveal about your device.</string>
+    <string name="about_privacy">All readings stay on your device. Nothing is uploaded unless you explicitly export a JSON report.</string>
+    <string name="about_loupe_link" translatable="false">Inspired by Loupe: github.com/mysk-research/loupe</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">See what Android reveals</string>
+    <string name="onboarding_body">AndroWatch shows what Android APIs can reveal about your device — identifiers, sensors, network, and more.</string>
+    <string name="onboarding_privacy">Nothing is uploaded. Exports are explicit and local.</string>
+    <string name="onboarding_continue">Continue</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">Permission required</string>
+    <string name="permission_rationale">This category needs runtime permission to read aggregated metadata. Raw PII is never displayed.</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="learn_more">Learn more</string>
+    <string name="permission_learn_more">AndroWatch only reads metadata exposed by Android after you grant permission. You can revoke access anytime in system Settings.</string>
+
+    <!-- Summary -->
+    <string name="summary_title">Fingerprint summary</string>
+    <string name="summary_empty">Refresh categories to generate a summary.</string>
+
+    <!-- Tiers -->
+    <string name="tier_passive">Passive</string>
+    <string name="tier_permissioned">Needs permission</string>
+    <string name="tier_advanced">Advanced</string>
+
+    <!-- Signals -->
+    <string name="signal_count">%1$d signals</string>
+    <string name="live_badge">Live</string>
+    <string name="loading">Collecting signals…</string>
+    <string name="error_collecting">Error while collecting signals.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Retry</string>
+    <string name="export_error">Could not export report.</string>
+    <string name="export_empty">Nothing to export yet. Refresh categories first.</string>
+    <string name="no_signals">No signals collected yet.</string>
+    <string name="show_rationale">Why this matters</string>
+    <string name="hide_rationale">Hide rationale</string>
+    <string name="raw_value">Raw API value</string>
+
+    <!-- Common fallbacks -->
+    <string name="value_unknown">unknown</string>
+    <string name="value_unknown_locale">unknown locale</string>
+    <string name="value_unknown_device">unknown device</string>
+    <string name="value_unknown_battery">unknown battery</string>
+    <string name="value_unknown_network">unknown network</string>
+    <string name="value_none">none</string>
+    <string name="value_unavailable">unavailable</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">yes</string>
+    <string name="value_collection_failed">API call failed</string>
+    <string name="signal_failed_badge">Failed</string>
+    <string name="signal_ok_badge">OK</string>
+    <string name="category_signal_summary">%1$d OK · %2$d failed</string>
+    <string name="value_false">no</string>
+
+</resources>

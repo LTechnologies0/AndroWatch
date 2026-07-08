@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API -sormenjälkien tutkija</string>
+    <string name="back">Takaisin</string>
+    <string name="refresh">Päivitä</string>
+    <string name="export_report">Vie raportti</string>
+    <string name="export_chooser_title">Vie AndroWatch-raportti</string>
+    <string name="about_title">Noin</string>
+    <string name="about_heading">Laitteen sormenjälkien läpinäkyvyys</string>
+    <string name="about_inspired">AndroWatch on Android-vaihtoehto, joka on saanut inspiraationsa Mysk Researchin Luupesta. Se paljastaa, mitä julkiset Android-sovellusliittymät voivat paljastaa laitteestasi.</string>
+    <string name="about_privacy">Kaikki lukemat pysyvät laitteessasi. Mitään ei ladata, ellet eksplisiittisesti viet JSON-raporttia.</string>
+    <string name="onboarding_title">Katso, mitä Android paljastaa</string>
+    <string name="onboarding_body">AndroWatch näyttää, mitä Android-sovellusliittymät voivat paljastaa laitteestasi – tunnisteita, antureita, verkkoa ja paljon muuta.</string>
+    <string name="onboarding_privacy">Mitään ei ole ladattu. Vienti on selkeää ja paikallista.</string>
+    <string name="onboarding_continue">Jatkaa</string>
+    <string name="permission_required">Lupa vaaditaan</string>
+    <string name="permission_rationale">Tämä luokka tarvitsee suoritusajan luvan koottujen metatietojen lukemiseen. Raakoja henkilökohtaisia ​​tunnistetietoja ei koskaan näytetä.</string>
+    <string name="grant_permission">Myönnä lupa</string>
+    <string name="summary_title">Sormenjälki yhteenveto</string>
+    <string name="summary_empty">Päivitä luokat luodaksesi yhteenvedon.</string>
+    <string name="tier_passive">Passiivinen</string>
+    <string name="tier_permissioned">Vaatii luvan</string>
+    <string name="tier_advanced">Edistynyt</string>
+    <string name="signal_count">%1$d signaaleja</string>
+    <string name="live_badge">Elää</string>
+    <string name="loading">Kerää signaaleja…</string>
+    <string name="error_collecting">Virhe signaalien keräämisessä.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Yritä uudelleen</string>
+    <string name="export_error">Raporttia ei voitu viedä.</string>
+    <string name="export_empty">Ei vielä mitään vietävää. Päivitä luokat ensin.</string>
+    <string name="no_signals">Signaalia ei ole vielä kerätty.</string>
+    <string name="show_rationale">Miksi tällä on väliä</string>
+    <string name="hide_rationale">Piilota perustelut</string>
+    <string name="raw_value">Raaka API-arvo</string>
+    <string name="value_unknown">tuntematon</string>
+    <string name="value_unknown_locale">tuntematon alue</string>
+    <string name="value_unknown_device">tuntematon laite</string>
+    <string name="value_unknown_battery">tuntematon akku</string>
+    <string name="value_unknown_network">tuntematon verkko</string>
+    <string name="value_none">ei yhtään</string>
+    <string name="value_unavailable">ei ole saatavilla</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">kyllä</string>
+    <string name="value_false">ei</string>
+
+</resources>

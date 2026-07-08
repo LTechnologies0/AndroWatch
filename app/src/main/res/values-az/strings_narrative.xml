@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Bu cihaz hazırda %1$s dilini bildirir.</string>
+    <string name="summary_line_model">Avadanlıq modeli %1$s kimi görünür.</string>
+    <string name="summary_line_android_id">Bu tətbiq üçün ANDROID_ID %1$s-dir.</string>
+    <string name="summary_line_battery">Batareya snapshot %1$s göstərir.</string>
+    <string name="summary_line_network">Aktiv şəbəkə nəqli: %1$s.</string>
+    <string name="summary_line_authenticators">Görünən hesab autentifikatorları: %1$s.</string>
+    <string name="summary_line_privacy">Siz onları ixrac etməyincə, AndroWatch bu oxunuşları cihazda saxlayır.</string>
+
+</resources>

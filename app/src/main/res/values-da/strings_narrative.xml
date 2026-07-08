@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Denne enhed rapporterer i øjeblikket lokalitet %1$s.</string>
+    <string name="summary_line_model">Hardwaremodel vises som %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID for denne app er %1$s.</string>
+    <string name="summary_line_battery">Batterisnapshot angiver %1$s.</string>
+    <string name="summary_line_network">Aktive netværkstransporter: %1$s.</string>
+    <string name="summary_line_authenticators">Kontogodkendelser synlige: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch gemmer disse aflæsninger på enheden, medmindre du eksporterer dem.</string>
+
+</resources>

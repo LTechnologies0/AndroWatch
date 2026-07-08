@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Энэ төхөөрөмж одоогоор %1$s хэлийг мэдээлж байна.</string>
+    <string name="summary_line_model">Техник хангамжийн загвар нь %1$s харагдаж байна.</string>
+    <string name="summary_line_android_id">Энэ програмын ANDROID_ID нь %1$s байна.</string>
+    <string name="summary_line_battery">Зайны агшин зуурын зураг нь %1$s-г харуулж байна.</string>
+    <string name="summary_line_network">Идэвхтэй сүлжээний тээвэрлэлт: %1$s.</string>
+    <string name="summary_line_authenticators">Бүртгэлийн баталгаажуулагч харагдаж байна: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch эдгээр уншилтыг та экспортлохгүй л бол төхөөрөмж дээрээ хадгалдаг.</string>
+
+</resources>

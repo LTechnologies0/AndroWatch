@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Thiết bị này hiện đang báo cáo ngôn ngữ %1$s.</string>
+    <string name="summary_line_model">Mẫu phần cứng xuất hiện dưới dạng %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID cho ứng dụng này là %1$s.</string>
+    <string name="summary_line_battery">Ảnh chụp nhanh pin cho biết %1$s.</string>
+    <string name="summary_line_network">Vận chuyển mạng đang hoạt động: %1$s.</string>
+    <string name="summary_line_authenticators">Trình xác thực tài khoản hiển thị: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch lưu giữ các chỉ số này trên thiết bị trừ khi bạn xuất chúng.</string>
+
+</resources>

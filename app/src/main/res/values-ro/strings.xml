@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Explorator de amprente API Android</string>
+    <string name="back">Spate</string>
+    <string name="refresh">Reîmprospăta</string>
+    <string name="export_report">Raport de export</string>
+    <string name="export_chooser_title">Exportați raportul AndroWatch</string>
+    <string name="about_title">Despre</string>
+    <string name="about_heading">Transparența amprentei dispozitivului</string>
+    <string name="about_inspired">AndroWatch este o alternativă Android inspirată de Loupe de la Mysk Research. Acesta arată ceea ce API-urile publice Android pot dezvălui despre dispozitivul dvs.</string>
+    <string name="about_privacy">Toate citirile rămân pe dispozitivul dvs. Nimic nu este încărcat decât dacă exportați în mod explicit un raport JSON.</string>
+    <string name="onboarding_title">Vezi ce dezvăluie Android</string>
+    <string name="onboarding_body">AndroWatch arată ce pot dezvălui API-urile Android despre dispozitivul dvs. — identificatori, senzori, rețea și multe altele.</string>
+    <string name="onboarding_privacy">Nu este încărcat nimic. Exporturile sunt explicite și locale.</string>
+    <string name="onboarding_continue">Continua</string>
+    <string name="permission_required">Este necesară permisiunea</string>
+    <string name="permission_rationale">Această categorie necesită permisiunea de rulare pentru a citi metadatele agregate. PII brute nu sunt afișate niciodată.</string>
+    <string name="grant_permission">Acordați permisiunea</string>
+    <string name="summary_title">Rezumatul amprentei</string>
+    <string name="summary_empty">Actualizează categoriile pentru a genera un rezumat.</string>
+    <string name="tier_passive">Pasiv</string>
+    <string name="tier_permissioned">Are nevoie de permisiune</string>
+    <string name="tier_advanced">Avansat</string>
+    <string name="signal_count">%1$d semnale</string>
+    <string name="live_badge">Trăi</string>
+    <string name="loading">Se colectează semnale...</string>
+    <string name="error_collecting">Eroare la colectarea semnalelor.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Reîncercați</string>
+    <string name="export_error">Raportul nu a putut fi exportat.</string>
+    <string name="export_empty">Nimic de exportat încă. Reîmprospătați mai întâi categoriile.</string>
+    <string name="no_signals">Nu s-au colectat semnale încă.</string>
+    <string name="show_rationale">De ce contează asta</string>
+    <string name="hide_rationale">Ascunde rațiunea</string>
+    <string name="raw_value">Valoarea brută API</string>
+    <string name="value_unknown">necunoscut</string>
+    <string name="value_unknown_locale">locație necunoscută</string>
+    <string name="value_unknown_device">dispozitiv necunoscut</string>
+    <string name="value_unknown_battery">baterie necunoscută</string>
+    <string name="value_unknown_network">rețea necunoscută</string>
+    <string name="value_none">nici unul</string>
+    <string name="value_unavailable">indisponibil</string>
+    <string name="value_na">N / A</string>
+    <string name="value_true">Da</string>
+    <string name="value_false">nu</string>
+
+</resources>

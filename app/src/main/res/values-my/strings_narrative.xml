@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">ဤစက်ပစ္စည်းသည် လက်ရှိတွင် ဒေသန္တရ %1$s ကို အစီရင်ခံသည်။</string>
+    <string name="summary_line_model">ဟာ့ဒ်ဝဲမော်ဒယ်သည် %1$s အဖြစ် ပေါ်လာသည်။</string>
+    <string name="summary_line_android_id">ဤအက်ပ်အတွက် ANDROID_ID သည် %1$s ဖြစ်သည်။</string>
+    <string name="summary_line_battery">ဘက်ထရီလျှပ်တစ်ပြက်ရိုက်ချက်သည် %1$s ကိုညွှန်ပြသည်။</string>
+    <string name="summary_line_network">လက်ရှိအသုံးပြုနေသော ကွန်ရက်သယ်ယူပို့ဆောင်ရေးများ- %1$s။</string>
+    <string name="summary_line_authenticators">အကောင့် စစ်မှန်ကြောင်းအထောက်အထားများကို မြင်နိုင်သည်- %1$s။</string>
+    <string name="summary_line_privacy">၎င်းတို့ကို သင်မတင်ပို့ပါက AndroWatch သည် ဤဖတ်ရှုမှုများကို စက်တွင် သိမ်းဆည်းထားသည်။</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">ডিভাইস আইডেন্টিটি</string>
+    <string name="cat_device_identity_subtitle">শনাক্তকারী এবং হার্ডওয়্যার বৈশিষ্ট্য</string>
+    <string name="cat_google_account_title">Google অ্যাকাউন্ট</string>
+    <string name="cat_google_account_subtitle">অ্যাকাউন্ট উপস্থিতি সংকেত</string>
+    <string name="cat_system_info_title">সিস্টেম তথ্য</string>
+    <string name="cat_system_info_subtitle">ওএস এবং রানটাইম বিশদ</string>
+    <string name="cat_display_title">প্রদর্শন</string>
+    <string name="cat_display_subtitle">পর্দার ক্ষমতা এবং ঘনত্ব</string>
+    <string name="cat_locale_title">স্থানীয় ও অঞ্চল</string>
+    <string name="cat_locale_subtitle">ভাষা এবং সময় অঞ্চলের পদচিহ্ন</string>
+    <string name="cat_accessibility_title">অ্যাক্সেসযোগ্যতা</string>
+    <string name="cat_accessibility_subtitle">সহায়ক সেটিংস এবং পতাকা</string>
+    <string name="cat_device_motion_title">ডিভাইস মোশন</string>
+    <string name="cat_device_motion_subtitle">সেন্সর উপস্থিতি এবং রাষ্ট্র</string>
+    <string name="cat_battery_title">ব্যাটারি ও পাওয়ার</string>
+    <string name="cat_battery_subtitle">ব্যাটারি এবং পাওয়ার মোড ডেটা</string>
+    <string name="cat_storage_title">স্টোরেজ</string>
+    <string name="cat_storage_subtitle">ভলিউম এবং স্টোরেজ মোট</string>
+    <string name="cat_network_title">নেটওয়ার্ক</string>
+    <string name="cat_network_subtitle">সংযোগ এবং ভিপিএন স্থিতি</string>
+    <string name="cat_fonts_title">হরফ</string>
+    <string name="cat_fonts_subtitle">ফন্ট প্রাপ্যতা নমুনা</string>
+    <string name="cat_installed_voices_title">ইনস্টল করা ভয়েস</string>
+    <string name="cat_installed_voices_subtitle">স্পিচ ইঞ্জিন এবং ভয়েস সমর্থন</string>
+    <string name="cat_app_info_title">অ্যাপ এবং বান্ডিল</string>
+    <string name="cat_app_info_subtitle">প্যাকেজ বিল্ড মেটাডেটা</string>
+    <string name="cat_pasteboard_title">পেস্টবোর্ড</string>
+    <string name="cat_pasteboard_subtitle">শুধুমাত্র ক্লিপবোর্ড মেটাডেটা</string>
+    <string name="cat_audio_title">অডিও</string>
+    <string name="cat_audio_subtitle">অডিও আউটপুট এবং রুট বিবরণ</string>
+    <string name="cat_graphics_title">গ্রাফিক্স</string>
+    <string name="cat_graphics_subtitle">GPU/GL বাস্তবায়ন সংকেত</string>
+    <string name="cat_telephony_title">টেলিফোনি</string>
+    <string name="cat_telephony_subtitle">ক্যারিয়ার এবং রেডিও মেটাডেটা</string>
+    <string name="cat_motion_title">মোশন ও সেন্সর</string>
+    <string name="cat_motion_subtitle">অনুমতি-গেটেড গতি বিবরণ</string>
+    <string name="cat_location_title">অবস্থান</string>
+    <string name="cat_location_subtitle">অবস্থান এবং প্রদানকারী মেটাডেটা</string>
+    <string name="cat_cameras_title">ক্যামেরা</string>
+    <string name="cat_cameras_subtitle">ক্যামেরা ক্ষমতা এবং গণনা</string>
+    <string name="cat_bluetooth_title">ব্লুটুথ</string>
+    <string name="cat_bluetooth_subtitle">ব্লুটুথ স্ট্যাটাস এবং পেয়ার করা পরিসংখ্যান</string>
+    <string name="cat_local_network_title">স্থানীয় নেটওয়ার্ক</string>
+    <string name="cat_local_network_subtitle">কাছাকাছি নেটওয়ার্ক পরিবেশ</string>
+    <string name="cat_contacts_title">পরিচিতি</string>
+    <string name="cat_contacts_subtitle">যোগাযোগ ডাটাবেস মেটাডেটা শুধুমাত্র</string>
+    <string name="cat_photos_title">ফটো</string>
+    <string name="cat_photos_subtitle">শুধুমাত্র মিডিয়া লাইব্রেরি মেটাডেটা</string>
+    <string name="cat_calendar_title">ক্যালেন্ডার</string>
+    <string name="cat_calendar_subtitle">ক্যালেন্ডার অ্যাকাউন্টের মেটাডেটা</string>
+    <string name="cat_reminders_title">অনুস্মারক</string>
+    <string name="cat_reminders_subtitle">টাস্ক/অনুস্মারক প্রদানকারীর মেটাডেটা</string>
+    <string name="cat_music_library_title">মিউজিক লাইব্রেরি</string>
+    <string name="cat_music_library_subtitle">শুধুমাত্র অডিও মিডিয়া মেটাডেটা</string>
+    <string name="cat_installed_apps_probe_title">ইনস্টল করা অ্যাপস প্রোব</string>
+    <string name="cat_installed_apps_probe_subtitle">অভিপ্রায় স্কিম অনুসন্ধান</string>
+    <string name="cat_webview_fingerprint_title">WebView ফিঙ্গারপ্রিন্ট</string>
+    <string name="cat_webview_fingerprint_subtitle">ব্রাউজার-এর মতো রেন্ডারিং প্রোফাইল</string>
+    <string name="cat_previous_installs_log_title">পূর্ববর্তী ইনস্টল লগ</string>
+    <string name="cat_previous_installs_log_subtitle">অধ্যবসায় ইঙ্গিত ইনস্টল করুন</string>
+
+</resources>

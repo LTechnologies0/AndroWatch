@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">ขณะนี้อุปกรณ์นี้รายงานสถานที่ %1$s</string>
+    <string name="summary_line_model">รุ่นฮาร์ดแวร์ปรากฏเป็น %1$s</string>
+    <string name="summary_line_android_id">ANDROID_ID สำหรับแอปนี้คือ %1$s</string>
+    <string name="summary_line_battery">สแนปชอตแบตเตอรี่บ่งชี้ %1$s</string>
+    <string name="summary_line_network">การขนส่งเครือข่ายที่ใช้งานอยู่: %1$s</string>
+    <string name="summary_line_authenticators">ผู้ตรวจสอบความถูกต้องของบัญชีมองเห็นได้: %1$s</string>
+    <string name="summary_line_privacy">AndroWatch จะเก็บค่าที่อ่านเหล่านี้ไว้ในอุปกรณ์ เว้นแต่คุณจะส่งออก</string>
+
+</resources>

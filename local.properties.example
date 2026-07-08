@@ -1,0 +1,2 @@
+# Copy to local.properties (gitignored). Do not commit machine-specific paths.
+sdk.dir=/path/to/Android/Sdk

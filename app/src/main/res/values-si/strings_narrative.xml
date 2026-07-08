@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">මෙම උපාංගය දැනට %1$s පෙදෙසිය වාර්තා කරයි.</string>
+    <string name="summary_line_model">දෘඪාංග ආකෘතිය %1$s ලෙස දිස්වේ.</string>
+    <string name="summary_line_android_id">මෙම යෙදුම සඳහා ANDROID_ID %1$s වේ.</string>
+    <string name="summary_line_battery">බැටරි ස්නැප්ෂොට් %1$s පෙන්නුම් කරයි.</string>
+    <string name="summary_line_network">සක්‍රිය ජාල ප්‍රවාහනය: %1$s.</string>
+    <string name="summary_line_authenticators">ගිණුම් සත්‍යාපනය දෘශ්‍යමාන වේ: %1$s.</string>
+    <string name="summary_line_privacy">ඔබ ඒවා අපනයනය කරන්නේ නම් මිස AndroWatch මෙම කියවීම් උපාංගය මත තබා ගනී.</string>
+
+</resources>

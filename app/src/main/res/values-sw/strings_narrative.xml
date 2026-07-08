@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Kifaa hiki kwa sasa kinaripoti lugha %1$s.</string>
+    <string name="summary_line_model">Muundo wa maunzi inaonekana kama %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID ya programu hii ni %1$s.</string>
+    <string name="summary_line_battery">Picha ya betri inaonyesha %1$s.</string>
+    <string name="summary_line_network">Usafirishaji wa mtandao unaotumika: %1$s.</string>
+    <string name="summary_line_authenticators">Vithibitishaji vya akaunti vinaonekana: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch huweka usomaji huu kwenye kifaa isipokuwa utahamisha.</string>
+
+</resources>

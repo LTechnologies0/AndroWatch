@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Гэта прылада зараз паведамляе пра мову %1$s.</string>
+    <string name="summary_line_model">Мадэль абсталявання адлюстроўваецца як %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID для гэтай праграмы %1$s.</string>
+    <string name="summary_line_battery">Здымак батарэі паказвае %1$s.</string>
+    <string name="summary_line_network">Актыўныя сеткавыя транспарты: %1$s.</string>
+    <string name="summary_line_authenticators">Бачныя аўтэнтыфікатары ўліковых запісаў: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch захоўвае гэтыя паказанні на прыладзе, калі вы іх не экспартуеце.</string>
+
+</resources>

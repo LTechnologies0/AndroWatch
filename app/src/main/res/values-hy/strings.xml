@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API մատնահետքերի հետազոտող</string>
+    <string name="back">Ետ</string>
+    <string name="refresh">Թարմացնել</string>
+    <string name="export_report">Արտահանման հաշվետվություն</string>
+    <string name="export_chooser_title">Արտահանել AndroWatch զեկույցը</string>
+    <string name="about_title">Մոտ</string>
+    <string name="about_heading">Սարքի մատնահետքի թափանցիկություն</string>
+    <string name="about_inspired">AndroWatch-ը Android-ի այլընտրանք է, որը ոգեշնչված է Loupe-ից Mysk Research-ի կողմից: Այն ցույց է տալիս, թե ինչ կարող են բացահայտել հանրային Android API-ները ձեր սարքի մասին:</string>
+    <string name="about_privacy">Բոլոր ընթերցումները մնում են ձեր սարքում: Ոչինչ չի վերբեռնվում, քանի դեռ չեք արտահանել JSON զեկույց:</string>
+    <string name="onboarding_title">Տեսեք, թե ինչ է բացահայտում Android-ը</string>
+    <string name="onboarding_body">AndroWatch-ը ցույց է տալիս, թե ինչ կարող են բացահայտել Android API-ները ձեր սարքի մասին՝ նույնացուցիչներ, սենսորներ, ցանց և այլն:</string>
+    <string name="onboarding_privacy">Ոչինչ վերբեռնված չէ: Արտահանումը բացահայտ և տեղական է:</string>
+    <string name="onboarding_continue">Շարունակեք</string>
+    <string name="permission_required">Պահանջվում է թույլտվություն</string>
+    <string name="permission_rationale">Այս կատեգորիան աշխատանքի ժամանակի թույլտվության կարիք ունի՝ ագրեգացված մետատվյալները կարդալու համար: Հում PII-ը երբեք չի ցուցադրվում:</string>
+    <string name="grant_permission">Թույլտվություն տալ</string>
+    <string name="summary_title">Մատնահետքի ամփոփում</string>
+    <string name="summary_empty">Թարմացրեք կատեգորիաները՝ ամփոփում ստեղծելու համար:</string>
+    <string name="tier_passive">Պասիվ</string>
+    <string name="tier_permissioned">Թույլտվություն է պետք</string>
+    <string name="tier_advanced">Ընդլայնված</string>
+    <string name="signal_count">%1$d ազդանշաններ</string>
+    <string name="live_badge">Ապրեք</string>
+    <string name="loading">Ազդանշանների հավաքում…</string>
+    <string name="error_collecting">Սխալ՝ ազդանշաններ հավաքելիս:</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Կրկին փորձեք</string>
+    <string name="export_error">Չհաջողվեց արտահանել հաշվետվություն:</string>
+    <string name="export_empty">Արտահանելու ոչինչ դեռ չկա։ Նախ թարմացրեք կատեգորիաները:</string>
+    <string name="no_signals">Ազդանշաններ դեռ չեն հավաքվել։</string>
+    <string name="show_rationale">Ինչու է սա կարևոր</string>
+    <string name="hide_rationale">Թաքցնել հիմնավորումը</string>
+    <string name="raw_value">Հում API արժեքը</string>
+    <string name="value_unknown">անհայտ</string>
+    <string name="value_unknown_locale">անհայտ տեղանք</string>
+    <string name="value_unknown_device">անհայտ սարք</string>
+    <string name="value_unknown_battery">անհայտ մարտկոց</string>
+    <string name="value_unknown_network">անհայտ ցանց</string>
+    <string name="value_none">ոչ մեկը</string>
+    <string name="value_unavailable">անհասանելի</string>
+    <string name="value_na">հ/հ</string>
+    <string name="value_true">այո</string>
+    <string name="value_false">ոչ</string>
+
+</resources>

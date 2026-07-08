@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Ang device na ito ay kasalukuyang nag-uulat ng lokal na %1$s.</string>
+    <string name="summary_line_model">Lumilitaw ang modelo ng hardware bilang %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID para sa app na ito ay %1$s.</string>
+    <string name="summary_line_battery">Ang snapshot ng baterya ay nagpapahiwatig ng %1$s.</string>
+    <string name="summary_line_network">Mga aktibong network transport: %1$s.</string>
+    <string name="summary_line_authenticators">Nakikita ang mga authenticator ng account: %1$s.</string>
+    <string name="summary_line_privacy">Pinapanatili ng AndroWatch ang mga pagbabasa na ito sa device maliban kung ine-export mo ang mga ito.</string>
+
+</resources>

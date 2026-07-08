@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Սարքի նույնականացում</string>
+    <string name="cat_device_identity_subtitle">Նույնացուցիչներ և ապարատային հատկություններ</string>
+    <string name="cat_google_account_title">Google հաշիվ</string>
+    <string name="cat_google_account_subtitle">Հաշվի ներկայության ազդանշաններ</string>
+    <string name="cat_system_info_title">Համակարգի տեղեկատվություն</string>
+    <string name="cat_system_info_subtitle">ՕՀ-ի և գործարկման մանրամասները</string>
+    <string name="cat_display_title">Ցուցադրել</string>
+    <string name="cat_display_subtitle">Էկրանի հնարավորությունները և խտությունը</string>
+    <string name="cat_locale_title">Տեղանք և տարածաշրջան</string>
+    <string name="cat_locale_subtitle">Լեզուն և ժամային գոտին</string>
+    <string name="cat_accessibility_title">Մատչելիություն</string>
+    <string name="cat_accessibility_subtitle">Օժանդակ կարգավորումներ և դրոշակներ</string>
+    <string name="cat_device_motion_title">Սարքի շարժում</string>
+    <string name="cat_device_motion_subtitle">Սենսորի ներկայությունը և վիճակը</string>
+    <string name="cat_battery_title">Մարտկոց և հզորություն</string>
+    <string name="cat_battery_subtitle">Մարտկոցի և հոսանքի ռեժիմի տվյալներ</string>
+    <string name="cat_storage_title">Պահպանում</string>
+    <string name="cat_storage_subtitle">Ծավալը և պահեստավորման ընդհանուր գումարները</string>
+    <string name="cat_network_title">Ցանց</string>
+    <string name="cat_network_subtitle">Միացում և VPN կարգավիճակ</string>
+    <string name="cat_fonts_title">Տառատեսակներ</string>
+    <string name="cat_fonts_subtitle">Տառատեսակի առկայության նմուշ</string>
+    <string name="cat_installed_voices_title">Տեղադրված ձայներ</string>
+    <string name="cat_installed_voices_subtitle">Խոսքի շարժիչ և ձայնային աջակցություն</string>
+    <string name="cat_app_info_title">Հավելված և փաթեթ</string>
+    <string name="cat_app_info_subtitle">Փաթեթի ստեղծման մետատվյալներ</string>
+    <string name="cat_pasteboard_title">Գրատախտակ</string>
+    <string name="cat_pasteboard_subtitle">Միայն սեղմատախտակի մետատվյալներ</string>
+    <string name="cat_audio_title">Աուդիո</string>
+    <string name="cat_audio_subtitle">Աուդիո ելքեր և երթուղու մանրամասներ</string>
+    <string name="cat_graphics_title">Գրաֆիկա</string>
+    <string name="cat_graphics_subtitle">GPU / GL իրականացման ազդանշաններ</string>
+    <string name="cat_telephony_title">Հեռախոսակապ</string>
+    <string name="cat_telephony_subtitle">Օպերատորի և ռադիոյի մետատվյալներ</string>
+    <string name="cat_motion_title">Շարժում և սենսորներ</string>
+    <string name="cat_motion_subtitle">Թույլտվությամբ պատված շարժման մանրամասները</string>
+    <string name="cat_location_title">Գտնվելու վայրը</string>
+    <string name="cat_location_subtitle">Պաշտոնը և մատակարարի մետատվյալները</string>
+    <string name="cat_cameras_title">Տեսախցիկներ</string>
+    <string name="cat_cameras_subtitle">Տեսախցիկի հնարավորությունները և հաշվարկը</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth կարգավիճակը և զուգակցված վիճակագրությունը</string>
+    <string name="cat_local_network_title">Տեղական ցանց</string>
+    <string name="cat_local_network_subtitle">Մոտակա ցանցային միջավայր</string>
+    <string name="cat_contacts_title">Կոնտակտներ</string>
+    <string name="cat_contacts_subtitle">Կապվեք միայն տվյալների բազայի մետատվյալների հետ</string>
+    <string name="cat_photos_title">Լուսանկարներ</string>
+    <string name="cat_photos_subtitle">Միայն մեդիա գրադարանի մետատվյալներ</string>
+    <string name="cat_calendar_title">Օրացույց</string>
+    <string name="cat_calendar_subtitle">Օրացույցի հաշվի մետատվյալներ</string>
+    <string name="cat_reminders_title">Հիշեցումներ</string>
+    <string name="cat_reminders_subtitle">Առաջադրանքների/հիշեցումների մատակարարի մետատվյալներ</string>
+    <string name="cat_music_library_title">Երաժշտական ​​գրադարան</string>
+    <string name="cat_music_library_subtitle">Միայն աուդիո մեդիա մետատվյալներ</string>
+    <string name="cat_installed_apps_probe_title">Տեղադրված Apps Probe-ը</string>
+    <string name="cat_installed_apps_probe_subtitle">Մտադրությունների սխեմայի զոնդավորում</string>
+    <string name="cat_webview_fingerprint_title">WebView մատնահետք</string>
+    <string name="cat_webview_fingerprint_subtitle">Զննարկիչի նման ներկայացման պրոֆիլ</string>
+    <string name="cat_previous_installs_log_title">Նախորդ տեղադրումների մատյան</string>
+    <string name="cat_previous_installs_log_subtitle">Տեղադրեք համառության հուշումներ</string>
+
+</resources>

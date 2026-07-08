@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Acest dispozitiv raportează momentan localitatea %1$s.</string>
+    <string name="summary_line_model">Modelul hardware apare ca %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID pentru această aplicație este %1$s.</string>
+    <string name="summary_line_battery">Instantaneul bateriei indică %1$s.</string>
+    <string name="summary_line_network">Transporturi de rețea active: %1$s.</string>
+    <string name="summary_line_authenticators">Autentificatori de cont vizibili: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch păstrează aceste citiri pe dispozitiv, cu excepția cazului în care le exportați.</string>
+
+</resources>

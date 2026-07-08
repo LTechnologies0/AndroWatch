@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Ταυτότητα συσκευής</string>
+    <string name="cat_device_identity_subtitle">Αναγνωριστικά και χαρακτηριστικά υλικού</string>
+    <string name="cat_google_account_title">Λογαριασμός Google</string>
+    <string name="cat_google_account_subtitle">Σήματα παρουσίας λογαριασμού</string>
+    <string name="cat_system_info_title">Πληροφορίες συστήματος</string>
+    <string name="cat_system_info_subtitle">Λεπτομέρειες λειτουργικού και χρόνου εκτέλεσης</string>
+    <string name="cat_display_title">Επίδειξη</string>
+    <string name="cat_display_subtitle">Δυνατότητες και πυκνότητα οθόνης</string>
+    <string name="cat_locale_title">Τοποθεσία &amp; Περιοχή</string>
+    <string name="cat_locale_subtitle">Αποτύπωμα γλώσσας και ζώνης ώρας</string>
+    <string name="cat_accessibility_title">Προσιτότητα</string>
+    <string name="cat_accessibility_subtitle">Βοηθητικές ρυθμίσεις και σημαίες</string>
+    <string name="cat_device_motion_title">Κίνηση συσκευής</string>
+    <string name="cat_device_motion_subtitle">Παρουσία και κατάσταση αισθητήρα</string>
+    <string name="cat_battery_title">Μπαταρία &amp; Ρεύμα</string>
+    <string name="cat_battery_subtitle">Δεδομένα λειτουργίας μπαταρίας και τροφοδοσίας</string>
+    <string name="cat_storage_title">Αποθήκευση</string>
+    <string name="cat_storage_subtitle">Όγκος και σύνολα αποθήκευσης</string>
+    <string name="cat_network_title">Δίκτυο</string>
+    <string name="cat_network_subtitle">Συνδεσιμότητα και κατάσταση VPN</string>
+    <string name="cat_fonts_title">Γραμματοσειρές</string>
+    <string name="cat_fonts_subtitle">Δείγμα διαθεσιμότητας γραμματοσειράς</string>
+    <string name="cat_installed_voices_title">Εγκατεστημένες Φωνές</string>
+    <string name="cat_installed_voices_subtitle">Μηχανή ομιλίας και υποστήριξη φωνής</string>
+    <string name="cat_app_info_title">Εφαρμογή &amp; Πακέτο</string>
+    <string name="cat_app_info_subtitle">Μεταδεδομένα δημιουργίας πακέτου</string>
+    <string name="cat_pasteboard_title">Χαρτοσανίδα</string>
+    <string name="cat_pasteboard_subtitle">Μόνο μεταδεδομένα του προχείρου</string>
+    <string name="cat_audio_title">Ήχος</string>
+    <string name="cat_audio_subtitle">Έξοδοι ήχου και λεπτομέρειες διαδρομής</string>
+    <string name="cat_graphics_title">Γραφικά</string>
+    <string name="cat_graphics_subtitle">Σήματα υλοποίησης GPU/GL</string>
+    <string name="cat_telephony_title">Τηλεφωνία</string>
+    <string name="cat_telephony_subtitle">Μεταδεδομένα κινητής τηλεφωνίας και ραδιοφώνου</string>
+    <string name="cat_motion_title">Κίνηση &amp; Αισθητήρες</string>
+    <string name="cat_motion_subtitle">Λεπτομέρειες κίνησης με περιορισμένη άδεια</string>
+    <string name="cat_location_title">Τοποθεσία</string>
+    <string name="cat_location_subtitle">Μεταδεδομένα θέσης και παρόχου</string>
+    <string name="cat_cameras_title">Κάμερες</string>
+    <string name="cat_cameras_subtitle">Δυνατότητες κάμερας και καταμέτρηση</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Κατάσταση Bluetooth και ζευγαρωμένα στατιστικά</string>
+    <string name="cat_local_network_title">Τοπικό δίκτυο</string>
+    <string name="cat_local_network_subtitle">Κοντινό περιβάλλον δικτύου</string>
+    <string name="cat_contacts_title">Επαφές</string>
+    <string name="cat_contacts_subtitle">Επικοινωνήστε μόνο με τα μεταδεδομένα της βάσης δεδομένων</string>
+    <string name="cat_photos_title">Φωτογραφίες</string>
+    <string name="cat_photos_subtitle">Μόνο μεταδεδομένα βιβλιοθήκης πολυμέσων</string>
+    <string name="cat_calendar_title">Ημερολόγιο</string>
+    <string name="cat_calendar_subtitle">Μεταδεδομένα λογαριασμού ημερολογίου</string>
+    <string name="cat_reminders_title">Υπενθυμίσεις</string>
+    <string name="cat_reminders_subtitle">Μεταδεδομένα παρόχου εργασιών/υπενθύμισης</string>
+    <string name="cat_music_library_title">Μουσική Βιβλιοθήκη</string>
+    <string name="cat_music_library_subtitle">Μόνο μεταδεδομένα μέσων ήχου</string>
+    <string name="cat_installed_apps_probe_title">Εγκατεστημένο Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Έρευνα σχεδίου πρόθεσης</string>
+    <string name="cat_webview_fingerprint_title">Δακτυλικό αποτύπωμα WebView</string>
+    <string name="cat_webview_fingerprint_subtitle">Προφίλ απόδοσης που μοιάζει με πρόγραμμα περιήγησης</string>
+    <string name="cat_previous_installs_log_title">Μητρώο προηγούμενων εγκαταστάσεων</string>
+    <string name="cat_previous_installs_log_subtitle">Υποδείξεις επιμονής εγκατάστασης</string>
+
+</resources>

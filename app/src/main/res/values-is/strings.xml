@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API fingrafarakönnuður</string>
+    <string name="back">Til baka</string>
+    <string name="refresh">Endurnýja</string>
+    <string name="export_report">Útflutningsskýrsla</string>
+    <string name="export_chooser_title">Flytja út skýrslu AndroWatch</string>
+    <string name="about_title">Um</string>
+    <string name="about_heading">Gagnsæi fingrafara tækis</string>
+    <string name="about_inspired">AndroWatch er Android val innblásið af Loupe af Mysk Research. Það birtir það sem opinber Android API getur leitt í ljós um tækið þitt.</string>
+    <string name="about_privacy">Allar lestur verða áfram á tækinu þínu. Engu er hlaðið upp nema þú flytur út JSON skýrslu sérstaklega.</string>
+    <string name="onboarding_title">Sjáðu hvað Android sýnir</string>
+    <string name="onboarding_body">AndroWatch sýnir hvað Android API getur leitt í ljós um tækið þitt - auðkenni, skynjarar, netkerfi og fleira.</string>
+    <string name="onboarding_privacy">Ekkert er hlaðið upp. Útflutningur er skýr og staðbundinn.</string>
+    <string name="onboarding_continue">Halda áfram</string>
+    <string name="permission_required">Leyfi krafist</string>
+    <string name="permission_rationale">Þessi flokkur þarf keyrsluheimild til að lesa uppsöfnuð lýsigögn. Raw PII er aldrei birt.</string>
+    <string name="grant_permission">Veita leyfi</string>
+    <string name="summary_title">Fingrafarayfirlit</string>
+    <string name="summary_empty">Endurnýjaðu flokka til að búa til samantekt.</string>
+    <string name="tier_passive">Hlutlaus</string>
+    <string name="tier_permissioned">Þarf leyfi</string>
+    <string name="tier_advanced">Ítarlegri</string>
+    <string name="signal_count">%1$d merki</string>
+    <string name="live_badge">Lifandi</string>
+    <string name="loading">Safnar merkjum...</string>
+    <string name="error_collecting">Villa við að safna merkjum.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Reyndu aftur</string>
+    <string name="export_error">Ekki tókst að flytja út skýrslu.</string>
+    <string name="export_empty">Ekkert að flytja út ennþá. Uppfærðu flokka fyrst.</string>
+    <string name="no_signals">Engum merkjum safnað enn.</string>
+    <string name="show_rationale">Hvers vegna þetta skiptir máli</string>
+    <string name="hide_rationale">Fela rökstuðning</string>
+    <string name="raw_value">Hrátt API gildi</string>
+    <string name="value_unknown">óþekkt</string>
+    <string name="value_unknown_locale">óþekktur staður</string>
+    <string name="value_unknown_device">óþekkt tæki</string>
+    <string name="value_unknown_battery">óþekkt rafhlaða</string>
+    <string name="value_unknown_network">óþekkt net</string>
+    <string name="value_none">engin</string>
+    <string name="value_unavailable">ófáanlegt</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">já</string>
+    <string name="value_false">nei</string>
+
+</resources>

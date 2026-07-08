@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Bu cihaz şu anda %1$s yerel ayarını rapor ediyor.</string>
+    <string name="summary_line_model">Donanım modeli %1$s olarak görünüyor.</string>
+    <string name="summary_line_android_id">Bu uygulamanın ANDROID_ID\'si %1$s.</string>
+    <string name="summary_line_battery">Pil anlık görüntüsü %1$s gösteriyor.</string>
+    <string name="summary_line_network">Etkin ağ aktarımları: %1$s.</string>
+    <string name="summary_line_authenticators">Hesap kimlik doğrulayıcıları görünüyor: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch, siz dışa aktarmadığınız sürece bu okumaları cihazda tutar.</string>
+
+</resources>

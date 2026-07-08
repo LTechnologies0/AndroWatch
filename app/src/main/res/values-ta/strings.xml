@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API கைரேகை எக்ஸ்ப்ளோரர்</string>
+    <string name="back">மீண்டும்</string>
+    <string name="refresh">புதுப்பிக்கவும்</string>
+    <string name="export_report">ஏற்றுமதி அறிக்கை</string>
+    <string name="export_chooser_title">AndroWatch அறிக்கையை ஏற்றுமதி செய்யவும்</string>
+    <string name="about_title">பற்றி</string>
+    <string name="about_heading">சாதனத்தின் கைரேகை வெளிப்படைத்தன்மை</string>
+    <string name="about_inspired">AndroWatch என்பது மைஸ்க் ரிசர்ச் மூலம் லூப் மூலம் ஈர்க்கப்பட்ட ஆண்ட்ராய்டு மாற்றாகும். உங்கள் சாதனத்தைப் பற்றி பொது Android APIகள் என்ன வெளிப்படுத்தலாம் என்பதை இது வெளிப்படுத்துகிறது.</string>
+    <string name="about_privacy">எல்லா வாசிப்புகளும் உங்கள் சாதனத்தில் இருக்கும். JSON அறிக்கையை வெளிப்படையாக ஏற்றுமதி செய்யாத வரை எதுவும் பதிவேற்றப்படாது.</string>
+    <string name="onboarding_title">Android என்ன வெளிப்படுத்துகிறது என்பதைப் பார்க்கவும்</string>
+    <string name="onboarding_body">உங்கள் சாதனத்தைப் பற்றி ஆண்ட்ராய்டு ஏபிஐகள் எதை வெளிப்படுத்தலாம் என்பதை AndroWatch காட்டுகிறது - அடையாளங்காட்டிகள், சென்சார்கள், நெட்வொர்க் மற்றும் பல.</string>
+    <string name="onboarding_privacy">எதுவும் பதிவேற்றப்படவில்லை. ஏற்றுமதிகள் வெளிப்படையானவை மற்றும் உள்ளூர்.</string>
+    <string name="onboarding_continue">தொடரவும்</string>
+    <string name="permission_required">அனுமதி தேவை</string>
+    <string name="permission_rationale">ஒருங்கிணைக்கப்பட்ட மெட்டாடேட்டாவைப் படிக்க இந்த வகைக்கு இயக்க நேர அனுமதி தேவை. ரா PII காட்டப்படாது.</string>
+    <string name="grant_permission">அனுமதி கொடுங்கள்</string>
+    <string name="summary_title">கைரேகை சுருக்கம்</string>
+    <string name="summary_empty">சுருக்கத்தை உருவாக்க வகைகளைப் புதுப்பிக்கவும்.</string>
+    <string name="tier_passive">செயலற்றது</string>
+    <string name="tier_permissioned">அனுமதி வேண்டும்</string>
+    <string name="tier_advanced">மேம்பட்டது</string>
+    <string name="signal_count">%1$d சமிக்ஞைகள்</string>
+    <string name="live_badge">வாழ்க</string>
+    <string name="loading">சிக்னல்களை சேகரிக்கிறது…</string>
+    <string name="error_collecting">சிக்னல்களை சேகரிக்கும் போது பிழை.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">மீண்டும் முயற்சிக்கவும்</string>
+    <string name="export_error">அறிக்கையை ஏற்றுமதி செய்ய முடியவில்லை.</string>
+    <string name="export_empty">இன்னும் ஏற்றுமதி செய்ய எதுவும் இல்லை. முதலில் வகைகளைப் புதுப்பிக்கவும்.</string>
+    <string name="no_signals">சிக்னல்கள் எதுவும் இன்னும் சேகரிக்கப்படவில்லை.</string>
+    <string name="show_rationale">இது ஏன் முக்கியமானது</string>
+    <string name="hide_rationale">பகுத்தறிவை மறை</string>
+    <string name="raw_value">ரா API மதிப்பு</string>
+    <string name="value_unknown">தெரியவில்லை</string>
+    <string name="value_unknown_locale">தெரியாத இடம்</string>
+    <string name="value_unknown_device">அறியப்படாத சாதனம்</string>
+    <string name="value_unknown_battery">தெரியாத பேட்டரி</string>
+    <string name="value_unknown_network">தெரியாத நெட்வொர்க்</string>
+    <string name="value_none">எதுவும் இல்லை</string>
+    <string name="value_unavailable">கிடைக்கவில்லை</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">ஆம்</string>
+    <string name="value_false">இல்லை</string>
+
+</resources>

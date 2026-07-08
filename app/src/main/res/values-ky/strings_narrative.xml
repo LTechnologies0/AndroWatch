@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Бул түзмөк учурда %1$s тили жөнүндө кабарлайт.</string>
+    <string name="summary_line_model">Аппараттык камсыздоо модели %1$s катары көрүнөт.</string>
+    <string name="summary_line_android_id">Бул колдонмо үчүн ANDROID_ID %1$s.</string>
+    <string name="summary_line_battery">Батареянын сүрөтү %1$s көрсөтөт.</string>
+    <string name="summary_line_network">Жигердүү тармак транспорттору: %1$s.</string>
+    <string name="summary_line_authenticators">Аккаунттун аныктыгын текшерүүчүлөрү көрүнүп турат: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch бул көрсөткүчтөрдү сиз экспорттомоюнча түзмөктө сактайт.</string>
+
+</resources>

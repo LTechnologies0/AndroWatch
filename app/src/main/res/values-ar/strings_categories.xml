@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">هوية الجهاز</string>
+    <string name="cat_device_identity_subtitle">المعرفات وسمات الأجهزة</string>
+    <string name="cat_google_account_title">حساب جوجل</string>
+    <string name="cat_google_account_subtitle">إشارات وجود الحساب</string>
+    <string name="cat_system_info_title">معلومات النظام</string>
+    <string name="cat_system_info_subtitle">تفاصيل نظام التشغيل ووقت التشغيل</string>
+    <string name="cat_display_title">عرض</string>
+    <string name="cat_display_subtitle">إمكانيات الشاشة وكثافتها</string>
+    <string name="cat_locale_title">المنطقة والمنطقة</string>
+    <string name="cat_locale_subtitle">بصمة اللغة والمنطقة الزمنية</string>
+    <string name="cat_accessibility_title">إمكانية الوصول</string>
+    <string name="cat_accessibility_subtitle">الإعدادات المساعدة والأعلام</string>
+    <string name="cat_device_motion_title">حركة الجهاز</string>
+    <string name="cat_device_motion_subtitle">وجود الاستشعار وحالته</string>
+    <string name="cat_battery_title">البطارية والطاقة</string>
+    <string name="cat_battery_subtitle">بيانات وضع البطارية والطاقة</string>
+    <string name="cat_storage_title">تخزين</string>
+    <string name="cat_storage_subtitle">إجمالي الحجم والتخزين</string>
+    <string name="cat_network_title">شبكة</string>
+    <string name="cat_network_subtitle">الاتصال وحالة VPN</string>
+    <string name="cat_fonts_title">الخطوط</string>
+    <string name="cat_fonts_subtitle">عينة توفر الخط</string>
+    <string name="cat_installed_voices_title">الأصوات المثبتة</string>
+    <string name="cat_installed_voices_subtitle">محرك الكلام والدعم الصوتي</string>
+    <string name="cat_app_info_title">التطبيق والحزمة</string>
+    <string name="cat_app_info_subtitle">البيانات الوصفية لبناء الحزمة</string>
+    <string name="cat_pasteboard_title">كرتون</string>
+    <string name="cat_pasteboard_subtitle">البيانات التعريفية للحافظة فقط</string>
+    <string name="cat_audio_title">صوتي</string>
+    <string name="cat_audio_subtitle">مخرجات الصوت وتفاصيل الطريق</string>
+    <string name="cat_graphics_title">الرسومات</string>
+    <string name="cat_graphics_subtitle">إشارات تنفيذ GPU/GL</string>
+    <string name="cat_telephony_title">الاتصالات الهاتفية</string>
+    <string name="cat_telephony_subtitle">البيانات الوصفية للناقل والراديو</string>
+    <string name="cat_motion_title">الحركة وأجهزة الاستشعار</string>
+    <string name="cat_motion_subtitle">تفاصيل الحركة ذات الإذن</string>
+    <string name="cat_location_title">موقع</string>
+    <string name="cat_location_subtitle">الموقع والبيانات الوصفية للموفر</string>
+    <string name="cat_cameras_title">الكاميرات</string>
+    <string name="cat_cameras_subtitle">قدرات الكاميرا والعد</string>
+    <string name="cat_bluetooth_title">بلوتوث</string>
+    <string name="cat_bluetooth_subtitle">حالة البلوتوث والإحصائيات المقترنة</string>
+    <string name="cat_local_network_title">الشبكة المحلية</string>
+    <string name="cat_local_network_subtitle">بيئة الشبكة القريبة</string>
+    <string name="cat_contacts_title">اتصالات</string>
+    <string name="cat_contacts_subtitle">بيانات تعريف قاعدة بيانات الاتصال فقط</string>
+    <string name="cat_photos_title">صور</string>
+    <string name="cat_photos_subtitle">البيانات التعريفية لمكتبة الوسائط فقط</string>
+    <string name="cat_calendar_title">تقويم</string>
+    <string name="cat_calendar_subtitle">البيانات الوصفية لحساب التقويم</string>
+    <string name="cat_reminders_title">تذكيرات</string>
+    <string name="cat_reminders_subtitle">البيانات الوصفية لموفر المهمة/التذكير</string>
+    <string name="cat_music_library_title">مكتبة الموسيقى</string>
+    <string name="cat_music_library_subtitle">البيانات الوصفية للوسائط الصوتية فقط</string>
+    <string name="cat_installed_apps_probe_title">مسبار التطبيقات المثبتة</string>
+    <string name="cat_installed_apps_probe_subtitle">فحص مخطط النوايا</string>
+    <string name="cat_webview_fingerprint_title">بصمة ويب فيو</string>
+    <string name="cat_webview_fingerprint_subtitle">ملف تعريف التقديم يشبه المتصفح</string>
+    <string name="cat_previous_installs_log_title">سجل عمليات التثبيت السابقة</string>
+    <string name="cat_previous_installs_log_subtitle">تثبيت تلميحات الثبات</string>
+
+</resources>

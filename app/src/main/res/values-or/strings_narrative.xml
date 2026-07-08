@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">ଏହି ଡିଭାଇସ୍ ସମ୍ପ୍ରତି ଲୋକାଲ୍ %1$s ରିପୋର୍ଟ କରେ |</string>
+    <string name="summary_line_model">ହାର୍ଡୱେର୍ ମଡେଲ୍ %1$s ଭାବରେ ଦେଖାଯାଏ |</string>
+    <string name="summary_line_android_id">ଏହି ଆପ୍ ପାଇଁ ANDROID_ID ହେଉଛି %1$s |</string>
+    <string name="summary_line_battery">ବ୍ୟାଟେରୀ ସ୍ନାପସଟ୍ %1$s କୁ ସୂଚିତ କରେ |</string>
+    <string name="summary_line_network">ସକ୍ରିୟ ନେଟୱାର୍କ ପରିବହନ: %1$s |</string>
+    <string name="summary_line_authenticators">ଖାତା ପ୍ରାମାଣିକିକରଣ ଦୃଶ୍ୟମାନ: %1$s |</string>
+    <string name="summary_line_privacy">ଆଣ୍ଡ୍ରୋ ୱାଚ୍ ଏହି ରିଡିଂଗୁଡ଼ିକୁ ଡିଭାଇସରେ ରଖେ ଯଦି ତୁମେ ସେଗୁଡ଼ିକୁ ରପ୍ତାନି ନକର |</string>
+
+</resources>

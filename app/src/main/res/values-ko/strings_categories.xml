@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">장치 ID</string>
+    <string name="cat_device_identity_subtitle">식별자 및 하드웨어 특성</string>
+    <string name="cat_google_account_title">구글 계정</string>
+    <string name="cat_google_account_subtitle">계정 존재 신호</string>
+    <string name="cat_system_info_title">시스템 정보</string>
+    <string name="cat_system_info_subtitle">OS 및 런타임 세부정보</string>
+    <string name="cat_display_title">표시하다</string>
+    <string name="cat_display_subtitle">화면 성능 및 밀도</string>
+    <string name="cat_locale_title">로캘 및 지역</string>
+    <string name="cat_locale_subtitle">언어 및 시간대 공간</string>
+    <string name="cat_accessibility_title">접근성</string>
+    <string name="cat_accessibility_subtitle">보조 설정 및 플래그</string>
+    <string name="cat_device_motion_title">장치 모션</string>
+    <string name="cat_device_motion_subtitle">센서 유무 및 상태</string>
+    <string name="cat_battery_title">배터리 및 전원</string>
+    <string name="cat_battery_subtitle">배터리 및 전원 모드 데이터</string>
+    <string name="cat_storage_title">저장</string>
+    <string name="cat_storage_subtitle">볼륨 및 스토리지 합계</string>
+    <string name="cat_network_title">회로망</string>
+    <string name="cat_network_subtitle">연결 및 VPN 상태</string>
+    <string name="cat_fonts_title">글꼴</string>
+    <string name="cat_fonts_subtitle">글꼴 가용성 샘플</string>
+    <string name="cat_installed_voices_title">설치된 보이스</string>
+    <string name="cat_installed_voices_subtitle">음성 엔진 및 음성 지원</string>
+    <string name="cat_app_info_title">앱 및 번들</string>
+    <string name="cat_app_info_subtitle">패키지 빌드 메타데이터</string>
+    <string name="cat_pasteboard_title">두꺼운 종이</string>
+    <string name="cat_pasteboard_subtitle">클립보드 메타데이터만</string>
+    <string name="cat_audio_title">오디오</string>
+    <string name="cat_audio_subtitle">오디오 출력 및 경로 세부정보</string>
+    <string name="cat_graphics_title">제도법</string>
+    <string name="cat_graphics_subtitle">GPU/GL 구현 신호</string>
+    <string name="cat_telephony_title">전화통신</string>
+    <string name="cat_telephony_subtitle">통신업체 및 라디오 메타데이터</string>
+    <string name="cat_motion_title">모션 및 센서</string>
+    <string name="cat_motion_subtitle">권한 제한 모션 세부정보</string>
+    <string name="cat_location_title">위치</string>
+    <string name="cat_location_subtitle">위치 및 제공자 메타데이터</string>
+    <string name="cat_cameras_title">카메라</string>
+    <string name="cat_cameras_subtitle">카메라 기능 및 개수</string>
+    <string name="cat_bluetooth_title">블루투스</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth 상태 및 페어링된 통계</string>
+    <string name="cat_local_network_title">로컬 네트워크</string>
+    <string name="cat_local_network_subtitle">주변 네트워크 환경</string>
+    <string name="cat_contacts_title">콘택트 렌즈</string>
+    <string name="cat_contacts_subtitle">데이터베이스 메타데이터에만 문의</string>
+    <string name="cat_photos_title">사진</string>
+    <string name="cat_photos_subtitle">미디어 라이브러리 메타데이터만</string>
+    <string name="cat_calendar_title">달력</string>
+    <string name="cat_calendar_subtitle">캘린더 계정 메타데이터</string>
+    <string name="cat_reminders_title">알림</string>
+    <string name="cat_reminders_subtitle">작업/미리 알림 제공자 메타데이터</string>
+    <string name="cat_music_library_title">음악 라이브러리</string>
+    <string name="cat_music_library_subtitle">오디오 미디어 메타데이터만</string>
+    <string name="cat_installed_apps_probe_title">설치된 앱 프로브</string>
+    <string name="cat_installed_apps_probe_subtitle">의도 체계 조사</string>
+    <string name="cat_webview_fingerprint_title">WebView 지문</string>
+    <string name="cat_webview_fingerprint_subtitle">브라우저와 유사한 렌더링 프로필</string>
+    <string name="cat_previous_installs_log_title">이전 설치 로그</string>
+    <string name="cat_previous_installs_log_subtitle">지속성 힌트 설치</string>
+
+</resources>

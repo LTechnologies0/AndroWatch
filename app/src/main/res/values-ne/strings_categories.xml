@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">यन्त्र पहिचान</string>
+    <string name="cat_device_identity_subtitle">पहिचानकर्ता र हार्डवेयर विशेषताहरू</string>
+    <string name="cat_google_account_title">Google खाता</string>
+    <string name="cat_google_account_subtitle">खाता उपस्थिति संकेतहरू</string>
+    <string name="cat_system_info_title">प्रणाली जानकारी</string>
+    <string name="cat_system_info_subtitle">OS र रनटाइम विवरणहरू</string>
+    <string name="cat_display_title">प्रदर्शन</string>
+    <string name="cat_display_subtitle">स्क्रिन क्षमता र घनत्व</string>
+    <string name="cat_locale_title">लोकेल र क्षेत्र</string>
+    <string name="cat_locale_subtitle">भाषा र समय क्षेत्र पदचिह्न</string>
+    <string name="cat_accessibility_title">पहुँच</string>
+    <string name="cat_accessibility_subtitle">सहायक सेटिङहरू र झण्डाहरू</string>
+    <string name="cat_device_motion_title">यन्त्र गति</string>
+    <string name="cat_device_motion_subtitle">सेन्सर उपस्थिति र राज्य</string>
+    <string name="cat_battery_title">ब्याट्री र पावर</string>
+    <string name="cat_battery_subtitle">ब्याट्री र पावर मोड डेटा</string>
+    <string name="cat_storage_title">भण्डारण</string>
+    <string name="cat_storage_subtitle">भोल्युम र भण्डारण कुल</string>
+    <string name="cat_network_title">नेटवर्क</string>
+    <string name="cat_network_subtitle">जडान र VPN स्थिति</string>
+    <string name="cat_fonts_title">फन्टहरू</string>
+    <string name="cat_fonts_subtitle">फन्ट उपलब्धता नमूना</string>
+    <string name="cat_installed_voices_title">स्थापना गरिएका आवाजहरू</string>
+    <string name="cat_installed_voices_subtitle">स्पीच इन्जिन र आवाज समर्थन</string>
+    <string name="cat_app_info_title">एप र बन्डल</string>
+    <string name="cat_app_info_subtitle">प्याकेज निर्माण मेटाडेटा</string>
+    <string name="cat_pasteboard_title">पेस्टबोर्ड</string>
+    <string name="cat_pasteboard_subtitle">क्लिपबोर्ड मेटाडेटा मात्र</string>
+    <string name="cat_audio_title">अडियो</string>
+    <string name="cat_audio_subtitle">अडियो आउटपुट र मार्ग विवरण</string>
+    <string name="cat_graphics_title">ग्राफिक्स</string>
+    <string name="cat_graphics_subtitle">GPU / GL कार्यान्वयन संकेतहरू</string>
+    <string name="cat_telephony_title">टेलिफोनी</string>
+    <string name="cat_telephony_subtitle">क्यारियर र रेडियो मेटाडेटा</string>
+    <string name="cat_motion_title">गति र सेन्सर</string>
+    <string name="cat_motion_subtitle">अनुमति-गेट गति विवरण</string>
+    <string name="cat_location_title">स्थान</string>
+    <string name="cat_location_subtitle">स्थिति र प्रदायक मेटाडेटा</string>
+    <string name="cat_cameras_title">क्यामेराहरू</string>
+    <string name="cat_cameras_subtitle">क्यामेरा क्षमता र गणना</string>
+    <string name="cat_bluetooth_title">ब्लुटुथ</string>
+    <string name="cat_bluetooth_subtitle">ब्लुटुथ स्थिति र जोडी तथ्याङ्क</string>
+    <string name="cat_local_network_title">स्थानीय नेटवर्क</string>
+    <string name="cat_local_network_subtitle">नजिकैको नेटवर्क वातावरण</string>
+    <string name="cat_contacts_title">सम्पर्कहरू</string>
+    <string name="cat_contacts_subtitle">सम्पर्क डाटाबेस मेटाडेटा मात्र</string>
+    <string name="cat_photos_title">फोटोहरू</string>
+    <string name="cat_photos_subtitle">मिडिया लाइब्रेरी मेटाडेटा मात्र</string>
+    <string name="cat_calendar_title">पात्रो</string>
+    <string name="cat_calendar_subtitle">पात्रो खाता मेटाडेटा</string>
+    <string name="cat_reminders_title">रिमाइन्डरहरू</string>
+    <string name="cat_reminders_subtitle">कार्य/रिमाइन्डर प्रदायक मेटाडेटा</string>
+    <string name="cat_music_library_title">संगीत पुस्तकालय</string>
+    <string name="cat_music_library_subtitle">अडियो मिडिया मेटाडेटा मात्र</string>
+    <string name="cat_installed_apps_probe_title">स्थापना गरिएको एप्स प्रोब</string>
+    <string name="cat_installed_apps_probe_subtitle">आशय योजना जाँच</string>
+    <string name="cat_webview_fingerprint_title">WebView फिंगरप्रिन्ट</string>
+    <string name="cat_webview_fingerprint_subtitle">ब्राउजर-जस्तो रेन्डरिङ प्रोफाइल</string>
+    <string name="cat_previous_installs_log_title">अघिल्लो स्थापना लग</string>
+    <string name="cat_previous_installs_log_subtitle">दृढता संकेतहरू स्थापना गर्नुहोस्</string>
+
+</resources>

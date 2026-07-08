@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">See seade teatab praegu lokaadist %1$s.</string>
+    <string name="summary_line_model">Riistvaramudel kuvatakse kui %1$s.</string>
+    <string name="summary_line_android_id">Selle rakenduse ANDROID_ID on %1$s.</string>
+    <string name="summary_line_battery">Aku hetktõmmis näitab %1$s.</string>
+    <string name="summary_line_network">Aktiivsed võrguedastused: %1$s.</string>
+    <string name="summary_line_authenticators">Konto autentijad on nähtavad: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch säilitab need näidud seadmes, kui te neid ei ekspordi.</string>
+
+</resources>

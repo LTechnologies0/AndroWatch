@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Perangkat ini saat ini melaporkan lokal %1$s.</string>
+    <string name="summary_line_model">Model perangkat keras muncul sebagai %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID untuk aplikasi ini adalah %1$s.</string>
+    <string name="summary_line_battery">Cuplikan baterai menunjukkan %1$s.</string>
+    <string name="summary_line_network">Transportasi jaringan aktif: %1$s.</string>
+    <string name="summary_line_authenticators">Pengautentikasi akun terlihat: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch menyimpan pembacaan ini di perangkat kecuali Anda mengekspornya.</string>
+
+</resources>

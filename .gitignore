@@ -1,0 +1,30 @@
+# Build
+.gradle/
+build/
+**/build/
+local.properties
+gradle.properties.user
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+.vscode/settings.json
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Secrets / signing (never commit)
+*.keystore
+keystore.properties
+.env
+build/ci-release.keystore
+
+# i18n generator staging
+app/src/main/res/.i18n-staging/

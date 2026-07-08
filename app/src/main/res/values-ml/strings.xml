@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API ഫിംഗർപ്രിൻ്റ് എക്സ്പ്ലോറർ</string>
+    <string name="back">തിരികെ</string>
+    <string name="refresh">പുതുക്കുക</string>
+    <string name="export_report">കയറ്റുമതി റിപ്പോർട്ട്</string>
+    <string name="export_chooser_title">ആൻഡ്രോ വാച്ച് റിപ്പോർട്ട് കയറ്റുമതി ചെയ്യുക</string>
+    <string name="about_title">കുറിച്ച്</string>
+    <string name="about_heading">ഉപകരണത്തിൻ്റെ വിരലടയാള സുതാര്യത</string>
+    <string name="about_inspired">Mysk റിസർച്ചിൻ്റെ Loupe-ൽ നിന്ന് പ്രചോദനം ഉൾക്കൊണ്ട ഒരു Android ബദലാണ് AndroWatch. നിങ്ങളുടെ ഉപകരണത്തെക്കുറിച്ച് പൊതു Android API-കൾക്ക് എന്ത് വെളിപ്പെടുത്താനാകുമെന്ന് ഇത് വെളിപ്പെടുത്തുന്നു.</string>
+    <string name="about_privacy">എല്ലാ വായനകളും നിങ്ങളുടെ ഉപകരണത്തിൽ നിലനിൽക്കും. നിങ്ങൾ ഒരു JSON റിപ്പോർട്ട് വ്യക്തമായി കയറ്റുമതി ചെയ്യുന്നില്ലെങ്കിൽ ഒന്നും അപ്‌ലോഡ് ചെയ്യപ്പെടുന്നില്ല.</string>
+    <string name="onboarding_title">ആൻഡ്രോയിഡ് വെളിപ്പെടുത്തുന്നത് കാണുക</string>
+    <string name="onboarding_body">നിങ്ങളുടെ ഉപകരണത്തെക്കുറിച്ച് Android API-കൾക്ക് എന്തെല്ലാം വെളിപ്പെടുത്താനാകുമെന്ന് AndroWatch കാണിക്കുന്നു - ഐഡൻ്റിഫയറുകൾ, സെൻസറുകൾ, നെറ്റ്‌വർക്ക് എന്നിവയും മറ്റും.</string>
+    <string name="onboarding_privacy">ഒന്നും അപ്‌ലോഡ് ചെയ്തിട്ടില്ല. കയറ്റുമതി വ്യക്തവും പ്രാദേശികവുമാണ്.</string>
+    <string name="onboarding_continue">തുടരുക</string>
+    <string name="permission_required">അനുമതി ആവശ്യമാണ്</string>
+    <string name="permission_rationale">സംഗ്രഹിച്ച മെറ്റാഡാറ്റ വായിക്കാൻ ഈ വിഭാഗത്തിന് റൺടൈം അനുമതി ആവശ്യമാണ്. റോ PII ഒരിക്കലും പ്രദർശിപ്പിക്കില്ല.</string>
+    <string name="grant_permission">അനുമതി നൽകുക</string>
+    <string name="summary_title">വിരലടയാള സംഗ്രഹം</string>
+    <string name="summary_empty">ഒരു സംഗ്രഹം സൃഷ്ടിക്കാൻ വിഭാഗങ്ങൾ പുതുക്കുക.</string>
+    <string name="tier_passive">നിഷ്ക്രിയം</string>
+    <string name="tier_permissioned">അനുമതി വേണം</string>
+    <string name="tier_advanced">വിപുലമായ</string>
+    <string name="signal_count">%1$d സിഗ്നലുകൾ</string>
+    <string name="live_badge">തത്സമയം</string>
+    <string name="loading">സിഗ്നലുകൾ ശേഖരിക്കുന്നു...</string>
+    <string name="error_collecting">സിഗ്നലുകൾ ശേഖരിക്കുമ്പോൾ പിശക്.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">വീണ്ടും ശ്രമിക്കുക</string>
+    <string name="export_error">റിപ്പോർട്ട് കയറ്റുമതി ചെയ്യാനായില്ല.</string>
+    <string name="export_empty">ഇതുവരെ കയറ്റുമതി ചെയ്യാൻ ഒന്നുമില്ല. വിഭാഗങ്ങൾ ആദ്യം പുതുക്കുക.</string>
+    <string name="no_signals">ഇതുവരെ സിഗ്നലുകളൊന്നും ശേഖരിച്ചിട്ടില്ല.</string>
+    <string name="show_rationale">എന്തുകൊണ്ട് ഇത് പ്രധാനമാണ്</string>
+    <string name="hide_rationale">യുക്തി മറയ്ക്കുക</string>
+    <string name="raw_value">റോ API മൂല്യം</string>
+    <string name="value_unknown">അജ്ഞാതം</string>
+    <string name="value_unknown_locale">അജ്ഞാത പ്രദേശം</string>
+    <string name="value_unknown_device">അജ്ഞാത ഉപകരണം</string>
+    <string name="value_unknown_battery">അജ്ഞാത ബാറ്ററി</string>
+    <string name="value_unknown_network">അജ്ഞാത നെറ്റ്‌വർക്ക്</string>
+    <string name="value_none">ഒന്നുമില്ല</string>
+    <string name="value_unavailable">ലഭ്യമല്ല</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">അതെ</string>
+    <string name="value_false">ഇല്ല</string>
+
+</resources>

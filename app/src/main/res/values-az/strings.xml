@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API barmaq izi tədqiqatçısı</string>
+    <string name="back">Geri</string>
+    <string name="refresh">Yeniləyin</string>
+    <string name="export_report">İxrac hesabatı</string>
+    <string name="export_chooser_title">AndroWatch hesabatını ixrac edin</string>
+    <string name="about_title">Haqqında</string>
+    <string name="about_heading">Cihazın barmaq izinin şəffaflığı</string>
+    <string name="about_inspired">AndroWatch, Mysk Research tərəfindən Loupe tərəfindən ilhamlanan Android alternatividir. O, ictimai Android API-lərinin cihazınız haqqında nələri aşkar edə biləcəyini göstərir.</string>
+    <string name="about_privacy">Bütün oxunuşlar cihazınızda qalır. JSON hesabatını açıq şəkildə ixrac etməyincə heç nə yüklənmir.</string>
+    <string name="onboarding_title">Android-in nə aşkar etdiyinə baxın</string>
+    <string name="onboarding_body">AndroWatch Android API-lərinin cihazınız haqqında nələri aşkar edə biləcəyini göstərir — identifikatorlar, sensorlar, şəbəkə və s.</string>
+    <string name="onboarding_privacy">Heç nə yüklənmir. İxrac açıq və yerlidir.</string>
+    <string name="onboarding_continue">Davam et</string>
+    <string name="permission_required">İcazə tələb olunur</string>
+    <string name="permission_rationale">Bu kateqoriyaya yığılmış metadatanı oxumaq üçün iş vaxtı icazəsi lazımdır. Raw PII heç vaxt göstərilmir.</string>
+    <string name="grant_permission">İcazə verin</string>
+    <string name="summary_title">Barmaq izi xülasəsi</string>
+    <string name="summary_empty">Xülasə yaratmaq üçün kateqoriyaları yeniləyin.</string>
+    <string name="tier_passive">Passiv</string>
+    <string name="tier_permissioned">İcazə lazımdır</string>
+    <string name="tier_advanced">Qabaqcıl</string>
+    <string name="signal_count">%1$d siqnalları</string>
+    <string name="live_badge">Canlı</string>
+    <string name="loading">Siqnallar toplanır...</string>
+    <string name="error_collecting">Siqnalların toplanması zamanı xəta.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Yenidən cəhd edin</string>
+    <string name="export_error">Hesabatı ixrac etmək mümkün olmadı.</string>
+    <string name="export_empty">Hələ ixrac üçün heç nə yoxdur. Əvvəlcə kateqoriyaları yeniləyin.</string>
+    <string name="no_signals">Hələ heç bir siqnal yığılmayıb.</string>
+    <string name="show_rationale">Bu niyə vacibdir</string>
+    <string name="hide_rationale">Məntiqi gizlət</string>
+    <string name="raw_value">Raw API dəyəri</string>
+    <string name="value_unknown">naməlum</string>
+    <string name="value_unknown_locale">naməlum yerli</string>
+    <string name="value_unknown_device">naməlum cihaz</string>
+    <string name="value_unknown_battery">naməlum batareya</string>
+    <string name="value_unknown_network">naməlum şəbəkə</string>
+    <string name="value_none">heç biri</string>
+    <string name="value_unavailable">mövcud deyil</string>
+    <string name="value_na">yox</string>
+    <string name="value_true">bəli</string>
+    <string name="value_false">yox</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API کاوشگر اثر انگشت</string>
+    <string name="back">برگشت</string>
+    <string name="refresh">تازه کردن</string>
+    <string name="export_report">گزارش صادرات</string>
+    <string name="export_chooser_title">صادرات گزارش AndroWatch</string>
+    <string name="about_title">درباره</string>
+    <string name="about_heading">شفافیت اثر انگشت دستگاه</string>
+    <string name="about_inspired">AndroWatch یک جایگزین اندروید است که از Loupe توسط Mysk Research الهام گرفته شده است. آنچه را که APIهای عمومی Android می توانند در مورد دستگاه شما نشان دهند، نشان می دهد.</string>
+    <string name="about_privacy">همه قرائت ها در دستگاه شما باقی می مانند. هیچ چیزی آپلود نمی شود مگر اینکه به صراحت گزارش JSON را صادر کنید.</string>
+    <string name="onboarding_title">ببینید اندروید چه چیزی را فاش می کند</string>
+    <string name="onboarding_body">AndroWatch نشان می‌دهد که APIهای Android می‌توانند درباره دستگاه شما فاش کنند - شناسه‌ها، حسگرها، شبکه و موارد دیگر.</string>
+    <string name="onboarding_privacy">چیزی آپلود نمیشه صادرات صریح و محلی است.</string>
+    <string name="onboarding_continue">ادامه دهید</string>
+    <string name="permission_required">مجوز لازم است</string>
+    <string name="permission_rationale">این دسته برای خواندن ابرداده های انبوه به مجوز زمان اجرا نیاز دارد. PII خام هرگز نمایش داده نمی شود.</string>
+    <string name="grant_permission">اجازه بدهید</string>
+    <string name="summary_title">خلاصه اثر انگشت</string>
+    <string name="summary_empty">برای ایجاد خلاصه، دسته‌ها را بازخوانی کنید.</string>
+    <string name="tier_passive">منفعل</string>
+    <string name="tier_permissioned">نیاز به اجازه دارد</string>
+    <string name="tier_advanced">پیشرفته</string>
+    <string name="signal_count">%1$d سیگنال می دهد</string>
+    <string name="live_badge">زندگی کنید</string>
+    <string name="loading">در حال جمع آوری سیگنال ها…</string>
+    <string name="error_collecting">خطا در هنگام جمع آوری سیگنال ها.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">دوباره امتحان کنید</string>
+    <string name="export_error">گزارش صادر نشد.</string>
+    <string name="export_empty">هنوز چیزی برای صادرات وجود ندارد. ابتدا دسته ها را بازخوانی کنید.</string>
+    <string name="no_signals">هیچ سیگنالی هنوز جمع آوری نشده است.</string>
+    <string name="show_rationale">چرا این مهم است</string>
+    <string name="hide_rationale">پنهان کردن منطق</string>
+    <string name="raw_value">مقدار خام API</string>
+    <string name="value_unknown">ناشناخته</string>
+    <string name="value_unknown_locale">محل ناشناخته</string>
+    <string name="value_unknown_device">دستگاه ناشناخته</string>
+    <string name="value_unknown_battery">باتری ناشناخته</string>
+    <string name="value_unknown_network">شبکه ناشناخته</string>
+    <string name="value_none">هیچ کدام</string>
+    <string name="value_unavailable">در دسترس نیست</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">بله</string>
+    <string name="value_false">نه</string>
+
+</resources>

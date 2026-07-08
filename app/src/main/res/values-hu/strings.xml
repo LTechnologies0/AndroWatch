@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API ujjlenyomat-felfedező</string>
+    <string name="back">Vissza</string>
+    <string name="refresh">Frissítés</string>
+    <string name="export_report">Jelentés exportálása</string>
+    <string name="export_chooser_title">AndroWatch jelentés exportálása</string>
+    <string name="about_title">Körülbelül</string>
+    <string name="about_heading">Az eszköz ujjlenyomatának átlátszósága</string>
+    <string name="about_inspired">Az AndroWatch egy Android-alternatíva, amelyet a Mysk Research Loupe inspirált. Feltárja, hogy a nyilvános Android API-k mit árulhatnak el az eszközről.</string>
+    <string name="about_privacy">Minden leolvasás a készüléken marad. Semmi sem kerül feltöltésre, kivéve, ha kifejezetten exportál egy JSON-jelentést.</string>
+    <string name="onboarding_title">Nézze meg, mit tár fel az Android</string>
+    <string name="onboarding_body">Az AndroWatch megmutatja, mit árulhatnak el az Android API-k az eszközről – azonosítók, érzékelők, hálózat és egyebek.</string>
+    <string name="onboarding_privacy">Semmi sincs feltöltve. Az export explicit és helyi.</string>
+    <string name="onboarding_continue">Folytatás</string>
+    <string name="permission_required">Engedély szükséges</string>
+    <string name="permission_rationale">Ennek a kategóriának futásidejű engedélyre van szüksége az összesített metaadatok olvasásához. A nyers személyazonosító adatok soha nem jelennek meg.</string>
+    <string name="grant_permission">Engedély megadása</string>
+    <string name="summary_title">Ujjlenyomat-összefoglaló</string>
+    <string name="summary_empty">Összegzés létrehozásához frissítse a kategóriákat.</string>
+    <string name="tier_passive">Passzív</string>
+    <string name="tier_permissioned">Engedély kell</string>
+    <string name="tier_advanced">Fejlett</string>
+    <string name="signal_count">%1$d jelek</string>
+    <string name="live_badge">Élő</string>
+    <string name="loading">Jelek gyűjtése…</string>
+    <string name="error_collecting">Hiba a jelek gyűjtése közben.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Próbálja újra</string>
+    <string name="export_error">Nem sikerült exportálni a jelentést.</string>
+    <string name="export_empty">Még nincs exportálandó. Először frissítse a kategóriákat.</string>
+    <string name="no_signals">Még nem gyűjtöttek jeleket.</string>
+    <string name="show_rationale">Miért számít ez</string>
+    <string name="hide_rationale">Az indoklás elrejtése</string>
+    <string name="raw_value">Nyers API-érték</string>
+    <string name="value_unknown">ismeretlen</string>
+    <string name="value_unknown_locale">ismeretlen terület</string>
+    <string name="value_unknown_device">ismeretlen eszköz</string>
+    <string name="value_unknown_battery">ismeretlen akkumulátor</string>
+    <string name="value_unknown_network">ismeretlen hálózat</string>
+    <string name="value_none">egyik sem</string>
+    <string name="value_unavailable">nem elérhető</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">igen</string>
+    <string name="value_false">nem</string>
+
+</resources>

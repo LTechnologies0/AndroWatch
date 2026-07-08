@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Le divayisi okwamanje ibika indawo %1$s.</string>
+    <string name="summary_line_model">Imodeli yezingxenyekazi zekhompuyutha ivela njenge-%1$s.</string>
+    <string name="summary_line_android_id">I-ANDROID_ID yalolu hlelo lokusebenza yi-%1$s.</string>
+    <string name="summary_line_battery">Isifinyezo sebhethri sibonisa i-%1$s.</string>
+    <string name="summary_line_network">Izinto zokuthutha zenethiwekhi ezisebenzayo: %1$s.</string>
+    <string name="summary_line_authenticators">Iziqinisekiso ze-akhawunti ziyabonakala: %1$s.</string>
+    <string name="summary_line_privacy">I-AndroWatch igcina lokhu kufundwa kudivayisi ngaphandle kokuthi ukuthumele.</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API fingerprint explorer</string>
+    <string name="back">Bumalik</string>
+    <string name="refresh">I-refresh</string>
+    <string name="export_report">I-export ang ulat</string>
+    <string name="export_chooser_title">I-export ang ulat ng AndroWatch</string>
+    <string name="about_title">Tungkol sa</string>
+    <string name="about_heading">Transparency ng fingerprint ng device</string>
+    <string name="about_inspired">Ang AndroWatch ay isang alternatibong Android na inspirasyon ng Loupe ng Mysk Research. Ipinapakita nito kung ano ang maaaring ibunyag ng mga pampublikong Android API tungkol sa iyong device.</string>
+    <string name="about_privacy">Ang lahat ng pagbabasa ay mananatili sa iyong device. Walang ina-upload maliban kung tahasan kang nag-e-export ng ulat ng JSON.</string>
+    <string name="onboarding_title">Tingnan kung ano ang ipinapakita ng Android</string>
+    <string name="onboarding_body">Ipinapakita ng AndroWatch kung ano ang maaaring ibunyag ng mga Android API tungkol sa iyong device — mga identifier, sensor, network, at higit pa.</string>
+    <string name="onboarding_privacy">Walang na-upload. Ang mga pag-export ay tahasan at lokal.</string>
+    <string name="onboarding_continue">Magpatuloy</string>
+    <string name="permission_required">Kinakailangan ang pahintulot</string>
+    <string name="permission_rationale">Ang kategoryang ito ay nangangailangan ng pahintulot ng runtime upang basahin ang pinagsama-samang metadata. Ang Raw PII ay hindi kailanman ipinapakita.</string>
+    <string name="grant_permission">Magbigay ng pahintulot</string>
+    <string name="summary_title">Buod ng fingerprint</string>
+    <string name="summary_empty">I-refresh ang mga kategorya upang makabuo ng buod.</string>
+    <string name="tier_passive">Passive</string>
+    <string name="tier_permissioned">Kailangan ng pahintulot</string>
+    <string name="tier_advanced">Advanced</string>
+    <string name="signal_count">%1$d signal</string>
+    <string name="live_badge">Mabuhay</string>
+    <string name="loading">Nangongolekta ng mga signal…</string>
+    <string name="error_collecting">Error habang nangongolekta ng mga signal.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Subukan muli</string>
+    <string name="export_error">Hindi ma-export ang ulat.</string>
+    <string name="export_empty">Wala pang i-export. I-refresh muna ang mga kategorya.</string>
+    <string name="no_signals">Wala pang mga signal na nakolekta.</string>
+    <string name="show_rationale">Bakit ito mahalaga</string>
+    <string name="hide_rationale">Itago ang katwiran</string>
+    <string name="raw_value">Raw na halaga ng API</string>
+    <string name="value_unknown">hindi kilala</string>
+    <string name="value_unknown_locale">hindi kilalang lokal</string>
+    <string name="value_unknown_device">hindi kilalang device</string>
+    <string name="value_unknown_battery">hindi kilalang baterya</string>
+    <string name="value_unknown_network">hindi kilalang network</string>
+    <string name="value_none">wala</string>
+    <string name="value_unavailable">hindi magagamit</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">oo</string>
+    <string name="value_false">hindi</string>
+
+</resources>

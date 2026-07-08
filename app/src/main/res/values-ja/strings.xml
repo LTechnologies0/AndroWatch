@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API フィンガープリント エクスプローラー</string>
+    <string name="back">戻る</string>
+    <string name="refresh">リフレッシュ</string>
+    <string name="export_report">レポートのエクスポート</string>
+    <string name="export_chooser_title">AndroWatch レポートのエクスポート</string>
+    <string name="about_title">について</string>
+    <string name="about_heading">デバイスの指紋の透明性</string>
+    <string name="about_inspired">AndroWatch は、Mysk Research の Loupe からインスピレーションを得た Android の代替製品です。これは、パブリック Android API がデバイスについて明らかにできることを明らかにします。</string>
+    <string name="about_privacy">すべての測定値はデバイスに残ります。 JSON レポートを明示的にエクスポートしない限り、何もアップロードされません。</string>
+    <string name="onboarding_title">Android が明らかにするものを見る</string>
+    <string name="onboarding_body">AndroWatch は、Android API がデバイスについて明らかにできること (識別子、センサー、ネットワークなど) を表示します。</string>
+    <string name="onboarding_privacy">何もアップロードされていません。エクスポートは明示的かつローカルです。</string>
+    <string name="onboarding_continue">続く</string>
+    <string name="permission_required">許可が必要です</string>
+    <string name="permission_rationale">このカテゴリには、集約されたメタデータを読み取るための実行時権限が必要です。生の PII は表示されません。</string>
+    <string name="grant_permission">許可を与える</string>
+    <string name="summary_title">フィンガープリントの概要</string>
+    <string name="summary_empty">カテゴリを更新して概要を生成します。</string>
+    <string name="tier_passive">受け身</string>
+    <string name="tier_permissioned">許可が必要です</string>
+    <string name="tier_advanced">高度な</string>
+    <string name="signal_count">%1$d 信号</string>
+    <string name="live_badge">ライブ</string>
+    <string name="loading">信号を収集中…</string>
+    <string name="error_collecting">信号収集中にエラーが発生しました。</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">リトライ</string>
+    <string name="export_error">レポートをエクスポートできませんでした。</string>
+    <string name="export_empty">まだエクスポートするものはありません。まずカテゴリを更新してください。</string>
+    <string name="no_signals">まだ信号が収集されていません。</string>
+    <string name="show_rationale">なぜこれが重要なのか</string>
+    <string name="hide_rationale">根拠を隠す</string>
+    <string name="raw_value">生の API 値</string>
+    <string name="value_unknown">未知</string>
+    <string name="value_unknown_locale">不明なロケール</string>
+    <string name="value_unknown_device">不明なデバイス</string>
+    <string name="value_unknown_battery">不明なバッテリー</string>
+    <string name="value_unknown_network">不明なネットワーク</string>
+    <string name="value_none">なし</string>
+    <string name="value_unavailable">利用不可</string>
+    <string name="value_na">該当なし</string>
+    <string name="value_true">はい</string>
+    <string name="value_false">いいえ</string>
+
+</resources>

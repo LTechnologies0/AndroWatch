@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Ubunikazi Bedivayisi</string>
+    <string name="cat_device_identity_subtitle">Izihlonzi nezici zehadiwe</string>
+    <string name="cat_google_account_title">I-Akhawunti ye-Google</string>
+    <string name="cat_google_account_subtitle">Izimpawu zokuba khona kwe-akhawunti</string>
+    <string name="cat_system_info_title">Ulwazi Lwesistimu</string>
+    <string name="cat_system_info_subtitle">I-OS kanye nemininingwane yesikhathi sokusebenza</string>
+    <string name="cat_display_title">Bonisa</string>
+    <string name="cat_display_subtitle">Amandla esikrini nokuminyana</string>
+    <string name="cat_locale_title">Indawo &amp; Isifunda</string>
+    <string name="cat_locale_subtitle">Ulimi nendawo yesikhathi</string>
+    <string name="cat_accessibility_title">Ukufinyeleleka</string>
+    <string name="cat_accessibility_subtitle">Izilungiselelo ezisizayo namafulegi</string>
+    <string name="cat_device_motion_title">Ukunyakaza Kwedivayisi</string>
+    <string name="cat_device_motion_subtitle">Ubukhona benzwa nesimo</string>
+    <string name="cat_battery_title">Ibhethri namandla</string>
+    <string name="cat_battery_subtitle">Idatha yebhethri nemodi yamandla</string>
+    <string name="cat_storage_title">Isitoreji</string>
+    <string name="cat_storage_subtitle">Ivolumu nesamba sesitoreji</string>
+    <string name="cat_network_title">Inethiwekhi</string>
+    <string name="cat_network_subtitle">Ukuxhumana nesimo se-VPN</string>
+    <string name="cat_fonts_title">Amafonti</string>
+    <string name="cat_fonts_subtitle">Isampula yokutholakala kwefonti</string>
+    <string name="cat_installed_voices_title">Kufakiwe Voices</string>
+    <string name="cat_installed_voices_subtitle">Injini yenkulumo nokusekelwa kwezwi</string>
+    <string name="cat_app_info_title">Uhlelo lokusebenza nenqwaba</string>
+    <string name="cat_app_info_subtitle">Imethadatha yokwakha iphakheji</string>
+    <string name="cat_pasteboard_title">Ibhodi lokunamathisela</string>
+    <string name="cat_pasteboard_subtitle">Imethadatha yebhodi lokunamathisela kuphela</string>
+    <string name="cat_audio_title">Umsindo</string>
+    <string name="cat_audio_subtitle">Imiphumela yomsindo nemininingwane yomzila</string>
+    <string name="cat_graphics_title">Izithombe</string>
+    <string name="cat_graphics_subtitle">Izimpawu zokusebenzisa i-GPU / GL</string>
+    <string name="cat_telephony_title">Ucingo</string>
+    <string name="cat_telephony_subtitle">Imethadatha yenkampani yenethiwekhi neyerediyo</string>
+    <string name="cat_motion_title">Ukunyakaza nezinzwa</string>
+    <string name="cat_motion_subtitle">Imininingwane yokunyakaza enesango lemvume</string>
+    <string name="cat_location_title">Indawo</string>
+    <string name="cat_location_subtitle">Isikhundla kanye nemethadatha yomhlinzeki</string>
+    <string name="cat_cameras_title">Amakhamera</string>
+    <string name="cat_cameras_subtitle">Amakhono ekhamera nokubala</string>
+    <string name="cat_bluetooth_title">I-Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Isimo se-Bluetooth nezibalo ezibhanqiwe</string>
+    <string name="cat_local_network_title">Inethiwekhi Yasendaweni</string>
+    <string name="cat_local_network_subtitle">Indawo yenethiwekhi eseduze</string>
+    <string name="cat_contacts_title">Oxhumana nabo</string>
+    <string name="cat_contacts_subtitle">Imethadatha egciniwe yokuxhumana kuphela</string>
+    <string name="cat_photos_title">Izithombe</string>
+    <string name="cat_photos_subtitle">Imethadatha yelabhulali yemidiya kuphela</string>
+    <string name="cat_calendar_title">Ikhalenda</string>
+    <string name="cat_calendar_subtitle">Imethadatha ye-akhawunti yekhalenda</string>
+    <string name="cat_reminders_title">Izikhumbuzi</string>
+    <string name="cat_reminders_subtitle">Imethadatha yomhlinzeki womsebenzi/wesikhumbuzi</string>
+    <string name="cat_music_library_title">Ilabhulali Yomculo</string>
+    <string name="cat_music_library_subtitle">Imethadatha yemidiya yomsindo kuphela</string>
+    <string name="cat_installed_apps_probe_title">I-Apps Probe efakiwe</string>
+    <string name="cat_installed_apps_probe_subtitle">Ukuhlola uhlelo lwenhloso</string>
+    <string name="cat_webview_fingerprint_title">I-WebView Fingerprint</string>
+    <string name="cat_webview_fingerprint_subtitle">Iphrofayili yokunikezela efana nesiphequluli</string>
+    <string name="cat_previous_installs_log_title">Ilogi yokufakwa kwangaphambilini</string>
+    <string name="cat_previous_installs_log_subtitle">Faka amacebo okuphikelela</string>
+
+</resources>

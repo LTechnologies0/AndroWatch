@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API လက်ဗွေရှာဖွေသူ</string>
+    <string name="back">ကျော</string>
+    <string name="refresh">ပြန်လည်စတင်ပါ။</string>
+    <string name="export_report">အစီရင်ခံစာထုတ်ရန်</string>
+    <string name="export_chooser_title">AndroWatch အစီရင်ခံစာကို ထုတ်ယူပါ။</string>
+    <string name="about_title">အကြောင်း</string>
+    <string name="about_heading">စက်ပစ္စည်း၏ လက်ဗွေရှင်းလင်းမှု</string>
+    <string name="about_inspired">AndroWatch သည် Mysk Research မှ Loupe မှမှုတ်သွင်းထားသော Android အစားထိုးတစ်ခုဖြစ်သည်။ ၎င်းသည် သင့်စက်ပစ္စည်းနှင့်ပတ်သက်၍ အများသူငှာ Android APIs များဖော်ပြနိုင်သည့်အရာကို ဖော်ပြသည်။</string>
+    <string name="about_privacy">ဖတ်ရှုမှုအားလုံးသည် သင့်စက်ပေါ်တွင် ရှိနေသည်။ JSON အစီရင်ခံစာကို သင် အတိအလင်း မတင်ပို့ပါက မည်သည့်အရာကိုမျှ အပ်လုဒ်လုပ်မည်မဟုတ်ပါ။</string>
+    <string name="onboarding_title">Android က ဖော်ပြတာတွေကို ကြည့်ပါ။</string>
+    <string name="onboarding_body">AndroWatch သည် သင့်စက်ပစ္စည်းအကြောင်း ဖော်ပြနိုင်သည့် Android APIs — ခွဲခြားသတ်မှတ်မှုများ၊ အာရုံခံကိရိယာများ၊ ကွန်ရက်နှင့် အခြားအရာများကို ပြသသည်။</string>
+    <string name="onboarding_privacy">ဘာမှမတင်ပါဘူး။ ပို့ကုန်များသည် ပြတ်သားစွာနှင့် ပြည်တွင်းဖြစ်သည်။</string>
+    <string name="onboarding_continue">ဆက်ရန်</string>
+    <string name="permission_required">ခွင့်ပြုချက်လိုအပ်သည်။</string>
+    <string name="permission_rationale">ဤအမျိုးအစားသည် စုစည်းထားသော မက်တာဒေတာကို ဖတ်ရန် runtime ခွင့်ပြုချက် လိုအပ်ပါသည်။ Raw PII ကို ဘယ်တော့မှ မပြဘူး။</string>
+    <string name="grant_permission">ခွင့်ပြုချက်ပေးပါ။</string>
+    <string name="summary_title">လက်ဗွေအနှစ်ချုပ်</string>
+    <string name="summary_empty">အနှစ်ချုပ်တစ်ခုထုတ်လုပ်ရန် အမျိုးအစားများကို ပြန်လည်စတင်ပါ။</string>
+    <string name="tier_passive">Passive</string>
+    <string name="tier_permissioned">ခွင့်ပြုချက်လိုတယ်။</string>
+    <string name="tier_advanced">အဆင့်မြင့်</string>
+    <string name="signal_count">%1$d အချက်ပြမှုများ</string>
+    <string name="live_badge">နေထိုင်ပါ။</string>
+    <string name="loading">အချက်ပြမှုများကို စုဆောင်းနေသည်...</string>
+    <string name="error_collecting">အချက်ပြမှုများကို စုဆောင်းနေစဉ် အမှားအယွင်းရှိသည်။</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">ပြန်ကြိုးစားပါ။</string>
+    <string name="export_error">အစီရင်ခံစာကို မတင်ပို့နိုင်ခဲ့ပါ။</string>
+    <string name="export_empty">တင်ပို့ဖို့ ဘာမှ မရှိသေးဘူး။ အမျိုးအစားများကို ဦးစွာ ပြန်လည်စတင်ပါ။</string>
+    <string name="no_signals">အချက်ပြမှုများကို ကောက်ယူခြင်းမရှိသေးပါ။</string>
+    <string name="show_rationale">ဒါက ဘာ့ကြောင့် အရေးကြီးတာလဲ။</string>
+    <string name="hide_rationale">ကျိုးကြောင်းဆီလျော်မှုကို ဖျောက်ပါ။</string>
+    <string name="raw_value">API တန်ဖိုး</string>
+    <string name="value_unknown">မသိ</string>
+    <string name="value_unknown_locale">မသိသောဒေသ</string>
+    <string name="value_unknown_device">အမည်မသိကိရိယာ</string>
+    <string name="value_unknown_battery">အမည်မသိ ဘက်ထရီ</string>
+    <string name="value_unknown_network">အမည်မသိကွန်ရက်</string>
+    <string name="value_none">မရှိ</string>
+    <string name="value_unavailable">မရရှိနိုင်ပါ။</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">ဟုတ်တယ်</string>
+    <string name="value_false">မဟုတ်ဘူး</string>
+
+</resources>

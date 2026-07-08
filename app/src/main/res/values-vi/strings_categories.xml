@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Nhận dạng thiết bị</string>
+    <string name="cat_device_identity_subtitle">Mã định danh và đặc điểm phần cứng</string>
+    <string name="cat_google_account_title">Tài khoản Google</string>
+    <string name="cat_google_account_subtitle">Tín hiệu hiện diện tài khoản</string>
+    <string name="cat_system_info_title">Thông tin hệ thống</string>
+    <string name="cat_system_info_subtitle">Chi tiết về hệ điều hành và thời gian chạy</string>
+    <string name="cat_display_title">Trưng bày</string>
+    <string name="cat_display_subtitle">Khả năng và mật độ màn hình</string>
+    <string name="cat_locale_title">Địa điểm &amp; Vùng</string>
+    <string name="cat_locale_subtitle">Dấu chân ngôn ngữ và múi giờ</string>
+    <string name="cat_accessibility_title">Khả năng tiếp cận</string>
+    <string name="cat_accessibility_subtitle">Cài đặt và cờ hỗ trợ</string>
+    <string name="cat_device_motion_title">Chuyển động của thiết bị</string>
+    <string name="cat_device_motion_subtitle">Sự hiện diện và trạng thái của cảm biến</string>
+    <string name="cat_battery_title">Pin &amp; Nguồn điện</string>
+    <string name="cat_battery_subtitle">Dữ liệu chế độ pin và nguồn</string>
+    <string name="cat_storage_title">Kho</string>
+    <string name="cat_storage_subtitle">Tổng khối lượng và lưu trữ</string>
+    <string name="cat_network_title">Mạng</string>
+    <string name="cat_network_subtitle">Trạng thái kết nối và VPN</string>
+    <string name="cat_fonts_title">Phông chữ</string>
+    <string name="cat_fonts_subtitle">Mẫu phông chữ có sẵn</string>
+    <string name="cat_installed_voices_title">Giọng nói đã cài đặt</string>
+    <string name="cat_installed_voices_subtitle">Công cụ phát âm và hỗ trợ giọng nói</string>
+    <string name="cat_app_info_title">Ứng dụng &amp; Gói</string>
+    <string name="cat_app_info_subtitle">Siêu dữ liệu xây dựng gói</string>
+    <string name="cat_pasteboard_title">Bảng dán</string>
+    <string name="cat_pasteboard_subtitle">Chỉ siêu dữ liệu bảng nhớ tạm</string>
+    <string name="cat_audio_title">Âm thanh</string>
+    <string name="cat_audio_subtitle">Đầu ra âm thanh và chi tiết tuyến đường</string>
+    <string name="cat_graphics_title">đồ họa</string>
+    <string name="cat_graphics_subtitle">Tín hiệu triển khai GPU/GL</string>
+    <string name="cat_telephony_title">Điện thoại</string>
+    <string name="cat_telephony_subtitle">Siêu dữ liệu sóng mang và sóng vô tuyến</string>
+    <string name="cat_motion_title">Chuyển động &amp; Cảm biến</string>
+    <string name="cat_motion_subtitle">Chi tiết chuyển động được phép</string>
+    <string name="cat_location_title">Vị trí</string>
+    <string name="cat_location_subtitle">Siêu dữ liệu về vị trí và nhà cung cấp</string>
+    <string name="cat_cameras_title">Máy ảnh</string>
+    <string name="cat_cameras_subtitle">Khả năng và số lượng của máy ảnh</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Trạng thái Bluetooth và số liệu thống kê được ghép nối</string>
+    <string name="cat_local_network_title">Mạng cục bộ</string>
+    <string name="cat_local_network_subtitle">Môi trường mạng lân cận</string>
+    <string name="cat_contacts_title">Danh bạ</string>
+    <string name="cat_contacts_subtitle">Chỉ siêu dữ liệu cơ sở dữ liệu liên hệ</string>
+    <string name="cat_photos_title">Ảnh</string>
+    <string name="cat_photos_subtitle">Chỉ siêu dữ liệu của thư viện phương tiện</string>
+    <string name="cat_calendar_title">Lịch</string>
+    <string name="cat_calendar_subtitle">Siêu dữ liệu tài khoản lịch</string>
+    <string name="cat_reminders_title">Lời nhắc</string>
+    <string name="cat_reminders_subtitle">Siêu dữ liệu của nhà cung cấp nhiệm vụ/lời nhắc</string>
+    <string name="cat_music_library_title">Thư viện âm nhạc</string>
+    <string name="cat_music_library_subtitle">Chỉ siêu dữ liệu phương tiện âm thanh</string>
+    <string name="cat_installed_apps_probe_title">Thăm dò ứng dụng đã cài đặt</string>
+    <string name="cat_installed_apps_probe_subtitle">Thăm dò sơ đồ ý định</string>
+    <string name="cat_webview_fingerprint_title">Vân tay WebView</string>
+    <string name="cat_webview_fingerprint_subtitle">Hồ sơ hiển thị giống như trình duyệt</string>
+    <string name="cat_previous_installs_log_title">Nhật ký cài đặt trước đó</string>
+    <string name="cat_previous_installs_log_subtitle">Cài đặt gợi ý kiên trì</string>
+
+</resources>

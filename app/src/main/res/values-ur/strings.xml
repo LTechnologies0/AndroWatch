@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API فنگر پرنٹ ایکسپلورر</string>
+    <string name="back">پیچھے</string>
+    <string name="refresh">ریفریش کریں۔</string>
+    <string name="export_report">رپورٹ برآمد کریں۔</string>
+    <string name="export_chooser_title">AndroWatch رپورٹ برآمد کریں۔</string>
+    <string name="about_title">کے بارے میں</string>
+    <string name="about_heading">ڈیوائس فنگر پرنٹ کی شفافیت</string>
+    <string name="about_inspired">اینڈرو واچ ایک اینڈرائیڈ متبادل ہے جو مِسک ریسرچ کے ذریعے لوپ سے متاثر ہے۔ یہ ظاہر کرتا ہے کہ عوامی Android APIs آپ کے آلے کے بارے میں کیا ظاہر کر سکتے ہیں۔</string>
+    <string name="about_privacy">تمام ریڈنگز آپ کے آلے پر رہتی ہیں۔ کچھ بھی اپ لوڈ نہیں ہوتا جب تک کہ آپ واضح طور پر JSON رپورٹ برآمد نہ کریں۔</string>
+    <string name="onboarding_title">دیکھیں کہ اینڈرائیڈ کیا ظاہر کرتا ہے۔</string>
+    <string name="onboarding_body">AndroWatch دکھاتا ہے کہ Android APIs آپ کے آلے کے بارے میں کیا ظاہر کر سکتے ہیں — شناخت کنندگان، سینسرز، نیٹ ورک، اور مزید۔</string>
+    <string name="onboarding_privacy">کچھ بھی اپ لوڈ نہیں ہے۔ برآمدات واضح اور مقامی ہیں۔</string>
+    <string name="onboarding_continue">جاری رکھیں</string>
+    <string name="permission_required">اجازت درکار ہے۔</string>
+    <string name="permission_rationale">اس زمرے کو مجموعی میٹا ڈیٹا پڑھنے کے لیے رن ٹائم کی اجازت درکار ہے۔ خام PII کبھی ظاہر نہیں ہوتا ہے۔</string>
+    <string name="grant_permission">اجازت دیں۔</string>
+    <string name="summary_title">فنگر پرنٹ کا خلاصہ</string>
+    <string name="summary_empty">خلاصہ بنانے کے لیے زمروں کو ریفریش کریں۔</string>
+    <string name="tier_passive">غیر فعال</string>
+    <string name="tier_permissioned">اجازت کی ضرورت ہے۔</string>
+    <string name="tier_advanced">اعلی درجے کی</string>
+    <string name="signal_count">%1$d سگنلز</string>
+    <string name="live_badge">جیو</string>
+    <string name="loading">سگنلز جمع کیے جا رہے ہیں…</string>
+    <string name="error_collecting">سگنل جمع کرتے وقت خرابی</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">دوبارہ کوشش کریں۔</string>
+    <string name="export_error">رپورٹ برآمد نہیں ہو سکی۔</string>
+    <string name="export_empty">ابھی برآمد کرنے کے لیے کچھ نہیں ہے۔ پہلے زمرے ریفریش کریں۔</string>
+    <string name="no_signals">ابھی تک کوئی سگنل جمع نہیں ہوئے۔</string>
+    <string name="show_rationale">یہ کیوں اہمیت رکھتا ہے۔</string>
+    <string name="hide_rationale">دلیل چھپائیں۔</string>
+    <string name="raw_value">خام API قدر</string>
+    <string name="value_unknown">نامعلوم</string>
+    <string name="value_unknown_locale">نامعلوم مقام</string>
+    <string name="value_unknown_device">نامعلوم آلہ</string>
+    <string name="value_unknown_battery">نامعلوم بیٹری</string>
+    <string name="value_unknown_network">نامعلوم نیٹ ورک</string>
+    <string name="value_none">کوئی نہیں</string>
+    <string name="value_unavailable">دستیاب نہیں</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">ہاں</string>
+    <string name="value_false">نہیں</string>
+
+</resources>

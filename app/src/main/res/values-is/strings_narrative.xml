@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Þetta tæki tilkynnir sem stendur svæði %1$s.</string>
+    <string name="summary_line_model">Vélbúnaðarlíkan birtist sem %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID fyrir þetta forrit er %1$s.</string>
+    <string name="summary_line_battery">Skyndimynd af rafhlöðu sýnir %1$s.</string>
+    <string name="summary_line_network">Virkir netflutningar: %1$s.</string>
+    <string name="summary_line_authenticators">Auðkenningar reiknings sýnilegir: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch geymir þessar lestur í tækinu nema þú flytur þær út.</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">To urządzenie obecnie raportuje ustawienia regionalne %1$s.</string>
+    <string name="summary_line_model">Model sprzętu pojawia się jako %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID dla tej aplikacji to %1$s.</string>
+    <string name="summary_line_battery">Migawka baterii wskazuje %1$s.</string>
+    <string name="summary_line_network">Aktywne transporty sieciowe: %1$s.</string>
+    <string name="summary_line_authenticators">Widoczne uwierzytelniacze konta: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch przechowuje te odczyty na urządzeniu, chyba że je wyeksportujesz.</string>
+
+</resources>

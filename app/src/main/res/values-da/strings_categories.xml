@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Enhedsidentitet</string>
+    <string name="cat_device_identity_subtitle">Identifikatorer og hardwaretræk</string>
+    <string name="cat_google_account_title">Google-konto</string>
+    <string name="cat_google_account_subtitle">Kontotilstedeværelsessignaler</string>
+    <string name="cat_system_info_title">System info</string>
+    <string name="cat_system_info_subtitle">OS og runtime detaljer</string>
+    <string name="cat_display_title">Vise</string>
+    <string name="cat_display_subtitle">Skærmfunktioner og tæthed</string>
+    <string name="cat_locale_title">Lokalitet og region</string>
+    <string name="cat_locale_subtitle">Sprog og tidszone fodaftryk</string>
+    <string name="cat_accessibility_title">Tilgængelighed</string>
+    <string name="cat_accessibility_subtitle">Hjælpeindstillinger og flag</string>
+    <string name="cat_device_motion_title">Enhedsbevægelse</string>
+    <string name="cat_device_motion_subtitle">Sensortilstedeværelse og tilstand</string>
+    <string name="cat_battery_title">Batteri &amp; Strøm</string>
+    <string name="cat_battery_subtitle">Data om batteri og strømtilstand</string>
+    <string name="cat_storage_title">Opbevaring</string>
+    <string name="cat_storage_subtitle">Volumen og lager i alt</string>
+    <string name="cat_network_title">Netværk</string>
+    <string name="cat_network_subtitle">Forbindelse og VPN-status</string>
+    <string name="cat_fonts_title">Skrifttyper</string>
+    <string name="cat_fonts_subtitle">Eksempel på skrifttypetilgængelighed</string>
+    <string name="cat_installed_voices_title">Installerede stemmer</string>
+    <string name="cat_installed_voices_subtitle">Talemotor og stemmestøtte</string>
+    <string name="cat_app_info_title">App &amp; pakke</string>
+    <string name="cat_app_info_subtitle">Pakkebyg metadata</string>
+    <string name="cat_pasteboard_title">Pasteboard</string>
+    <string name="cat_pasteboard_subtitle">Kun metadata fra klippebordet</string>
+    <string name="cat_audio_title">Lyd</string>
+    <string name="cat_audio_subtitle">Lydudgange og rutedetaljer</string>
+    <string name="cat_graphics_title">Grafik</string>
+    <string name="cat_graphics_subtitle">GPU / GL implementeringssignaler</string>
+    <string name="cat_telephony_title">Telefoni</string>
+    <string name="cat_telephony_subtitle">Carrier og radio metadata</string>
+    <string name="cat_motion_title">Bevægelse og sensorer</string>
+    <string name="cat_motion_subtitle">Tilladelses-gatede bevægelsesdetaljer</string>
+    <string name="cat_location_title">Beliggenhed</string>
+    <string name="cat_location_subtitle">Position og udbyder metadata</string>
+    <string name="cat_cameras_title">Kameraer</string>
+    <string name="cat_cameras_subtitle">Kameraets muligheder og tæller</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth-status og parrede statistikker</string>
+    <string name="cat_local_network_title">Lokalt netværk</string>
+    <string name="cat_local_network_subtitle">Netværksmiljø i nærheden</string>
+    <string name="cat_contacts_title">Kontaktpersoner</string>
+    <string name="cat_contacts_subtitle">Kun metadata i kontaktdatabasen</string>
+    <string name="cat_photos_title">Fotos</string>
+    <string name="cat_photos_subtitle">Kun metadata fra mediebiblioteket</string>
+    <string name="cat_calendar_title">Kalender</string>
+    <string name="cat_calendar_subtitle">Kalenderkontometadata</string>
+    <string name="cat_reminders_title">Påmindelser</string>
+    <string name="cat_reminders_subtitle">Opgave/påmindelse udbyder metadata</string>
+    <string name="cat_music_library_title">Musikbibliotek</string>
+    <string name="cat_music_library_subtitle">Kun metadata for lydmedier</string>
+    <string name="cat_installed_apps_probe_title">Installeret Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Intention skema sondering</string>
+    <string name="cat_webview_fingerprint_title">WebView fingeraftryk</string>
+    <string name="cat_webview_fingerprint_subtitle">Browserlignende gengivelsesprofil</string>
+    <string name="cat_previous_installs_log_title">Log for tidligere installationer</string>
+    <string name="cat_previous_installs_log_subtitle">Installer tip til vedholdenhed</string>
+
+</resources>

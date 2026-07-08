@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API pirkstu nospiedumu pārlūks</string>
+    <string name="back">Atpakaļ</string>
+    <string name="refresh">Atsvaidzināt</string>
+    <string name="export_report">Eksporta atskaite</string>
+    <string name="export_chooser_title">Eksportējiet AndroWatch pārskatu</string>
+    <string name="about_title">Par</string>
+    <string name="about_heading">Ierīces pirkstu nospiedumu caurspīdīgums</string>
+    <string name="about_inspired">AndroWatch ir Android alternatīva, ko iedvesmojusi Mysk Research Lupe. Tas parāda, ko publiskās Android API var atklāt par jūsu ierīci.</string>
+    <string name="about_privacy">Visi rādījumi paliek jūsu ierīcē. Nekas netiek augšupielādēts, ja vien nepārprotami eksportējat JSON pārskatu.</string>
+    <string name="onboarding_title">Skatiet, ko atklāj Android</string>
+    <string name="onboarding_body">AndroWatch parāda, ko Android API var atklāt par jūsu ierīci — identifikatorus, sensorus, tīklu un daudz ko citu.</string>
+    <string name="onboarding_privacy">Nekas nav augšupielādēts. Eksports ir nepārprotams un vietējs.</string>
+    <string name="onboarding_continue">Turpināt</string>
+    <string name="permission_required">Nepieciešama atļauja</string>
+    <string name="permission_rationale">Šai kategorijai ir nepieciešama izpildlaika atļauja, lai lasītu apkopotos metadatus. Neapstrādāta PII nekad netiek rādīta.</string>
+    <string name="grant_permission">Piešķiriet atļauju</string>
+    <string name="summary_title">Pirkstu nospiedumu kopsavilkums</string>
+    <string name="summary_empty">Atsvaidziniet kategorijas, lai izveidotu kopsavilkumu.</string>
+    <string name="tier_passive">Pasīvs</string>
+    <string name="tier_permissioned">Nepieciešama atļauja</string>
+    <string name="tier_advanced">Papildu</string>
+    <string name="signal_count">%1$d signālus</string>
+    <string name="live_badge">Tiešraidē</string>
+    <string name="loading">Notiek signālu apkopošana…</string>
+    <string name="error_collecting">Kļūda, apkopojot signālus.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Mēģiniet vēlreiz</string>
+    <string name="export_error">Nevarēja eksportēt pārskatu.</string>
+    <string name="export_empty">Pagaidām nav ko eksportēt. Vispirms atsvaidziniet kategorijas.</string>
+    <string name="no_signals">Vēl nav savākts neviens signāls.</string>
+    <string name="show_rationale">Kāpēc tas ir svarīgi</string>
+    <string name="hide_rationale">Slēpt pamatojumu</string>
+    <string name="raw_value">Neapstrādāta API vērtība</string>
+    <string name="value_unknown">nezināms</string>
+    <string name="value_unknown_locale">nezināma lokalizācija</string>
+    <string name="value_unknown_device">nezināma ierīce</string>
+    <string name="value_unknown_battery">nezināms akumulators</string>
+    <string name="value_unknown_network">nezināms tīkls</string>
+    <string name="value_none">neviens</string>
+    <string name="value_unavailable">nav pieejams</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">jā</string>
+    <string name="value_false">nē</string>
+
+</resources>

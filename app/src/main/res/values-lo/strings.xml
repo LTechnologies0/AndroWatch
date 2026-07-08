@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API fingerprint explorer</string>
+    <string name="back">ກັບຄືນໄປບ່ອນ</string>
+    <string name="refresh">ໂຫຼດຂໍ້ມູນຄືນໃໝ່</string>
+    <string name="export_report">ລາຍງານການສົ່ງອອກ</string>
+    <string name="export_chooser_title">ສົ່ງອອກບົດລາຍງານ AndroWatch</string>
+    <string name="about_title">ກ່ຽວກັບ</string>
+    <string name="about_heading">ຄວາມໂປ່ງໃສຂອງລາຍນິ້ວມືຂອງອຸປະກອນ</string>
+    <string name="about_inspired">AndroWatch ເປັນທາງເລືອກ Android ທີ່ໄດ້ຮັບແຮງບັນດານໃຈໂດຍ Loupe ໂດຍ Mysk Research. ມັນສະແດງສິ່ງທີ່ Android APIs ສາທາລະນະສາມາດເປີດເຜີຍກ່ຽວກັບອຸປະກອນຂອງທ່ານ.</string>
+    <string name="about_privacy">ການອ່ານທັງໝົດຢູ່ໃນອຸປະກອນຂອງທ່ານ. ບໍ່ມີຫຍັງຖືກອັບໂຫລດເວັ້ນເສຍແຕ່ທ່ານຈະສົ່ງອອກລາຍງານ JSON ຢ່າງຈະແຈ້ງ.</string>
+    <string name="onboarding_title">ເບິ່ງສິ່ງທີ່ Android ເປີດເຜີຍ</string>
+    <string name="onboarding_body">AndroWatch ສະແດງໃຫ້ເຫັນສິ່ງທີ່ Android APIs ສາມາດເປີດເຜີຍກ່ຽວກັບອຸປະກອນຂອງທ່ານ — ຕົວລະບຸ, ເຊັນເຊີ, ເຄືອຂ່າຍ, ແລະອື່ນໆອີກ.</string>
+    <string name="onboarding_privacy">ບໍ່ມີຫຍັງຖືກອັບໂຫລດ. ການສົ່ງອອກແມ່ນຈະແຈ້ງແລະທ້ອງຖິ່ນ.</string>
+    <string name="onboarding_continue">ສືບຕໍ່</string>
+    <string name="permission_required">ຕ້ອງການການອະນຸຍາດ</string>
+    <string name="permission_rationale">ໝວດໝູ່ນີ້ຕ້ອງການການອະນຸຍາດ runtime ເພື່ອອ່ານ metadata ລວມ. PII ດິບຈະບໍ່ຖືກສະແດງ.</string>
+    <string name="grant_permission">ໃຫ້ການອະນຸຍາດ</string>
+    <string name="summary_title">ສະຫຼຸບລາຍນິ້ວມື</string>
+    <string name="summary_empty">ໂຫຼດໝວດໝູ່ຄືນໃໝ່ເພື່ອສ້າງບົດສະຫຼຸບ.</string>
+    <string name="tier_passive">ຕົວຕັ້ງຕົວຕີ</string>
+    <string name="tier_permissioned">ຕ້ອງການການອະນຸຍາດ</string>
+    <string name="tier_advanced">ຂັ້ນສູງ</string>
+    <string name="signal_count">%1$d ສັນຍານ</string>
+    <string name="live_badge">ດໍາລົງຊີວິດ</string>
+    <string name="loading">ກຳລັງເກັບກຳສັນຍານ...</string>
+    <string name="error_collecting">ຜິດພາດໃນຂະນະທີ່ເກັບກໍາສັນຍານ.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">ລອງໃໝ່</string>
+    <string name="export_error">ບໍ່ສາມາດສົ່ງອອກລາຍງານໄດ້.</string>
+    <string name="export_empty">ບໍ່ມີຫຍັງທີ່ຈະສົ່ງອອກເທື່ອ. ໂຫຼດໝວດໝູ່ຄືນໃໝ່ກ່ອນ.</string>
+    <string name="no_signals">ຍັງບໍ່ມີສັນຍານເກັບກຳເທື່ອ.</string>
+    <string name="show_rationale">ເປັນຫຍັງເລື່ອງນີ້ຈຶ່ງສຳຄັນ</string>
+    <string name="hide_rationale">ເຊື່ອງເຫດຜົນ</string>
+    <string name="raw_value">ຄ່າ API ດິບ</string>
+    <string name="value_unknown">ບໍ່ຮູ້ຈັກ</string>
+    <string name="value_unknown_locale">ທ້ອງຖິ່ນທີ່ບໍ່ຮູ້ຈັກ</string>
+    <string name="value_unknown_device">ອຸປະກອນທີ່ບໍ່ຮູ້ຈັກ</string>
+    <string name="value_unknown_battery">ແບັດເຕີຣີທີ່ບໍ່ຮູ້ຈັກ</string>
+    <string name="value_unknown_network">ເຄືອຂ່າຍທີ່ບໍ່ຮູ້ຈັກ</string>
+    <string name="value_none">ບໍ່ມີ</string>
+    <string name="value_unavailable">ບໍ່ສາມາດໃຊ້ໄດ້</string>
+    <string name="value_na">ບໍ່ມີ</string>
+    <string name="value_true">ແມ່ນແລ້ວ</string>
+    <string name="value_false">ບໍ່</string>
+
+</resources>

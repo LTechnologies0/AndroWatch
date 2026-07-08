@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Toto zařízení aktuálně hlásí národní prostředí %1$s.</string>
+    <string name="summary_line_model">Hardwarový model se zobrazí jako %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID pro tuto aplikaci je %1$s.</string>
+    <string name="summary_line_battery">Snímek baterie ukazuje %1$s.</string>
+    <string name="summary_line_network">Aktivní síťové přenosy: %1$s.</string>
+    <string name="summary_line_authenticators">Viditelné ověřovatele účtu: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch uchovává tyto hodnoty v zařízení, pokud je neexportujete.</string>
+
+</resources>

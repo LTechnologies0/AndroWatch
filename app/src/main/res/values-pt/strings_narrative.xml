@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Este dispositivo atualmente informa a localidade %1$s.</string>
+    <string name="summary_line_model">O modelo de hardware aparece como %1$s.</string>
+    <string name="summary_line_android_id">O ANDROID_ID deste aplicativo é %1$s.</string>
+    <string name="summary_line_battery">O instantâneo da bateria indica %1$s.</string>
+    <string name="summary_line_network">Transportes de rede ativos: %1$s.</string>
+    <string name="summary_line_authenticators">Autenticadores de conta visíveis: %1$s.</string>
+    <string name="summary_line_privacy">O AndroWatch mantém essas leituras no dispositivo, a menos que você as exporte.</string>
+
+</resources>

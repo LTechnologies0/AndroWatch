@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">ಈ ಸಾಧನವು ಪ್ರಸ್ತುತ ಲೊಕೇಲ್ %1$s ಅನ್ನು ವರದಿ ಮಾಡುತ್ತದೆ.</string>
+    <string name="summary_line_model">ಹಾರ್ಡ್‌ವೇರ್ ಮಾದರಿಯು %1$s ನಂತೆ ಗೋಚರಿಸುತ್ತದೆ.</string>
+    <string name="summary_line_android_id">ಈ ಅಪ್ಲಿಕೇಶನ್‌ಗಾಗಿ ANDROID_ID %1$s ಆಗಿದೆ.</string>
+    <string name="summary_line_battery">ಬ್ಯಾಟರಿ ಸ್ನ್ಯಾಪ್‌ಶಾಟ್ %1$s ಅನ್ನು ಸೂಚಿಸುತ್ತದೆ.</string>
+    <string name="summary_line_network">ಸಕ್ರಿಯ ನೆಟ್‌ವರ್ಕ್ ಸಾರಿಗೆಗಳು: %1$s.</string>
+    <string name="summary_line_authenticators">ಖಾತೆ ದೃಢೀಕರಣಗಳು ಗೋಚರಿಸುತ್ತವೆ: %1$s.</string>
+    <string name="summary_line_privacy">ನೀವು ಅವುಗಳನ್ನು ರಫ್ತು ಮಾಡದ ಹೊರತು ಆಂಡ್ರೊವಾಚ್ ಈ ರೀಡಿಂಗ್‌ಗಳನ್ನು ಸಾಧನದಲ್ಲಿ ಇರಿಸುತ್ತದೆ.</string>
+
+</resources>

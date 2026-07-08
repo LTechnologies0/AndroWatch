@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಎಕ್ಸ್‌ಪ್ಲೋರರ್</string>
+    <string name="back">ಹಿಂದೆ</string>
+    <string name="refresh">ರಿಫ್ರೆಶ್ ಮಾಡಿ</string>
+    <string name="export_report">ರಫ್ತು ವರದಿ</string>
+    <string name="export_chooser_title">ಆಂಡ್ರೊವಾಚ್ ವರದಿಯನ್ನು ರಫ್ತು ಮಾಡಿ</string>
+    <string name="about_title">ಬಗ್ಗೆ</string>
+    <string name="about_heading">ಸಾಧನದ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಪಾರದರ್ಶಕತೆ</string>
+    <string name="about_inspired">ಆಂಡ್ರೊವಾಚ್ ಎಂಬುದು ಮೈಸ್ಕ್ ರಿಸರ್ಚ್‌ನಿಂದ ಲೌಪ್‌ನಿಂದ ಪ್ರೇರಿತವಾದ ಆಂಡ್ರಾಯ್ಡ್ ಪರ್ಯಾಯವಾಗಿದೆ. ನಿಮ್ಮ ಸಾಧನದ ಕುರಿತು ಸಾರ್ವಜನಿಕ Android API ಗಳು ಏನನ್ನು ಬಹಿರಂಗಪಡಿಸಬಹುದು ಎಂಬುದನ್ನು ಇದು ತೋರಿಸುತ್ತದೆ.</string>
+    <string name="about_privacy">ಎಲ್ಲಾ ಓದುವಿಕೆಗಳು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಉಳಿಯುತ್ತವೆ. ನೀವು JSON ವರದಿಯನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ರಫ್ತು ಮಾಡದ ಹೊರತು ಯಾವುದನ್ನೂ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ.</string>
+    <string name="onboarding_title">ಆಂಡ್ರಾಯ್ಡ್ ಏನನ್ನು ಬಹಿರಂಗಪಡಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಿ</string>
+    <string name="onboarding_body">ನಿಮ್ಮ ಸಾಧನದ ಕುರಿತು Android API ಗಳು ಏನನ್ನು ಬಹಿರಂಗಪಡಿಸಬಹುದು ಎಂಬುದನ್ನು AndroWatch ತೋರಿಸುತ್ತದೆ - ಗುರುತಿಸುವಿಕೆಗಳು, ಸಂವೇದಕಗಳು, ನೆಟ್‌ವರ್ಕ್ ಮತ್ತು ಇನ್ನಷ್ಟು.</string>
+    <string name="onboarding_privacy">ಯಾವುದನ್ನೂ ಅಪ್‌ಲೋಡ್ ಮಾಡಿಲ್ಲ. ರಫ್ತುಗಳು ಸ್ಪಷ್ಟ ಮತ್ತು ಸ್ಥಳೀಯವಾಗಿವೆ.</string>
+    <string name="onboarding_continue">ಮುಂದುವರಿಸಿ</string>
+    <string name="permission_required">ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+    <string name="permission_rationale">ಒಟ್ಟುಗೂಡಿದ ಮೆಟಾಡೇಟಾವನ್ನು ಓದಲು ಈ ವರ್ಗಕ್ಕೆ ರನ್‌ಟೈಮ್ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ. ಕಚ್ಚಾ PII ಅನ್ನು ಎಂದಿಗೂ ಪ್ರದರ್ಶಿಸಲಾಗುವುದಿಲ್ಲ.</string>
+    <string name="grant_permission">ಅನುಮತಿ ನೀಡಿ</string>
+    <string name="summary_title">ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಸಾರಾಂಶ</string>
+    <string name="summary_empty">ಸಾರಾಂಶವನ್ನು ರಚಿಸಲು ವರ್ಗಗಳನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ.</string>
+    <string name="tier_passive">ನಿಷ್ಕ್ರಿಯ</string>
+    <string name="tier_permissioned">ಅನುಮತಿ ಬೇಕು</string>
+    <string name="tier_advanced">ಸುಧಾರಿತ</string>
+    <string name="signal_count">%1$d ಸಂಕೇತಗಳು</string>
+    <string name="live_badge">ಲೈವ್</string>
+    <string name="loading">ಸಂಕೇತಗಳನ್ನು ಸಂಗ್ರಹಿಸಲಾಗುತ್ತಿದೆ...</string>
+    <string name="error_collecting">ಸಂಕೇತಗಳನ್ನು ಸಂಗ್ರಹಿಸುವಾಗ ದೋಷ.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">ಮರುಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="export_error">ವರದಿಯನ್ನು ರಫ್ತು ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="export_empty">ಇನ್ನೂ ರಫ್ತು ಮಾಡಲು ಏನೂ ಇಲ್ಲ. ಮೊದಲು ವಿಭಾಗಗಳನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ.</string>
+    <string name="no_signals">ಇನ್ನೂ ಯಾವುದೇ ಸಂಕೇತಗಳನ್ನು ಸಂಗ್ರಹಿಸಲಾಗಿಲ್ಲ.</string>
+    <string name="show_rationale">ಇದು ಏಕೆ ಮುಖ್ಯವಾಗಿದೆ</string>
+    <string name="hide_rationale">ತಾರ್ಕಿಕತೆಯನ್ನು ಮರೆಮಾಡಿ</string>
+    <string name="raw_value">ರಾ API ಮೌಲ್ಯ</string>
+    <string name="value_unknown">ಅಜ್ಞಾತ</string>
+    <string name="value_unknown_locale">ಅಜ್ಞಾತ ಸ್ಥಳ</string>
+    <string name="value_unknown_device">ಅಜ್ಞಾತ ಸಾಧನ</string>
+    <string name="value_unknown_battery">ಅಜ್ಞಾತ ಬ್ಯಾಟರಿ</string>
+    <string name="value_unknown_network">ಅಜ್ಞಾತ ನೆಟ್‌ವರ್ಕ್</string>
+    <string name="value_none">ಯಾವುದೂ ಇಲ್ಲ</string>
+    <string name="value_unavailable">ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="value_na">ಎನ್/ಎ</string>
+    <string name="value_true">ಹೌದು</string>
+    <string name="value_false">ಇಲ್ಲ</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">ეს მოწყობილობა ამჟამად იტყობინება ლოკალს %1$s.</string>
+    <string name="summary_line_model">აპარატურის მოდელი გამოჩნდება როგორც %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID ამ აპისთვის არის %1$s.</string>
+    <string name="summary_line_battery">ბატარეის სნეპშოტი მიუთითებს %1$s.</string>
+    <string name="summary_line_network">აქტიური ქსელის ტრანსპორტირება: %1$s.</string>
+    <string name="summary_line_authenticators">ანგარიშის ავთენტიფიკატორები ჩანს: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch ინახავს ამ მონაცემებს მოწყობილობაზე, თუ მათ ექსპორტს არ გააკეთებთ.</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API саусақ ізін зерттеушісі</string>
+    <string name="back">Артқа</string>
+    <string name="refresh">Жаңарту</string>
+    <string name="export_report">Экспорттық есеп</string>
+    <string name="export_chooser_title">AndroWatch есебін экспорттау</string>
+    <string name="about_title">туралы</string>
+    <string name="about_heading">Құрылғының саусақ ізінің мөлдірлігі</string>
+    <string name="about_inspired">AndroWatch - Mysk Research ұсынған Loupe шабыттандырған Android нұсқасы. Ол жалпыға қолжетімді Android API интерфейстері құрылғыңыз туралы нені анықтай алатынын көрсетеді.</string>
+    <string name="about_privacy">Барлық көрсеткіштер құрылғыда қалады. JSON есебін нақты экспорттамайынша, ештеңе жүктеп салынбайды.</string>
+    <string name="onboarding_title">Android нені ашатынын қараңыз</string>
+    <string name="onboarding_body">AndroWatch Android API интерфейстері құрылғыңыз туралы нені анықтай алатынын көрсетеді — идентификаторлар, сенсорлар, желі және т.б.</string>
+    <string name="onboarding_privacy">Ештеңе жүктеп салынбаған. Экспорт айқын және жергілікті.</string>
+    <string name="onboarding_continue">Жалғастыру</string>
+    <string name="permission_required">Рұқсат қажет</string>
+    <string name="permission_rationale">Бұл санатқа біріктірілген метадеректерді оқу үшін орындау уақытының рұқсаты қажет. Raw PII ешқашан көрсетілмейді.</string>
+    <string name="grant_permission">Рұқсат беріңіз</string>
+    <string name="summary_title">Саусақ ізінің қорытындысы</string>
+    <string name="summary_empty">Қорытынды жасау үшін санаттарды жаңартыңыз.</string>
+    <string name="tier_passive">Пассивті</string>
+    <string name="tier_permissioned">Рұқсат қажет</string>
+    <string name="tier_advanced">Жетілдірілген</string>
+    <string name="signal_count">%1$d сигналдары</string>
+    <string name="live_badge">Тірі</string>
+    <string name="loading">Сигналдар жиналуда…</string>
+    <string name="error_collecting">Сигналдарды жинау кезіндегі қате.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Қайталап көріңіз</string>
+    <string name="export_error">Есепті экспорттау мүмкін болмады.</string>
+    <string name="export_empty">Әзірге экспортталатын ештеңе жоқ. Алдымен санаттарды жаңартыңыз.</string>
+    <string name="no_signals">Әлі ешқандай сигнал жиналмады.</string>
+    <string name="show_rationale">Бұл неге маңызды</string>
+    <string name="hide_rationale">Негіздемені жасыру</string>
+    <string name="raw_value">Raw API мәні</string>
+    <string name="value_unknown">белгісіз</string>
+    <string name="value_unknown_locale">белгісіз тіл</string>
+    <string name="value_unknown_device">белгісіз құрылғы</string>
+    <string name="value_unknown_battery">белгісіз батарея</string>
+    <string name="value_unknown_network">белгісіз желі</string>
+    <string name="value_none">жоқ</string>
+    <string name="value_unavailable">қолжетімсіз</string>
+    <string name="value_na">жоқ</string>
+    <string name="value_true">иә</string>
+    <string name="value_false">жоқ</string>
+
+</resources>

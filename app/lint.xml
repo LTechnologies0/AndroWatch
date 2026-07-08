@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="StaticFieldLeak" severity="error" />
+    <issue id="DrawAllocation" severity="warning" />
+    <issue id="Recycle" severity="warning" />
+    <issue id="ContentDescription" severity="warning" />
+</lint>

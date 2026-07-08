@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API pretraživač otiska prsta</string>
+    <string name="back">Nazad</string>
+    <string name="refresh">Osvježi</string>
+    <string name="export_report">Izvještaj o izvozu</string>
+    <string name="export_chooser_title">Izvezi AndroWatch izvještaj</string>
+    <string name="about_title">O</string>
+    <string name="about_heading">Transparentnost otiska prsta uređaja</string>
+    <string name="about_inspired">AndroWatch je Android alternativa inspirisana Loupeom kompanije Mysk Research. Pokriva ono što javni Android API-ji mogu otkriti o vašem uređaju.</string>
+    <string name="about_privacy">Sva očitanja ostaju na vašem uređaju. Ništa se ne prenosi osim ako eksplicitno ne izvezete JSON izvještaj.</string>
+    <string name="onboarding_title">Pogledajte šta Android otkriva</string>
+    <string name="onboarding_body">AndroWatch pokazuje šta Android API-ji mogu otkriti o vašem uređaju – identifikatore, senzore, mrežu i još mnogo toga.</string>
+    <string name="onboarding_privacy">Ništa nije učitano. Izvoz je eksplicitan i lokalni.</string>
+    <string name="onboarding_continue">Nastavi</string>
+    <string name="permission_required">Potrebna je dozvola</string>
+    <string name="permission_rationale">Ovoj kategoriji je potrebna dozvola za vrijeme izvođenja za čitanje agregiranih metapodataka. Raw PII se nikada ne prikazuje.</string>
+    <string name="grant_permission">Dajte dozvolu</string>
+    <string name="summary_title">Sažetak otiska prsta</string>
+    <string name="summary_empty">Osvježite kategorije za generiranje sažetka.</string>
+    <string name="tier_passive">Pasivno</string>
+    <string name="tier_permissioned">Potrebna je dozvola</string>
+    <string name="tier_advanced">Napredno</string>
+    <string name="signal_count">%1$d signala</string>
+    <string name="live_badge">Uživo</string>
+    <string name="loading">Prikupljanje signala…</string>
+    <string name="error_collecting">Greška prilikom prikupljanja signala.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Pokušaj ponovo</string>
+    <string name="export_error">Nije moguće izvesti izvještaj.</string>
+    <string name="export_empty">Još ništa za izvoz. Prvo osvježite kategorije.</string>
+    <string name="no_signals">Još uvijek nema prikupljenih signala.</string>
+    <string name="show_rationale">Zašto je ovo važno</string>
+    <string name="hide_rationale">Sakrij obrazloženje</string>
+    <string name="raw_value">Sirova API vrijednost</string>
+    <string name="value_unknown">nepoznato</string>
+    <string name="value_unknown_locale">nepoznata lokacija</string>
+    <string name="value_unknown_device">nepoznati uređaj</string>
+    <string name="value_unknown_battery">nepoznata baterija</string>
+    <string name="value_unknown_network">nepoznata mreža</string>
+    <string name="value_none">nijedan</string>
+    <string name="value_unavailable">nedostupan</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">da</string>
+    <string name="value_false">br</string>
+
+</resources>

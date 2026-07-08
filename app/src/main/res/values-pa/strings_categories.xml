@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">ਡਿਵਾਈਸ ਪਛਾਣ</string>
+    <string name="cat_device_identity_subtitle">ਪਛਾਣਕਰਤਾ ਅਤੇ ਹਾਰਡਵੇਅਰ ਗੁਣ</string>
+    <string name="cat_google_account_title">Google ਖਾਤਾ</string>
+    <string name="cat_google_account_subtitle">ਖਾਤੇ ਦੀ ਮੌਜੂਦਗੀ ਦੇ ਸੰਕੇਤ</string>
+    <string name="cat_system_info_title">ਸਿਸਟਮ ਜਾਣਕਾਰੀ</string>
+    <string name="cat_system_info_subtitle">OS ਅਤੇ ਰਨਟਾਈਮ ਵੇਰਵੇ</string>
+    <string name="cat_display_title">ਡਿਸਪਲੇ</string>
+    <string name="cat_display_subtitle">ਸਕ੍ਰੀਨ ਸਮਰੱਥਾ ਅਤੇ ਘਣਤਾ</string>
+    <string name="cat_locale_title">ਸਥਾਨ ਅਤੇ ਖੇਤਰ</string>
+    <string name="cat_locale_subtitle">ਭਾਸ਼ਾ ਅਤੇ ਟਾਈਮ ਜ਼ੋਨ ਫੁੱਟਪ੍ਰਿੰਟ</string>
+    <string name="cat_accessibility_title">ਪਹੁੰਚਯੋਗਤਾ</string>
+    <string name="cat_accessibility_subtitle">ਸਹਾਇਕ ਸੈਟਿੰਗਾਂ ਅਤੇ ਫਲੈਗ</string>
+    <string name="cat_device_motion_title">ਡਿਵਾਈਸ ਮੋਸ਼ਨ</string>
+    <string name="cat_device_motion_subtitle">ਸੈਂਸਰ ਦੀ ਮੌਜੂਦਗੀ ਅਤੇ ਸਥਿਤੀ</string>
+    <string name="cat_battery_title">ਬੈਟਰੀ ਅਤੇ ਪਾਵਰ</string>
+    <string name="cat_battery_subtitle">ਬੈਟਰੀ ਅਤੇ ਪਾਵਰ ਮੋਡ ਡਾਟਾ</string>
+    <string name="cat_storage_title">ਸਟੋਰੇਜ</string>
+    <string name="cat_storage_subtitle">ਵਾਲੀਅਮ ਅਤੇ ਸਟੋਰੇਜ ਕੁੱਲ</string>
+    <string name="cat_network_title">ਨੈੱਟਵਰਕ</string>
+    <string name="cat_network_subtitle">ਕਨੈਕਟੀਵਿਟੀ ਅਤੇ VPN ਸਥਿਤੀ</string>
+    <string name="cat_fonts_title">ਫੌਂਟ</string>
+    <string name="cat_fonts_subtitle">ਫੌਂਟ ਉਪਲਬਧਤਾ ਦਾ ਨਮੂਨਾ</string>
+    <string name="cat_installed_voices_title">ਸਥਾਪਿਤ ਕੀਤੀਆਂ ਆਵਾਜ਼ਾਂ</string>
+    <string name="cat_installed_voices_subtitle">ਸਪੀਚ ਇੰਜਣ ਅਤੇ ਵੌਇਸ ਸਪੋਰਟ</string>
+    <string name="cat_app_info_title">ਐਪ ਅਤੇ ਬੰਡਲ</string>
+    <string name="cat_app_info_subtitle">ਪੈਕੇਜ ਬਿਲਡ ਮੈਟਾਡੇਟਾ</string>
+    <string name="cat_pasteboard_title">ਪੇਸਟਬੋਰਡ</string>
+    <string name="cat_pasteboard_subtitle">ਸਿਰਫ਼ ਕਲਿੱਪਬੋਰਡ ਮੈਟਾਡੇਟਾ</string>
+    <string name="cat_audio_title">ਆਡੀਓ</string>
+    <string name="cat_audio_subtitle">ਆਡੀਓ ਆਉਟਪੁੱਟ ਅਤੇ ਰੂਟ ਵੇਰਵੇ</string>
+    <string name="cat_graphics_title">ਗ੍ਰਾਫਿਕਸ</string>
+    <string name="cat_graphics_subtitle">GPU / GL ਲਾਗੂ ਕਰਨ ਦੇ ਸੰਕੇਤ</string>
+    <string name="cat_telephony_title">ਟੈਲੀਫੋਨੀ</string>
+    <string name="cat_telephony_subtitle">ਕੈਰੀਅਰ ਅਤੇ ਰੇਡੀਓ ਮੈਟਾਡੇਟਾ</string>
+    <string name="cat_motion_title">ਮੋਸ਼ਨ ਅਤੇ ਸੈਂਸਰ</string>
+    <string name="cat_motion_subtitle">ਇਜਾਜ਼ਤ-ਪ੍ਰਾਪਤ ਮੋਸ਼ਨ ਵੇਰਵੇ</string>
+    <string name="cat_location_title">ਟਿਕਾਣਾ</string>
+    <string name="cat_location_subtitle">ਸਥਿਤੀ ਅਤੇ ਪ੍ਰਦਾਤਾ ਮੈਟਾਡੇਟਾ</string>
+    <string name="cat_cameras_title">ਕੈਮਰੇ</string>
+    <string name="cat_cameras_subtitle">ਕੈਮਰਾ ਸਮਰੱਥਾਵਾਂ ਅਤੇ ਗਿਣਤੀ</string>
+    <string name="cat_bluetooth_title">ਬਲੂਟੁੱਥ</string>
+    <string name="cat_bluetooth_subtitle">ਬਲੂਟੁੱਥ ਸਥਿਤੀ ਅਤੇ ਜੋੜਾਬੱਧ ਅੰਕੜੇ</string>
+    <string name="cat_local_network_title">ਸਥਾਨਕ ਨੈੱਟਵਰਕ</string>
+    <string name="cat_local_network_subtitle">ਨੇੜਲੇ ਨੈੱਟਵਰਕ ਵਾਤਾਵਰਣ</string>
+    <string name="cat_contacts_title">ਸੰਪਰਕ</string>
+    <string name="cat_contacts_subtitle">ਸਿਰਫ਼ ਡਾਟਾਬੇਸ ਮੈਟਾਡੇਟਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ</string>
+    <string name="cat_photos_title">ਫੋਟੋਆਂ</string>
+    <string name="cat_photos_subtitle">ਸਿਰਫ਼ ਮੀਡੀਆ ਲਾਇਬ੍ਰੇਰੀ ਮੈਟਾਡੇਟਾ</string>
+    <string name="cat_calendar_title">ਕੈਲੰਡਰ</string>
+    <string name="cat_calendar_subtitle">ਕੈਲੰਡਰ ਖਾਤਾ ਮੈਟਾਡੇਟਾ</string>
+    <string name="cat_reminders_title">ਰੀਮਾਈਂਡਰ</string>
+    <string name="cat_reminders_subtitle">ਟਾਸਕ/ਰਿਮਾਈਂਡਰ ਪ੍ਰਦਾਤਾ ਮੈਟਾਡੇਟਾ</string>
+    <string name="cat_music_library_title">ਸੰਗੀਤ ਲਾਇਬ੍ਰੇਰੀ</string>
+    <string name="cat_music_library_subtitle">ਸਿਰਫ਼ ਆਡੀਓ ਮੀਡੀਆ ਮੈਟਾਡੇਟਾ</string>
+    <string name="cat_installed_apps_probe_title">ਸਥਾਪਤ ਐਪਸ ਪੜਤਾਲ</string>
+    <string name="cat_installed_apps_probe_subtitle">ਇਰਾਦਾ ਸਕੀਮ ਦੀ ਪੜਤਾਲ</string>
+    <string name="cat_webview_fingerprint_title">WebView ਫਿੰਗਰਪ੍ਰਿੰਟ</string>
+    <string name="cat_webview_fingerprint_subtitle">ਬ੍ਰਾਊਜ਼ਰ-ਵਰਗੇ ਰੈਂਡਰਿੰਗ ਪ੍ਰੋਫਾਈਲ</string>
+    <string name="cat_previous_installs_log_title">ਪਿਛਲਾ ਇੰਸਟਾਲ ਲਾਗ</string>
+    <string name="cat_previous_installs_log_subtitle">ਸਥਿਰਤਾ ਸੰਕੇਤ ਸਥਾਪਿਤ ਕਰੋ</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">В настоящее время это устройство сообщает локаль %1$s.</string>
+    <string name="summary_line_model">Модель оборудования отображается как %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID для этого приложения: %1$s.</string>
+    <string name="summary_line_battery">Снимок батареи показывает %1$s.</string>
+    <string name="summary_line_network">Активные сетевые транспорты: %1$s.</string>
+    <string name="summary_line_authenticators">Видимые аутентификаторы учетной записи: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch сохраняет эти показания на устройстве, пока вы их не экспортируете.</string>
+
+</resources>

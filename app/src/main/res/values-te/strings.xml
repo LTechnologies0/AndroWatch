@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API వేలిముద్ర అన్వేషకుడు</string>
+    <string name="back">వెనుకకు</string>
+    <string name="refresh">రిఫ్రెష్ చేయండి</string>
+    <string name="export_report">ఎగుమతి నివేదిక</string>
+    <string name="export_chooser_title">AndroWatch నివేదికను ఎగుమతి చేయండి</string>
+    <string name="about_title">గురించి</string>
+    <string name="about_heading">పరికరం వేలిముద్ర పారదర్శకత</string>
+    <string name="about_inspired">AndroWatch అనేది Mysk రీసెర్చ్ ద్వారా Loupe ద్వారా ప్రేరణ పొందిన Android ప్రత్యామ్నాయం. ఇది పబ్లిక్ Android APIలు మీ పరికరం గురించి ఏమి బహిర్గతం చేయగలదో తెలియజేస్తుంది.</string>
+    <string name="about_privacy">అన్ని రీడింగ్‌లు మీ పరికరంలో ఉంటాయి. మీరు JSON నివేదికను స్పష్టంగా ఎగుమతి చేస్తే తప్ప ఏదీ అప్‌లోడ్ చేయబడదు.</string>
+    <string name="onboarding_title">Android ఏమి వెల్లడిస్తుందో చూడండి</string>
+    <string name="onboarding_body">Android APIలు మీ పరికరం గురించి ఏమి వెల్లడించగలవో AndroWatch చూపిస్తుంది — ఐడెంటిఫైయర్‌లు, సెన్సార్‌లు, నెట్‌వర్క్ మరియు మరిన్ని.</string>
+    <string name="onboarding_privacy">ఏదీ అప్‌లోడ్ చేయలేదు. ఎగుమతులు స్పష్టంగా మరియు స్థానికంగా ఉంటాయి.</string>
+    <string name="onboarding_continue">కొనసాగించు</string>
+    <string name="permission_required">అనుమతి అవసరం</string>
+    <string name="permission_rationale">సమగ్ర మెటాడేటాను చదవడానికి ఈ వర్గానికి రన్‌టైమ్ అనుమతి అవసరం. రా PII ఎప్పుడూ ప్రదర్శించబడదు.</string>
+    <string name="grant_permission">అనుమతి ఇవ్వండి</string>
+    <string name="summary_title">వేలిముద్ర సారాంశం</string>
+    <string name="summary_empty">సారాంశాన్ని రూపొందించడానికి వర్గాలను రిఫ్రెష్ చేయండి.</string>
+    <string name="tier_passive">నిష్క్రియాత్మకమైనది</string>
+    <string name="tier_permissioned">అనుమతి కావాలి</string>
+    <string name="tier_advanced">అధునాతనమైనది</string>
+    <string name="signal_count">%1$d సంకేతాలు</string>
+    <string name="live_badge">ప్రత్యక్షం</string>
+    <string name="loading">సిగ్నల్స్ సేకరిస్తోంది...</string>
+    <string name="error_collecting">సిగ్నల్‌లను సేకరిస్తున్నప్పుడు లోపం.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">మళ్లీ ప్రయత్నించండి</string>
+    <string name="export_error">నివేదికను ఎగుమతి చేయడం సాధ్యపడలేదు.</string>
+    <string name="export_empty">ఎగుమతి చేయడానికి ఇంకా ఏమీ లేదు. ముందుగా వర్గాలను రిఫ్రెష్ చేయండి.</string>
+    <string name="no_signals">ఇంకా సిగ్నల్స్ సేకరించలేదు.</string>
+    <string name="show_rationale">ఇది ఎందుకు ముఖ్యం</string>
+    <string name="hide_rationale">హేతుబద్ధతను దాచు</string>
+    <string name="raw_value">రా API విలువ</string>
+    <string name="value_unknown">తెలియని</string>
+    <string name="value_unknown_locale">తెలియని లొకేల్</string>
+    <string name="value_unknown_device">తెలియని పరికరం</string>
+    <string name="value_unknown_battery">తెలియని బ్యాటరీ</string>
+    <string name="value_unknown_network">తెలియని నెట్‌వర్క్</string>
+    <string name="value_none">ఏదీ లేదు</string>
+    <string name="value_unavailable">అందుబాటులో లేదు</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">అవును</string>
+    <string name="value_false">సంఖ్య</string>
+
+</resources>

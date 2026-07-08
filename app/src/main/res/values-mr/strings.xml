@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API फिंगरप्रिंट एक्सप्लोरर</string>
+    <string name="back">मागे</string>
+    <string name="refresh">रिफ्रेश करा</string>
+    <string name="export_report">निर्यात अहवाल</string>
+    <string name="export_chooser_title">AndroWatch अहवाल निर्यात करा</string>
+    <string name="about_title">बद्दल</string>
+    <string name="about_heading">डिव्हाइस फिंगरप्रिंट पारदर्शकता</string>
+    <string name="about_inspired">AndroWatch हा Mysk रिसर्च द्वारे Loupe द्वारे प्रेरित Android पर्याय आहे. सार्वजनिक Android API तुमच्या डिव्हाइसबद्दल काय प्रकट करू शकतात हे ते दाखवते.</string>
+    <string name="about_privacy">सर्व वाचन तुमच्या डिव्हाइसवर राहतात. तुम्ही JSON अहवाल स्पष्टपणे निर्यात केल्याशिवाय काहीही अपलोड केले जात नाही.</string>
+    <string name="onboarding_title">Android काय प्रकट करते ते पहा</string>
+    <string name="onboarding_body">AndroWatch दाखवते की Android API तुमच्या डिव्हाइसबद्दल काय प्रकट करू शकतात — अभिज्ञापक, सेन्सर, नेटवर्क आणि बरेच काही.</string>
+    <string name="onboarding_privacy">काहीही अपलोड केलेले नाही. निर्यात स्पष्ट आणि स्थानिक आहेत.</string>
+    <string name="onboarding_continue">चालू ठेवा</string>
+    <string name="permission_required">परवानगी आवश्यक</string>
+    <string name="permission_rationale">या श्रेणीला एकत्रित मेटाडेटा वाचण्यासाठी रनटाइम परवानगी आवश्यक आहे. कच्चा PII कधीही प्रदर्शित केला जात नाही.</string>
+    <string name="grant_permission">परवानगी द्या</string>
+    <string name="summary_title">फिंगरप्रिंट सारांश</string>
+    <string name="summary_empty">सारांश व्युत्पन्न करण्यासाठी श्रेण्या रिफ्रेश करा.</string>
+    <string name="tier_passive">निष्क्रीय</string>
+    <string name="tier_permissioned">परवानगी हवी आहे</string>
+    <string name="tier_advanced">प्रगत</string>
+    <string name="signal_count">%1$d सिग्नल</string>
+    <string name="live_badge">लाइव्ह</string>
+    <string name="loading">सिग्नल गोळा करत आहे...</string>
+    <string name="error_collecting">सिग्नल गोळा करताना त्रुटी.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">पुन्हा प्रयत्न करा</string>
+    <string name="export_error">अहवाल निर्यात करू शकलो नाही.</string>
+    <string name="export_empty">अद्याप निर्यात करण्यासाठी काहीही नाही. प्रथम श्रेणी रिफ्रेश करा.</string>
+    <string name="no_signals">अद्याप कोणतेही सिग्नल जमा झालेले नाहीत.</string>
+    <string name="show_rationale">हे महत्त्वाचे का आहे</string>
+    <string name="hide_rationale">तर्क लपवा</string>
+    <string name="raw_value">रॉ API मूल्य</string>
+    <string name="value_unknown">अज्ञात</string>
+    <string name="value_unknown_locale">अज्ञात लोकॅल</string>
+    <string name="value_unknown_device">अज्ञात उपकरण</string>
+    <string name="value_unknown_battery">अज्ञात बॅटरी</string>
+    <string name="value_unknown_network">अज्ञात नेटवर्क</string>
+    <string name="value_none">काहीही नाही</string>
+    <string name="value_unavailable">अनुपलब्ध</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">होय</string>
+    <string name="value_false">नाही</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Toto zariadenie momentálne hlási miestne nastavenie %1$s.</string>
+    <string name="summary_line_model">Hardvérový model sa zobrazí ako %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID pre túto aplikáciu je %1$s.</string>
+    <string name="summary_line_battery">Snímka stavu batérie ukazuje %1$s.</string>
+    <string name="summary_line_network">Aktívne sieťové prenosy: %1$s.</string>
+    <string name="summary_line_authenticators">Viditeľné overovače účtu: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch uchováva tieto namerané hodnoty v zariadení, pokiaľ ich neexportujete.</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Device Identity</string>
+    <string name="cat_device_identity_subtitle">Identifiers and hardware traits</string>
+
+    <string name="cat_google_account_title">Google Account</string>
+    <string name="cat_google_account_subtitle">Account presence signals</string>
+
+    <string name="cat_system_info_title">System Info</string>
+    <string name="cat_system_info_subtitle">OS and runtime details</string>
+
+    <string name="cat_display_title">Display</string>
+    <string name="cat_display_subtitle">Screen capabilities and density</string>
+
+    <string name="cat_locale_title">Locale &amp; Region</string>
+    <string name="cat_locale_subtitle">Language and timezone footprint</string>
+
+    <string name="cat_accessibility_title">Accessibility</string>
+    <string name="cat_accessibility_subtitle">Assistive settings and flags</string>
+
+    <string name="cat_device_motion_title">Device Motion</string>
+    <string name="cat_device_motion_subtitle">Sensor presence and state</string>
+
+    <string name="cat_battery_title">Battery &amp; Power</string>
+    <string name="cat_battery_subtitle">Battery and power mode data</string>
+
+    <string name="cat_storage_title">Storage</string>
+    <string name="cat_storage_subtitle">Volume and storage totals</string>
+
+    <string name="cat_network_title">Network</string>
+    <string name="cat_network_subtitle">Connectivity and VPN status</string>
+
+    <string name="cat_fonts_title">Fonts</string>
+    <string name="cat_fonts_subtitle">Font availability sample</string>
+
+    <string name="cat_installed_voices_title">Installed Voices</string>
+    <string name="cat_installed_voices_subtitle">Speech engine and voice support</string>
+
+    <string name="cat_app_info_title">App &amp; Bundle</string>
+    <string name="cat_app_info_subtitle">Package build metadata</string>
+
+    <string name="cat_pasteboard_title">Pasteboard</string>
+    <string name="cat_pasteboard_subtitle">Clipboard metadata only</string>
+
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Audio outputs and route details</string>
+
+    <string name="cat_graphics_title">Graphics</string>
+    <string name="cat_graphics_subtitle">GPU / GL implementation signals</string>
+
+    <string name="cat_telephony_title">Telephony</string>
+    <string name="cat_telephony_subtitle">Carrier and radio metadata</string>
+
+    <string name="cat_motion_title">Motion &amp; Sensors</string>
+    <string name="cat_motion_subtitle">Permission-gated motion details</string>
+
+    <string name="cat_location_title">Location</string>
+    <string name="cat_location_subtitle">Position and provider metadata</string>
+
+    <string name="cat_cameras_title">Cameras</string>
+    <string name="cat_cameras_subtitle">Camera capabilities and count</string>
+
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth status and paired stats</string>
+
+    <string name="cat_local_network_title">Local Network</string>
+    <string name="cat_local_network_subtitle">Nearby network environment</string>
+
+    <string name="cat_contacts_title">Contacts</string>
+    <string name="cat_contacts_subtitle">Contact database metadata only</string>
+
+    <string name="cat_photos_title">Photos</string>
+    <string name="cat_photos_subtitle">Media library metadata only</string>
+
+    <string name="cat_calendar_title">Calendar</string>
+    <string name="cat_calendar_subtitle">Calendar account metadata</string>
+
+    <string name="cat_reminders_title">Reminders</string>
+    <string name="cat_reminders_subtitle">Task/reminder provider metadata</string>
+
+    <string name="cat_music_library_title">Music Library</string>
+    <string name="cat_music_library_subtitle">Audio media metadata only</string>
+
+    <string name="cat_installed_apps_probe_title">Installed Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Intent scheme probing</string>
+
+    <string name="cat_webview_fingerprint_title">WebView Fingerprint</string>
+    <string name="cat_webview_fingerprint_subtitle">Browser-like rendering profile</string>
+
+    <string name="cat_previous_installs_log_title">Previous Installs Log</string>
+    <string name="cat_previous_installs_log_subtitle">Install persistence hints</string>
+
+</resources>

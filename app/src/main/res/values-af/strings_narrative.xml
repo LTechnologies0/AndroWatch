@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Hierdie toestel gee tans ligging %1$s aan.</string>
+    <string name="summary_line_model">Hardewaremodel verskyn as %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID vir hierdie toepassing is %1$s.</string>
+    <string name="summary_line_battery">Battery-kiekie dui %1$s aan.</string>
+    <string name="summary_line_network">Aktiewe netwerkvervoer: %1$s.</string>
+    <string name="summary_line_authenticators">Rekeningwaarmerkers sigbaar: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch hou hierdie lesings op die toestel, tensy jy dit uitvoer.</string>
+
+</resources>

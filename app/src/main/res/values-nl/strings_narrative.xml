@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Dit apparaat rapporteert momenteel landinstelling %1$s.</string>
+    <string name="summary_line_model">Het hardwaremodel wordt weergegeven als %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID voor deze app is %1$s.</string>
+    <string name="summary_line_battery">Momentopname van de batterij geeft %1$s aan.</string>
+    <string name="summary_line_network">Actieve netwerktransporten: %1$s.</string>
+    <string name="summary_line_authenticators">Accountauthenticators zichtbaar: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch bewaart deze meetwaarden op het apparaat, tenzij u ze exporteert.</string>
+
+</resources>

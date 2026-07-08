@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">ข้อมูลระบุตัวตนของอุปกรณ์</string>
+    <string name="cat_device_identity_subtitle">ตัวระบุและคุณลักษณะของฮาร์ดแวร์</string>
+    <string name="cat_google_account_title">บัญชี Google</string>
+    <string name="cat_google_account_subtitle">สัญญาณการมีอยู่ของบัญชี</string>
+    <string name="cat_system_info_title">ข้อมูลระบบ</string>
+    <string name="cat_system_info_subtitle">รายละเอียดระบบปฏิบัติการและรันไทม์</string>
+    <string name="cat_display_title">แสดง</string>
+    <string name="cat_display_subtitle">ความสามารถและความหนาแน่นของหน้าจอ</string>
+    <string name="cat_locale_title">สถานที่และภูมิภาค</string>
+    <string name="cat_locale_subtitle">รอยเท้าภาษาและเขตเวลา</string>
+    <string name="cat_accessibility_title">การเข้าถึง</string>
+    <string name="cat_accessibility_subtitle">การตั้งค่าช่วยเหลือและธง</string>
+    <string name="cat_device_motion_title">การเคลื่อนไหวของอุปกรณ์</string>
+    <string name="cat_device_motion_subtitle">การมีอยู่และสถานะของเซ็นเซอร์</string>
+    <string name="cat_battery_title">แบตเตอรี่และพลังงาน</string>
+    <string name="cat_battery_subtitle">ข้อมูลแบตเตอรี่และโหมดพลังงาน</string>
+    <string name="cat_storage_title">พื้นที่จัดเก็บ</string>
+    <string name="cat_storage_subtitle">ปริมาณและปริมาณการจัดเก็บทั้งหมด</string>
+    <string name="cat_network_title">เครือข่าย</string>
+    <string name="cat_network_subtitle">การเชื่อมต่อและสถานะ VPN</string>
+    <string name="cat_fonts_title">แบบอักษร</string>
+    <string name="cat_fonts_subtitle">ตัวอย่างความพร้อมของแบบอักษร</string>
+    <string name="cat_installed_voices_title">เสียงที่ติดตั้ง</string>
+    <string name="cat_installed_voices_subtitle">โปรแกรมคำพูดและการสนับสนุนด้วยเสียง</string>
+    <string name="cat_app_info_title">แอพและบันเดิล</string>
+    <string name="cat_app_info_subtitle">ข้อมูลเมตาการสร้างแพ็คเกจ</string>
+    <string name="cat_pasteboard_title">พาสบอร์ด</string>
+    <string name="cat_pasteboard_subtitle">ข้อมูลเมตาของคลิปบอร์ดเท่านั้น</string>
+    <string name="cat_audio_title">เสียง</string>
+    <string name="cat_audio_subtitle">เอาต์พุตเสียงและรายละเอียดเส้นทาง</string>
+    <string name="cat_graphics_title">กราฟิก</string>
+    <string name="cat_graphics_subtitle">สัญญาณการใช้งาน GPU / GL</string>
+    <string name="cat_telephony_title">โทรศัพท์</string>
+    <string name="cat_telephony_subtitle">ข้อมูลเมตาของผู้ให้บริการและวิทยุ</string>
+    <string name="cat_motion_title">การเคลื่อนไหวและเซ็นเซอร์</string>
+    <string name="cat_motion_subtitle">รายละเอียดการเคลื่อนไหวที่ได้รับอนุญาต</string>
+    <string name="cat_location_title">ที่ตั้ง</string>
+    <string name="cat_location_subtitle">ตำแหน่งและข้อมูลเมตาของผู้ให้บริการ</string>
+    <string name="cat_cameras_title">กล้อง</string>
+    <string name="cat_cameras_subtitle">ความสามารถของกล้องและการนับ</string>
+    <string name="cat_bluetooth_title">บลูทูธ</string>
+    <string name="cat_bluetooth_subtitle">สถานะบลูทูธและสถิติที่จับคู่</string>
+    <string name="cat_local_network_title">เครือข่ายท้องถิ่น</string>
+    <string name="cat_local_network_subtitle">สภาพแวดล้อมเครือข่ายใกล้เคียง</string>
+    <string name="cat_contacts_title">รายชื่อผู้ติดต่อ</string>
+    <string name="cat_contacts_subtitle">ติดต่อข้อมูลเมตาของฐานข้อมูลเท่านั้น</string>
+    <string name="cat_photos_title">ภาพถ่าย</string>
+    <string name="cat_photos_subtitle">ข้อมูลเมตาของไลบรารีสื่อเท่านั้น</string>
+    <string name="cat_calendar_title">ปฏิทิน</string>
+    <string name="cat_calendar_subtitle">ข้อมูลเมตาของบัญชีปฏิทิน</string>
+    <string name="cat_reminders_title">การแจ้งเตือน</string>
+    <string name="cat_reminders_subtitle">ข้อมูลเมตาของผู้ให้บริการงาน/การแจ้งเตือน</string>
+    <string name="cat_music_library_title">ห้องสมุดดนตรี</string>
+    <string name="cat_music_library_subtitle">ข้อมูลเมตาของสื่อเสียงเท่านั้น</string>
+    <string name="cat_installed_apps_probe_title">แอพที่ติดตั้ง Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">การสอบสวนแผนเจตจำนง</string>
+    <string name="cat_webview_fingerprint_title">ลายนิ้วมือ WebView</string>
+    <string name="cat_webview_fingerprint_subtitle">โปรไฟล์การเรนเดอร์เหมือนเบราว์เซอร์</string>
+    <string name="cat_previous_installs_log_title">บันทึกการติดตั้งก่อนหน้า</string>
+    <string name="cat_previous_installs_log_subtitle">ติดตั้งคำแนะนำการคงอยู่</string>
+
+</resources>

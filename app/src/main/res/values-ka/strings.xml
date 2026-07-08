@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API თითის ანაბეჭდის მკვლევარი</string>
+    <string name="back">უკან</string>
+    <string name="refresh">განაახლეთ</string>
+    <string name="export_report">ექსპორტის ანგარიში</string>
+    <string name="export_chooser_title">AndroWatch ანგარიშის ექსპორტი</string>
+    <string name="about_title">შესახებ</string>
+    <string name="about_heading">მოწყობილობის თითის ანაბეჭდის გამჭვირვალობა</string>
+    <string name="about_inspired">AndroWatch არის Android-ის ალტერნატივა, რომელიც შთაგონებულია Loupe-ით Mysk Research-ის მიერ. ის ასახავს იმას, რაც საჯარო Android API-ებს შეუძლიათ გამოავლინონ თქვენი მოწყობილობის შესახებ.</string>
+    <string name="about_privacy">ყველა კითხვა რჩება თქვენს მოწყობილობაზე. არაფერი არ აიტვირთება, თუ არ გააკეთებთ ცალსახად JSON ანგარიშის ექსპორტს.</string>
+    <string name="onboarding_title">ნახეთ, რას ავლენს Android</string>
+    <string name="onboarding_body">AndroWatch გვიჩვენებს, თუ რა შეუძლია გამოავლინოს Android API-ებმა თქვენი მოწყობილობის შესახებ - იდენტიფიკატორები, სენსორები, ქსელი და სხვა.</string>
+    <string name="onboarding_privacy">არაფერი არ არის ატვირთული. ექსპორტი არის აშკარა და ადგილობრივი.</string>
+    <string name="onboarding_continue">განაგრძეთ</string>
+    <string name="permission_required">საჭიროა ნებართვა</string>
+    <string name="permission_rationale">ამ კატეგორიას სჭირდება მუშაობის დროის ნებართვა აგრეგირებული მეტამონაცემების წასაკითხად. Raw PII არასოდეს არის ნაჩვენები.</string>
+    <string name="grant_permission">ნებართვის გაცემა</string>
+    <string name="summary_title">თითის ანაბეჭდის შეჯამება</string>
+    <string name="summary_empty">განაახლეთ კატეგორიები შეჯამების შესაქმნელად.</string>
+    <string name="tier_passive">პასიური</string>
+    <string name="tier_permissioned">საჭიროებს ნებართვას</string>
+    <string name="tier_advanced">გაფართოებული</string>
+    <string name="signal_count">%1$d სიგნალები</string>
+    <string name="live_badge">ცოცხალი</string>
+    <string name="loading">სიგნალების შეგროვება…</string>
+    <string name="error_collecting">შეცდომა სიგნალების შეგროვებისას.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">ხელახლა სცადეთ</string>
+    <string name="export_error">ანგარიშის ექსპორტი ვერ მოხერხდა.</string>
+    <string name="export_empty">ექსპორტზე ჯერ არაფერია. ჯერ განაახლეთ კატეგორიები.</string>
+    <string name="no_signals">ჯერ არ არის შეგროვებული სიგნალები.</string>
+    <string name="show_rationale">რატომ აქვს ამას მნიშვნელობა</string>
+    <string name="hide_rationale">დასაბუთების დამალვა</string>
+    <string name="raw_value">Raw API მნიშვნელობა</string>
+    <string name="value_unknown">უცნობი</string>
+    <string name="value_unknown_locale">უცნობი ლოკალი</string>
+    <string name="value_unknown_device">უცნობი მოწყობილობა</string>
+    <string name="value_unknown_battery">უცნობი ბატარეა</string>
+    <string name="value_unknown_network">უცნობი ქსელი</string>
+    <string name="value_none">არცერთი</string>
+    <string name="value_unavailable">მიუწვდომელია</string>
+    <string name="value_na">ნ/ა</string>
+    <string name="value_true">დიახ</string>
+    <string name="value_false">არა</string>
+
+</resources>

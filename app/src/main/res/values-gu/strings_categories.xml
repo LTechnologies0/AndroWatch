@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">ઉપકરણ ઓળખ</string>
+    <string name="cat_device_identity_subtitle">ઓળખકર્તા અને હાર્ડવેર લક્ષણો</string>
+    <string name="cat_google_account_title">Google એકાઉન્ટ</string>
+    <string name="cat_google_account_subtitle">એકાઉન્ટ હાજરી સંકેતો</string>
+    <string name="cat_system_info_title">સિસ્ટમ માહિતી</string>
+    <string name="cat_system_info_subtitle">OS અને રનટાઇમ વિગતો</string>
+    <string name="cat_display_title">ડિસ્પ્લે</string>
+    <string name="cat_display_subtitle">સ્ક્રીન ક્ષમતાઓ અને ઘનતા</string>
+    <string name="cat_locale_title">લોકેલ અને પ્રદેશ</string>
+    <string name="cat_locale_subtitle">ભાષા અને સમય ઝોન ફૂટપ્રિન્ટ</string>
+    <string name="cat_accessibility_title">સુલભતા</string>
+    <string name="cat_accessibility_subtitle">સહાયક સેટિંગ્સ અને ધ્વજ</string>
+    <string name="cat_device_motion_title">ઉપકરણ ગતિ</string>
+    <string name="cat_device_motion_subtitle">સેન્સરની હાજરી અને સ્થિતિ</string>
+    <string name="cat_battery_title">બેટરી અને પાવર</string>
+    <string name="cat_battery_subtitle">બેટરી અને પાવર મોડ ડેટા</string>
+    <string name="cat_storage_title">સંગ્રહ</string>
+    <string name="cat_storage_subtitle">વોલ્યુમ અને સ્ટોરેજ ટોટલ</string>
+    <string name="cat_network_title">નેટવર્ક</string>
+    <string name="cat_network_subtitle">કનેક્ટિવિટી અને VPN સ્થિતિ</string>
+    <string name="cat_fonts_title">ફોન્ટ્સ</string>
+    <string name="cat_fonts_subtitle">ફોન્ટ ઉપલબ્ધતા નમૂના</string>
+    <string name="cat_installed_voices_title">ઇન્સ્ટોલ કરેલ અવાજો</string>
+    <string name="cat_installed_voices_subtitle">સ્પીચ એન્જિન અને વૉઇસ સપોર્ટ</string>
+    <string name="cat_app_info_title">એપ્લિકેશન અને બંડલ</string>
+    <string name="cat_app_info_subtitle">પેકેજ બિલ્ડ મેટાડેટા</string>
+    <string name="cat_pasteboard_title">પેસ્ટબોર્ડ</string>
+    <string name="cat_pasteboard_subtitle">માત્ર ક્લિપબોર્ડ મેટાડેટા</string>
+    <string name="cat_audio_title">ઓડિયો</string>
+    <string name="cat_audio_subtitle">ઓડિયો આઉટપુટ અને રૂટ વિગતો</string>
+    <string name="cat_graphics_title">ગ્રાફિક્સ</string>
+    <string name="cat_graphics_subtitle">GPU / GL અમલીકરણ સંકેતો</string>
+    <string name="cat_telephony_title">ટેલિફોની</string>
+    <string name="cat_telephony_subtitle">વાહક અને રેડિયો મેટાડેટા</string>
+    <string name="cat_motion_title">મોશન અને સેન્સર્સ</string>
+    <string name="cat_motion_subtitle">પરવાનગી-ગેટેડ ગતિ વિગતો</string>
+    <string name="cat_location_title">સ્થાન</string>
+    <string name="cat_location_subtitle">સ્થિતિ અને પ્રદાતા મેટાડેટા</string>
+    <string name="cat_cameras_title">કેમેરા</string>
+    <string name="cat_cameras_subtitle">કેમેરા ક્ષમતાઓ અને ગણતરી</string>
+    <string name="cat_bluetooth_title">બ્લૂટૂથ</string>
+    <string name="cat_bluetooth_subtitle">બ્લૂટૂથ સ્થિતિ અને જોડી આંકડા</string>
+    <string name="cat_local_network_title">સ્થાનિક નેટવર્ક</string>
+    <string name="cat_local_network_subtitle">નજીકના નેટવર્ક પર્યાવરણ</string>
+    <string name="cat_contacts_title">સંપર્કો</string>
+    <string name="cat_contacts_subtitle">માત્ર ડેટાબેઝ મેટાડેટાનો સંપર્ક કરો</string>
+    <string name="cat_photos_title">ફોટા</string>
+    <string name="cat_photos_subtitle">માત્ર મીડિયા લાઇબ્રેરી મેટાડેટા</string>
+    <string name="cat_calendar_title">કેલેન્ડર</string>
+    <string name="cat_calendar_subtitle">કૅલેન્ડર એકાઉન્ટ મેટાડેટા</string>
+    <string name="cat_reminders_title">રીમાઇન્ડર્સ</string>
+    <string name="cat_reminders_subtitle">કાર્ય/રિમાઇન્ડર પ્રદાતા મેટાડેટા</string>
+    <string name="cat_music_library_title">સંગીત પુસ્તકાલય</string>
+    <string name="cat_music_library_subtitle">માત્ર ઑડિઓ મીડિયા મેટાડેટા</string>
+    <string name="cat_installed_apps_probe_title">ઇન્સ્ટોલ કરેલ એપ્સ પ્રોબ</string>
+    <string name="cat_installed_apps_probe_subtitle">ઉદ્દેશ્ય યોજનાની તપાસ</string>
+    <string name="cat_webview_fingerprint_title">WebView ફિંગરપ્રિન્ટ</string>
+    <string name="cat_webview_fingerprint_subtitle">બ્રાઉઝર જેવી રેન્ડરીંગ પ્રોફાઇલ</string>
+    <string name="cat_previous_installs_log_title">પહેલાનું ઇન્સ્ટોલ લૉગ</string>
+    <string name="cat_previous_installs_log_subtitle">દ્રઢતા સંકેતો સ્થાપિત કરો</string>
+
+</resources>

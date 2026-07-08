@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API хурууны хээ судлаач</string>
+    <string name="back">Буцах</string>
+    <string name="refresh">Сэргээх</string>
+    <string name="export_report">Экспортын тайлан</string>
+    <string name="export_chooser_title">AndroWatch тайланг экспортлох</string>
+    <string name="about_title">тухай</string>
+    <string name="about_heading">Төхөөрөмжийн хурууны хээ ил тод байдал</string>
+    <string name="about_inspired">AndroWatch бол Mysk Research-ийн Loupe-ээс санаа авсан Android хувилбар юм. Энэ нь олон нийтийн Android API-ууд таны төхөөрөмжийн талаар юу илрүүлж болохыг харуулдаг.</string>
+    <string name="about_privacy">Бүх уншилтууд таны төхөөрөмж дээр үлдэнэ. Хэрэв та JSON тайланг тодорхой экспортлохгүй бол юу ч байршуулахгүй.</string>
+    <string name="onboarding_title">Андройд юу харуулж байгааг хараарай</string>
+    <string name="onboarding_body">AndroWatch нь Android API-ууд таны төхөөрөмжийн танигч, мэдрэгч, сүлжээ гэх мэт юуг илрүүлж болохыг харуулдаг.</string>
+    <string name="onboarding_privacy">Юу ч байршуулаагүй байна. Экспорт нь тодорхой бөгөөд орон нутгийн шинж чанартай байдаг.</string>
+    <string name="onboarding_continue">Үргэлжлүүлэх</string>
+    <string name="permission_required">Зөвшөөрөл шаардлагатай</string>
+    <string name="permission_rationale">Энэ ангилалд нэгтгэсэн мета өгөгдлийг уншихын тулд ажиллах цагийн зөвшөөрөл шаардлагатай. Түүхий PII хэзээ ч харагдахгүй.</string>
+    <string name="grant_permission">Зөвшөөрөл олгох</string>
+    <string name="summary_title">Хурууны хээний хураангуй</string>
+    <string name="summary_empty">Дүгнэлт үүсгэхийн тулд ангиллыг сэргээнэ үү.</string>
+    <string name="tier_passive">Идэвхгүй</string>
+    <string name="tier_permissioned">Зөвшөөрөл хэрэгтэй</string>
+    <string name="tier_advanced">Дэвшилтэт</string>
+    <string name="signal_count">%1$d дохио</string>
+    <string name="live_badge">Амьд</string>
+    <string name="loading">Дохио цуглуулж байна...</string>
+    <string name="error_collecting">Дохио цуглуулах явцад гарсан алдаа.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Дахин оролдоно уу</string>
+    <string name="export_error">Тайланг экспорт хийж чадсангүй.</string>
+    <string name="export_empty">Одоогоор экспортлох зүйл алга. Эхлээд категориудыг сэргээнэ үү.</string>
+    <string name="no_signals">Одоогоор ямар ч дохио цуглуулаагүй байна.</string>
+    <string name="show_rationale">Энэ яагаад чухал вэ</string>
+    <string name="hide_rationale">Үндэслэлээ нуу</string>
+    <string name="raw_value">Түүхий API утга</string>
+    <string name="value_unknown">үл мэдэгдэх</string>
+    <string name="value_unknown_locale">үл мэдэгдэх нутаг дэвсгэр</string>
+    <string name="value_unknown_device">үл мэдэгдэх төхөөрөмж</string>
+    <string name="value_unknown_battery">үл мэдэгдэх зай</string>
+    <string name="value_unknown_network">үл мэдэгдэх сүлжээ</string>
+    <string name="value_none">аль нь ч биш</string>
+    <string name="value_unavailable">боломжгүй</string>
+    <string name="value_na">үгүй</string>
+    <string name="value_true">тиймээ</string>
+    <string name="value_false">үгүй</string>
+
+</resources>

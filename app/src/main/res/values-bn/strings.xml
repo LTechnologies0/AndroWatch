@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">অ্যান্ড্রয়েড এপিআই ফিঙ্গারপ্রিন্ট এক্সপ্লোরার</string>
+    <string name="back">ব্যাক</string>
+    <string name="refresh">রিফ্রেশ</string>
+    <string name="export_report">রপ্তানি প্রতিবেদন</string>
+    <string name="export_chooser_title">AndroWatch রিপোর্ট রপ্তানি করুন</string>
+    <string name="about_title">সম্পর্কে</string>
+    <string name="about_heading">ডিভাইস ফিঙ্গারপ্রিন্ট স্বচ্ছতা</string>
+    <string name="about_inspired">AndroWatch হল একটি Android বিকল্প যা Mysk গবেষণা দ্বারা Loupe দ্বারা অনুপ্রাণিত। এটি প্রকাশ করে যে সর্বজনীন অ্যান্ড্রয়েড এপিআই আপনার ডিভাইস সম্পর্কে কী প্রকাশ করতে পারে।</string>
+    <string name="about_privacy">সমস্ত রিডিং আপনার ডিভাইসে থাকে। আপনি স্পষ্টভাবে একটি JSON রিপোর্ট রপ্তানি না করা পর্যন্ত কিছুই আপলোড করা হয় না।</string>
+    <string name="onboarding_title">অ্যান্ড্রয়েড কী প্রকাশ করে তা দেখুন</string>
+    <string name="onboarding_body">AndroWatch দেখায় যে Android APIগুলি আপনার ডিভাইস সম্পর্কে কী প্রকাশ করতে পারে — শনাক্তকারী, সেন্সর, নেটওয়ার্ক এবং আরও অনেক কিছু।</string>
+    <string name="onboarding_privacy">কিছুই আপলোড করা হয় না. রপ্তানি সুস্পষ্ট এবং স্থানীয়।</string>
+    <string name="onboarding_continue">চালিয়ে যান</string>
+    <string name="permission_required">অনুমতি প্রয়োজন</string>
+    <string name="permission_rationale">সমষ্টিগত মেটাডেটা পড়ার জন্য এই বিভাগের রানটাইম অনুমতি প্রয়োজন। কাঁচা PII কখনই প্রদর্শিত হয় না।</string>
+    <string name="grant_permission">অনুমতি দিন</string>
+    <string name="summary_title">আঙুলের ছাপের সারাংশ</string>
+    <string name="summary_empty">একটি সারাংশ তৈরি করতে বিভাগ রিফ্রেশ করুন।</string>
+    <string name="tier_passive">নিষ্ক্রিয়</string>
+    <string name="tier_permissioned">অনুমতি প্রয়োজন</string>
+    <string name="tier_advanced">উন্নত</string>
+    <string name="signal_count">%1$d সংকেত</string>
+    <string name="live_badge">লাইভ</string>
+    <string name="loading">সংকেত সংগ্রহ করা হচ্ছে...</string>
+    <string name="error_collecting">সংকেত সংগ্রহ করার সময় ত্রুটি।</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">আবার চেষ্টা করুন</string>
+    <string name="export_error">প্রতিবেদন রপ্তানি করা যায়নি।</string>
+    <string name="export_empty">এখনো রপ্তানি করার কিছু নেই। প্রথমে বিভাগগুলি রিফ্রেশ করুন।</string>
+    <string name="no_signals">এখনও কোন সংকেত সংগ্রহ করা হয়নি.</string>
+    <string name="show_rationale">কেন এই ব্যাপার</string>
+    <string name="hide_rationale">যুক্তি লুকান</string>
+    <string name="raw_value">কাঁচা API মান</string>
+    <string name="value_unknown">অজানা</string>
+    <string name="value_unknown_locale">অজানা লোকেল</string>
+    <string name="value_unknown_device">অজানা ডিভাইস</string>
+    <string name="value_unknown_battery">অজানা ব্যাটারি</string>
+    <string name="value_unknown_network">অজানা নেটওয়ার্ক</string>
+    <string name="value_none">কোনটি</string>
+    <string name="value_unavailable">অনুপলব্ধ</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">হ্যাঁ</string>
+    <string name="value_false">না</string>
+
+</resources>

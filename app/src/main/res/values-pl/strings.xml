@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Eksplorator linii papilarnych API Androida</string>
+    <string name="back">Z powrotem</string>
+    <string name="refresh">Odświeżać</string>
+    <string name="export_report">Eksportuj raport</string>
+    <string name="export_chooser_title">Eksportuj raport AndroWatch</string>
+    <string name="about_title">O</string>
+    <string name="about_heading">Przezroczystość linii papilarnych urządzenia</string>
+    <string name="about_inspired">AndroWatch to alternatywa dla Androida inspirowana Loupe firmy Mysk Research. Pokazuje, co publiczne interfejsy API systemu Android mogą ujawnić na temat Twojego urządzenia.</string>
+    <string name="about_privacy">Wszystkie odczyty pozostają na Twoim urządzeniu. Nic nie zostanie przesłane, chyba że jawnie wyeksportujesz raport JSON.</string>
+    <string name="onboarding_title">Zobacz, co odkrywa Android</string>
+    <string name="onboarding_body">AndroWatch pokazuje, co interfejsy API systemu Android mogą ujawnić na temat Twojego urządzenia — identyfikatory, czujniki, sieć i nie tylko.</string>
+    <string name="onboarding_privacy">Nic nie zostało przesłane. Eksport ma charakter jawny i lokalny.</string>
+    <string name="onboarding_continue">Kontynuować</string>
+    <string name="permission_required">Wymagane pozwolenie</string>
+    <string name="permission_rationale">Ta kategoria wymaga uprawnień wykonawczych do odczytu zagregowanych metadanych. Surowe dane osobowe nigdy nie są wyświetlane.</string>
+    <string name="grant_permission">Udziel pozwolenia</string>
+    <string name="summary_title">Podsumowanie odcisków palców</string>
+    <string name="summary_empty">Odśwież kategorie, aby wygenerować podsumowanie.</string>
+    <string name="tier_passive">Pasywny</string>
+    <string name="tier_permissioned">Potrzebuje pozwolenia</string>
+    <string name="tier_advanced">Zaawansowany</string>
+    <string name="signal_count">%1$d sygnały</string>
+    <string name="live_badge">Na żywo</string>
+    <string name="loading">Zbieranie sygnałów…</string>
+    <string name="error_collecting">Błąd podczas zbierania sygnałów.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Spróbować ponownie</string>
+    <string name="export_error">Nie można wyeksportować raportu.</string>
+    <string name="export_empty">Nie ma jeszcze nic do eksportu. Najpierw odśwież kategorie.</string>
+    <string name="no_signals">Nie zebrano jeszcze żadnych sygnałów.</string>
+    <string name="show_rationale">Dlaczego to ma znaczenie</string>
+    <string name="hide_rationale">Ukryj uzasadnienie</string>
+    <string name="raw_value">Surowa wartość API</string>
+    <string name="value_unknown">nieznany</string>
+    <string name="value_unknown_locale">nieznane miejsce</string>
+    <string name="value_unknown_device">nieznane urządzenie</string>
+    <string name="value_unknown_battery">nieznana bateria</string>
+    <string name="value_unknown_network">nieznana sieć</string>
+    <string name="value_none">nic</string>
+    <string name="value_unavailable">nie płynny</string>
+    <string name="value_na">nie dotyczy</string>
+    <string name="value_true">Tak</string>
+    <string name="value_false">NIE</string>
+
+</resources>

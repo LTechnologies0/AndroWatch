@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Identita zariadenia</string>
+    <string name="cat_device_identity_subtitle">Identifikátory a hardvérové ​​vlastnosti</string>
+    <string name="cat_google_account_title">účet Google</string>
+    <string name="cat_google_account_subtitle">Signály prítomnosti účtu</string>
+    <string name="cat_system_info_title">Informácie o systéme</string>
+    <string name="cat_system_info_subtitle">Podrobnosti o OS a runtime</string>
+    <string name="cat_display_title">Displej</string>
+    <string name="cat_display_subtitle">Možnosti a hustota obrazovky</string>
+    <string name="cat_locale_title">Miestne nastavenie a región</string>
+    <string name="cat_locale_subtitle">Jazyk a časové pásmo</string>
+    <string name="cat_accessibility_title">Prístupnosť</string>
+    <string name="cat_accessibility_subtitle">Pomocné nastavenia a príznaky</string>
+    <string name="cat_device_motion_title">Pohyb zariadenia</string>
+    <string name="cat_device_motion_subtitle">Prítomnosť a stav snímača</string>
+    <string name="cat_battery_title">Batéria a napájanie</string>
+    <string name="cat_battery_subtitle">Údaje o batérii a režime napájania</string>
+    <string name="cat_storage_title">Skladovanie</string>
+    <string name="cat_storage_subtitle">Celkový objem a úložisko</string>
+    <string name="cat_network_title">sieť</string>
+    <string name="cat_network_subtitle">Konektivita a stav VPN</string>
+    <string name="cat_fonts_title">Písma</string>
+    <string name="cat_fonts_subtitle">Vzor dostupnosti písma</string>
+    <string name="cat_installed_voices_title">Nainštalované hlasy</string>
+    <string name="cat_installed_voices_subtitle">Podpora reči a hlasu</string>
+    <string name="cat_app_info_title">Aplikácia a balík</string>
+    <string name="cat_app_info_subtitle">Metadáta zostavy balíka</string>
+    <string name="cat_pasteboard_title">Lepenková lepenka</string>
+    <string name="cat_pasteboard_subtitle">Iba metadáta schránky</string>
+    <string name="cat_audio_title">Zvuk</string>
+    <string name="cat_audio_subtitle">Zvukové výstupy a podrobnosti o trase</string>
+    <string name="cat_graphics_title">Grafika</string>
+    <string name="cat_graphics_subtitle">Signály implementácie GPU / GL</string>
+    <string name="cat_telephony_title">telefonovanie</string>
+    <string name="cat_telephony_subtitle">Metadáta nosiča a rádia</string>
+    <string name="cat_motion_title">Pohyb a senzory</string>
+    <string name="cat_motion_subtitle">Podrobnosti o pohybe s oprávnením</string>
+    <string name="cat_location_title">Poloha</string>
+    <string name="cat_location_subtitle">Pozícia a metadáta poskytovateľa</string>
+    <string name="cat_cameras_title">Kamery</string>
+    <string name="cat_cameras_subtitle">Možnosti fotoaparátu a počet</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Stav Bluetooth a spárované štatistiky</string>
+    <string name="cat_local_network_title">Lokálna sieť</string>
+    <string name="cat_local_network_subtitle">Blízke sieťové prostredie</string>
+    <string name="cat_contacts_title">Kontakty</string>
+    <string name="cat_contacts_subtitle">Iba metadáta databázy kontaktov</string>
+    <string name="cat_photos_title">Fotografie</string>
+    <string name="cat_photos_subtitle">Iba metadáta knižnice médií</string>
+    <string name="cat_calendar_title">Kalendár</string>
+    <string name="cat_calendar_subtitle">Metadáta účtu kalendára</string>
+    <string name="cat_reminders_title">Pripomienky</string>
+    <string name="cat_reminders_subtitle">Metadáta poskytovateľa úloh/pripomienok</string>
+    <string name="cat_music_library_title">Hudobná knižnica</string>
+    <string name="cat_music_library_subtitle">Iba metadáta zvukových médií</string>
+    <string name="cat_installed_apps_probe_title">Sonda nainštalovaných aplikácií</string>
+    <string name="cat_installed_apps_probe_subtitle">Skúmanie schémy zámerov</string>
+    <string name="cat_webview_fingerprint_title">WebView odtlačok prsta</string>
+    <string name="cat_webview_fingerprint_subtitle">Profil vykresľovania podobný prehliadaču</string>
+    <string name="cat_previous_installs_log_title">Denník predchádzajúcich inštalácií</string>
+    <string name="cat_previous_installs_log_subtitle">Inštalovať tipy na pretrvávanie</string>
+
+</resources>

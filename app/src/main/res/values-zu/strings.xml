@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Isihloli sezigxivizo zeminwe se-API ye-Android</string>
+    <string name="back">Emuva</string>
+    <string name="refresh">Vuselela</string>
+    <string name="export_report">Thumela umbiko</string>
+    <string name="export_chooser_title">Thumela umbiko we-AndroWatch</string>
+    <string name="about_title">Mayelana</string>
+    <string name="about_heading">Ukukhanya kwezigxivizo zeminwe zedivayisi</string>
+    <string name="about_inspired">I-AndroWatch ingenye ye-Android egqugquzelwe yiLoupe yiMysk Research. Iveza lokho okuvezwa ama-API asesidlangalaleni e-Android mayelana nedivayisi yakho.</string>
+    <string name="about_privacy">Konke ukufundwa kuhlala kudivayisi yakho. Akukho okulayishwayo ngaphandle kokuthi uthumele ngokusobala umbiko we-JSON.</string>
+    <string name="onboarding_title">Bona ukuthi i-Android yembulani</string>
+    <string name="onboarding_body">I-AndroWatch ibonisa lokho ama-Android APIs angakuveza mayelana nedivayisi yakho — izihlonzi, izinzwa, inethiwekhi, nokuningi.</string>
+    <string name="onboarding_privacy">Akukho okulayishiwe. Ukuthunyelwa kwamanye amazwe kucacile futhi kwasendaweni.</string>
+    <string name="onboarding_continue">Qhubeka</string>
+    <string name="permission_required">Imvume iyadingeka</string>
+    <string name="permission_rationale">Lesi sigaba sidinga imvume yesikhathi sokusebenza ukuze sifunde imethadatha ehlanganisiwe. I-PII eluhlaza ayivezwa neze.</string>
+    <string name="grant_permission">Nikeza imvume</string>
+    <string name="summary_title">Isifinyezo sezigxivizo zeminwe</string>
+    <string name="summary_empty">Vuselela izigaba ukuze wenze isifinyezo.</string>
+    <string name="tier_passive">Ungenzi lutho</string>
+    <string name="tier_permissioned">Idinga imvume</string>
+    <string name="tier_advanced">Okuthuthukile</string>
+    <string name="signal_count">%1$d amasignali</string>
+    <string name="live_badge">Phila</string>
+    <string name="loading">Iqoqa amasignali...</string>
+    <string name="error_collecting">Iphutha ngenkathi kuqoqwa amasignali.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Zama futhi</string>
+    <string name="export_error">Ayikwazanga ukukhipha umbiko.</string>
+    <string name="export_empty">Akukho okungathunyelwa okwamanje. Vuselela izigaba kuqala.</string>
+    <string name="no_signals">Awekho amasiginali aqoqiwe okwamanje.</string>
+    <string name="show_rationale">Kungani lokhu kubalulekile</string>
+    <string name="hide_rationale">Fihla ukucabanga</string>
+    <string name="raw_value">Inani le-API eluhlaza</string>
+    <string name="value_unknown">akwaziwa</string>
+    <string name="value_unknown_locale">indawo engaziwa</string>
+    <string name="value_unknown_device">idivayisi engaziwa</string>
+    <string name="value_unknown_battery">ibhethri elingaziwa</string>
+    <string name="value_unknown_network">inethiwekhi engaziwa</string>
+    <string name="value_none">akukho</string>
+    <string name="value_unavailable">akutholakali</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">yebo</string>
+    <string name="value_false">cha</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Auðkenni tækisins</string>
+    <string name="cat_device_identity_subtitle">Auðkenni og eiginleikar vélbúnaðar</string>
+    <string name="cat_google_account_title">Google reikningur</string>
+    <string name="cat_google_account_subtitle">Viðverumerki reiknings</string>
+    <string name="cat_system_info_title">Kerfisupplýsingar</string>
+    <string name="cat_system_info_subtitle">Upplýsingar um stýrikerfi og keyrslutíma</string>
+    <string name="cat_display_title">Skjár</string>
+    <string name="cat_display_subtitle">Skjárgeta og þéttleiki</string>
+    <string name="cat_locale_title">Staður og svæði</string>
+    <string name="cat_locale_subtitle">Tungumál og tímabeltisfótspor</string>
+    <string name="cat_accessibility_title">Aðgengi</string>
+    <string name="cat_accessibility_subtitle">Hjálparstillingar og fánar</string>
+    <string name="cat_device_motion_title">Tæki Hreyfing</string>
+    <string name="cat_device_motion_subtitle">Viðvera skynjara og ástand</string>
+    <string name="cat_battery_title">Rafhlaða &amp; Power</string>
+    <string name="cat_battery_subtitle">Gögn um rafhlöðu og aflstillingu</string>
+    <string name="cat_storage_title">Geymsla</string>
+    <string name="cat_storage_subtitle">Heildarmagn og geymsla</string>
+    <string name="cat_network_title">Net</string>
+    <string name="cat_network_subtitle">Tengingar og VPN staða</string>
+    <string name="cat_fonts_title">Leturgerðir</string>
+    <string name="cat_fonts_subtitle">Sýnishorn leturgerða</string>
+    <string name="cat_installed_voices_title">Uppsettar raddir</string>
+    <string name="cat_installed_voices_subtitle">Talvél og raddstuðningur</string>
+    <string name="cat_app_info_title">App og búnt</string>
+    <string name="cat_app_info_subtitle">Lýsigögn pakkasmíða</string>
+    <string name="cat_pasteboard_title">Pasteboard</string>
+    <string name="cat_pasteboard_subtitle">Aðeins lýsigögn klemmuspjalds</string>
+    <string name="cat_audio_title">Hljóð</string>
+    <string name="cat_audio_subtitle">Hljóðúttak og leiðarupplýsingar</string>
+    <string name="cat_graphics_title">Grafík</string>
+    <string name="cat_graphics_subtitle">GPU / GL útfærslumerki</string>
+    <string name="cat_telephony_title">Símakerfi</string>
+    <string name="cat_telephony_subtitle">Síma- og útvarpslýsigögn</string>
+    <string name="cat_motion_title">Hreyfing og skynjarar</string>
+    <string name="cat_motion_subtitle">Upplýsingar um hreyfingar með leyfishlífum</string>
+    <string name="cat_location_title">Staðsetning</string>
+    <string name="cat_location_subtitle">Staða og lýsigögn veitenda</string>
+    <string name="cat_cameras_title">Myndavélar</string>
+    <string name="cat_cameras_subtitle">Myndavélarmöguleikar og talning</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth staða og pöruð tölfræði</string>
+    <string name="cat_local_network_title">Staðbundið net</string>
+    <string name="cat_local_network_subtitle">Nálægt netumhverfi</string>
+    <string name="cat_contacts_title">Tengiliðir</string>
+    <string name="cat_contacts_subtitle">Aðeins lýsigögn tengiliðagagnagrunns</string>
+    <string name="cat_photos_title">Myndir</string>
+    <string name="cat_photos_subtitle">Eingöngu lýsigögn fjölmiðlasafns</string>
+    <string name="cat_calendar_title">Dagatal</string>
+    <string name="cat_calendar_subtitle">Lýsigögn dagatalsreiknings</string>
+    <string name="cat_reminders_title">Áminningar</string>
+    <string name="cat_reminders_subtitle">Lýsigögn verkefnis/áminningarveitu</string>
+    <string name="cat_music_library_title">Tónlistarbókasafn</string>
+    <string name="cat_music_library_subtitle">Aðeins lýsigögn hljóðmiðla</string>
+    <string name="cat_installed_apps_probe_title">Uppsett Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Kannun ásetningskerfis</string>
+    <string name="cat_webview_fingerprint_title">WebView fingrafar</string>
+    <string name="cat_webview_fingerprint_subtitle">Sýningarsnið sem líkist vafra</string>
+    <string name="cat_previous_installs_log_title">Fyrri uppsetningarskrá</string>
+    <string name="cat_previous_installs_log_subtitle">Settu upp vísbendingar um þrautseigju</string>
+
+</resources>

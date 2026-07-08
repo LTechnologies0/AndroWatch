@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Ez az eszköz jelenleg a következőt jelenti: %1$s.</string>
+    <string name="summary_line_model">A hardvermodell a következőképpen jelenik meg: %1$s.</string>
+    <string name="summary_line_android_id">Az alkalmazás ANDROID_ID-je %1$s.</string>
+    <string name="summary_line_battery">Az akkumulátor pillanatképe a következőt jelzi: %1$s.</string>
+    <string name="summary_line_network">Aktív hálózati átvitelek: %1$s.</string>
+    <string name="summary_line_authenticators">Fiókhitelesítők láthatók: %1$s.</string>
+    <string name="summary_line_privacy">Az AndroWatch ezeket az értékeket az eszközön tartja, hacsak nem exportálja őket.</string>
+
+</resources>

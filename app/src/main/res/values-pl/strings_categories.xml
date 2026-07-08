@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Tożsamość urządzenia</string>
+    <string name="cat_device_identity_subtitle">Identyfikatory i cechy sprzętowe</string>
+    <string name="cat_google_account_title">Konto Google</string>
+    <string name="cat_google_account_subtitle">Sygnały obecności konta</string>
+    <string name="cat_system_info_title">Informacje o systemie</string>
+    <string name="cat_system_info_subtitle">Szczegóły systemu operacyjnego i środowiska wykonawczego</string>
+    <string name="cat_display_title">Wyświetlacz</string>
+    <string name="cat_display_subtitle">Możliwości i gęstość ekranu</string>
+    <string name="cat_locale_title">Lokalność i region</string>
+    <string name="cat_locale_subtitle">Ślad języka i strefy czasowej</string>
+    <string name="cat_accessibility_title">Dostępność</string>
+    <string name="cat_accessibility_subtitle">Ustawienia pomocnicze i flagi</string>
+    <string name="cat_device_motion_title">Ruch urządzenia</string>
+    <string name="cat_device_motion_subtitle">Obecność i stan czujnika</string>
+    <string name="cat_battery_title">Bateria i moc</string>
+    <string name="cat_battery_subtitle">Dane dotyczące baterii i trybu zasilania</string>
+    <string name="cat_storage_title">Składowanie</string>
+    <string name="cat_storage_subtitle">Sumy wolumenu i pamięci</string>
+    <string name="cat_network_title">Sieć</string>
+    <string name="cat_network_subtitle">Stan łączności i VPN</string>
+    <string name="cat_fonts_title">Czcionki</string>
+    <string name="cat_fonts_subtitle">Próbka dostępności czcionki</string>
+    <string name="cat_installed_voices_title">Zainstalowane głosy</string>
+    <string name="cat_installed_voices_subtitle">Silnik mowy i obsługa głosu</string>
+    <string name="cat_app_info_title">Aplikacja i pakiet</string>
+    <string name="cat_app_info_subtitle">Metadane kompilacji pakietu</string>
+    <string name="cat_pasteboard_title">Papierowy</string>
+    <string name="cat_pasteboard_subtitle">Tylko metadane schowka</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Wyjścia audio i szczegóły trasy</string>
+    <string name="cat_graphics_title">Grafika</string>
+    <string name="cat_graphics_subtitle">Sygnały implementacji GPU/GL</string>
+    <string name="cat_telephony_title">Telefonia</string>
+    <string name="cat_telephony_subtitle">Metadane przewoźnika i radia</string>
+    <string name="cat_motion_title">Ruch i czujniki</string>
+    <string name="cat_motion_subtitle">Szczegóły ruchu objętego zezwoleniem</string>
+    <string name="cat_location_title">Lokalizacja</string>
+    <string name="cat_location_subtitle">Metadane pozycji i dostawcy</string>
+    <string name="cat_cameras_title">Kamery</string>
+    <string name="cat_cameras_subtitle">Możliwości aparatu i liczba</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Stan Bluetooth i statystyki sparowania</string>
+    <string name="cat_local_network_title">Sieć lokalna</string>
+    <string name="cat_local_network_subtitle">Pobliskie środowisko sieciowe</string>
+    <string name="cat_contacts_title">Łączność</string>
+    <string name="cat_contacts_subtitle">Tylko metadane bazy danych kontaktów</string>
+    <string name="cat_photos_title">Zdjęcia</string>
+    <string name="cat_photos_subtitle">Tylko metadane biblioteki multimediów</string>
+    <string name="cat_calendar_title">Kalendarz</string>
+    <string name="cat_calendar_subtitle">Metadane konta kalendarza</string>
+    <string name="cat_reminders_title">Przypomnienia</string>
+    <string name="cat_reminders_subtitle">Metadane dostawcy zadań/przypomnień</string>
+    <string name="cat_music_library_title">Biblioteka muzyczna</string>
+    <string name="cat_music_library_subtitle">Tylko metadane multimediów audio</string>
+    <string name="cat_installed_apps_probe_title">Sonda zainstalowanych aplikacji</string>
+    <string name="cat_installed_apps_probe_subtitle">Badanie schematu intencji</string>
+    <string name="cat_webview_fingerprint_title">Odcisk palca w przeglądarce internetowej</string>
+    <string name="cat_webview_fingerprint_subtitle">Profil renderowania przypominający przeglądarkę</string>
+    <string name="cat_previous_installs_log_title">Poprzedni dziennik instalacji</string>
+    <string name="cat_previous_installs_log_subtitle">Zainstaluj wskazówki dotyczące trwałości</string>
+
+</resources>

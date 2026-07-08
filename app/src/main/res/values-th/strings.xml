@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">สำรวจลายนิ้วมือ Android API</string>
+    <string name="back">กลับ</string>
+    <string name="refresh">รีเฟรช</string>
+    <string name="export_report">รายงานการส่งออก</string>
+    <string name="export_chooser_title">ส่งออกรายงาน AndroWatch</string>
+    <string name="about_title">เกี่ยวกับ</string>
+    <string name="about_heading">ความโปร่งใสของลายนิ้วมือของอุปกรณ์</string>
+    <string name="about_inspired">AndroWatch เป็นทางเลือก Android ที่ได้รับแรงบันดาลใจจาก Loupe โดย Mysk Research โดยจะแสดงสิ่งที่ Android API สาธารณะสามารถเปิดเผยเกี่ยวกับอุปกรณ์ของคุณได้</string>
+    <string name="about_privacy">การอ่านทั้งหมดจะยังคงอยู่ในอุปกรณ์ของคุณ ไม่มีการอัปโหลดใดๆ เว้นแต่คุณจะส่งออกรายงาน JSON อย่างชัดแจ้ง</string>
+    <string name="onboarding_title">ดูว่า Android เผยอะไรบ้าง</string>
+    <string name="onboarding_body">AndroWatch แสดงให้เห็นว่า Android API สามารถเปิดเผยอะไรเกี่ยวกับอุปกรณ์ของคุณได้ เช่น ตัวระบุ เซ็นเซอร์ เครือข่าย และอื่นๆ อีกมากมาย</string>
+    <string name="onboarding_privacy">ไม่มีอะไรถูกอัปโหลด การส่งออกมีความชัดเจนและเป็นท้องถิ่น</string>
+    <string name="onboarding_continue">ดำเนินการต่อ</string>
+    <string name="permission_required">ต้องได้รับอนุญาต</string>
+    <string name="permission_rationale">หมวดหมู่นี้ต้องได้รับอนุญาตรันไทม์จึงจะอ่านข้อมูลเมตารวมได้ Raw PII จะไม่แสดง</string>
+    <string name="grant_permission">ให้สิทธิ์</string>
+    <string name="summary_title">สรุปลายนิ้วมือ</string>
+    <string name="summary_empty">รีเฟรชหมวดหมู่เพื่อสร้างข้อมูลสรุป</string>
+    <string name="tier_passive">เฉยๆ</string>
+    <string name="tier_permissioned">จำเป็นต้องได้รับอนุญาต</string>
+    <string name="tier_advanced">ขั้นสูง</string>
+    <string name="signal_count">%1$d สัญญาณ</string>
+    <string name="live_badge">สด</string>
+    <string name="loading">กำลังรวบรวมสัญญาณ...</string>
+    <string name="error_collecting">เกิดข้อผิดพลาดขณะรวบรวมสัญญาณ</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">ลองอีกครั้ง</string>
+    <string name="export_error">ไม่สามารถส่งออกรายงานได้</string>
+    <string name="export_empty">ยังไม่มีสิ่งใดที่จะส่งออก รีเฟรชหมวดหมู่ก่อน</string>
+    <string name="no_signals">ยังไม่มีการรวบรวมสัญญาณ</string>
+    <string name="show_rationale">ทำไมเรื่องนี้ถึงสำคัญ</string>
+    <string name="hide_rationale">ซ่อนเหตุผล</string>
+    <string name="raw_value">ค่า API ดิบ</string>
+    <string name="value_unknown">ไม่ทราบ</string>
+    <string name="value_unknown_locale">ไม่ทราบสถานที่</string>
+    <string name="value_unknown_device">อุปกรณ์ที่ไม่รู้จัก</string>
+    <string name="value_unknown_battery">แบตเตอรี่ที่ไม่รู้จัก</string>
+    <string name="value_unknown_network">เครือข่ายที่ไม่รู้จัก</string>
+    <string name="value_none">ไม่มี</string>
+    <string name="value_unavailable">ไม่พร้อมใช้งาน</string>
+    <string name="value_na">ไม่มี</string>
+    <string name="value_true">ใช่</string>
+    <string name="value_false">เลขที่</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">ഉപകരണ ഐഡൻ്റിറ്റി</string>
+    <string name="cat_device_identity_subtitle">ഐഡൻ്റിഫയറുകളും ഹാർഡ്‌വെയർ സവിശേഷതകളും</string>
+    <string name="cat_google_account_title">Google അക്കൗണ്ട്</string>
+    <string name="cat_google_account_subtitle">അക്കൗണ്ട് സാന്നിധ്യം സിഗ്നലുകൾ</string>
+    <string name="cat_system_info_title">സിസ്റ്റം വിവരം</string>
+    <string name="cat_system_info_subtitle">OS, റൺടൈം വിശദാംശങ്ങൾ</string>
+    <string name="cat_display_title">പ്രദർശിപ്പിക്കുക</string>
+    <string name="cat_display_subtitle">സ്ക്രീൻ കഴിവുകളും സാന്ദ്രതയും</string>
+    <string name="cat_locale_title">പ്രാദേശികവും പ്രദേശവും</string>
+    <string name="cat_locale_subtitle">ഭാഷയും സമയമേഖലയുടെ കാൽപ്പാടും</string>
+    <string name="cat_accessibility_title">പ്രവേശനക്ഷമത</string>
+    <string name="cat_accessibility_subtitle">സഹായ ക്രമീകരണങ്ങളും ഫ്ലാഗുകളും</string>
+    <string name="cat_device_motion_title">ഉപകരണ ചലനം</string>
+    <string name="cat_device_motion_subtitle">സെൻസറിൻ്റെ സാന്നിധ്യവും അവസ്ഥയും</string>
+    <string name="cat_battery_title">ബാറ്ററിയും പവറും</string>
+    <string name="cat_battery_subtitle">ബാറ്ററി, പവർ മോഡ് ഡാറ്റ</string>
+    <string name="cat_storage_title">സംഭരണം</string>
+    <string name="cat_storage_subtitle">വോളിയവും സംഭരണവും</string>
+    <string name="cat_network_title">നെറ്റ്വർക്ക്</string>
+    <string name="cat_network_subtitle">കണക്റ്റിവിറ്റിയും വിപിഎൻ നിലയും</string>
+    <string name="cat_fonts_title">ഫോണ്ടുകൾ</string>
+    <string name="cat_fonts_subtitle">ഫോണ്ട് ലഭ്യത സാമ്പിൾ</string>
+    <string name="cat_installed_voices_title">ഇൻസ്റ്റാൾ ചെയ്ത ശബ്ദങ്ങൾ</string>
+    <string name="cat_installed_voices_subtitle">സ്പീച്ച് എഞ്ചിനും ശബ്ദ പിന്തുണയും</string>
+    <string name="cat_app_info_title">ആപ്പ് &amp; ബണ്ടിൽ</string>
+    <string name="cat_app_info_subtitle">പാക്കേജ് ബിൽഡ് മെറ്റാഡാറ്റ</string>
+    <string name="cat_pasteboard_title">പേസ്റ്റ്ബോർഡ്</string>
+    <string name="cat_pasteboard_subtitle">ക്ലിപ്പ്ബോർഡ് മെറ്റാഡാറ്റ മാത്രം</string>
+    <string name="cat_audio_title">ഓഡിയോ</string>
+    <string name="cat_audio_subtitle">ഓഡിയോ ഔട്ട്പുട്ടുകളും റൂട്ട് വിശദാംശങ്ങളും</string>
+    <string name="cat_graphics_title">ഗ്രാഫിക്സ്</string>
+    <string name="cat_graphics_subtitle">GPU / GL നടപ്പിലാക്കൽ സിഗ്നലുകൾ</string>
+    <string name="cat_telephony_title">ടെലിഫോണി</string>
+    <string name="cat_telephony_subtitle">കാരിയർ, റേഡിയോ മെറ്റാഡാറ്റ</string>
+    <string name="cat_motion_title">ചലനവും സെൻസറുകളും</string>
+    <string name="cat_motion_subtitle">അനുമതി-ഗേറ്റഡ് ചലന വിശദാംശങ്ങൾ</string>
+    <string name="cat_location_title">സ്ഥാനം</string>
+    <string name="cat_location_subtitle">സ്ഥാനവും ദാതാവിൻ്റെ മെറ്റാഡാറ്റയും</string>
+    <string name="cat_cameras_title">ക്യാമറകൾ</string>
+    <string name="cat_cameras_subtitle">ക്യാമറ കഴിവുകളും എണ്ണവും</string>
+    <string name="cat_bluetooth_title">ബ്ലൂടൂത്ത്</string>
+    <string name="cat_bluetooth_subtitle">ബ്ലൂടൂത്ത് നിലയും ജോടിയാക്കിയ സ്ഥിതിവിവരക്കണക്കുകളും</string>
+    <string name="cat_local_network_title">പ്രാദേശിക നെറ്റ്‌വർക്ക്</string>
+    <string name="cat_local_network_subtitle">അടുത്തുള്ള നെറ്റ്‌വർക്ക് പരിസ്ഥിതി</string>
+    <string name="cat_contacts_title">ബന്ധങ്ങൾ</string>
+    <string name="cat_contacts_subtitle">കോൺടാക്റ്റ് ഡാറ്റാബേസ് മെറ്റാഡാറ്റ മാത്രം</string>
+    <string name="cat_photos_title">ഫോട്ടോകൾ</string>
+    <string name="cat_photos_subtitle">മീഡിയ ലൈബ്രറി മെറ്റാഡാറ്റ മാത്രം</string>
+    <string name="cat_calendar_title">കലണ്ടർ</string>
+    <string name="cat_calendar_subtitle">കലണ്ടർ അക്കൗണ്ട് മെറ്റാഡാറ്റ</string>
+    <string name="cat_reminders_title">ഓർമ്മപ്പെടുത്തലുകൾ</string>
+    <string name="cat_reminders_subtitle">ടാസ്‌ക്/ഓർമ്മപ്പെടുത്തൽ ദാതാവിൻ്റെ മെറ്റാഡാറ്റ</string>
+    <string name="cat_music_library_title">സംഗീത ലൈബ്രറി</string>
+    <string name="cat_music_library_subtitle">ഓഡിയോ മീഡിയ മെറ്റാഡാറ്റ മാത്രം</string>
+    <string name="cat_installed_apps_probe_title">ഇൻസ്റ്റാൾ ചെയ്ത ആപ്‌സ് പ്രോബ്</string>
+    <string name="cat_installed_apps_probe_subtitle">ഇൻ്റൻ്റ് സ്കീം അന്വേഷണം</string>
+    <string name="cat_webview_fingerprint_title">WebView ഫിംഗർപ്രിൻ്റ്</string>
+    <string name="cat_webview_fingerprint_subtitle">ബ്രൗസർ പോലെയുള്ള റെൻഡറിംഗ് പ്രൊഫൈൽ</string>
+    <string name="cat_previous_installs_log_title">മുമ്പത്തെ ഇൻസ്റ്റാളുകളുടെ ലോഗ്</string>
+    <string name="cat_previous_installs_log_subtitle">സ്ഥിരതയുള്ള സൂചനകൾ ഇൻസ്റ്റാൾ ചെയ്യുക</string>
+
+</resources>

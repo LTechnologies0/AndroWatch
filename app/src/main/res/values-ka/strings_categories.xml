@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">მოწყობილობის იდენტიფიკაცია</string>
+    <string name="cat_device_identity_subtitle">იდენტიფიკატორები და ტექნიკის მახასიათებლები</string>
+    <string name="cat_google_account_title">Google ანგარიში</string>
+    <string name="cat_google_account_subtitle">ანგარიშის ყოფნის სიგნალები</string>
+    <string name="cat_system_info_title">სისტემის ინფორმაცია</string>
+    <string name="cat_system_info_subtitle">OS და გაშვების დეტალები</string>
+    <string name="cat_display_title">ჩვენება</string>
+    <string name="cat_display_subtitle">ეკრანის შესაძლებლობები და სიმკვრივე</string>
+    <string name="cat_locale_title">ლოკალი და რეგიონი</string>
+    <string name="cat_locale_subtitle">ენა და დროის სარტყელი</string>
+    <string name="cat_accessibility_title">ხელმისაწვდომობა</string>
+    <string name="cat_accessibility_subtitle">დამხმარე პარამეტრები და დროშები</string>
+    <string name="cat_device_motion_title">მოწყობილობის მოძრაობა</string>
+    <string name="cat_device_motion_subtitle">სენსორის არსებობა და მდგომარეობა</string>
+    <string name="cat_battery_title">ბატარეა და სიმძლავრე</string>
+    <string name="cat_battery_subtitle">ბატარეის და კვების რეჟიმის მონაცემები</string>
+    <string name="cat_storage_title">შენახვა</string>
+    <string name="cat_storage_subtitle">მოცულობა და შენახვის ჯამი</string>
+    <string name="cat_network_title">ქსელი</string>
+    <string name="cat_network_subtitle">კავშირი და VPN სტატუსი</string>
+    <string name="cat_fonts_title">შრიფტები</string>
+    <string name="cat_fonts_subtitle">შრიფტის ხელმისაწვდომობის ნიმუში</string>
+    <string name="cat_installed_voices_title">დაინსტალირებული ხმები</string>
+    <string name="cat_installed_voices_subtitle">მეტყველების ძრავა და ხმის მხარდაჭერა</string>
+    <string name="cat_app_info_title">აპლიკაცია და პაკეტი</string>
+    <string name="cat_app_info_subtitle">პაკეტის აგების მეტამონაცემები</string>
+    <string name="cat_pasteboard_title">პასტა</string>
+    <string name="cat_pasteboard_subtitle">მხოლოდ ბუფერში მეტამონაცემები</string>
+    <string name="cat_audio_title">აუდიო</string>
+    <string name="cat_audio_subtitle">აუდიო გამომავალი და მარშრუტის დეტალები</string>
+    <string name="cat_graphics_title">გრაფიკა</string>
+    <string name="cat_graphics_subtitle">GPU / GL განხორციელების სიგნალები</string>
+    <string name="cat_telephony_title">ტელეფონი</string>
+    <string name="cat_telephony_subtitle">გადამზიდავი და რადიო მეტამონაცემები</string>
+    <string name="cat_motion_title">მოძრაობა და სენსორები</string>
+    <string name="cat_motion_subtitle">ნებართვით შემოსაზღვრული მოძრაობის დეტალები</string>
+    <string name="cat_location_title">მდებარეობა</string>
+    <string name="cat_location_subtitle">პოზიციისა და პროვაიდერის მეტამონაცემები</string>
+    <string name="cat_cameras_title">კამერები</string>
+    <string name="cat_cameras_subtitle">კამერის შესაძლებლობები და რაოდენობა</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth სტატუსი და დაწყვილებული სტატისტიკა</string>
+    <string name="cat_local_network_title">ლოკალური ქსელი</string>
+    <string name="cat_local_network_subtitle">ახლომდებარე ქსელის გარემო</string>
+    <string name="cat_contacts_title">კონტაქტები</string>
+    <string name="cat_contacts_subtitle">დაუკავშირდით მხოლოდ მონაცემთა ბაზის მეტამონაცემებს</string>
+    <string name="cat_photos_title">ფოტოები</string>
+    <string name="cat_photos_subtitle">მხოლოდ მედია ბიბლიოთეკის მეტამონაცემები</string>
+    <string name="cat_calendar_title">კალენდარი</string>
+    <string name="cat_calendar_subtitle">კალენდრის ანგარიშის მეტამონაცემები</string>
+    <string name="cat_reminders_title">შეხსენებები</string>
+    <string name="cat_reminders_subtitle">დავალების/შეხსენების პროვაიდერის მეტამონაცემები</string>
+    <string name="cat_music_library_title">მუსიკალური ბიბლიოთეკა</string>
+    <string name="cat_music_library_subtitle">მხოლოდ აუდიო მედიის მეტამონაცემები</string>
+    <string name="cat_installed_apps_probe_title">დაინსტალირებული Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">განზრახვის სქემის გამოკვლევა</string>
+    <string name="cat_webview_fingerprint_title">WebView თითის ანაბეჭდი</string>
+    <string name="cat_webview_fingerprint_subtitle">ბრაუზერის მსგავსი რენდერის პროფილი</string>
+    <string name="cat_previous_installs_log_title">წინა ინსტალაციების ჟურნალი</string>
+    <string name="cat_previous_installs_log_subtitle">დააინსტალირეთ მდგრადობის მინიშნებები</string>
+
+</resources>

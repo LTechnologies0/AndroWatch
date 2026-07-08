@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">ଆଣ୍ଡ୍ରଏଡ୍ API ଫିଙ୍ଗର ପ୍ରିଣ୍ଟ ଏକ୍ସପ୍ଲୋରର |</string>
+    <string name="back">ପଛକୁ</string>
+    <string name="refresh">ସତେଜ କରନ୍ତୁ |</string>
+    <string name="export_report">ରପ୍ତାନି ରିପୋର୍ଟ</string>
+    <string name="export_chooser_title">ଆଣ୍ଡ୍ରୋ ୱାଚ୍ ରିପୋର୍ଟ ରପ୍ତାନି କରନ୍ତୁ |</string>
+    <string name="about_title">ବିଷୟରେ</string>
+    <string name="about_heading">ଉପକରଣ ଫିଙ୍ଗର ପ୍ରିଣ୍ଟ ସ୍ୱଚ୍ଛତା |</string>
+    <string name="about_inspired">ଆଣ୍ଡ୍ରୋ ୱାଚ୍ ହେଉଛି ଏକ ଆଣ୍ଡ୍ରଏଡ୍ ବିକଳ୍ପ ଯାହାକି ମିସ୍କ୍ ରିସର୍ଚ୍ଚ ଦ୍ୱାରା ଲୁପ୍ ଦ୍ୱାରା ଅନୁପ୍ରାଣିତ | ସାର୍ବଜନୀନ ଆଣ୍ଡ୍ରଏଡ୍ API ଗୁଡିକ ଆପଣଙ୍କ ଡିଭାଇସ୍ ବିଷୟରେ ଯାହା ପ୍ରକାଶ କରିପାରିବ ତାହା ଏହା ପୃଷ୍ଠଭୂମି ଅଟେ |</string>
+    <string name="about_privacy">ସମସ୍ତ ପଠନ ଆପଣଙ୍କ ଡିଭାଇସରେ ରହିଥାଏ | ଯଦି ଆପଣ ଏକ JSON ରିପୋର୍ଟକୁ ସ୍ପଷ୍ଟ ଭାବରେ ରପ୍ତାନି ନକରନ୍ତି ତେବେ କିଛି ଅପଲୋଡ୍ ହେବ ନାହିଁ |</string>
+    <string name="onboarding_title">ଆଣ୍ଡ୍ରଏଡ୍ କ’ଣ ପ୍ରକାଶ କରେ ଦେଖନ୍ତୁ |</string>
+    <string name="onboarding_body">ଆଣ୍ଡ୍ରୱାଚ୍ ଦର୍ଶାଏ ଯେ ଆପଣଙ୍କର ଡିଭାଇସ୍ - ପରିଚାୟକ, ସେନ୍ସର, ନେଟୱାର୍କ ଏବଂ ଅଧିକ ବିଷୟରେ ଆଣ୍ଡ୍ରଏଡ୍ API ଗୁଡିକ କ’ଣ ପ୍ରକାଶ କରିପାରିବ |</string>
+    <string name="onboarding_privacy">କିଛି ଅପଲୋଡ୍ ହୋଇନାହିଁ | ରପ୍ତାନି ସ୍ପଷ୍ଟ ଏବଂ ସ୍ଥାନୀୟ ଅଟେ |</string>
+    <string name="onboarding_continue">ଜାରି ରଖ |</string>
+    <string name="permission_required">ଅନୁମତି ଆବଶ୍ୟକ |</string>
+    <string name="permission_rationale">ଏକତ୍ରିତ ମେଟାଡାଟା ପ read ିବା ପାଇଁ ଏହି ବର୍ଗ ଚାଲିବା ସମୟ ଅନୁମତି ଆବଶ୍ୟକ କରେ | କଞ୍ଚା PII କଦାପି ପ୍ରଦର୍ଶିତ ହୁଏ ନାହିଁ |</string>
+    <string name="grant_permission">ଅନୁମତି ଦିଅନ୍ତୁ |</string>
+    <string name="summary_title">ଫିଙ୍ଗର ପ୍ରିଣ୍ଟ ସାରାଂଶ</string>
+    <string name="summary_empty">ଏକ ସାରାଂଶ ସୃଷ୍ଟି କରିବାକୁ ବର୍ଗଗୁଡିକ ସତେଜ କରନ୍ତୁ |</string>
+    <string name="tier_passive">ନିଷ୍କ୍ରିୟ |</string>
+    <string name="tier_permissioned">ଅନୁମତି ଆବଶ୍ୟକ |</string>
+    <string name="tier_advanced">ଉନ୍ନତ</string>
+    <string name="signal_count">%1$d ସଙ୍କେତ |</string>
+    <string name="live_badge">ଲାଇଭ୍ |</string>
+    <string name="loading">ସଙ୍କେତ ସଂଗ୍ରହ…</string>
+    <string name="error_collecting">ସଙ୍କେତ ସଂଗ୍ରହ କରିବା ସମୟରେ ତ୍ରୁଟି |</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">ପୁନ ry ଚେଷ୍ଟା କରନ୍ତୁ |</string>
+    <string name="export_error">ରିପୋର୍ଟ ରପ୍ତାନି କରିପାରିଲା ନାହିଁ |</string>
+    <string name="export_empty">ଏପର୍ଯ୍ୟନ୍ତ ରପ୍ତାନି କରିବାକୁ କିଛି ନାହିଁ | ପ୍ରଥମେ ବର୍ଗଗୁଡିକ ସତେଜ କରନ୍ତୁ |</string>
+    <string name="no_signals">ଏପର୍ଯ୍ୟନ୍ତ କ No ଣସି ସଙ୍କେତ ସଂଗ୍ରହ କରାଯାଇ ନାହିଁ |</string>
+    <string name="show_rationale">ଏହା କାହିଁକି ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ |</string>
+    <string name="hide_rationale">ଯୁକ୍ତିଯୁକ୍ତତା ଲୁଚାନ୍ତୁ |</string>
+    <string name="raw_value">କଞ୍ଚା API ମୂଲ୍ୟ |</string>
+    <string name="value_unknown">ଅଜ୍ଞାତ</string>
+    <string name="value_unknown_locale">ଅଜ୍ଞାତ ଲୋକାଲ୍ |</string>
+    <string name="value_unknown_device">ଅଜ୍ଞାତ ଉପକରଣ |</string>
+    <string name="value_unknown_battery">ଅଜ୍ଞାତ ବ୍ୟାଟେରୀ |</string>
+    <string name="value_unknown_network">ଅଜ୍ଞାତ ନେଟୱାର୍କ |</string>
+    <string name="value_none">କିଛି ନୁହେଁ |</string>
+    <string name="value_unavailable">ଉପଲବ୍ଧ ନାହିଁ</string>
+    <string name="value_na">n / a</string>
+    <string name="value_true">ହଁ</string>
+    <string name="value_false">ନା</string>
+
+</resources>

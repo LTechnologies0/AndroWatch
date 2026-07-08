@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">हे डिव्हाइस सध्या %1$s लोकेलचा अहवाल देते.</string>
+    <string name="summary_line_model">हार्डवेअर मॉडेल %1$s असे दिसते.</string>
+    <string name="summary_line_android_id">या ॲपसाठी ANDROID_ID %1$s आहे.</string>
+    <string name="summary_line_battery">बॅटरी स्नॅपशॉट %1$s सूचित करतो.</string>
+    <string name="summary_line_network">सक्रिय नेटवर्क वाहतूक: %1$s.</string>
+    <string name="summary_line_authenticators">खाते प्रमाणक दृश्यमान: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch हे वाचन तुम्ही निर्यात करत नाही तोपर्यंत ते डिव्हाइसवर ठेवते.</string>
+
+</resources>

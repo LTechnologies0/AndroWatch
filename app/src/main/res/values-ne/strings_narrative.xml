@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">यो यन्त्रले हाल लोकेल %1$s रिपोर्ट गर्छ।</string>
+    <string name="summary_line_model">हार्डवेयर मोडेल %1$s को रूपमा देखिन्छ।</string>
+    <string name="summary_line_android_id">यो एपको ANDROID_ID %1$s हो।</string>
+    <string name="summary_line_battery">ब्याट्री स्न्यापसटले %1$s लाई संकेत गर्दछ।</string>
+    <string name="summary_line_network">सक्रिय नेटवर्क यातायात: %1$s।</string>
+    <string name="summary_line_authenticators">खाता प्रमाणीकरणकर्ताहरू देखिने: %1$s।</string>
+    <string name="summary_line_privacy">एन्ड्रोवाचले यी पढाइहरूलाई यन्त्रमा राख्छ जबसम्म तपाईंले तिनीहरूलाई निर्यात गर्नुहुन्छ।</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Tämä laite ilmoittaa tällä hetkellä maa-alueen %1$s.</string>
+    <string name="summary_line_model">Laitteistomalli näkyy muodossa %1$s.</string>
+    <string name="summary_line_android_id">Tämän sovelluksen ANDROID_ID on %1$s.</string>
+    <string name="summary_line_battery">Akun tilannekuva osoittaa %1$s.</string>
+    <string name="summary_line_network">Aktiiviset verkkosiirrot: %1$s.</string>
+    <string name="summary_line_authenticators">Tilin todentajat näkyvissä: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch säilyttää nämä lukemat laitteella, ellet viet niitä.</string>
+
+</resources>

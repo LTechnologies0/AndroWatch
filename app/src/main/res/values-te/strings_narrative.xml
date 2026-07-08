@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">ఈ పరికరం ప్రస్తుతం లొకేల్ %1$sని నివేదిస్తుంది.</string>
+    <string name="summary_line_model">హార్డ్‌వేర్ మోడల్ %1$sగా కనిపిస్తుంది.</string>
+    <string name="summary_line_android_id">ఈ యాప్ కోసం ANDROID_ID %1$s.</string>
+    <string name="summary_line_battery">బ్యాటరీ స్నాప్‌షాట్ %1$sని సూచిస్తుంది.</string>
+    <string name="summary_line_network">సక్రియ నెట్‌వర్క్ రవాణాలు: %1$s.</string>
+    <string name="summary_line_authenticators">ఖాతా ప్రామాణీకరణలు కనిపిస్తాయి: %1$s.</string>
+    <string name="summary_line_privacy">మీరు వాటిని ఎగుమతి చేయకుంటే AndroWatch ఈ రీడింగ్‌లను పరికరంలో ఉంచుతుంది.</string>
+
+</resources>

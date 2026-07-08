@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API pirštų atspaudų naršyklė</string>
+    <string name="back">Atgal</string>
+    <string name="refresh">Atnaujinti</string>
+    <string name="export_report">Eksporto ataskaita</string>
+    <string name="export_chooser_title">Eksportuokite AndroWatch ataskaitą</string>
+    <string name="about_title">Apie</string>
+    <string name="about_heading">Įrenginio pirštų atspaudų skaidrumas</string>
+    <string name="about_inspired">„AndroWatch“ yra „Android“ alternatyva, įkvėpta Mysk Research „Loupe“. Atskleidžiama, ką viešosios „Android“ API gali atskleisti apie jūsų įrenginį.</string>
+    <string name="about_privacy">Visi rodmenys lieka jūsų įrenginyje. Nieko neįkeliama, nebent aiškiai eksportuojate JSON ataskaitą.</string>
+    <string name="onboarding_title">Pažiūrėkite, ką atskleidžia „Android“.</string>
+    <string name="onboarding_body">„AndroWatch“ parodo, ką „Android“ API gali atskleisti apie jūsų įrenginį – identifikatorius, jutiklius, tinklą ir kt.</string>
+    <string name="onboarding_privacy">Nieko neįkelta. Eksportas yra aiškus ir vietinis.</string>
+    <string name="onboarding_continue">Tęsti</string>
+    <string name="permission_required">Reikalingas leidimas</string>
+    <string name="permission_rationale">Šiai kategorijai reikalingas vykdymo laikas, kad būtų galima skaityti sukauptus metaduomenis. Neapdorota AII niekada nerodoma.</string>
+    <string name="grant_permission">Suteikite leidimą</string>
+    <string name="summary_title">Pirštų atspaudų santrauka</string>
+    <string name="summary_empty">Atnaujinkite kategorijas, kad sukurtumėte suvestinę.</string>
+    <string name="tier_passive">Pasyvus</string>
+    <string name="tier_permissioned">Reikia leidimo</string>
+    <string name="tier_advanced">Išplėstinė</string>
+    <string name="signal_count">%1$d signalus</string>
+    <string name="live_badge">Tiesiogiai</string>
+    <string name="loading">Renkami signalai…</string>
+    <string name="error_collecting">Klaida renkant signalus.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Bandykite dar kartą</string>
+    <string name="export_error">Nepavyko eksportuoti ataskaitos.</string>
+    <string name="export_empty">Dar nėra ko eksportuoti. Pirmiausia atnaujinkite kategorijas.</string>
+    <string name="no_signals">Kol kas nesurinkta jokių signalų.</string>
+    <string name="show_rationale">Kodėl tai svarbu</string>
+    <string name="hide_rationale">Slėpti pagrindimą</string>
+    <string name="raw_value">Neapdorota API vertė</string>
+    <string name="value_unknown">nežinomas</string>
+    <string name="value_unknown_locale">nežinoma lokalė</string>
+    <string name="value_unknown_device">nežinomas įrenginys</string>
+    <string name="value_unknown_battery">nežinoma baterija</string>
+    <string name="value_unknown_network">nežinomas tinklas</string>
+    <string name="value_none">jokios</string>
+    <string name="value_unavailable">nepasiekiamas</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">taip</string>
+    <string name="value_false">ne</string>
+
+</resources>

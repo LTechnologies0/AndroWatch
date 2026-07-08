@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Penjelajah cap jari API Android</string>
+    <string name="back">belakang</string>
+    <string name="refresh">Segarkan semula</string>
+    <string name="export_report">Laporan eksport</string>
+    <string name="export_chooser_title">Eksport laporan AndroWatch</string>
+    <string name="about_title">Tentang</string>
+    <string name="about_heading">Ketelusan cap jari peranti</string>
+    <string name="about_inspired">AndroWatch ialah alternatif Android yang diilhamkan oleh Loupe oleh Mysk Research. Ia memaparkan perkara yang boleh didedahkan oleh API Android awam tentang peranti anda.</string>
+    <string name="about_privacy">Semua bacaan kekal pada peranti anda. Tiada apa-apa yang dimuat naik melainkan anda mengeksport laporan JSON secara eksplisit.</string>
+    <string name="onboarding_title">Lihat perkara yang didedahkan oleh Android</string>
+    <string name="onboarding_body">AndroWatch menunjukkan perkara yang boleh didedahkan oleh API Android tentang peranti anda — pengecam, penderia, rangkaian dan banyak lagi.</string>
+    <string name="onboarding_privacy">Tiada apa-apa yang dimuat naik. Eksport adalah eksplisit dan tempatan.</string>
+    <string name="onboarding_continue">teruskan</string>
+    <string name="permission_required">Kebenaran diperlukan</string>
+    <string name="permission_rationale">Kategori ini memerlukan kebenaran masa jalan untuk membaca metadata agregat. PII mentah tidak pernah dipaparkan.</string>
+    <string name="grant_permission">Berikan kebenaran</string>
+    <string name="summary_title">Ringkasan cap jari</string>
+    <string name="summary_empty">Muat semula kategori untuk menjana ringkasan.</string>
+    <string name="tier_passive">pasif</string>
+    <string name="tier_permissioned">Memerlukan kebenaran</string>
+    <string name="tier_advanced">Maju</string>
+    <string name="signal_count">%1$d isyarat</string>
+    <string name="live_badge">Langsung</string>
+    <string name="loading">Mengumpul isyarat…</string>
+    <string name="error_collecting">Ralat semasa mengumpul isyarat.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Cuba semula</string>
+    <string name="export_error">Tidak dapat mengeksport laporan.</string>
+    <string name="export_empty">Tiada apa-apa untuk dieksport lagi. Muat semula kategori dahulu.</string>
+    <string name="no_signals">Tiada isyarat dikumpul lagi.</string>
+    <string name="show_rationale">Mengapa ini penting</string>
+    <string name="hide_rationale">Sembunyikan rasional</string>
+    <string name="raw_value">Nilai API mentah</string>
+    <string name="value_unknown">tidak diketahui</string>
+    <string name="value_unknown_locale">tempat yang tidak diketahui</string>
+    <string name="value_unknown_device">peranti tidak diketahui</string>
+    <string name="value_unknown_battery">bateri tidak diketahui</string>
+    <string name="value_unknown_network">rangkaian tidak diketahui</string>
+    <string name="value_none">tiada</string>
+    <string name="value_unavailable">tidak tersedia</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">ya</string>
+    <string name="value_false">tidak</string>
+
+</resources>

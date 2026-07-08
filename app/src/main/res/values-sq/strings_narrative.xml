@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Kjo pajisje aktualisht raporton vendndodhjen %1$s.</string>
+    <string name="summary_line_model">Modeli i harduerit shfaqet si %1$s.</string>
+    <string name="summary_line_android_id">ANDROID_ID për këtë aplikacion është %1$s.</string>
+    <string name="summary_line_battery">Fotografia e baterisë tregon %1$s.</string>
+    <string name="summary_line_network">Transportet aktive të rrjetit: %1$s.</string>
+    <string name="summary_line_authenticators">Vërtetuesit e llogarisë të dukshëm: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch i mban këto lexime në pajisje nëse nuk i eksporton ato.</string>
+
+</resources>

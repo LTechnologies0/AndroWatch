@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">စက်ပစ္စည်း အထောက်အထား</string>
+    <string name="cat_device_identity_subtitle">ခွဲခြားသတ်မှတ်မှုများနှင့် ဟာ့ဒ်ဝဲ အင်္ဂါရပ်များ</string>
+    <string name="cat_google_account_title">Google အကောင့်</string>
+    <string name="cat_google_account_subtitle">အကောင့်တည်ရှိမှုအချက်ပြမှုများ</string>
+    <string name="cat_system_info_title">စနစ်အချက်အလက်</string>
+    <string name="cat_system_info_subtitle">OS နှင့် runtime အသေးစိတ်များ</string>
+    <string name="cat_display_title">ပြသခြင်း။</string>
+    <string name="cat_display_subtitle">မျက်နှာပြင်စွမ်းရည်နှင့် သိပ်သည်းဆ</string>
+    <string name="cat_locale_title">ဒေသနှင့် ဒေသ</string>
+    <string name="cat_locale_subtitle">ဘာသာစကားနှင့် အချိန်ဇုန်ခြေရာ</string>
+    <string name="cat_accessibility_title">သုံးစွဲနိုင်မှု</string>
+    <string name="cat_accessibility_subtitle">အထောက်အကူပြု ဆက်တင်များနှင့် အလံများ</string>
+    <string name="cat_device_motion_title">ကိရိယာ ရွေ့လျားမှု</string>
+    <string name="cat_device_motion_subtitle">အာရုံခံစနစ်နှင့် အခြေအနေ</string>
+    <string name="cat_battery_title">ဘက်ထရီနှင့် ပါဝါ</string>
+    <string name="cat_battery_subtitle">ဘက်ထရီနှင့် ပါဝါမုဒ်ဒေတာ</string>
+    <string name="cat_storage_title">သိုလှောင်မှု</string>
+    <string name="cat_storage_subtitle">ပမာဏနှင့် သိုလှောင်မှု စုစုပေါင်း</string>
+    <string name="cat_network_title">ကွန်ရက်</string>
+    <string name="cat_network_subtitle">ချိတ်ဆက်မှုနှင့် VPN အခြေအနေ</string>
+    <string name="cat_fonts_title">ဖောင့်များ</string>
+    <string name="cat_fonts_subtitle">ဖောင့်ရရှိနိုင်မှုနမူနာ</string>
+    <string name="cat_installed_voices_title">အသံများ ထည့်သွင်းထားသည်။</string>
+    <string name="cat_installed_voices_subtitle">စကားပြောအင်ဂျင်နှင့် အသံပံ့ပိုးမှု</string>
+    <string name="cat_app_info_title">အက်ပ်နှင့် အတွဲ</string>
+    <string name="cat_app_info_subtitle">Package တည်ဆောက်မှု မက်တာဒေတာ</string>
+    <string name="cat_pasteboard_title">Pasteboard</string>
+    <string name="cat_pasteboard_subtitle">ကလစ်ဘုတ် မက်တာဒေတာသာ</string>
+    <string name="cat_audio_title">အသံ</string>
+    <string name="cat_audio_subtitle">အသံထွက်ပေါက်များနှင့် လမ်းကြောင်းအသေးစိတ်</string>
+    <string name="cat_graphics_title">ဂရပ်ဖစ်</string>
+    <string name="cat_graphics_subtitle">GPU/GL အကောင်အထည်ဖော်မှု အချက်ပြမှုများ</string>
+    <string name="cat_telephony_title">တယ်လီဖုန်း</string>
+    <string name="cat_telephony_subtitle">ဝန်ဆောင်မှုပေးသူနှင့် ရေဒီယို မက်တာဒေတာ</string>
+    <string name="cat_motion_title">ရွေ့လျားမှုနှင့် အာရုံခံကိရိယာများ</string>
+    <string name="cat_motion_subtitle">ခွင့်ပြုချက်ပါသော လှုပ်ရှားမှုအသေးစိတ်များ</string>
+    <string name="cat_location_title">တည်နေရာ</string>
+    <string name="cat_location_subtitle">ရာထူးနှင့် ဝန်ဆောင်မှုပေးသူ မက်တာဒေတာ</string>
+    <string name="cat_cameras_title">ကင်မရာများ</string>
+    <string name="cat_cameras_subtitle">ကင်မရာစွမ်းရည်များနှင့် ရေတွက်ခြင်း။</string>
+    <string name="cat_bluetooth_title">ဘလူးတုသ်</string>
+    <string name="cat_bluetooth_subtitle">ဘလူးတုသ်အခြေအနေနှင့် တွဲထားသည့် ကိန်းဂဏန်းများ</string>
+    <string name="cat_local_network_title">ပြည်တွင်းကွန်ရက်</string>
+    <string name="cat_local_network_subtitle">အနီးနားရှိ ကွန်ရက်ပတ်ဝန်းကျင်</string>
+    <string name="cat_contacts_title">အဆက်အသွယ်များ</string>
+    <string name="cat_contacts_subtitle">ဒေတာဘေ့စ် မက်တာဒေတာကိုသာ ဆက်သွယ်ပါ။</string>
+    <string name="cat_photos_title">ဓာတ်ပုံများ</string>
+    <string name="cat_photos_subtitle">မီဒီယာဒစ်ဂျစ်တိုက် မက်တာဒေတာသာ</string>
+    <string name="cat_calendar_title">ပြက္ခဒိန်</string>
+    <string name="cat_calendar_subtitle">ပြက္ခဒိန် အကောင့် မက်တာဒေတာ</string>
+    <string name="cat_reminders_title">သတိပေးချက်များ</string>
+    <string name="cat_reminders_subtitle">လုပ်ဆောင်စရာ/သတိပေးချက် ပံ့ပိုးပေးသူ မက်တာဒေတာ</string>
+    <string name="cat_music_library_title">ဂီတစာကြည့်တိုက်</string>
+    <string name="cat_music_library_subtitle">အော်ဒီယိုမီဒီယာ မက်တာဒေတာသာ</string>
+    <string name="cat_installed_apps_probe_title">ထည့်သွင်းထားသော Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">ရည်ရွယ်ချက်အစီအစဥ်ကို စုံစမ်းခြင်း။</string>
+    <string name="cat_webview_fingerprint_title">WebView လက်ဗွေ</string>
+    <string name="cat_webview_fingerprint_subtitle">ဘရောက်ဆာကဲ့သို့ တင်ဆက်ခြင်းပရိုဖိုင်</string>
+    <string name="cat_previous_installs_log_title">ယခင် ထည့်သွင်းမှုများ မှတ်တမ်း</string>
+    <string name="cat_previous_installs_log_subtitle">စွဲမြဲမှုအရိပ်အမြွက်များကို ထည့်သွင်းပါ။</string>
+
+</resources>

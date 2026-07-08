@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">Šī ierīce pašlaik ziņo par lokalizāciju %1$s.</string>
+    <string name="summary_line_model">Aparatūras modelis tiek parādīts kā %1$s.</string>
+    <string name="summary_line_android_id">Šīs lietotnes ANDROID_ID ir %1$s.</string>
+    <string name="summary_line_battery">Akumulatora momentuzņēmums norāda %1$s.</string>
+    <string name="summary_line_network">Aktīvie tīkla pārvadājumi: %1$s.</string>
+    <string name="summary_line_authenticators">Redzami konta autentifikatori: %1$s.</string>
+    <string name="summary_line_privacy">AndroWatch saglabā šos rādījumus ierīcē, ja vien jūs tos neeksportējat.</string>
+
+</resources>

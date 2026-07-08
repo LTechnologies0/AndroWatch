@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Explorateur d\'empreintes digitales de l\'API Android</string>
+    <string name="back">Dos</string>
+    <string name="refresh">Rafraîchir</string>
+    <string name="export_report">Exporter le rapport</string>
+    <string name="export_chooser_title">Exporter le rapport AndroWatch</string>
+    <string name="about_title">À propos</string>
+    <string name="about_heading">Transparence des empreintes digitales de l\'appareil</string>
+    <string name="about_inspired">AndroWatch est une alternative Android inspirée de Loupe de Mysk Research. Il révèle ce que les API Android publiques peuvent révéler sur votre appareil.</string>
+    <string name="about_privacy">Toutes les lectures restent sur votre appareil. Rien n\'est téléchargé sauf si vous exportez explicitement un rapport JSON.</string>
+    <string name="onboarding_title">Découvrez ce qu\'Android révèle</string>
+    <string name="onboarding_body">AndroWatch montre ce que les API Android peuvent révéler sur votre appareil : identifiants, capteurs, réseau, etc.</string>
+    <string name="onboarding_privacy">Rien n\'est téléchargé. Les exportations sont explicites et locales.</string>
+    <string name="onboarding_continue">Continuer</string>
+    <string name="permission_required">Autorisation requise</string>
+    <string name="permission_rationale">Cette catégorie nécessite une autorisation d\'exécution pour lire les métadonnées agrégées. Les informations personnelles brutes ne sont jamais affichées.</string>
+    <string name="grant_permission">Accorder l\'autorisation</string>
+    <string name="summary_title">Résumé des empreintes digitales</string>
+    <string name="summary_empty">Actualisez les catégories pour générer un résumé.</string>
+    <string name="tier_passive">Passif</string>
+    <string name="tier_permissioned">Nécessite une autorisation</string>
+    <string name="tier_advanced">Avancé</string>
+    <string name="signal_count">%1$d signaux</string>
+    <string name="live_badge">En direct</string>
+    <string name="loading">Collecter des signaux…</string>
+    <string name="error_collecting">Erreur lors de la collecte des signaux.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Réessayer</string>
+    <string name="export_error">Impossible d\'exporter le rapport.</string>
+    <string name="export_empty">Rien à exporter pour l\'instant. Actualisez d\'abord les catégories.</string>
+    <string name="no_signals">Aucun signal collecté pour l\'instant.</string>
+    <string name="show_rationale">Pourquoi c\'est important</string>
+    <string name="hide_rationale">Masquer la justification</string>
+    <string name="raw_value">Valeur brute de l\'API</string>
+    <string name="value_unknown">inconnu</string>
+    <string name="value_unknown_locale">lieu inconnu</string>
+    <string name="value_unknown_device">appareil inconnu</string>
+    <string name="value_unknown_battery">batterie inconnue</string>
+    <string name="value_unknown_network">réseau inconnu</string>
+    <string name="value_none">aucun</string>
+    <string name="value_unavailable">indisponible</string>
+    <string name="value_na">n / A</string>
+    <string name="value_true">Oui</string>
+    <string name="value_false">Non</string>
+
+</resources>

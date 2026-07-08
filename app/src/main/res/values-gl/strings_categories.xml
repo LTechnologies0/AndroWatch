@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Identidade do dispositivo</string>
+    <string name="cat_device_identity_subtitle">Identificadores e características do hardware</string>
+    <string name="cat_google_account_title">Conta de Google</string>
+    <string name="cat_google_account_subtitle">Sinais de presenza da conta</string>
+    <string name="cat_system_info_title">Información do sistema</string>
+    <string name="cat_system_info_subtitle">Detalles do sistema operativo e do tempo de execución</string>
+    <string name="cat_display_title">Mostrar</string>
+    <string name="cat_display_subtitle">Capacidades e densidade da pantalla</string>
+    <string name="cat_locale_title">Local e rexión</string>
+    <string name="cat_locale_subtitle">Pegada de idioma e zona horaria</string>
+    <string name="cat_accessibility_title">Accesibilidade</string>
+    <string name="cat_accessibility_subtitle">Configuración de asistencia e bandeiras</string>
+    <string name="cat_device_motion_title">Movemento do dispositivo</string>
+    <string name="cat_device_motion_subtitle">Presenza e estado do sensor</string>
+    <string name="cat_battery_title">Batería e enerxía</string>
+    <string name="cat_battery_subtitle">Datos do modo de batería e enerxía</string>
+    <string name="cat_storage_title">Almacenamento</string>
+    <string name="cat_storage_subtitle">Total de volume e almacenamento</string>
+    <string name="cat_network_title">Rede</string>
+    <string name="cat_network_subtitle">Conectividade e estado da VPN</string>
+    <string name="cat_fonts_title">Tipos de letra</string>
+    <string name="cat_fonts_subtitle">Mostra de dispoñibilidade de fontes</string>
+    <string name="cat_installed_voices_title">Voces instaladas</string>
+    <string name="cat_installed_voices_subtitle">Soporte de motor de voz e voz</string>
+    <string name="cat_app_info_title">Aplicación e paquete</string>
+    <string name="cat_app_info_subtitle">Metadatos de compilación de paquetes</string>
+    <string name="cat_pasteboard_title">Carpeta</string>
+    <string name="cat_pasteboard_subtitle">Só metadatos do portapapeis</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Saídas de audio e detalles da ruta</string>
+    <string name="cat_graphics_title">Gráficos</string>
+    <string name="cat_graphics_subtitle">Sinais de implementación GPU/GL</string>
+    <string name="cat_telephony_title">Telefonía</string>
+    <string name="cat_telephony_subtitle">Metadatos de portadora e radio</string>
+    <string name="cat_motion_title">Sensores de movemento</string>
+    <string name="cat_motion_subtitle">Detalles do movemento con permiso</string>
+    <string name="cat_location_title">Localización</string>
+    <string name="cat_location_subtitle">Metadatos da posición e do provedor</string>
+    <string name="cat_cameras_title">Cámaras</string>
+    <string name="cat_cameras_subtitle">Capacidades da cámara e conta</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Estado de Bluetooth e estatísticas vinculadas</string>
+    <string name="cat_local_network_title">Rede local</string>
+    <string name="cat_local_network_subtitle">Entorno de rede próximo</string>
+    <string name="cat_contacts_title">Contactos</string>
+    <string name="cat_contacts_subtitle">Só metadatos da base de datos de contactos</string>
+    <string name="cat_photos_title">Fotos</string>
+    <string name="cat_photos_subtitle">Só metadatos da biblioteca multimedia</string>
+    <string name="cat_calendar_title">Calendario</string>
+    <string name="cat_calendar_subtitle">Metadatos da conta do calendario</string>
+    <string name="cat_reminders_title">Recordatorios</string>
+    <string name="cat_reminders_subtitle">Metadatos do provedor de tarefas/recordatorio</string>
+    <string name="cat_music_library_title">Biblioteca Musical</string>
+    <string name="cat_music_library_subtitle">Só metadatos de medios de audio</string>
+    <string name="cat_installed_apps_probe_title">Aplicacións instaladas Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Proba de esquema de intencións</string>
+    <string name="cat_webview_fingerprint_title">WebView Fingerprint</string>
+    <string name="cat_webview_fingerprint_subtitle">Perfil de renderizado tipo navegador</string>
+    <string name="cat_previous_installs_log_title">Rexistro de instalacións anteriores</string>
+    <string name="cat_previous_installs_log_subtitle">Instalar consellos de persistencia</string>
+
+</resources>

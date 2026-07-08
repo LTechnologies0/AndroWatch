@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API ફિંગરપ્રિન્ટ એક્સપ્લોરર</string>
+    <string name="back">પાછળ</string>
+    <string name="refresh">તાજું કરો</string>
+    <string name="export_report">નિકાસ અહેવાલ</string>
+    <string name="export_chooser_title">AndroWatch રિપોર્ટ નિકાસ કરો</string>
+    <string name="about_title">વિશે</string>
+    <string name="about_heading">ઉપકરણ ફિંગરપ્રિન્ટ પારદર્શિતા</string>
+    <string name="about_inspired">AndroWatch એ Mysk રિસર્ચ દ્વારા લૂપ દ્વારા પ્રેરિત એક Android વિકલ્પ છે. તે સાર્વજનિક Android APIs તમારા ઉપકરણ વિશે શું જાહેર કરી શકે છે તે દર્શાવે છે.</string>
+    <string name="about_privacy">બધા વાંચન તમારા ઉપકરણ પર રહે છે. જ્યાં સુધી તમે JSON રિપોર્ટ સ્પષ્ટપણે નિકાસ ન કરો ત્યાં સુધી કંઈપણ અપલોડ થતું નથી.</string>
+    <string name="onboarding_title">Android શું દર્શાવે છે તે જુઓ</string>
+    <string name="onboarding_body">AndroWatch બતાવે છે કે Android APIs તમારા ઉપકરણ વિશે શું જાહેર કરી શકે છે — ઓળખકર્તા, સેન્સર, નેટવર્ક અને વધુ.</string>
+    <string name="onboarding_privacy">કંઈ અપલોડ નથી. નિકાસ સ્પષ્ટ અને સ્થાનિક છે.</string>
+    <string name="onboarding_continue">ચાલુ રાખો</string>
+    <string name="permission_required">પરવાનગી જરૂરી છે</string>
+    <string name="permission_rationale">આ કેટેગરીને એકીકૃત મેટાડેટા વાંચવા માટે રનટાઇમ પરવાનગીની જરૂર છે. કાચો PII ક્યારેય પ્રદર્શિત થતો નથી.</string>
+    <string name="grant_permission">પરવાનગી આપો</string>
+    <string name="summary_title">ફિંગરપ્રિન્ટ સારાંશ</string>
+    <string name="summary_empty">સારાંશ જનરેટ કરવા માટે કેટેગરીઝ રિફ્રેશ કરો.</string>
+    <string name="tier_passive">નિષ્ક્રિય</string>
+    <string name="tier_permissioned">પરવાનગીની જરૂર છે</string>
+    <string name="tier_advanced">ઉન્નત</string>
+    <string name="signal_count">%1$d સંકેતો</string>
+    <string name="live_badge">જીવંત</string>
+    <string name="loading">સંકેતો એકત્રિત કરી રહ્યાં છીએ…</string>
+    <string name="error_collecting">સંકેતો એકત્રિત કરતી વખતે ભૂલ.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">ફરી પ્રયાસ કરો</string>
+    <string name="export_error">રિપોર્ટ નિકાસ કરી શકાયો નથી.</string>
+    <string name="export_empty">હજુ સુધી નિકાસ કરવા માટે કંઈ નથી. પ્રથમ શ્રેણીઓ તાજી કરો.</string>
+    <string name="no_signals">હજુ સુધી કોઈ સિગ્નલ એકત્રિત થયા નથી.</string>
+    <string name="show_rationale">આ કેમ મહત્વનું છે</string>
+    <string name="hide_rationale">તર્ક છુપાવો</string>
+    <string name="raw_value">કાચો API મૂલ્ય</string>
+    <string name="value_unknown">અજ્ઞાત</string>
+    <string name="value_unknown_locale">અજ્ઞાત લોકેલ</string>
+    <string name="value_unknown_device">અજ્ઞાત ઉપકરણ</string>
+    <string name="value_unknown_battery">અજાણી બેટરી</string>
+    <string name="value_unknown_network">અજ્ઞાત નેટવર્ક</string>
+    <string name="value_none">કોઈ નહીં</string>
+    <string name="value_unavailable">અનુપલબ્ધ</string>
+    <string name="value_na">n/a</string>
+    <string name="value_true">હા</string>
+    <string name="value_false">ના</string>
+
+</resources>

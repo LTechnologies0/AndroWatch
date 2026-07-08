@@ -1,0 +1,30 @@
+// Per-ABI release APKs for all Android CPU architectures.
+// Debug builds compile a single ABI (default arm64-v8a) to save local resources.
+
+def ONIONPHONE_ABIS = ["armeabi-v7a", "arm64-v8a", "x86", "x86_64"] as String[]
+def devAbi = findProperty("onionphone.devAbi") ?: "arm64-v8a"
+def isDebugBuild = gradle.startParameter.taskNames.any { it.containsIgnoreCase("debug") }
+
+android {
+    defaultConfig {
+        if (isDebugBuild) {
+            ndk {
+                abiFilters devAbi
+            }
+        }
+    }
+    splits {
+        abi {
+            enable !isDebugBuild
+            reset()
+            include(*ONIONPHONE_ABIS)
+            universalApk false
+        }
+    }
+
+    buildTypes {
+        release {
+            shrinkResources true
+        }
+    }
+}

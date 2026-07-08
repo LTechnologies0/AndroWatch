@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android-API-Fingerabdruck-Explorer</string>
+    <string name="back">Zurück</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="export_report">Bericht exportieren</string>
+    <string name="export_chooser_title">AndroWatch-Bericht exportieren</string>
+    <string name="about_title">Um</string>
+    <string name="about_heading">Transparenz des Gerätefingerabdrucks</string>
+    <string name="about_inspired">AndroWatch ist eine Android-Alternative, die von Loupe von Mysk Research inspiriert wurde. Es zeigt, was öffentliche Android-APIs über Ihr Gerät verraten können.</string>
+    <string name="about_privacy">Alle Messwerte bleiben auf Ihrem Gerät. Es wird nichts hochgeladen, es sei denn, Sie exportieren explizit einen JSON-Bericht.</string>
+    <string name="onboarding_title">Sehen Sie, was Android verrät</string>
+    <string name="onboarding_body">AndroWatch zeigt, was Android-APIs über Ihr Gerät verraten können – Kennungen, Sensoren, Netzwerk und mehr.</string>
+    <string name="onboarding_privacy">Es wird nichts hochgeladen. Exporte sind explizit und lokal.</string>
+    <string name="onboarding_continue">Weitermachen</string>
+    <string name="permission_required">Erlaubnis erforderlich</string>
+    <string name="permission_rationale">Diese Kategorie benötigt eine Laufzeitberechtigung zum Lesen aggregierter Metadaten. Rohe personenbezogene Daten werden nie angezeigt.</string>
+    <string name="grant_permission">Erteilen Sie die Erlaubnis</string>
+    <string name="summary_title">Zusammenfassung der Fingerabdrücke</string>
+    <string name="summary_empty">Aktualisieren Sie Kategorien, um eine Zusammenfassung zu erstellen.</string>
+    <string name="tier_passive">Passiv</string>
+    <string name="tier_permissioned">Benötigt Erlaubnis</string>
+    <string name="tier_advanced">Fortschrittlich</string>
+    <string name="signal_count">%1$d Signale</string>
+    <string name="live_badge">Live</string>
+    <string name="loading">Signale sammeln…</string>
+    <string name="error_collecting">Fehler beim Sammeln von Signalen.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Wiederholen</string>
+    <string name="export_error">Bericht konnte nicht exportiert werden.</string>
+    <string name="export_empty">Noch nichts zum Exportieren. Aktualisieren Sie zuerst die Kategorien.</string>
+    <string name="no_signals">Es wurden noch keine Signale erfasst.</string>
+    <string name="show_rationale">Warum das wichtig ist</string>
+    <string name="hide_rationale">Begründung verbergen</string>
+    <string name="raw_value">Roher API-Wert</string>
+    <string name="value_unknown">unbekannt</string>
+    <string name="value_unknown_locale">unbekannter Ort</string>
+    <string name="value_unknown_device">unbekanntes Gerät</string>
+    <string name="value_unknown_battery">unbekannte Batterie</string>
+    <string name="value_unknown_network">Unbekanntes Netzwerk</string>
+    <string name="value_none">keiner</string>
+    <string name="value_unavailable">nicht verfügbar</string>
+    <string name="value_na">n / A</string>
+    <string name="value_true">Ja</string>
+    <string name="value_false">NEIN</string>
+
+</resources>

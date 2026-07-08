@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">ឧបករណ៍រុករកស្នាមម្រាមដៃ Android API</string>
+    <string name="back">ត្រឡប់មកវិញ</string>
+    <string name="refresh">ធ្វើឱ្យស្រស់</string>
+    <string name="export_report">របាយការណ៍នាំចេញ</string>
+    <string name="export_chooser_title">នាំចេញរបាយការណ៍ AndroWatch</string>
+    <string name="about_title">អំពី</string>
+    <string name="about_heading">តម្លាភាពនៃស្នាមម្រាមដៃឧបករណ៍</string>
+    <string name="about_inspired">AndroWatch គឺជាជម្រើស Android ដែលត្រូវបានបំផុសគំនិតដោយ Loupe ដោយ Mysk Research ។ វាបង្ហាញនូវអ្វីដែលសាធារណៈ Android APIs អាចបង្ហាញអំពីឧបករណ៍របស់អ្នក។</string>
+    <string name="about_privacy">ការអានទាំងអស់ស្ថិតនៅលើឧបករណ៍របស់អ្នក។ គ្មាន​អ្វី​ត្រូវ​បាន​ផ្ទុក​ឡើង​ទេ លុះត្រា​តែ​អ្នក​នាំចេញ​របាយការណ៍ JSON ច្បាស់លាស់។</string>
+    <string name="onboarding_title">មើលអ្វីដែល Android បង្ហាញ</string>
+    <string name="onboarding_body">AndroWatch បង្ហាញអ្វីដែល Android APIs អាចបង្ហាញអំពីឧបករណ៍របស់អ្នក — ឧបករណ៍កំណត់អត្តសញ្ញាណ ឧបករណ៍ចាប់សញ្ញា បណ្តាញ និងច្រើនទៀត។</string>
+    <string name="onboarding_privacy">គ្មានអ្វីត្រូវបានផ្ទុកឡើងទេ។ ការនាំចេញមានភាពច្បាស់លាស់ និងក្នុងស្រុក។</string>
+    <string name="onboarding_continue">បន្ត</string>
+    <string name="permission_required">ទាមទារការអនុញ្ញាត</string>
+    <string name="permission_rationale">ប្រភេទនេះត្រូវការការអនុញ្ញាតពេលដំណើរការដើម្បីអានទិន្នន័យមេតាសរុប។ PII ឆៅមិនត្រូវបានបង្ហាញទេ។</string>
+    <string name="grant_permission">ផ្តល់ការអនុញ្ញាត</string>
+    <string name="summary_title">សង្ខេបស្នាមម្រាមដៃ</string>
+    <string name="summary_empty">ផ្ទុកប្រភេទឡើងវិញ ដើម្បីបង្កើតការសង្ខេប។</string>
+    <string name="tier_passive">អកម្ម</string>
+    <string name="tier_permissioned">ត្រូវការការអនុញ្ញាត</string>
+    <string name="tier_advanced">កម្រិតខ្ពស់</string>
+    <string name="signal_count">%1$d សញ្ញា</string>
+    <string name="live_badge">រស់នៅ</string>
+    <string name="loading">កំពុង​ប្រមូល​សញ្ញា...</string>
+    <string name="error_collecting">កំហុសខណៈពេលកំពុងប្រមូលសញ្ញា។</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">ព្យាយាមម្តងទៀត</string>
+    <string name="export_error">មិនអាចនាំចេញរបាយការណ៍បានទេ។</string>
+    <string name="export_empty">មិនមានអ្វីត្រូវនាំចេញនៅឡើយទេ។ ផ្ទុកប្រភេទឡើងវិញជាមុនសិន។</string>
+    <string name="no_signals">មិនទាន់មានការប្រមូលសញ្ញានៅឡើយទេ។</string>
+    <string name="show_rationale">ហេតុអ្វីបានជារឿងនេះសំខាន់</string>
+    <string name="hide_rationale">លាក់ហេតុផល</string>
+    <string name="raw_value">តម្លៃ API ឆៅ</string>
+    <string name="value_unknown">មិនស្គាល់</string>
+    <string name="value_unknown_locale">មិនស្គាល់មូលដ្ឋាន</string>
+    <string name="value_unknown_device">ឧបករណ៍មិនស្គាល់</string>
+    <string name="value_unknown_battery">ថ្មមិនស្គាល់</string>
+    <string name="value_unknown_network">បណ្តាញមិនស្គាល់</string>
+    <string name="value_none">គ្មាន</string>
+    <string name="value_unavailable">មិនអាចប្រើបាន</string>
+    <string name="value_na">ន/ក</string>
+    <string name="value_true">បាទ</string>
+    <string name="value_false">ទេ</string>
+
+</resources>

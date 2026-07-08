@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">यह डिवाइस वर्तमान में स्थानीय %1$s रिपोर्ट करता है।</string>
+    <string name="summary_line_model">हार्डवेयर मॉडल %1$s के रूप में दिखाई देता है।</string>
+    <string name="summary_line_android_id">इस ऐप के लिए ANDROID_ID %1$s है।</string>
+    <string name="summary_line_battery">बैटरी स्नैपशॉट %1$s दर्शाता है।</string>
+    <string name="summary_line_network">सक्रिय नेटवर्क परिवहन: %1$s।</string>
+    <string name="summary_line_authenticators">खाता प्रमाणक दृश्यमान: %1$s।</string>
+    <string name="summary_line_privacy">एंड्रोवॉच इन रीडिंग को डिवाइस पर तब तक रखता है जब तक आप उन्हें निर्यात नहीं करते।</string>
+
+</resources>

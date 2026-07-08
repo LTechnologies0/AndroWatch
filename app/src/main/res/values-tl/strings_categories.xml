@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Pagkakakilanlan ng Device</string>
+    <string name="cat_device_identity_subtitle">Mga pagkakakilanlan at katangian ng hardware</string>
+    <string name="cat_google_account_title">Google Account</string>
+    <string name="cat_google_account_subtitle">Mga signal ng presensya ng account</string>
+    <string name="cat_system_info_title">Impormasyon ng System</string>
+    <string name="cat_system_info_subtitle">Mga detalye ng OS at runtime</string>
+    <string name="cat_display_title">Pagpapakita</string>
+    <string name="cat_display_subtitle">Mga kakayahan at density ng screen</string>
+    <string name="cat_locale_title">Lokal at Rehiyon</string>
+    <string name="cat_locale_subtitle">Wika at timezone footprint</string>
+    <string name="cat_accessibility_title">Accessibility</string>
+    <string name="cat_accessibility_subtitle">Mga pantulong na setting at flag</string>
+    <string name="cat_device_motion_title">Paggalaw ng Device</string>
+    <string name="cat_device_motion_subtitle">Presensya at estado ng sensor</string>
+    <string name="cat_battery_title">Baterya at Lakas</string>
+    <string name="cat_battery_subtitle">Data ng baterya at power mode</string>
+    <string name="cat_storage_title">Imbakan</string>
+    <string name="cat_storage_subtitle">Mga kabuuan ng volume at storage</string>
+    <string name="cat_network_title">Network</string>
+    <string name="cat_network_subtitle">Pagkakakonekta at katayuan ng VPN</string>
+    <string name="cat_fonts_title">Mga font</string>
+    <string name="cat_fonts_subtitle">Sample ng availability ng font</string>
+    <string name="cat_installed_voices_title">Naka-install na Mga Boses</string>
+    <string name="cat_installed_voices_subtitle">Speech engine at suporta sa boses</string>
+    <string name="cat_app_info_title">App at Bundle</string>
+    <string name="cat_app_info_subtitle">Metadata ng pagbuo ng package</string>
+    <string name="cat_pasteboard_title">Pasteboard</string>
+    <string name="cat_pasteboard_subtitle">Clipboard metadata lang</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Mga output ng audio at mga detalye ng ruta</string>
+    <string name="cat_graphics_title">Mga graphic</string>
+    <string name="cat_graphics_subtitle">Mga signal ng pagpapatupad ng GPU / GL</string>
+    <string name="cat_telephony_title">Telepono</string>
+    <string name="cat_telephony_subtitle">Metadata ng carrier at radyo</string>
+    <string name="cat_motion_title">Paggalaw at Mga Sensor</string>
+    <string name="cat_motion_subtitle">Mga detalye ng galaw na may pahintulot</string>
+    <string name="cat_location_title">Lokasyon</string>
+    <string name="cat_location_subtitle">Metadata ng posisyon at provider</string>
+    <string name="cat_cameras_title">Mga camera</string>
+    <string name="cat_cameras_subtitle">Mga kakayahan at bilang ng camera</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Status ng Bluetooth at mga nakapares na istatistika</string>
+    <string name="cat_local_network_title">Lokal na Network</string>
+    <string name="cat_local_network_subtitle">Kalapit na kapaligiran ng network</string>
+    <string name="cat_contacts_title">Mga contact</string>
+    <string name="cat_contacts_subtitle">Makipag-ugnayan lamang sa metadata ng database</string>
+    <string name="cat_photos_title">Mga larawan</string>
+    <string name="cat_photos_subtitle">Metadata ng media library lang</string>
+    <string name="cat_calendar_title">Kalendaryo</string>
+    <string name="cat_calendar_subtitle">Metadata ng account sa kalendaryo</string>
+    <string name="cat_reminders_title">Mga paalala</string>
+    <string name="cat_reminders_subtitle">Metadata ng tagapagbigay ng gawain/paalala</string>
+    <string name="cat_music_library_title">Music Library</string>
+    <string name="cat_music_library_subtitle">Audio media metadata lang</string>
+    <string name="cat_installed_apps_probe_title">Naka-install na Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Intent scheme probing</string>
+    <string name="cat_webview_fingerprint_title">WebView Fingerprint</string>
+    <string name="cat_webview_fingerprint_subtitle">Profile sa pag-render na parang browser</string>
+    <string name="cat_previous_installs_log_title">Nakaraang Log ng Pag-install</string>
+    <string name="cat_previous_installs_log_subtitle">I-install ang mga pahiwatig ng pagtitiyaga</string>
+
+</resources>

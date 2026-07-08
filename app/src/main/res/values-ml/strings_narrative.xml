@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="summary_line_locale">ഈ ഉപകരണം നിലവിൽ പ്രാദേശിക %1$s റിപ്പോർട്ട് ചെയ്യുന്നു.</string>
+    <string name="summary_line_model">ഹാർഡ്‌വെയർ മോഡൽ %1$s ആയി ദൃശ്യമാകുന്നു.</string>
+    <string name="summary_line_android_id">ഈ ആപ്പിനുള്ള ANDROID_ID %1$s ആണ്.</string>
+    <string name="summary_line_battery">ബാറ്ററി സ്നാപ്പ്ഷോട്ട് %1$s സൂചിപ്പിക്കുന്നു.</string>
+    <string name="summary_line_network">സജീവ നെറ്റ്‌വർക്ക് ട്രാൻസ്‌പോർട്ടുകൾ: %1$s.</string>
+    <string name="summary_line_authenticators">അക്കൗണ്ട് ഓതൻ്റിക്കേറ്ററുകൾ ദൃശ്യമാണ്: %1$s.</string>
+    <string name="summary_line_privacy">നിങ്ങൾ കയറ്റുമതി ചെയ്യുന്നില്ലെങ്കിൽ ആൻഡ്രോ വാച്ച് ഈ റീഡിംഗുകൾ ഉപകരണത്തിൽ സൂക്ഷിക്കുന്നു.</string>
+
+</resources>

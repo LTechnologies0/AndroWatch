@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">ಸಾಧನದ ಗುರುತು</string>
+    <string name="cat_device_identity_subtitle">ಗುರುತಿಸುವಿಕೆಗಳು ಮತ್ತು ಯಂತ್ರಾಂಶ ಗುಣಲಕ್ಷಣಗಳು</string>
+    <string name="cat_google_account_title">Google ಖಾತೆ</string>
+    <string name="cat_google_account_subtitle">ಖಾತೆ ಉಪಸ್ಥಿತಿ ಸಂಕೇತಗಳು</string>
+    <string name="cat_system_info_title">ಸಿಸ್ಟಮ್ ಮಾಹಿತಿ</string>
+    <string name="cat_system_info_subtitle">ಓಎಸ್ ಮತ್ತು ರನ್ಟೈಮ್ ವಿವರಗಳು</string>
+    <string name="cat_display_title">ಪ್ರದರ್ಶನ</string>
+    <string name="cat_display_subtitle">ಪರದೆಯ ಸಾಮರ್ಥ್ಯಗಳು ಮತ್ತು ಸಾಂದ್ರತೆ</string>
+    <string name="cat_locale_title">ಸ್ಥಳ ಮತ್ತು ಪ್ರದೇಶ</string>
+    <string name="cat_locale_subtitle">ಭಾಷೆ ಮತ್ತು ಸಮಯವಲಯ ಹೆಜ್ಜೆಗುರುತು</string>
+    <string name="cat_accessibility_title">ಪ್ರವೇಶಿಸುವಿಕೆ</string>
+    <string name="cat_accessibility_subtitle">ಸಹಾಯಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮತ್ತು ಫ್ಲ್ಯಾಗ್‌ಗಳು</string>
+    <string name="cat_device_motion_title">ಸಾಧನದ ಚಲನೆ</string>
+    <string name="cat_device_motion_subtitle">ಸಂವೇದಕ ಉಪಸ್ಥಿತಿ ಮತ್ತು ಸ್ಥಿತಿ</string>
+    <string name="cat_battery_title">ಬ್ಯಾಟರಿ ಮತ್ತು ಶಕ್ತಿ</string>
+    <string name="cat_battery_subtitle">ಬ್ಯಾಟರಿ ಮತ್ತು ಪವರ್ ಮೋಡ್ ಡೇಟಾ</string>
+    <string name="cat_storage_title">ಸಂಗ್ರಹಣೆ</string>
+    <string name="cat_storage_subtitle">ಪರಿಮಾಣ ಮತ್ತು ಸಂಗ್ರಹಣೆಯ ಮೊತ್ತ</string>
+    <string name="cat_network_title">ನೆಟ್ವರ್ಕ್</string>
+    <string name="cat_network_subtitle">ಸಂಪರ್ಕ ಮತ್ತು VPN ಸ್ಥಿತಿ</string>
+    <string name="cat_fonts_title">ಫಾಂಟ್‌ಗಳು</string>
+    <string name="cat_fonts_subtitle">ಫಾಂಟ್ ಲಭ್ಯತೆಯ ಮಾದರಿ</string>
+    <string name="cat_installed_voices_title">ಸ್ಥಾಪಿಸಲಾದ ಧ್ವನಿಗಳು</string>
+    <string name="cat_installed_voices_subtitle">ಸ್ಪೀಚ್ ಎಂಜಿನ್ ಮತ್ತು ಧ್ವನಿ ಬೆಂಬಲ</string>
+    <string name="cat_app_info_title">ಅಪ್ಲಿಕೇಶನ್ ಮತ್ತು ಬಂಡಲ್</string>
+    <string name="cat_app_info_subtitle">ಪ್ಯಾಕೇಜ್ ಬಿಲ್ಡ್ ಮೆಟಾಡೇಟಾ</string>
+    <string name="cat_pasteboard_title">ಪೇಸ್ಟ್ಬೋರ್ಡ್</string>
+    <string name="cat_pasteboard_subtitle">ಕ್ಲಿಪ್‌ಬೋರ್ಡ್ ಮೆಟಾಡೇಟಾ ಮಾತ್ರ</string>
+    <string name="cat_audio_title">ಆಡಿಯೋ</string>
+    <string name="cat_audio_subtitle">ಆಡಿಯೋ ಔಟ್‌ಪುಟ್‌ಗಳು ಮತ್ತು ಮಾರ್ಗದ ವಿವರಗಳು</string>
+    <string name="cat_graphics_title">ಗ್ರಾಫಿಕ್ಸ್</string>
+    <string name="cat_graphics_subtitle">GPU / GL ಅನುಷ್ಠಾನ ಸಂಕೇತಗಳು</string>
+    <string name="cat_telephony_title">ಟೆಲಿಫೋನಿ</string>
+    <string name="cat_telephony_subtitle">ವಾಹಕ ಮತ್ತು ರೇಡಿಯೋ ಮೆಟಾಡೇಟಾ</string>
+    <string name="cat_motion_title">ಚಲನೆ ಮತ್ತು ಸಂವೇದಕಗಳು</string>
+    <string name="cat_motion_subtitle">ಅನುಮತಿ-ಗೇಟೆಡ್ ಚಲನೆಯ ವಿವರಗಳು</string>
+    <string name="cat_location_title">ಸ್ಥಳ</string>
+    <string name="cat_location_subtitle">ಸ್ಥಾನ ಮತ್ತು ಪೂರೈಕೆದಾರರ ಮೆಟಾಡೇಟಾ</string>
+    <string name="cat_cameras_title">ಕ್ಯಾಮೆರಾಗಳು</string>
+    <string name="cat_cameras_subtitle">ಕ್ಯಾಮರಾ ಸಾಮರ್ಥ್ಯಗಳು ಮತ್ತು ಎಣಿಕೆ</string>
+    <string name="cat_bluetooth_title">ಬ್ಲೂಟೂತ್</string>
+    <string name="cat_bluetooth_subtitle">ಬ್ಲೂಟೂತ್ ಸ್ಥಿತಿ ಮತ್ತು ಜೋಡಿಯಾಗಿರುವ ಅಂಕಿಅಂಶಗಳು</string>
+    <string name="cat_local_network_title">ಸ್ಥಳೀಯ ನೆಟ್ವರ್ಕ್</string>
+    <string name="cat_local_network_subtitle">ಹತ್ತಿರದ ನೆಟ್ವರ್ಕ್ ಪರಿಸರ</string>
+    <string name="cat_contacts_title">ಸಂಪರ್ಕಗಳು</string>
+    <string name="cat_contacts_subtitle">ಡೇಟಾಬೇಸ್ ಮೆಟಾಡೇಟಾವನ್ನು ಮಾತ್ರ ಸಂಪರ್ಕಿಸಿ</string>
+    <string name="cat_photos_title">ಫೋಟೋಗಳು</string>
+    <string name="cat_photos_subtitle">ಮಾಧ್ಯಮ ಲೈಬ್ರರಿ ಮೆಟಾಡೇಟಾ ಮಾತ್ರ</string>
+    <string name="cat_calendar_title">ಕ್ಯಾಲೆಂಡರ್</string>
+    <string name="cat_calendar_subtitle">ಕ್ಯಾಲೆಂಡರ್ ಖಾತೆ ಮೆಟಾಡೇಟಾ</string>
+    <string name="cat_reminders_title">ಜ್ಞಾಪನೆಗಳು</string>
+    <string name="cat_reminders_subtitle">ಕಾರ್ಯ/ಜ್ಞಾಪನೆ ಒದಗಿಸುವವರ ಮೆಟಾಡೇಟಾ</string>
+    <string name="cat_music_library_title">ಸಂಗೀತ ಗ್ರಂಥಾಲಯ</string>
+    <string name="cat_music_library_subtitle">ಆಡಿಯೋ ಮೀಡಿಯಾ ಮೆಟಾಡೇಟಾ ಮಾತ್ರ</string>
+    <string name="cat_installed_apps_probe_title">ಸ್ಥಾಪಿಸಲಾದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ತನಿಖೆ</string>
+    <string name="cat_installed_apps_probe_subtitle">ಉದ್ದೇಶ ಯೋಜನೆ ತನಿಖೆ</string>
+    <string name="cat_webview_fingerprint_title">WebView ಫಿಂಗರ್‌ಪ್ರಿಂಟ್</string>
+    <string name="cat_webview_fingerprint_subtitle">ಬ್ರೌಸರ್ ತರಹದ ರೆಂಡರಿಂಗ್ ಪ್ರೊಫೈಲ್</string>
+    <string name="cat_previous_installs_log_title">ಹಿಂದಿನ ಸ್ಥಾಪನೆಗಳ ಲಾಗ್</string>
+    <string name="cat_previous_installs_log_subtitle">ನಿರಂತರತೆಯ ಸುಳಿವುಗಳನ್ನು ಸ್ಥಾಪಿಸಿ</string>
+
+</resources>

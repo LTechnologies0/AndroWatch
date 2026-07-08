@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Gailuaren identitatea</string>
+    <string name="cat_device_identity_subtitle">Identifikatzaileak eta hardware-ezaugarriak</string>
+    <string name="cat_google_account_title">Google kontua</string>
+    <string name="cat_google_account_subtitle">Kontuaren presentzia seinaleak</string>
+    <string name="cat_system_info_title">Sistemaren informazioa</string>
+    <string name="cat_system_info_subtitle">OS eta exekuzio denboraren xehetasunak</string>
+    <string name="cat_display_title">Bistaratzea</string>
+    <string name="cat_display_subtitle">Pantailaren gaitasunak eta dentsitatea</string>
+    <string name="cat_locale_title">Tokia eta eskualdea</string>
+    <string name="cat_locale_subtitle">Hizkuntza eta ordu-eremuaren aztarna</string>
+    <string name="cat_accessibility_title">Irisgarritasuna</string>
+    <string name="cat_accessibility_subtitle">Laguntza-ezarpenak eta banderak</string>
+    <string name="cat_device_motion_title">Gailuaren mugimendua</string>
+    <string name="cat_device_motion_subtitle">Sentsoreen presentzia eta egoera</string>
+    <string name="cat_battery_title">Bateria eta energia</string>
+    <string name="cat_battery_subtitle">Bateria eta energia moduaren datuak</string>
+    <string name="cat_storage_title">Biltegiratzea</string>
+    <string name="cat_storage_subtitle">Bolumena eta biltegiratze totalak</string>
+    <string name="cat_network_title">Sarea</string>
+    <string name="cat_network_subtitle">Konektibitatea eta VPN egoera</string>
+    <string name="cat_fonts_title">Letra-tipoak</string>
+    <string name="cat_fonts_subtitle">Letra-tipoaren erabilgarritasunaren lagina</string>
+    <string name="cat_installed_voices_title">Instalatutako ahotsak</string>
+    <string name="cat_installed_voices_subtitle">Hizketa-motorra eta ahots-laguntza</string>
+    <string name="cat_app_info_title">Aplikazioa eta sorta</string>
+    <string name="cat_app_info_subtitle">Pakete eraikitzeko metadatuak</string>
+    <string name="cat_pasteboard_title">Kartoia</string>
+    <string name="cat_pasteboard_subtitle">Arbeleko metadatuak soilik</string>
+    <string name="cat_audio_title">Audioa</string>
+    <string name="cat_audio_subtitle">Audio irteerak eta ibilbidearen xehetasunak</string>
+    <string name="cat_graphics_title">Grafikoak</string>
+    <string name="cat_graphics_subtitle">GPU / GL ezarpen-seinaleak</string>
+    <string name="cat_telephony_title">Telefonia</string>
+    <string name="cat_telephony_subtitle">Eramailearen eta irratiaren metadatuak</string>
+    <string name="cat_motion_title">Mugimendua eta sentsoreak</string>
+    <string name="cat_motion_subtitle">Baimenaren araberako mugimenduaren xehetasunak</string>
+    <string name="cat_location_title">Kokapena</string>
+    <string name="cat_location_subtitle">Kargua eta hornitzailearen metadatuak</string>
+    <string name="cat_cameras_title">Kamerak</string>
+    <string name="cat_cameras_subtitle">Kameraren gaitasunak eta zenbaketa</string>
+    <string name="cat_bluetooth_title">Bluetootha</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth egoera eta parekatutako estatistikak</string>
+    <string name="cat_local_network_title">Sare lokala</string>
+    <string name="cat_local_network_subtitle">Inguruko sare-ingurunea</string>
+    <string name="cat_contacts_title">Kontaktuak</string>
+    <string name="cat_contacts_subtitle">Kontaktuen datu-basearen metadatuak soilik</string>
+    <string name="cat_photos_title">Argazkiak</string>
+    <string name="cat_photos_subtitle">Mediateka metadatuak soilik</string>
+    <string name="cat_calendar_title">Egutegia</string>
+    <string name="cat_calendar_subtitle">Egutegiko kontuaren metadatuak</string>
+    <string name="cat_reminders_title">Oroigarriak</string>
+    <string name="cat_reminders_subtitle">Ataza/abisu hornitzailearen metadatuak</string>
+    <string name="cat_music_library_title">Musika Liburutegia</string>
+    <string name="cat_music_library_subtitle">Audio-media metadatuak soilik</string>
+    <string name="cat_installed_apps_probe_title">Instalatutako Apps Probe</string>
+    <string name="cat_installed_apps_probe_subtitle">Asmo eskemaren azterketa</string>
+    <string name="cat_webview_fingerprint_title">WebView hatz-marka</string>
+    <string name="cat_webview_fingerprint_subtitle">Arakatzaile moduko errendatze-profila</string>
+    <string name="cat_previous_installs_log_title">Instalazioen aurreko erregistroa</string>
+    <string name="cat_previous_installs_log_subtitle">Instalatu iraupen-aholkuak</string>
+
+</resources>

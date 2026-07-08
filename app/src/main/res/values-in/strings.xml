@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Penjelajah sidik jari API Android</string>
+    <string name="back">Kembali</string>
+    <string name="refresh">Menyegarkan</string>
+    <string name="export_report">Ekspor laporan</string>
+    <string name="export_chooser_title">Ekspor laporan AndroWatch</string>
+    <string name="about_title">Tentang</string>
+    <string name="about_heading">Transparansi sidik jari perangkat</string>
+    <string name="about_inspired">AndroWatch adalah alternatif Android yang terinspirasi oleh Loupe oleh Mysk Research. Ini menampilkan apa yang dapat diungkapkan oleh API Android publik tentang perangkat Anda.</string>
+    <string name="about_privacy">Semua bacaan tetap ada di perangkat Anda. Tidak ada yang diunggah kecuali Anda mengekspor laporan JSON secara eksplisit.</string>
+    <string name="onboarding_title">Lihat apa yang diungkapkan Android</string>
+    <string name="onboarding_body">AndroWatch menunjukkan apa yang dapat diungkapkan oleh API Android tentang perangkat Anda — pengidentifikasi, sensor, jaringan, dan banyak lagi.</string>
+    <string name="onboarding_privacy">Tidak ada yang diunggah. Ekspor bersifat eksplisit dan lokal.</string>
+    <string name="onboarding_continue">Melanjutkan</string>
+    <string name="permission_required">Izin diperlukan</string>
+    <string name="permission_rationale">Kategori ini memerlukan izin waktu proses untuk membaca metadata gabungan. PII mentah tidak pernah ditampilkan.</string>
+    <string name="grant_permission">Berikan izin</string>
+    <string name="summary_title">Ringkasan sidik jari</string>
+    <string name="summary_empty">Segarkan kategori untuk menghasilkan ringkasan.</string>
+    <string name="tier_passive">Pasif</string>
+    <string name="tier_permissioned">Perlu izin</string>
+    <string name="tier_advanced">Canggih</string>
+    <string name="signal_count">%1$d sinyal</string>
+    <string name="live_badge">Hidup</string>
+    <string name="loading">Mengumpulkan sinyal…</string>
+    <string name="error_collecting">Kesalahan saat mengumpulkan sinyal.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Mencoba kembali</string>
+    <string name="export_error">Tidak dapat mengekspor laporan.</string>
+    <string name="export_empty">Belum ada yang bisa diekspor. Segarkan kategori terlebih dahulu.</string>
+    <string name="no_signals">Belum ada sinyal yang dikumpulkan.</string>
+    <string name="show_rationale">Mengapa ini penting</string>
+    <string name="hide_rationale">Sembunyikan alasannya</string>
+    <string name="raw_value">Nilai API mentah</string>
+    <string name="value_unknown">tidak dikenal</string>
+    <string name="value_unknown_locale">lokal yang tidak diketahui</string>
+    <string name="value_unknown_device">perangkat yang tidak dikenal</string>
+    <string name="value_unknown_battery">baterai yang tidak diketahui</string>
+    <string name="value_unknown_network">jaringan yang tidak dikenal</string>
+    <string name="value_none">tidak ada</string>
+    <string name="value_unavailable">tidak tersedia</string>
+    <string name="value_na">tidak ada</string>
+    <string name="value_true">Ya</string>
+    <string name="value_false">TIDAK</string>
+
+</resources>

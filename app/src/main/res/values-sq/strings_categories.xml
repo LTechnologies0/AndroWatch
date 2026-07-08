@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">Identiteti i pajisjes</string>
+    <string name="cat_device_identity_subtitle">Identifikuesit dhe tiparet e harduerit</string>
+    <string name="cat_google_account_title">Llogaria e Google</string>
+    <string name="cat_google_account_subtitle">Sinjalet e pranisë së llogarisë</string>
+    <string name="cat_system_info_title">Informacioni i Sistemit</string>
+    <string name="cat_system_info_subtitle">Detajet e OS dhe kohën e funksionimit</string>
+    <string name="cat_display_title">Ekrani</string>
+    <string name="cat_display_subtitle">Aftësitë dhe dendësia e ekranit</string>
+    <string name="cat_locale_title">Vendndodhja dhe rajoni</string>
+    <string name="cat_locale_subtitle">Gjuha dhe gjurma e zonës kohore</string>
+    <string name="cat_accessibility_title">Aksesueshmëria</string>
+    <string name="cat_accessibility_subtitle">Cilësimet dhe flamujt ndihmës</string>
+    <string name="cat_device_motion_title">Lëvizja e pajisjes</string>
+    <string name="cat_device_motion_subtitle">Prania dhe gjendja e sensorit</string>
+    <string name="cat_battery_title">Bateria dhe fuqia</string>
+    <string name="cat_battery_subtitle">Të dhënat e modalitetit të baterisë dhe energjisë</string>
+    <string name="cat_storage_title">Magazinimi</string>
+    <string name="cat_storage_subtitle">Vëllimi dhe totali i ruajtjes</string>
+    <string name="cat_network_title">Rrjeti</string>
+    <string name="cat_network_subtitle">Lidhja dhe statusi VPN</string>
+    <string name="cat_fonts_title">Fontet</string>
+    <string name="cat_fonts_subtitle">Mostra e disponueshmërisë së shkronjave</string>
+    <string name="cat_installed_voices_title">Zërat e instaluar</string>
+    <string name="cat_installed_voices_subtitle">Motori i të folurit dhe mbështetja e zërit</string>
+    <string name="cat_app_info_title">Aplikacioni dhe paketa</string>
+    <string name="cat_app_info_subtitle">Meta të dhënat e ndërtimit të paketës</string>
+    <string name="cat_pasteboard_title">Karton kartoni</string>
+    <string name="cat_pasteboard_subtitle">Vetëm meta të dhënat e kujtesës së fragmenteve</string>
+    <string name="cat_audio_title">Audio</string>
+    <string name="cat_audio_subtitle">Daljet audio dhe detajet e rrugës</string>
+    <string name="cat_graphics_title">Grafika</string>
+    <string name="cat_graphics_subtitle">Sinjalet e zbatimit të GPU / GL</string>
+    <string name="cat_telephony_title">Telefonia</string>
+    <string name="cat_telephony_subtitle">Të dhënat meta të operatorit dhe radios</string>
+    <string name="cat_motion_title">Lëvizja dhe sensorët</string>
+    <string name="cat_motion_subtitle">Detajet e lëvizjes të kufizuara me leje</string>
+    <string name="cat_location_title">Vendndodhja</string>
+    <string name="cat_location_subtitle">Të dhënat meta të pozicionit dhe ofruesit</string>
+    <string name="cat_cameras_title">Kamerat</string>
+    <string name="cat_cameras_subtitle">Aftësitë dhe numërimi i kamerës</string>
+    <string name="cat_bluetooth_title">Bluetooth</string>
+    <string name="cat_bluetooth_subtitle">Statusi i Bluetooth dhe statistikat e çiftuara</string>
+    <string name="cat_local_network_title">Rrjeti lokal</string>
+    <string name="cat_local_network_subtitle">Mjedisi i afërt i rrjetit</string>
+    <string name="cat_contacts_title">Kontaktet</string>
+    <string name="cat_contacts_subtitle">Kontaktoni vetëm meta të dhënat e bazës së të dhënave</string>
+    <string name="cat_photos_title">Fotot</string>
+    <string name="cat_photos_subtitle">Vetëm meta të dhënat e bibliotekës së medias</string>
+    <string name="cat_calendar_title">Kalendari</string>
+    <string name="cat_calendar_subtitle">Të dhënat meta të llogarisë së kalendarit</string>
+    <string name="cat_reminders_title">Përkujtues</string>
+    <string name="cat_reminders_subtitle">Të dhënat meta të ofruesit të detyrave/kujtesës</string>
+    <string name="cat_music_library_title">Biblioteka e Muzikës</string>
+    <string name="cat_music_library_subtitle">Vetëm meta të dhënat e medias audio</string>
+    <string name="cat_installed_apps_probe_title">Hetimi i aplikacioneve të instaluara</string>
+    <string name="cat_installed_apps_probe_subtitle">Hetimi i skemës së qëllimit</string>
+    <string name="cat_webview_fingerprint_title">Gjurmët e gishtave të shikimit në ueb</string>
+    <string name="cat_webview_fingerprint_subtitle">Profili i interpretimit i ngjashëm me shfletuesin</string>
+    <string name="cat_previous_installs_log_title">Regjistri i mëparshëm i instalimeve</string>
+    <string name="cat_previous_installs_log_subtitle">Instaloni sugjerime për qëndrueshmëri</string>
+
+</resources>

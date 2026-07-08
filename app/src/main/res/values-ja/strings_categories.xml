@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_device_identity_title">デバイスのアイデンティティ</string>
+    <string name="cat_device_identity_subtitle">識別子とハードウェア特性</string>
+    <string name="cat_google_account_title">Googleアカウント</string>
+    <string name="cat_google_account_subtitle">アカウントの存在シグナル</string>
+    <string name="cat_system_info_title">システム情報</string>
+    <string name="cat_system_info_subtitle">OSとランタイムの詳細</string>
+    <string name="cat_display_title">画面</string>
+    <string name="cat_display_subtitle">画面の機能と密度</string>
+    <string name="cat_locale_title">ロケールと地域</string>
+    <string name="cat_locale_subtitle">言語とタイムゾーンのフットプリント</string>
+    <string name="cat_accessibility_title">アクセシビリティ</string>
+    <string name="cat_accessibility_subtitle">支援設定とフラグ</string>
+    <string name="cat_device_motion_title">デバイスの動作</string>
+    <string name="cat_device_motion_subtitle">センサーの有無と状態</string>
+    <string name="cat_battery_title">バッテリーと電源</string>
+    <string name="cat_battery_subtitle">バッテリーと電源モードのデータ</string>
+    <string name="cat_storage_title">ストレージ</string>
+    <string name="cat_storage_subtitle">ボリュームとストレージの合計</string>
+    <string name="cat_network_title">ネットワーク</string>
+    <string name="cat_network_subtitle">接続とVPNのステータス</string>
+    <string name="cat_fonts_title">フォント</string>
+    <string name="cat_fonts_subtitle">利用可能なフォントのサンプル</string>
+    <string name="cat_installed_voices_title">搭載ボイス</string>
+    <string name="cat_installed_voices_subtitle">音声エンジンと音声サポート</string>
+    <string name="cat_app_info_title">アプリとバンドル</string>
+    <string name="cat_app_info_subtitle">パッケージビルドメタデータ</string>
+    <string name="cat_pasteboard_title">ペーストボード</string>
+    <string name="cat_pasteboard_subtitle">クリップボードのメタデータのみ</string>
+    <string name="cat_audio_title">オーディオ</string>
+    <string name="cat_audio_subtitle">音声出力とルートの詳細</string>
+    <string name="cat_graphics_title">グラフィックス</string>
+    <string name="cat_graphics_subtitle">GPU / GL実装信号</string>
+    <string name="cat_telephony_title">電話</string>
+    <string name="cat_telephony_subtitle">キャリアと無線のメタデータ</string>
+    <string name="cat_motion_title">モーションとセンサー</string>
+    <string name="cat_motion_subtitle">パーミッションゲートモーションの詳細</string>
+    <string name="cat_location_title">位置</string>
+    <string name="cat_location_subtitle">位置およびプロバイダーのメタデータ</string>
+    <string name="cat_cameras_title">カメラ</string>
+    <string name="cat_cameras_subtitle">カメラの機能と数</string>
+    <string name="cat_bluetooth_title">ブルートゥース</string>
+    <string name="cat_bluetooth_subtitle">Bluetooth ステータスとペアリングの統計</string>
+    <string name="cat_local_network_title">ローカルネットワーク</string>
+    <string name="cat_local_network_subtitle">近隣のネットワーク環境</string>
+    <string name="cat_contacts_title">連絡先</string>
+    <string name="cat_contacts_subtitle">連絡先データベースのメタデータのみ</string>
+    <string name="cat_photos_title">写真</string>
+    <string name="cat_photos_subtitle">メディア ライブラリのメタデータのみ</string>
+    <string name="cat_calendar_title">カレンダー</string>
+    <string name="cat_calendar_subtitle">カレンダーアカウントのメタデータ</string>
+    <string name="cat_reminders_title">リマインダー</string>
+    <string name="cat_reminders_subtitle">タスク/リマインダープロバイダーのメタデータ</string>
+    <string name="cat_music_library_title">音楽ライブラリ</string>
+    <string name="cat_music_library_subtitle">オーディオメディアメタデータのみ</string>
+    <string name="cat_installed_apps_probe_title">インストールされているアプリのプローブ</string>
+    <string name="cat_installed_apps_probe_subtitle">インテントスキームの調査</string>
+    <string name="cat_webview_fingerprint_title">WebView フィンガープリント</string>
+    <string name="cat_webview_fingerprint_subtitle">ブラウザライクなレンダリングプロファイル</string>
+    <string name="cat_previous_installs_log_title">以前のインストールログ</string>
+    <string name="cat_previous_installs_log_subtitle">永続化ヒントをインストールする</string>
+
+</resources>

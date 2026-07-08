@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="home_subtitle">Android API parmak izi gezgini</string>
+    <string name="back">Geri</string>
+    <string name="refresh">Yenile</string>
+    <string name="export_report">Raporu dışa aktar</string>
+    <string name="export_chooser_title">AndroWatch raporunu dışa aktar</string>
+    <string name="about_title">Hakkında</string>
+    <string name="about_heading">Cihaz parmak izi şeffaflığı</string>
+    <string name="about_inspired">AndroWatch, Mysk Research\'ün Loupe\'undan ilham alan bir Android alternatifidir. Herkese açık Android API\'lerinin cihazınız hakkında neler ortaya çıkarabileceğini ortaya çıkarır.</string>
+    <string name="about_privacy">Tüm okumalar cihazınızda kalır. Bir JSON raporunu açıkça dışa aktarmadığınız sürece hiçbir şey yüklenmez.</string>
+    <string name="onboarding_title">Android\'in neler ortaya çıkardığını görün</string>
+    <string name="onboarding_body">AndroWatch, Android API\'lerinin cihazınız hakkında neler ortaya çıkarabileceğini gösterir: tanımlayıcılar, sensörler, ağ ve daha fazlası.</string>
+    <string name="onboarding_privacy">Hiçbir şey yüklenmedi. İhracatlar açık ve yereldir.</string>
+    <string name="onboarding_continue">Devam etmek</string>
+    <string name="permission_required">İzin gerekli</string>
+    <string name="permission_rationale">Bu kategorinin toplu meta verileri okumak için çalışma zamanı iznine ihtiyacı var. Ham PII hiçbir zaman görüntülenmez.</string>
+    <string name="grant_permission">İzin ver</string>
+    <string name="summary_title">Parmak izi özeti</string>
+    <string name="summary_empty">Bir özet oluşturmak için kategorileri yenileyin.</string>
+    <string name="tier_passive">Pasif</string>
+    <string name="tier_permissioned">İzin gerekiyor</string>
+    <string name="tier_advanced">Gelişmiş</string>
+    <string name="signal_count">%1$d sinyaller</string>
+    <string name="live_badge">Canlı</string>
+    <string name="loading">Sinyaller toplanıyor…</string>
+    <string name="error_collecting">Sinyaller toplanırken hata oluştu.</string>
+    <string name="error_with_reason">%1$s</string>
+    <string name="retry">Yeniden dene</string>
+    <string name="export_error">Rapor dışa aktarılamadı.</string>
+    <string name="export_empty">Henüz ihraç edilecek bir şey yok. Önce kategorileri yenileyin.</string>
+    <string name="no_signals">Henüz sinyal toplanmadı.</string>
+    <string name="show_rationale">Bu neden önemli?</string>
+    <string name="hide_rationale">Gerekçeyi gizle</string>
+    <string name="raw_value">Ham API değeri</string>
+    <string name="value_unknown">bilinmiyor</string>
+    <string name="value_unknown_locale">bilinmeyen yerel ayar</string>
+    <string name="value_unknown_device">bilinmeyen cihaz</string>
+    <string name="value_unknown_battery">bilinmeyen pil</string>
+    <string name="value_unknown_network">bilinmeyen ağ</string>
+    <string name="value_none">hiçbiri</string>
+    <string name="value_unavailable">müsait değil</string>
+    <string name="value_na">yok</string>
+    <string name="value_true">Evet</string>
+    <string name="value_false">HAYIR</string>
+
+</resources>
