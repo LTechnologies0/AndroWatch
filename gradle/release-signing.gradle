@@ -43,20 +43,23 @@ if (keystoreFile == null) {
         p
     } : null
 
-    def storePassword = resolveCredential("storePassword", "RELEASE_KEYSTORE_PASSWORD", props)
-    def keyAlias = resolveCredential("keyAlias", "RELEASE_KEY_ALIAS", props) ?: "androwatch"
-    def keyPassword = resolveCredential("keyPassword", "RELEASE_KEY_PASSWORD", props) ?: storePassword
+    // Distinct names: a local var sharing a signingConfig DSL method name (storePassword,
+    // keyAlias, keyPassword) shadows the method in Groovy, turning `storePassword storePassword`
+    // into String.call(String) and failing the build.
+    def storePasswordValue = resolveCredential("storePassword", "RELEASE_KEYSTORE_PASSWORD", props)
+    def keyAliasValue = resolveCredential("keyAlias", "RELEASE_KEY_ALIAS", props) ?: "androwatch"
+    def keyPasswordValue = resolveCredential("keyPassword", "RELEASE_KEY_PASSWORD", props) ?: storePasswordValue
 
-    if (storePassword == null) {
+    if (storePasswordValue == null) {
         logger.warn("Release keystore found but store password missing; APK will be unsigned.")
     } else {
         android {
             signingConfigs {
                 release {
                     storeFile keystoreFile
-                    storePassword storePassword
-                    keyAlias keyAlias
-                    keyPassword keyPassword
+                    storePassword storePasswordValue
+                    keyAlias keyAliasValue
+                    keyPassword keyPasswordValue
                 }
             }
             buildTypes {
