@@ -75,8 +75,8 @@ dependencies {
     androidTestImplementation(composeBom)
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-tooling-preview")
-    implementation("androidx.compose.material3:material3:1.5.0-alpha23")
-    implementation("androidx.compose.material3:material3-adaptive-navigation-suite:1.5.0-alpha23")
+    implementation("androidx.compose.material3:material3:1.5.0-alpha24")
+    implementation("androidx.compose.material3:material3-adaptive-navigation-suite:1.5.0-alpha24")
     implementation("androidx.compose.material:material-icons-extended")
 
     debugImplementation("com.squareup.leakcanary:leakcanary-android:2.14")
