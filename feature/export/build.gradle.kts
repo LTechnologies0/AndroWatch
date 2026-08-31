@@ -22,7 +22,7 @@ kotlin {
 dependencies {
     api(project(":core:model"))
     implementation("androidx.core:core-ktx:1.19.0")
-    implementation("androidx.tracing:tracing-ktx:1.3.0")
+    implementation("androidx.tracing:tracing-ktx:2.0.1")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
 }
