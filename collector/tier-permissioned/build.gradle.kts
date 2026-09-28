@@ -20,6 +20,6 @@ kotlin {
 
 dependencies {
     api(project(":collector:engine"))
-    implementation("androidx.core:core-ktx:1.19.0")
+    implementation("androidx.core:core-ktx:1.19.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
 }
