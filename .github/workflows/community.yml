@@ -42,12 +42,12 @@ jobs:
       - uses: actions/first-interaction@v3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: |
+          issue_message: |
             Thanks for opening an issue on **AndroWatch**!
 
             - Check [docs/ARCHITECTURE.md](https://github.com/LTechnologies0/AndroWatch/blob/main/docs/ARCHITECTURE.md) for module layout
             - For security issues, use **private vulnerability reporting** (see SECURITY.md)
-          pr-message: |
+          pr_message: |
             Thanks for your pull request!
 
             CI will run unit tests, assemble a debug APK, and run CodeQL.
@@ -98,10 +98,10 @@ jobs:
           days-before-close: 14
           stale-issue-label: stale
           stale-pr-label: stale
-          stale-issue-message: >
+          stale-issue_message: >
             This issue has been inactive for 60 days and will be closed in 14 days
             if there is no further activity. Comment to keep it open.
-          stale-pr-message: >
+          stale-pr_message: >
             This pull request has been inactive for 60 days and will be closed in 14 days
             if there is no further activity.
           exempt-issue-labels: security,enhancement,bug
