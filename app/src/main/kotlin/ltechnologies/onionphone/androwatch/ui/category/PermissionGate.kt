@@ -32,13 +32,17 @@ import ltechnologies.onionphone.androwatch.R
  * Full-screen prompt shown when a category's runtime permission has not been granted.
  *
  * Presents a rationale, a grant button and an expandable "learn more" section.
+ * When [permanentlyDenied] is true the grant button opens application details instead
+ * of re-requesting a permission the system will silently ignore.
  *
  * @param onGrant Invoked when the user taps the grant button (launches the permission request).
+ * @param permanentlyDenied `true` after the user selected "Don't ask again".
  * @param modifier Modifier for layout/styling.
  */
 @Composable
 fun PermissionGate(
     onGrant: () -> Unit,
+    permanentlyDenied: Boolean = false,
     modifier: Modifier = Modifier,
 ) {
     var learnMoreExpanded by rememberSaveable { mutableStateOf(false) }
@@ -68,14 +72,24 @@ fun PermissionGate(
                 textAlign = TextAlign.Center,
             )
             Text(
-                text = stringResource(R.string.permission_rationale),
+                text = stringResource(
+                    if (permanentlyDenied) {
+                        R.string.permission_permanently_denied
+                    } else {
+                        R.string.permission_rationale
+                    },
+                ),
                 modifier = Modifier.padding(top = 12.dp, bottom = 24.dp),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 textAlign = TextAlign.Center,
             )
             Button(onClick = onGrant) {
-                Text(stringResource(R.string.grant_permission))
+                Text(
+                    stringResource(
+                        if (permanentlyDenied) R.string.open_app_settings else R.string.grant_permission,
+                    ),
+                )
             }
             FilledTonalButton(
                 onClick = { learnMoreExpanded = !learnMoreExpanded },

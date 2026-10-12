@@ -40,6 +40,8 @@
     <string name="permission_required">Permission required</string>
     <string name="permission_rationale">This category needs runtime permission to read aggregated metadata. Raw PII is never displayed.</string>
     <string name="grant_permission">Grant permission</string>
+    <string name="open_app_settings">Open app settings</string>
+    <string name="permission_permanently_denied">Permission was denied permanently. Enable it in system Settings.</string>
     <string name="learn_more">Learn more</string>
     <string name="permission_learn_more">AndroWatch only reads metadata exposed by Android after you grant permission. You can revoke access anytime in system Settings.</string>
 

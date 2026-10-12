@@ -6,15 +6,15 @@ import android.provider.Settings
 
 /** Reads a non-blank `Settings.Secure` string, or `null`. @param key Secure setting key. */
 fun readSecureString(context: Context, key: String): String? =
-    Settings.Secure.getString(context.contentResolver, key)?.takeIf { it.isNotBlank() }
+    runCatching { Settings.Secure.getString(context.contentResolver, key)?.takeIf { it.isNotBlank() } }.getOrNull()
 
 /** Reads a non-blank `Settings.System` string, or `null`. @param key System setting key. */
 fun readSystemString(context: Context, key: String): String? =
-    Settings.System.getString(context.contentResolver, key)?.takeIf { it.isNotBlank() }
+    runCatching { Settings.System.getString(context.contentResolver, key)?.takeIf { it.isNotBlank() } }.getOrNull()
 
 /** Reads a non-blank `Settings.Global` string, or `null`. @param key Global setting key. */
 fun readGlobalString(context: Context, key: String): String? =
-    Settings.Global.getString(context.contentResolver, key)?.takeIf { it.isNotBlank() }
+    runCatching { Settings.Global.getString(context.contentResolver, key)?.takeIf { it.isNotBlank() } }.getOrNull()
 
 /**
  * Reads an integer from `Settings.Global`, or `null` on failure.

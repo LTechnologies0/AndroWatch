@@ -141,12 +141,20 @@ private const val FINGERPRINT_HTML = """
  */
 suspend fun collectWebViewFingerprint(context: Context): WebViewFingerprintResult {
     val appContext = context.applicationContext
-    val ua = WebSettings.getDefaultUserAgent(appContext)
+    val ua = runCatching { WebSettings.getDefaultUserAgent(appContext) }.getOrDefault("")
     return suspendCancellableCoroutine { cont ->
         val mainHandler = Handler(Looper.getMainLooper())
         mainHandler.post {
-            val webView = WebView(appContext)
-            webView.settings.javaScriptEnabled = true
+            val webView = runCatching { WebView(appContext) }.getOrElse { error ->
+                if (cont.isActive) cont.resume(fallbackResult(ua, "webview_unavailable:${error.javaClass.simpleName}"))
+                return@post
+            }
+            val settingsOk = runCatching { webView.settings.javaScriptEnabled = true }.isSuccess
+            if (!settingsOk) {
+                runCatching { webView.destroy() }
+                if (cont.isActive) cont.resume(fallbackResult(ua, "webview_settings_blocked"))
+                return@post
+            }
             var finished = false
             fun disposeWebView() {
                 runCatching { webView.removeJavascriptInterface("AndroWatchBridge") }
@@ -216,27 +224,48 @@ suspend fun collectWebViewFingerprint(context: Context): WebViewFingerprintResul
 }
 
 /**
- * Builds a [WebViewFingerprintResult] where every JS-derived field carries a failure
- * [reason] sentinel (e.g. `timeout`, `parse_error`), keeping the user agent intact.
+ * Sentinel tokens written onto every JS-derived field when the WebView probe cannot
+ * complete. Collectors skip any field whose value is in this set.
+ */
+val WEBVIEW_SKIP_VALUES = setOf(
+    "timeout",
+    "parse_error",
+    "webview_settings_blocked",
+)
+
+/** True when [value] is a fallback/reason sentinel rather than a real JS reading. */
+fun isWebViewFallbackSentinel(value: String): Boolean {
+    if (value.isBlank()) return true
+    if (value in WEBVIEW_SKIP_VALUES) return true
+    return value.startsWith("webview_unavailable")
+}
+
+/**
+ * Builds a [WebViewFingerprintResult] where **every** field — including UA and the
+ * numeric navigator/screen values — carries the same failure [reason] sentinel.
  *
- * @param ua WebView user agent (still readable without JS).
+ * @param ua WebView user agent when still readable without JS; ignored when blank.
  * @param reason Failure reason token propagated to all probe fields.
  * @return A fallback result signaling probe failure.
  */
-private fun fallbackResult(ua: String, reason: String) = WebViewFingerprintResult(
-    userAgent = ua,
-    platform = reason,
-    hardwareConcurrency = "0",
-    deviceMemory = "0",
-    canvasHash = reason,
-    webglVendor = reason,
-    webglRenderer = reason,
-    webglHash = reason,
-    timezone = reason,
-    languages = reason,
-    screenSize = reason,
-    colorDepth = reason,
-    pixelRatio = reason,
-    maxTouchPoints = reason,
-    audioContextHash = reason,
-)
+internal fun fallbackResult(ua: String, reason: String): WebViewFingerprintResult {
+    val token = reason.ifBlank { "timeout" }
+    val uaOrReason = ua.takeIf { it.isNotBlank() } ?: token
+    return WebViewFingerprintResult(
+        userAgent = uaOrReason,
+        platform = token,
+        hardwareConcurrency = token,
+        deviceMemory = token,
+        canvasHash = token,
+        webglVendor = token,
+        webglRenderer = token,
+        webglHash = token,
+        timezone = token,
+        languages = token,
+        screenSize = token,
+        colorDepth = token,
+        pixelRatio = token,
+        maxTouchPoints = token,
+        audioContextHash = token,
+    )
+}

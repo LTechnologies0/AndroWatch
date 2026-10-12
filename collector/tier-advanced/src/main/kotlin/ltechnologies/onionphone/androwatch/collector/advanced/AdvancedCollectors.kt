@@ -11,15 +11,13 @@ import ltechnologies.onionphone.androwatch.collector.buildSignals
 import ltechnologies.onionphone.androwatch.collector.collectWebViewFingerprint
 import ltechnologies.onionphone.androwatch.collector.failedSignal
 import ltechnologies.onionphone.androwatch.collector.interpretedSignal
+import ltechnologies.onionphone.androwatch.collector.isWebViewFallbackSentinel
 import ltechnologies.onionphone.androwatch.collector.probeInstalledPackages
 import ltechnologies.onionphone.androwatch.collector.SignalInterpreter
 import ltechnologies.onionphone.androwatch.collector.signal
 import ltechnologies.onionphone.androwatch.collector.tagsSignal
 import ltechnologies.onionphone.androwatch.collector.SignalCollector
 import ltechnologies.onionphone.androwatch.model.SignalCategory
-
-/** WebView probe values that indicate a failed/blocked JS read and should be skipped. */
-private val WEBVIEW_SKIP_VALUES = setOf("timeout", "parse_error")
 
 /**
  * Advanced (opt-in) collector for [SignalCategory.InstalledAppsProbe].
@@ -123,7 +121,10 @@ class WebViewFingerprintCollector : SignalCollector {
         val fp = runCatching { collectWebViewFingerprint(context) }.getOrNull()
         return buildSignals(category) {
             addOptional(category, "ua", "WebView user agent") {
-                val ua = android.webkit.WebSettings.getDefaultUserAgent(context.applicationContext)
+                val ua = runCatching {
+                    android.webkit.WebSettings.getDefaultUserAgent(context.applicationContext)
+                }.getOrElse { fp?.userAgent.orEmpty() }
+                if (isWebViewFallbackSentinel(ua)) error("skipped")
                 interpretedSignal(
                     category, "ua", "WebView user agent",
                     SignalInterpreter.webViewUserAgent(ua),
@@ -133,7 +134,7 @@ class WebViewFingerprintCollector : SignalCollector {
             }
             if (fp == null) return@buildSignals
             addOptional(category, "platform", "Navigator platform") {
-                if (fp.platform in WEBVIEW_SKIP_VALUES) error("skipped")
+                if (isWebViewFallbackSentinel(fp.platform)) error("skipped")
                 interpretedSignal(
                     category, "platform", "Navigator platform",
                     SignalInterpreter.webViewPlatform(fp.platform),
@@ -142,6 +143,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "hardwareConcurrency", "Hardware concurrency") {
+                if (isWebViewFallbackSentinel(fp.hardwareConcurrency)) error("skipped")
                 interpretedSignal(
                     category, "hardwareConcurrency", "Hardware concurrency",
                     SignalInterpreter.hardwareConcurrency(fp.hardwareConcurrency),
@@ -150,6 +152,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "deviceMemory", "Device memory (GB)") {
+                if (isWebViewFallbackSentinel(fp.deviceMemory)) error("skipped")
                 interpretedSignal(
                     category, "deviceMemory", "Device memory (GB)",
                     SignalInterpreter.deviceMemoryGb(fp.deviceMemory),
@@ -158,7 +161,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "canvasHash", "Canvas SHA-256") {
-                if (fp.canvasHash in WEBVIEW_SKIP_VALUES) error("skipped")
+                if (isWebViewFallbackSentinel(fp.canvasHash)) error("skipped")
                 interpretedSignal(
                     category, "canvasHash", "Canvas SHA-256",
                     SignalInterpreter.canvasFingerprint(fp.canvasHash),
@@ -167,7 +170,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "webglVendor", "WebGL vendor") {
-                if (fp.webglVendor in WEBVIEW_SKIP_VALUES) error("skipped")
+                if (isWebViewFallbackSentinel(fp.webglVendor)) error("skipped")
                 interpretedSignal(
                     category, "webglVendor", "WebGL vendor",
                     SignalInterpreter.webglVendor(fp.webglVendor),
@@ -176,7 +179,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "webglRenderer", "WebGL renderer") {
-                if (fp.webglRenderer in WEBVIEW_SKIP_VALUES) error("skipped")
+                if (isWebViewFallbackSentinel(fp.webglRenderer)) error("skipped")
                 interpretedSignal(
                     category, "webglRenderer", "WebGL renderer",
                     SignalInterpreter.webglRenderer(fp.webglRenderer),
@@ -185,7 +188,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "webglHash", "WebGL hash SHA-256") {
-                if (fp.webglHash in WEBVIEW_SKIP_VALUES) error("skipped")
+                if (isWebViewFallbackSentinel(fp.webglHash)) error("skipped")
                 interpretedSignal(
                     category, "webglHash", "WebGL hash SHA-256",
                     SignalInterpreter.webglHash(fp.webglHash),
@@ -194,7 +197,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "timezone", "JS timezone") {
-                if (fp.timezone in WEBVIEW_SKIP_VALUES) error("skipped")
+                if (isWebViewFallbackSentinel(fp.timezone)) error("skipped")
                 interpretedSignal(
                     category, "timezone", "JS timezone",
                     SignalInterpreter.jsTimezone(fp.timezone),
@@ -203,6 +206,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "languages", "Navigator languages") {
+                if (isWebViewFallbackSentinel(fp.languages)) error("skipped")
                 interpretedSignal(
                     category, "languages", "Navigator languages",
                     SignalInterpreter.navigatorLanguages(fp.languages),
@@ -211,7 +215,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "screenSize", "Screen size") {
-                if (fp.screenSize in WEBVIEW_SKIP_VALUES) error("skipped")
+                if (isWebViewFallbackSentinel(fp.screenSize)) error("skipped")
                 interpretedSignal(
                     category, "screenSize", "Screen size",
                     SignalInterpreter.jsScreenSize(fp.screenSize),
@@ -220,6 +224,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "colorDepth", "Color depth") {
+                if (isWebViewFallbackSentinel(fp.colorDepth)) error("skipped")
                 interpretedSignal(
                     category, "colorDepth", "Color depth",
                     SignalInterpreter.colorDepth(fp.colorDepth),
@@ -228,6 +233,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "pixelRatio", "Device pixel ratio") {
+                if (isWebViewFallbackSentinel(fp.pixelRatio)) error("skipped")
                 interpretedSignal(
                     category, "pixelRatio", "Device pixel ratio",
                     SignalInterpreter.devicePixelRatio(fp.pixelRatio),
@@ -236,6 +242,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "maxTouchPoints", "Max touch points") {
+                if (isWebViewFallbackSentinel(fp.maxTouchPoints)) error("skipped")
                 interpretedSignal(
                     category, "maxTouchPoints", "Max touch points",
                     SignalInterpreter.maxTouchPoints(fp.maxTouchPoints),
@@ -244,7 +251,7 @@ class WebViewFingerprintCollector : SignalCollector {
                 )
             }
             addOptional(category, "audioContextHash", "AudioContext hash") {
-                if (fp.audioContextHash.isBlank() || fp.audioContextHash in WEBVIEW_SKIP_VALUES) error("skipped")
+                if (isWebViewFallbackSentinel(fp.audioContextHash)) error("skipped")
                 interpretedSignal(
                     category, "audioContextHash", "AudioContext hash",
                     SignalInterpreter.audioContextFingerprint(fp.audioContextHash),

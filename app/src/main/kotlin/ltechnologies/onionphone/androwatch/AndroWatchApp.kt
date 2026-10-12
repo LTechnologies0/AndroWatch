@@ -3,6 +3,7 @@ package ltechnologies.onionphone.androwatch
 import android.app.Application
 import android.os.StrictMode
 import android.util.Log
+import ltechnologies.onionphone.androwatch.export.ReportExporter
 
 /**
  * Application entry point wiring process-wide setup for AndroWatch.
@@ -19,6 +20,7 @@ class AndroWatchApp : Application() {
     override fun onCreate() {
         super.onCreate()
         installCrashHandler()
+        ReportExporter.purgeStaleExports(this)
         if (!BuildConfig.DEBUG) return
         Log.i(TAG, "trace on: adb logcat -s AndroWatch:* ; perfetto via profileable shell")
         StrictMode.setThreadPolicy(

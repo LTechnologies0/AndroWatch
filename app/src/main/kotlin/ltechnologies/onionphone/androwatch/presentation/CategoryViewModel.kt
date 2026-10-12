@@ -12,6 +12,7 @@ import ltechnologies.onionphone.androwatch.collector.LiveSignalCollector
 import ltechnologies.onionphone.androwatch.collector.awTrace
 import ltechnologies.onionphone.androwatch.export.ExportCategory
 import ltechnologies.onionphone.androwatch.export.ExportReport
+import ltechnologies.onionphone.androwatch.export.ReportExporter
 import ltechnologies.onionphone.androwatch.model.FingerprintSignal
 import ltechnologies.onionphone.androwatch.model.LoadState
 import ltechnologies.onionphone.androwatch.model.Sensitivity
@@ -61,7 +62,7 @@ class CategoryViewModel(
 
     /** Observable UI state consumed by the Compose layer. */
     val state: StateFlow<UiState> = _state
-    private var liveJob: Job? = null
+    private val liveJobs = mutableMapOf<SignalCategory, Job>()
 
     companion object {
         /** Pretty-printing JSON encoder used for report export. */
@@ -146,16 +147,16 @@ class CategoryViewModel(
     }
 
     /**
-     * Starts observing a live category's [LiveSignalCollector] stream, replacing any prior
-     * observation. No-op if the category has no live collector.
+     * Starts observing a live category's [LiveSignalCollector] stream. Each category keeps
+     * its own job so leaving one live screen does not cancel another.
      *
      * @param category Category to observe live.
      */
     fun observeLiveCategory(category: SignalCategory) {
-        stopLiveObservation()
+        if (liveJobs[category]?.isActive == true) return
         val collector = CollectorRegistry.byCategory[category] as? LiveSignalCollector ?: return
         val context = getApplication<Application>()
-        liveJob = viewModelScope.launch {
+        liveJobs[category] = viewModelScope.launch {
             awTrace("live/${category.name}") {
                 collector.liveFlow(context).collect { liveSignals ->
                     patchLiveSignals(category, liveSignals)
@@ -164,10 +165,14 @@ class CategoryViewModel(
         }
     }
 
-    /** Cancels the current live-observation job, if any. */
-    fun stopLiveObservation() {
-        liveJob?.cancel()
-        liveJob = null
+    /** Cancels live observation for [category], or every live job when [category] is null. */
+    fun stopLiveObservation(category: SignalCategory? = null) {
+        if (category == null) {
+            liveJobs.values.forEach { it.cancel() }
+            liveJobs.clear()
+            return
+        }
+        liveJobs.remove(category)?.cancel()
     }
 
     /**
@@ -209,7 +214,11 @@ class CategoryViewModel(
         awTrace("export/json") {
             val snapshot = _state.value
             val categories = snapshot.signals.map { (category, signals) ->
-                ExportCategory(category = category.name, sensitivity = category.sensitivity.name, signals = signals)
+                ExportCategory(
+                    category = category.name,
+                    sensitivity = category.sensitivity.name,
+                    signals = ReportExporter.sanitizeSignals(signals),
+                )
             }.sortedBy { it.category }
             exportJson.encodeToString(
                 ExportReport(

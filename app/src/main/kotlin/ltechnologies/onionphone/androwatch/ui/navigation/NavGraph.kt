@@ -23,8 +23,11 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.material3.adaptive.navigationsuite.NavigationSuiteScaffold
 import androidx.compose.material3.adaptive.navigationsuite.NavigationSuiteType
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.repeatOnLifecycle
+import kotlinx.coroutines.awaitCancellation
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -371,6 +374,7 @@ private fun NavGraphBuilder.androWatchRoutes(
         )
         val isLive = CollectorRegistry.liveCategories.contains(category)
 
+        val lifecycleOwner = LocalLifecycleOwner.current
         LaunchedEffect(category) {
             val permissionKind = category.permissionKind
             if (permissionKind != null &&
@@ -380,10 +384,17 @@ private fun NavGraphBuilder.androWatchRoutes(
             } else {
                 viewModel.refreshCategory(category)
             }
-            if (isLive) viewModel.observeLiveCategory(category)
         }
-        DisposableEffect(category) {
-            onDispose { viewModel.stopLiveObservation() }
+        LaunchedEffect(category, isLive) {
+            if (!isLive) return@LaunchedEffect
+            lifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
+                viewModel.observeLiveCategory(category)
+                try {
+                    awaitCancellation()
+                } finally {
+                    viewModel.stopLiveObservation(category)
+                }
+            }
         }
         CategoryDetailScreen(
             category = category,

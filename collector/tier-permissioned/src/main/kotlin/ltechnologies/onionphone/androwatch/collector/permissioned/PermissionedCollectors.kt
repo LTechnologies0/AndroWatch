@@ -346,7 +346,28 @@ class LocalNetworkCollector : SignalCollector {
             }
         }.map { (k, v) -> "$k=${v.size}" }.joinToString()
         val nsd = runCatching { discoverLocalNetworkServices(context) }.getOrNull()
+        val hasFineLocation = hasPermission(context, Manifest.permission.ACCESS_FINE_LOCATION)
+        val nearbyWifiGranted = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
+            hasPermission(context, Manifest.permission.NEARBY_WIFI_DEVICES)
+        val scanStatus = when {
+            nearbyWifiGranted -> "nearby_wifi_never_for_location"
+            hasFineLocation -> "fine_location"
+            canScan -> "legacy_location"
+            else -> "scan_blocked"
+        }
         return buildSignals(category) {
+                        addSafe(category, "scanStatus", "Wi-Fi scan permission") {
+                signal(
+                    category, "scanStatus", "Wi-Fi scan permission", scanStatus,
+                    "NEARBY_WIFI_DEVICES is declared neverForLocation; fine location is required only below API 33.",
+                )
+            }
+                        addSafe(category, "fineLocation", "Fine location granted") {
+                signal(
+                    category, "fineLocation", "Fine location granted", hasFineLocation.toString(),
+                    "Fine location is optional on API 33+ because nearby Wi-Fi is never used for location.",
+                )
+            }
                         addSafe(category, "wifiEnabled", "Wi-Fi enabled") {
                 signal(category, "wifiEnabled", "Wi-Fi enabled",
                     runCatching { wifi.isWifiEnabled }.getOrDefault(false).toString(),
@@ -406,6 +427,7 @@ class ContactsCollector : SignalCollector {
      */
     override suspend fun collect(context: Context): List<ltechnologies.onionphone.androwatch.model.FingerprintSignal> {
         val contactCount = countQuery(context, ContactsContract.Contacts.CONTENT_URI)
+        val contactCountLabel = contactCount?.toString() ?: "unavailable"
         val accountTypes = mutableMapOf<String, Int>()
         runCatching {
             context.contentResolver.query(
@@ -422,7 +444,7 @@ class ContactsCollector : SignalCollector {
         }
         return buildSignals(category) {
                         addSafe(category, "contactCount", "Contact count") {
-                signal(category, "contactCount", "Contact count", contactCount.toString(),
+                signal(category, "contactCount", "Contact count", contactCountLabel,
                     "Contact database size is a strong behavioral fingerprint.")
             }
                         addSafe(category, "accountTypes", "Account type distribution") {
@@ -489,6 +511,8 @@ class PhotosCollector : SignalCollector {
     override suspend fun collect(context: Context): List<ltechnologies.onionphone.androwatch.model.FingerprintSignal> {
         val imageCount = countQuery(context, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
         val videoCount = countQuery(context, MediaStore.Video.Media.EXTERNAL_CONTENT_URI)
+        val imageCountLabel = imageCount?.toString() ?: "unavailable"
+        val videoCountLabel = videoCount?.toString() ?: "unavailable"
         val yearCounts = mutableMapOf<Int, Int>()
         runCatching {
             context.contentResolver.query(
@@ -511,11 +535,11 @@ class PhotosCollector : SignalCollector {
         }
         return buildSignals(category) {
                         addSafe(category, "imageCount", "Image count") {
-                signal(category, "imageCount", "Image count", imageCount.toString(),
+                signal(category, "imageCount", "Image count", imageCountLabel,
                     "Photo library size reveals user media habits.")
             }
                         addSafe(category, "videoCount", "Video count") {
-                signal(category, "videoCount", "Video count", videoCount.toString(),
+                signal(category, "videoCount", "Video count", videoCountLabel,
                     "Video library size complements photo fingerprint.")
             }
                         addSafe(category, "captureYears", "Capture year distribution") {
@@ -557,13 +581,15 @@ class CalendarCollector : SignalCollector {
     override suspend fun collect(context: Context): List<ltechnologies.onionphone.androwatch.model.FingerprintSignal> {
         val calendarCount = countQuery(context, CalendarContract.Calendars.CONTENT_URI)
         val eventCount = countQuery(context, CalendarContract.Events.CONTENT_URI)
+        val calendarCountLabel = calendarCount?.toString() ?: "unavailable"
+        val eventCountLabel = eventCount?.toString() ?: "unavailable"
         return buildSignals(category) {
                         addSafe(category, "calendarCount", "Calendar count") {
-                signal(category, "calendarCount", "Calendar count", calendarCount.toString(),
+                signal(category, "calendarCount", "Calendar count", calendarCountLabel,
                     "Number of calendars reveals account and work/personal split.")
             }
                         addSafe(category, "eventCount", "Event count") {
-                signal(category, "eventCount", "Event count", eventCount.toString(),
+                signal(category, "eventCount", "Event count", eventCountLabel,
                     "Event count indicates scheduling intensity.")
             }
         }
@@ -592,9 +618,10 @@ class RemindersCollector : SignalCollector {
      */
     override suspend fun collect(context: Context): List<ltechnologies.onionphone.androwatch.model.FingerprintSignal> {
         val reminderCount = countQuery(context, CalendarContract.Reminders.CONTENT_URI)
+        val reminderCountLabel = reminderCount?.toString() ?: "unavailable"
         return buildSignals(category) {
                         addSafe(category, "reminderCount", "Reminder count") {
-                signal(category, "reminderCount", "Reminder count", reminderCount.toString(),
+                signal(category, "reminderCount", "Reminder count", reminderCountLabel,
                     "Reminder count reveals task management habits.")
             }
         }
@@ -624,9 +651,10 @@ class MusicLibraryCollector : SignalCollector {
      */
     override suspend fun collect(context: Context): List<ltechnologies.onionphone.androwatch.model.FingerprintSignal> {
         val audioCount = countQuery(context, MediaStore.Audio.Media.EXTERNAL_CONTENT_URI)
+        val audioCountLabel = audioCount?.toString() ?: "unavailable"
         return buildSignals(category) {
                         addSafe(category, "audioCount", "Audio file count") {
-                signal(category, "audioCount", "Audio file count", audioCount.toString(),
+                signal(category, "audioCount", "Audio file count", audioCountLabel,
                     "Music library size is a media consumption fingerprint.")
             }
         }

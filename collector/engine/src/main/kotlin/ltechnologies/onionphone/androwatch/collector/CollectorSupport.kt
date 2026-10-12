@@ -206,7 +206,8 @@ fun bytesToHex(bytes: ByteArray): String {
  * Counts the rows a content-provider query returns without exposing their contents.
  *
  * Queries only the `_id` column so the collector learns a count (e.g. number of contacts)
- * without reading actual records; any failure yields `0`.
+ * without reading actual records; any failure yields `null` so callers can distinguish
+ * "zero rows" from "query failed".
  *
  * Privacy: returns only an aggregate count, never row data. The caller is responsible for
  * having the permission the [uri] requires.
@@ -214,11 +215,11 @@ fun bytesToHex(bytes: ByteArray): String {
  * @param context Context providing the content resolver.
  * @param uri Content URI to query.
  * @param selection Optional SQL-style selection filter.
- * @return Number of matching rows, or `0` on failure.
+ * @return Number of matching rows, or `null` on failure.
  */
-fun countQuery(context: Context, uri: android.net.Uri, selection: String? = null): Int =
+fun countQuery(context: Context, uri: android.net.Uri, selection: String? = null): Int? =
     runCatching {
         context.contentResolver.query(uri, arrayOf("_id"), selection, null, null)?.use { cursor ->
             cursor.count
-        } ?: 0
-    }.getOrDefault(0)
+        }
+    }.getOrNull()

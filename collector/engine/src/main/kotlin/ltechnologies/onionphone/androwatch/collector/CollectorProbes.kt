@@ -26,18 +26,22 @@ import android.telephony.TelephonyManager
  */
 fun probeAudioExtended(context: Context, outputs: Array<AudioDeviceInfo>): Map<String, String> = buildMap {
     val am = context.getSystemService(Context.AUDIO_SERVICE) as AudioManager
-    val names = outputs.mapNotNull { it.productName?.toString() }.sorted()
-    if (names.isNotEmpty()) put("productNamesHash", sha256Hex(names.joinToString("|")))
-    val rates = outputs.flatMap { it.sampleRates.toList() }.distinct().sorted()
-    val channels = outputs.flatMap { it.channelCounts.toList() }.distinct().sorted()
-    put("audioHwCaps", "rates=${rates.take(8)};ch=${channels.take(8)}")
-    put("outputSampleRate", am.getProperty(AudioManager.PROPERTY_OUTPUT_SAMPLE_RATE) ?: "n/a")
-    put("outputBufferFrames", am.getProperty(AudioManager.PROPERTY_OUTPUT_FRAMES_PER_BUFFER) ?: "n/a")
-    put("micMute", am.isMicrophoneMute.toString())
-    put("volumeFixed", am.isVolumeFixed.toString())
-    put("audioMode", am.mode.toString())
+    putSafe("productNamesHash") {
+        val names = outputs.mapNotNull { it.productName?.toString() }.sorted()
+        names.takeIf { it.isNotEmpty() }?.let { sha256Hex(it.joinToString("|")) }
+    }
+    putSafe("audioHwCaps") {
+        val rates = outputs.flatMap { it.sampleRates.toList() }.distinct().sorted()
+        val channels = outputs.flatMap { it.channelCounts.toList() }.distinct().sorted()
+        "rates=${rates.take(8)};ch=${channels.take(8)}"
+    }
+    putSafe("outputSampleRate") { am.getProperty(AudioManager.PROPERTY_OUTPUT_SAMPLE_RATE) ?: "n/a" }
+    putSafe("outputBufferFrames") { am.getProperty(AudioManager.PROPERTY_OUTPUT_FRAMES_PER_BUFFER) ?: "n/a" }
+    putSafe("micMute") { am.isMicrophoneMute.toString() }
+    putSafe("volumeFixed") { am.isVolumeFixed.toString() }
+    putSafe("audioMode") { am.mode.toString() }
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-        put("commDevice", am.communicationDevice?.type?.toString() ?: "none")
+        putSafe("commDevice") { am.communicationDevice?.type?.toString() ?: "none" }
     }
 }
 
@@ -61,18 +65,24 @@ fun probeNetworkExtended(
     caps: NetworkCapabilities?,
     link: android.net.LinkProperties?,
 ): Map<String, String> = buildMap {
-    put("networkCount", cm.allNetworks.size.toString())
+    putSafe("networkCount") { cm.allNetworks.size.toString() }
     if (caps != null) {
-        val capBits = (0 until 32).filter { caps.hasCapability(it) }
-        put("netCapsHash", sha256Hex(capBits.joinToString(",")))
-        put("captivePortal", caps.hasCapability(NetworkCapabilities.NET_CAPABILITY_CAPTIVE_PORTAL).toString())
-        put("notRoaming", caps.hasCapability(NetworkCapabilities.NET_CAPABILITY_NOT_ROAMING).toString())
-        put("downKbps", caps.linkDownstreamBandwidthKbps.toString())
-        put("upKbps", caps.linkUpstreamBandwidthKbps.toString())
+        putSafe("netCapsHash") {
+            val capBits = (0 until 32).filter { caps.hasCapability(it) }
+            sha256Hex(capBits.joinToString(","))
+        }
+        putSafe("captivePortal") {
+            caps.hasCapability(NetworkCapabilities.NET_CAPABILITY_CAPTIVE_PORTAL).toString()
+        }
+        putSafe("notRoaming") {
+            caps.hasCapability(NetworkCapabilities.NET_CAPABILITY_NOT_ROAMING).toString()
+        }
+        putSafe("downKbps") { caps.linkDownstreamBandwidthKbps.toString() }
+        putSafe("upKbps") { caps.linkUpstreamBandwidthKbps.toString() }
     }
-    link?.mtu?.let { put("mtu", it.toString()) }
-    link?.routes?.size?.let { put("routeCount", it.toString()) }
-    put("dataSaver", cm.restrictBackgroundStatus.toString())
+    putSafe("mtu") { link?.mtu?.toString() }
+    putSafe("routeCount") { link?.routes?.size?.toString() }
+    putSafe("dataSaver") { cm.restrictBackgroundStatus.toString() }
 }
 
 /**
@@ -94,17 +104,23 @@ fun probeBatteryExtended(
     bm: BatteryManager,
     sticky: android.content.Intent?,
 ): Map<String, String> = buildMap {
-  put("chargeCounter", bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CHARGE_COUNTER).toString())
-  put("currentNow", bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CURRENT_NOW).toString())
-  put("currentAvg", bm.getIntProperty(BatteryManager.BATTERY_PROPERTY_CURRENT_AVERAGE).toString())
-  put("energyCounter", bm.getLongProperty(BatteryManager.BATTERY_PROPERTY_ENERGY_COUNTER).toString())
-  if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
-      put("cycleCount", bm.getIntProperty(34 /* BATTERY_PROPERTY_CYCLE_COUNT */).toString())
-  }
-  sticky?.let { intent ->
-      intent.getStringExtra(BatteryManager.EXTRA_TECHNOLOGY)?.let { put("technology", it) }
-      intent.getIntExtra(BatteryManager.EXTRA_PLUGGED, -1).let { put("plugged", it.toString()) }
-  }
+    putSafe("chargeCounter") { bm.intPropertyOrNull(BatteryManager.BATTERY_PROPERTY_CHARGE_COUNTER)?.toString() }
+    putSafe("currentNow") { bm.intPropertyOrNull(BatteryManager.BATTERY_PROPERTY_CURRENT_NOW)?.toString() }
+    putSafe("currentAvg") { bm.intPropertyOrNull(BatteryManager.BATTERY_PROPERTY_CURRENT_AVERAGE)?.toString() }
+    putSafe("energyCounter") { bm.longPropertyOrNull(BatteryManager.BATTERY_PROPERTY_ENERGY_COUNTER)?.toString() }
+    sticky?.let { intent ->
+        putSafe("technology") { intent.getStringExtra(BatteryManager.EXTRA_TECHNOLOGY) }
+        putSafe("plugged") {
+            intent.getIntExtra(BatteryManager.EXTRA_PLUGGED, Int.MIN_VALUE)
+                .takeUnless { it == Int.MIN_VALUE }?.toString()
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            putSafe("cycleCount") {
+                intent.getIntExtra(BatteryManager.EXTRA_CYCLE_COUNT, Int.MIN_VALUE)
+                    .takeUnless { it == Int.MIN_VALUE }?.toString()
+            }
+        }
+    }
 }
 
 /**
@@ -122,25 +138,46 @@ fun probeBatteryExtended(
  * @return Map of probe keys to stringified values for the Telephony category.
  */
 fun probeTelephonyExtended(tm: TelephonyManager): Map<String, String> = buildMap {
-    put("networkMccMnc", tm.networkOperator ?: "n/a")
-    put("simMccMnc", tm.simOperator ?: "n/a")
-    put("voiceNetworkType", safeString { tm.voiceNetworkType.toString() })
+    putSafe("networkMccMnc") { tm.networkOperator ?: "n/a" }
+    putSafe("simMccMnc") { tm.simOperator ?: "n/a" }
+    putSafe("voiceNetworkType") { tm.voiceNetworkType.toString() }
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-        put("dataEnabled", runCatching { tm.isDataEnabled }.getOrDefault(false).toString())
+        putSafe("dataEnabled") { tm.isDataEnabled.toString() }
     }
-    put("dataState", tm.dataState.toString())
-    put("callState", tm.callState.toString())
-    put("voiceCapable", tm.isVoiceCapable.toString())
-    put("smsCapable", tm.isSmsCapable.toString())
-    put("dataCapable", tm.isDataCapable.toString())
+    putSafe("dataState") { tm.dataState.toString() }
+    putSafe("callState") { tm.callState.toString() }
+    putSafe("voiceCapable") { tm.isVoiceCapable.toString() }
+    putSafe("smsCapable") { tm.isSmsCapable.toString() }
+    putSafe("dataCapable") { tm.isDataCapable.toString() }
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-        put("carrierId", tm.simCarrierId.toString())
-        put("carrierName", tm.simCarrierIdName?.toString() ?: "n/a")
+        putSafe("carrierId") { tm.simCarrierId.toString() }
+        putSafe("carrierName") { tm.simCarrierIdName?.toString() ?: "n/a" }
     }
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-        put("multiSim", tm.isMultiSimSupported.toString())
-        put("supportedModems", tm.supportedModemCount.toString())
+        putSafe("multiSim") { tm.isMultiSimSupported.toString() }
+        putSafe("supportedModems") { tm.supportedModemCount.toString() }
     }
-    val tac = runCatching { tm.typeAllocationCode }.getOrElse { "blocked" }
-    put("tacStatus", if (tac.isNullOrBlank() || tac == "blocked") "blocked" else "readable")
+    putSafe("tacStatus") {
+        val tac = runCatching { tm.typeAllocationCode }.getOrElse { "blocked" }
+        if (tac.isNullOrBlank() || tac == "blocked") "blocked" else "readable"
+    }
+}
+
+/**
+ * Puts [block]'s result under [key] only when the read succeeds and is non-null/non-blank.
+ * A [SecurityException] (or any other failure) skips that one field and leaves the rest of
+ * the probe map intact.
+ */
+internal inline fun MutableMap<String, String>.putSafe(key: String, block: () -> String?) {
+    runCatching { block() }.getOrNull()?.takeIf { it.isNotBlank() }?.let { put(key, it) }
+}
+
+private fun BatteryManager.intPropertyOrNull(property: Int): Int? {
+    val value = runCatching { getIntProperty(property) }.getOrNull() ?: return null
+    return value.takeUnless { it == Int.MIN_VALUE }
+}
+
+private fun BatteryManager.longPropertyOrNull(property: Int): Long? {
+    val value = runCatching { getLongProperty(property) }.getOrNull() ?: return null
+    return value.takeUnless { it == Long.MIN_VALUE }
 }
